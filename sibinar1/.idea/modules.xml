@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuessNumberTask2/GuessNumberTask2.iml" filepath="$PROJECT_DIR$/GuessNumberTask2/GuessNumberTask2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo_task1/echo_task1.iml" filepath="$PROJECT_DIR$/echo_task1/echo_task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sibinar1.iml" filepath="$PROJECT_DIR$/sibinar1.iml" />
+    </modules>
+  </component>
+</project>
+
