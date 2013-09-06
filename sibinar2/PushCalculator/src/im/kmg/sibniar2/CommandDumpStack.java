@@ -1,6 +1,7 @@
 package im.kmg.sibniar2;
 
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,9 +11,9 @@ import java.util.List;
  */
 public class CommandDumpStack implements ICommand
 {
-    private final IStackString m_stack;
+    private final Stack<String> m_stack;
 
-    public CommandDumpStack(IStackString stack) {
+    public CommandDumpStack(Stack<String> stack) {
         m_stack = stack;
     }
 

@@ -2,6 +2,7 @@ package im.kmg.sibniar2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * This invoker commands
@@ -14,12 +15,13 @@ import java.util.List;
 class AppStackCalculate
 {
     private final List<ICommand> m_commands;
+    private  Stack<String> m_stack;
 
     /**
      *
      */
     AppStackCalculate() {
-        IStackString m_stack = new KmgStack();
+        m_stack = new Stack<String>();
         this.m_commands = new ArrayList<ICommand>();
 
         //add commands
@@ -27,16 +29,14 @@ class AppStackCalculate
         this.m_commands.add(new CommandExit());
         this.m_commands.add(new CommandVersion(MainPushCalculator.VERSION));
         this.m_commands.add(new CommandDumpStack(m_stack));
-        this.m_commands.add(new CommandComment());
         this.m_commands.add(new CommandAdd(m_stack));
         this.m_commands.add(new CommandPop(m_stack));
         this.m_commands.add(new CommandPush(m_stack));
-        this.m_commands.add(new CommandSub());
-        this.m_commands.add(new CommandDefine());
-        this.m_commands.add(new CommandDivision());
-        this.m_commands.add(new CommandMultiplication());
+        this.m_commands.add(new CommandSub(m_stack));
+        this.m_commands.add(new CommandDivision(m_stack));
+        this.m_commands.add(new CommandMultiplication(m_stack));
         this.m_commands.add(new CommandPrint(m_stack));
-        this.m_commands.add(new CommandSqrt());
+        this.m_commands.add(new CommandSqrt(m_stack));
     }
 
     /**
@@ -75,5 +75,13 @@ class AppStackCalculate
         ICommand cmd = this.getCommandByName(sNameCmd);
         cmd.init(CmdAndParam);
         cmd.execute();
+    }
+
+    /**
+     *
+     * @return - stack.
+     */
+    public Stack<String> getStack() {
+          return m_stack;
     }
 }

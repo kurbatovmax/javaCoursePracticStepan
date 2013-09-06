@@ -1,6 +1,7 @@
 package im.kmg.sibniar2;
 
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,10 +12,10 @@ import java.util.List;
 public class CommandPush implements ICommand
 {
     final private String NAME = "Push";
-    private final IStackString m_stack;
+    private final Stack<String> m_stack;
     private String m_param = null;
 
-    public CommandPush(IStackString stack) {
+    public CommandPush(Stack<String> stack) {
         m_stack = stack;
     }
 
@@ -26,7 +27,7 @@ public class CommandPush implements ICommand
     @Override
     public void execute() {
         if (m_param != null) {
-            m_stack.Push(m_param);
+            m_stack.push(m_param);
         }
     }
 
@@ -42,7 +43,7 @@ public class CommandPush implements ICommand
         }
 
         try {
-            Integer.valueOf(dataCommand.get(1));
+            Double.valueOf(dataCommand.get(1));
         } catch (NumberFormatException e) {
             throw new BadParamException("The second parameter must be a number");
         }

@@ -2,6 +2,7 @@ package im.kmg.sibniar2;
 
 
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,9 +13,9 @@ import java.util.List;
 public class CommandPop implements ICommand
 {
     final private String NAME = "Pop";
-    private final IStackString m_stack;
+    private final Stack<String> m_stack;
 
-    CommandPop(IStackString stack) {
+    CommandPop(Stack<String> stack) {
         m_stack = stack;
     }
 
@@ -25,7 +26,7 @@ public class CommandPop implements ICommand
 
     @Override
     public void execute() {
-        System.out.println(m_stack.Pop());
+        System.out.println(m_stack.pop());
     }
 
     @Override

@@ -1,6 +1,7 @@
 package im.kmg.sibniar2;
 
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,9 +12,9 @@ import java.util.List;
 public class CommandPrint implements ICommand
 {
     final private String NAME = "Print";
-    private final IStackString m_stack;
+    private final Stack<String> m_stack;
 
-    public CommandPrint(IStackString stack) {
+    public CommandPrint(Stack<String> stack) {
         this.m_stack = stack;
     }
 
@@ -24,7 +25,7 @@ public class CommandPrint implements ICommand
 
     @Override
     public void execute() {
-        System.out.println(m_stack.Peek());
+        System.out.println(m_stack.peek());
     }
 
     @Override

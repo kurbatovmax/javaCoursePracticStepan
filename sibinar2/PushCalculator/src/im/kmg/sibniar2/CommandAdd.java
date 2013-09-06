@@ -1,6 +1,7 @@
 package im.kmg.sibniar2;
 
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,10 +12,10 @@ import java.util.List;
 public class CommandAdd implements ICommand
 {
     final private String NAME = "Add";
-    private final IStackString m_stack;
+    private final Stack<String> m_stack;
     private String m_param;
 
-    CommandAdd(IStackString stack) {
+    CommandAdd(Stack<String> stack) {
         m_stack = stack;
     }
 
@@ -26,10 +27,9 @@ public class CommandAdd implements ICommand
     @Override
     public void execute() {
         if ( m_stack.size() > 0 ) {
-            Integer TopStackValue = Integer.valueOf(m_stack.Pop());
-
-            m_param = Integer.toString( Integer.valueOf(m_param) + TopStackValue );
-            m_stack.Push(m_param);
+            Double TopStackValue = Double.valueOf(m_stack.pop());
+            m_param = Double.toString( Double.valueOf(m_param) + TopStackValue );
+            m_stack.push(m_param);
         }
     }
 
@@ -40,15 +40,21 @@ public class CommandAdd implements ICommand
      */
     @Override
     public void init( List<String> dataCommand ) throws BadParamException {
+
+        if ( (m_stack == null) ||  (m_stack.size() <= 0) ) {
+            throw new BadParamException("Stack empty");
+        }
+
         if ( dataCommand.size() != 2 ) {
             throw new BadParamException("Add (+) command take 1 param");
         }
 
         try {
-            Integer.valueOf( dataCommand.get(1) );
+            Double.valueOf( dataCommand.get(1) );
         } catch (NumberFormatException e) {
             throw new BadParamException("The second parameter must be a number");
         }
+
 
         m_param =  dataCommand.get(1);
     }
