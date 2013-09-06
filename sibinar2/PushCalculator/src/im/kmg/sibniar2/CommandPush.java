@@ -7,18 +7,16 @@ import java.util.List;
  * User: KurbatovM
  * Date: 9/5/13
  * Time: 4:00 PM
- * To change this template use File | Settings | File Templates.
  */
 public class CommandPush implements ICommand
 {
     final private String NAME = "Push";
-    private IStackString m_stack;
-    public String m_param = "";
+    private final IStackString m_stack;
+    private String m_param = null;
 
     public CommandPush(IStackString stack) {
         m_stack = stack;
     }
-
 
     @Override
     public String getName() {
@@ -27,12 +25,33 @@ public class CommandPush implements ICommand
 
     @Override
     public void execute() {
-        //System.out.println("this " + this.getName());
-        m_stack.Push(m_param);
+        if (m_param != null) {
+            m_stack.Push(m_param);
+        }
+    }
+
+    /**
+     *
+     * @param dataCommand  List with cmd and arg
+     * @throws BadParamException
+     */
+    @Override
+    public void init(List<String> dataCommand) throws BadParamException {
+        if ( dataCommand.size() != 2 ) {
+            throw new BadParamException("Push command take 1 param");
+        }
+
+        try {
+            Integer.valueOf(dataCommand.get(1));
+        } catch (NumberFormatException e) {
+            throw new BadParamException("The second parameter must be a number");
+        }
+
+        m_param =  dataCommand.get(1);
     }
 
     @Override
-    public void init(List<String> dataCommand) {
-        m_param = dataCommand.get(1);
+    public String getHelp() {
+        return NAME + " NUMBER\t\t-\tAdd NUMBER to top stack\n";
     }
 }

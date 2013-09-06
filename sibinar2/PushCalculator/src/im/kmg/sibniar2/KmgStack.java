@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Stack;
 
 /**
- * Created with IntelliJ IDEA.
+ * Created with IDEA.
  * User: KurbatovM
  * Date: 9/5/13
  * Time: 4:37 PM
@@ -12,7 +12,7 @@ import java.util.Stack;
  */
 public class KmgStack implements IStackString
 {
-    private Stack<String> m_stack;
+    private final Stack<String> m_stack;
 
     KmgStack() {
         m_stack = new Stack<String>();
@@ -40,11 +40,10 @@ public class KmgStack implements IStackString
 
     /**
      *  Return value without remove item from stack
-     * @return
+     * @return  top value without remove
      */
     public String Peek() {
-       String retv = null;
-        return retv;
+        return this.m_stack.peek();
     }
 
 
@@ -55,5 +54,10 @@ public class KmgStack implements IStackString
     @Override
     public String toString() {
         return  this.m_stack.toString();
+    }
+
+    @Override
+    public int size() {
+        return m_stack.size();
     }
 }

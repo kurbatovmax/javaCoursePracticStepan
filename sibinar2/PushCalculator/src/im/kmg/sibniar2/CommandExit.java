@@ -5,12 +5,12 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * User: KurbatovM
- * Date: 9/5/13
- * Time: 4:02 PM
+ * Date: 9/6/13
+ * Time: 9:26 AM
  */
-public class CommandComment implements ICommand
+public class CommandExit implements ICommand
 {
-    final private String NAME = "Comment";
+    final private String NAME = "Exit";
 
     @Override
     public String getName() {
@@ -19,7 +19,8 @@ public class CommandComment implements ICommand
 
     @Override
     public void execute() {
-        System.out.println("this " + this.getName());
+        System.out.println("Good bay");
+        MainPushCalculator.running = false;
     }
 
     @Override
@@ -27,6 +28,6 @@ public class CommandComment implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + " #This comment\t-\tNot implements yet\n";
+        return NAME + "\t\t\t-\texit application\n";
     }
 }

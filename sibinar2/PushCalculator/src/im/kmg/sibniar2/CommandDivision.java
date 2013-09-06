@@ -6,12 +6,11 @@ import java.util.List;
  * Created with IntelliJ IDEA.
  * User: KurbatovM
  * Date: 9/5/13
- * Time: 4:08 PM
- * To change this template use File | Settings | File Templates.
+ * Time: 4:06 PM
  */
-public class CommnadPrint implements ICommand
+public class CommandDivision implements ICommand
 {
-    final private String NAME = "Print";
+    final private String NAME = "Division";
 
     @Override
     public String getName() {
@@ -24,7 +23,10 @@ public class CommnadPrint implements ICommand
     }
 
     @Override
-    public void init(List<String> dataComand) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void init(List<String> dataCommand) {}
+
+    @Override
+    public String getHelp() {
+        return NAME + " NUMBER\t\t-\tNot implements yet\n";
     }
 }

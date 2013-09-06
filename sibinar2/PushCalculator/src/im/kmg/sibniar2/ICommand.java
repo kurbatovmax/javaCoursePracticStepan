@@ -7,11 +7,11 @@ import java.util.List;
  * User: KurbatovM
  * Date: 9/5/13
  * Time: 3:59 PM
- * To change this template use File | Settings | File Templates.
  */
 public interface ICommand
 {
     public String getName();
     public void execute();
-    public void init(List<String> dataComand);
+    public void init(List<String> dataCommand) throws BadParamException;
+    public  String getHelp();
 }

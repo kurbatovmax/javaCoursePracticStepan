@@ -7,7 +7,6 @@ import java.util.List;
  * User: KurbatovM
  * Date: 9/5/13
  * Time: 4:04 PM
- * To change this template use File | Settings | File Templates.
  */
 public class CommandSub implements ICommand
 {
@@ -24,7 +23,10 @@ public class CommandSub implements ICommand
     }
 
     @Override
-    public void init(List<String> dataComand) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void init(List<String> dataCommand) {}
+
+    @Override
+    public String getHelp() {
+        return NAME + " NUMBER\t\t-\tNot implements yet\n";
     }
 }
