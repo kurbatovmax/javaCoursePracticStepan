@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PushCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PushCalculator_jar</output-path>
+    <root id="archive" name="PushCalculator.jar">
+      <element id="module-output" name="PushCalculator" />
+    </root>
+  </artifact>
+</component>
