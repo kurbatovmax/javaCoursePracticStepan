@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75b6e89-3be8-48af-857a-018e99f1522f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandDumpStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandExit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandHelp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandVersion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/KurbatovM.xml" />
-      <change type="DELETED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommandsType.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/BadParamException.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/BadParamException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandAdd.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandComment.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandNotFoundException.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandPop.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandPop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandPush.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandPush.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandSub.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandSub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/ICommand.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/ICommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/IStackString.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/IStackString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/KmgStack.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/KmgStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommandsParser.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CliParser.java" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommnadDefine.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandDefine.java" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommnadDivision.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandDivision.java" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommnadMultiplication.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandMultiplication.java" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommnadPrint.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandPrint.java" />
-      <change type="MOVED" beforePath="E:\DEVEL\Java\javaCoursePracticStepan\sibinar2\PushCalculator\src\im\kmg\sibniar2\CommnadSqrt.java" afterPath="$PROJECT_DIR$/PushCalculator/src/im/kmg/sibniar2/CommandSqrt.java" />
     </list>
     <ignored path="sibinar2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +22,7 @@
     <file path="/IKmgStack.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378374362418" ignored="false" />
     <file path="$PROJECT_DIR$/PushCalculator/src/dd.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378374417404" ignored="false" />
     <file path="/IKmgStackString.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378374882352" ignored="false" />
-    <file path="/Dummy.txt" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378448393944" ignored="false" />
+    <file path="/Dummy.txt" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378448411926" ignored="false" />
     <file path="/CommandsParser.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378432049214" ignored="false" />
     <file path="/AppStackCalculate.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378448112163" ignored="false" />
     <file path="/CliParser.java" changelist="a75b6e89-3be8-48af-857a-018e99f1522f" time="1378444456061" ignored="false" />
@@ -250,7 +225,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
+      <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -279,46 +254,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sibinar2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sibinar2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="sibinar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PushCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="sibinar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sibinar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sibinar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sibinar2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sibinar2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PushCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sibniar2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,11 +493,16 @@
       <created>1378370725290</created>
       <updated>1378370725290</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implements Push, Add, Version, Exit, Help  commands.">
+      <created>1378448438800</created>
+      <updated>1378448438800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,11 +511,11 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844617" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2529349" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67074525" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529349" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
