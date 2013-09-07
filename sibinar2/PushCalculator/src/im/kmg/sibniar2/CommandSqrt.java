@@ -36,7 +36,7 @@ public class CommandSqrt implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 1) {
-            throw new BadParamException("Command \"Sqrt\" do not have param");
+            throw new BadParamException("Command \"" + NAME + "\" do not have param");
         }
         if ( (m_stack == null) || (m_stack.size() <= 0) ) {
             throw new BadParamException("Stack empty");

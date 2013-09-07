@@ -32,7 +32,7 @@ public class CommandDumpStack implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 1) {
-            throw new BadParamException("Command \"DumpStack\" Do not have param");
+            throw new BadParamException("Command \"" + NAME + "\" Do not have param");
         }
     }
 

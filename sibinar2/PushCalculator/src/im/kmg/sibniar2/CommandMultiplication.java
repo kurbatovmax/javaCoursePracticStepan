@@ -38,7 +38,7 @@ public class CommandMultiplication implements ICommand
         }
 
         if ( dataCommand.size() != 2 ) {
-            throw new BadParamException("Mul command take 1 param");
+            throw new BadParamException(NAME + " command take 1 param");
         }
 
         try {

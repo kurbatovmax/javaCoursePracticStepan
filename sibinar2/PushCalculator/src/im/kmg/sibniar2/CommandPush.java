@@ -39,7 +39,7 @@ public class CommandPush implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 2 ) {
-            throw new BadParamException("Push command take 1 param");
+            throw new BadParamException(NAME + " command take 1 param");
         }
 
         try {
