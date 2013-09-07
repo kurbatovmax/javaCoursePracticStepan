@@ -37,9 +37,13 @@ public class MainPushCalculatorTest
 
         boolean PassPushTest = false;
 
-        PassPushTest =  dbgList.size() == 2;
-        PassPushTest = dbgList.get(0).compareTo("1") == 0;
-        PassPushTest = dbgList.get(1).compareTo("16") == 0;
+        if ( dbgList.size() == 2 ) {
+            if (dbgList.get(0).compareTo("1") == 0) {
+                if ( dbgList.get(1).compareTo("16") == 0 ) {
+                     PassPushTest = true;
+                }
+            }
+        }
 
         if (PassPushTest == true) {
             System.out.println("Test Push: PASS");

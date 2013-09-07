@@ -19,7 +19,7 @@ public class MainPushCalculator
      *
      * @param argv for cmd line
      */
-    public static void main( String argv[])  {
+    public static void main( String argv[]) {
         // Invoker command
         AppStackCalculate appMain = new AppStackCalculate();
 
