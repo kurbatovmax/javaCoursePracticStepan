@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class CommandExit implements ICommand
 {
-    final private String NAME = "Exit";
+    final private String NAME = "EXIT";
 
     @Override
     public String getName() {

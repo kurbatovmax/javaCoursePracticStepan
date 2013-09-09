@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 public class CommandSqrt implements ICommand
 {
-    final private String NAME = "Sqrt";
+    final private String NAME = "SQRT";
     private final Stack<String> m_stack;
 
     public CommandSqrt(Stack<String> stack) {

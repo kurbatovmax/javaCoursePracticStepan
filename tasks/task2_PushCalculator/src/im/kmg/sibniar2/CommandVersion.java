@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class CommandVersion implements ICommand
 {
-    final private String NAME = "Version";
+    final private String NAME = "VERSION";
     private final String m_version;
 
     public CommandVersion(String version) {

@@ -16,7 +16,6 @@ class AppStackCalculate
 {
     private final List<ICommand> m_commands;
     private final Stack<String> m_stack;
-    private final  ICommandDefine m_define;
 
     /**
      *
@@ -24,7 +23,7 @@ class AppStackCalculate
     AppStackCalculate() {
         this.m_stack = new Stack<String>();
         this.m_commands = new ArrayList<ICommand>();
-        this.m_define = new CommandDefine();
+        ICommandDefine m_define = new CommandDefine();
 
         //add commands
         this.m_commands.add(new CommandHelp(m_commands));
@@ -39,7 +38,7 @@ class AppStackCalculate
         this.m_commands.add(new CommandMultiplication(m_stack, m_define));
         this.m_commands.add(new CommandPrint(m_stack));
         this.m_commands.add(new CommandSqrt(m_stack));
-        this.m_commands.add((ICommand)m_define);
+        this.m_commands.add((ICommand) m_define);
     }
 
     /**

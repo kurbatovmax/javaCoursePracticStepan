@@ -1,9 +1,10 @@
 package im.kmg.sibniar2;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 import static java.lang.System.err;
-import static java.lang.System.out;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,36 +21,52 @@ public class MainPushCalculator
      *
      * @param argv for cmd line
      */
-    public static void main( String argv[]) {
+    public static void main( String argv[]) throws Exception {
         // Invoker command
         AppStackCalculate appMain = new AppStackCalculate();
 
-        while (running) {
+        BufferedReader inBufferedReader = null;
+        boolean isFromFile = false;
 
-            FileReader s = null;
-            BufferedReader in = null;
-            if (argv.length > 0) {
-                try {
-                    s = new FileReader( new File(argv[0]));
-                    in = new BufferedReader(s);
-                } catch (FileNotFoundException e) {
-                    System.err.println(e.getLocalizedMessage());
-                    System.exit(-1);
-                }
-            }
-
-            String s1 = null;
+        if (argv.length > 0) {
             try {
-                s1 = in.readLine();
-            } catch (IOException e) {
+                inBufferedReader = new BufferedReader(new FileReader(argv[0]));
+                isFromFile = true;
+            } catch (FileNotFoundException e) {
                 System.err.println(e.getLocalizedMessage());
+                System.out.println("Use std stream");
+            }
+        }
+
+        if (inBufferedReader == null) {
+            inBufferedReader = new BufferedReader( new InputStreamReader(System.in));
+            isFromFile = false;
+        }
+
+        Scanner scanner = new Scanner(inBufferedReader);
+        String cmdLine = null;
+        CliParser cmdParser = null;
+        while (running) {
+            if (!isFromFile) {
+                printStartMsg();
             }
 
-            printStartMsg();
-            //String s1 = new Scanner(System.in).nextLine();
-            CliParser cmdParser = new CliParser(s1);
+            try {
+                cmdLine = scanner.nextLine();
+                cmdParser = new CliParser(cmdLine);
+            } catch (NoSuchElementException e) {
+                System.out.println("Programme done\nGood bay!");
+                System.exit(0);
+            }
+
+            if ( !cmdParser.hasCommand() ) {
+                continue;
+            }
 
             try {
+                if (isFromFile) {
+                    System.out.println("exec cmd: " + cmdLine);
+                }
                 appMain.executeCommand(cmdParser.getCmdWithParam());
             } catch (CommandNotFoundException e) {
                 err.println("Error: " + e.getLocalizedMessage());
@@ -63,8 +80,8 @@ public class MainPushCalculator
      *
      */
     private static void printStartMsg() {
-        out.println("-----------------------------------");
-        out.println("enter \"Help\" for more information");
-        out.print("cli>>> ");
+        System.out.println("-----------------------------------");
+        System.out.println("enter \"HELP\" for more information");
+        System.out.print("cli>>> ");
     }
 }

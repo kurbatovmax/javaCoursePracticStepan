@@ -21,8 +21,12 @@ class CliParser
      */
     public CliParser(String cmdLine) {
         m_ListString = new ArrayList<String>();
-        String param[] = cmdLine.split(" ");
-        Collections.addAll(this.m_ListString, param);
+        cmdLine = this.removeComment(cmdLine);
+        int sz = cmdLine.length();
+        if (sz > 0) {
+            String param[] = cmdLine.split(" ");
+            Collections.addAll(this.m_ListString, param);
+        }
     }
 
     /**
@@ -33,5 +37,13 @@ class CliParser
      */
     public List<String> getCmdWithParam() {
         return m_ListString;
+    }
+
+    public String removeComment(String str) {
+        return  str.replaceAll("(#.*$)", "").trim();
+    }
+
+    public boolean hasCommand() {
+        return m_ListString.size() > 0;
     }
 }

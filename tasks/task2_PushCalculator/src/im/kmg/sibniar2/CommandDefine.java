@@ -16,7 +16,7 @@ public class CommandDefine implements
         ICommand,
         ICommandDefine
 {
-    private final String NAME = "Define";
+    private final String NAME = "DEFINE";
     private final Map<String, Double> m_listDefine;
     private Pair<String, Double> m_value;
 

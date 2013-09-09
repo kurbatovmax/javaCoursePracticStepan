@@ -17,7 +17,7 @@ public class CommandDumpStack implements ICommand
         m_stack = stack;
     }
 
-    final private String NAME = "DumpStack";
+    final private String NAME = "DUMPS";
 
     @Override
     public String getName() {

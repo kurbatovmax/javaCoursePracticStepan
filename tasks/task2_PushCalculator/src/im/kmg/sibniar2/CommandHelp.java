@@ -12,7 +12,7 @@ import static java.lang.System.out;
  */
 public class CommandHelp implements ICommand
 {
-    final private String NAME = "Help";
+    final private String NAME = "HELP";
 
     private final List<ICommand> m_commands;
 

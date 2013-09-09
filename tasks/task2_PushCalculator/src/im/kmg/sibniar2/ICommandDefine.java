@@ -10,4 +10,5 @@ interface ICommandDefine
 {
     public boolean hasDefineVar(String nameVar);
     public  Double getDefineVar(String nameVar);
+
 }

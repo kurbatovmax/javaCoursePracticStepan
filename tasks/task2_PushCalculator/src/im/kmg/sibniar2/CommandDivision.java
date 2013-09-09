@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 public class CommandDivision implements ICommand
 {
-    private final String NAME = "Div";
+    private final String NAME = "DIV";
     private String m_param;
     private final Stack<String> m_stack;
     private final ICommandDefine m_define;
@@ -31,32 +31,58 @@ public class CommandDivision implements ICommand
      */
     @Override
     public void execute() {
-        Double TopStackValue = Double.valueOf(m_stack.pop());
-        m_param = Double.toString( Double.valueOf(m_param) / TopStackValue );
+        Double param1 = Double.valueOf(m_stack.pop());
+        Double param2;
+        if (m_param.isEmpty()) {
+            param2 = Double.valueOf(m_stack.pop());
+        } else {
+            param2 =  Double.valueOf(m_param);
+        }
+        m_param = Double.toString( param2 / param1 );
         m_stack.push(m_param);
     }
 
+    /**
+     * Command may have zero, one.
+     * If not have param try take two value from  stack top.
+     * If have one param, try take one value from stack top.
+     * Result save in stack top.
+     */
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( (m_stack == null) ||  (m_stack.size() <= 0) ) {
             throw new BadParamException("Stack empty");
         }
 
-        if ( dataCommand.size() != 2 ) {
-            throw new BadParamException(NAME + " command take 1 param");
-        }
+        Integer szParam = dataCommand.size();
+        switch (szParam) {
+            case 1: {
+                m_param="";
+                if (m_stack.size() < 2 ) {
+                    throw new BadParamException("Not enough parameters");
+                }
 
-        String param = dataCommand.get(1);
-        try {
-            Double.valueOf( param );
-        } catch (NumberFormatException e) {
-            if ( m_define.hasDefineVar(param) == false ) {
-                throw new BadParamException("The second parameter must be a number");
-            } else {
-                param = m_define.getDefineVar(dataCommand.get(1)).toString();
+                break;
+            }
+            case 2: {
+                String param = dataCommand.get(1);
+
+                try {
+                    Double.valueOf( param );
+                } catch (NumberFormatException e) {
+                    if (!m_define.hasDefineVar(param)) {
+                        throw new BadParamException("The second parameter must be a number");
+                    } else {
+                        param = m_define.getDefineVar(dataCommand.get(1)).toString();
+                    }
+                }
+                m_param =  param;
+                break;
+            }
+            default: {
+                throw new BadParamException(NAME + " command may have zero or one param");
             }
         }
-        m_param =  param;
     }
 
     @Override

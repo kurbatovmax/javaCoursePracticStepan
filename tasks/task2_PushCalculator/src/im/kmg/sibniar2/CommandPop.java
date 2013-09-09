@@ -12,7 +12,7 @@ import java.util.Stack;
  */
 public class CommandPop implements ICommand
 {
-    final private String NAME = "Pop";
+    final private String NAME = "POP";
     private final Stack<String> m_stack;
 
     CommandPop(Stack<String> stack) {

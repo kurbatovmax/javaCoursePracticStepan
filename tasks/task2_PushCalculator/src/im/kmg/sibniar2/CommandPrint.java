@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 public class CommandPrint implements ICommand
 {
-    final private String NAME = "Print";
+    final private String NAME = "PRINT";
     private final Stack<String> m_stack;
 
     public CommandPrint(Stack<String> stack) {
