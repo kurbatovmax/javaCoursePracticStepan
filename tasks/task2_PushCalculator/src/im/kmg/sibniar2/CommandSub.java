@@ -11,12 +11,15 @@ import java.util.Stack;
  */
 public class CommandSub implements ICommand
 {
-    final private String NAME = "Sub";
-    private String m_param;
+    private final String NAME = "Sub";
     private final Stack<String> m_stack;
+    private final ICommandDefine m_define;
 
-    public CommandSub(Stack<String> stack) {
+    private String m_param;
+
+    public CommandSub(Stack<String> stack, ICommandDefine define) {
         this.m_stack = stack;
+        this.m_define = define;
     }
 
     @Override
@@ -43,14 +46,17 @@ public class CommandSub implements ICommand
             throw new BadParamException(NAME + " command take 1 param");
         }
 
+        String param = dataCommand.get(1);
         try {
-            Double.valueOf( dataCommand.get(1) );
+            Double.valueOf( param );
         } catch (NumberFormatException e) {
-            throw new BadParamException("The second parameter must be a number");
+            if ( m_define.hasDefineVar(param) == false ) {
+                throw new BadParamException("The second parameter must be a number");
+            } else {
+                param = m_define.getDefineVar(dataCommand.get(1)).toString();
+            }
         }
-
-
-        m_param =  dataCommand.get(1);
+        m_param =  param;
     }
 
     @Override

@@ -54,6 +54,16 @@ public class CommandDefine implements
             throw new BadParamException(NAME + " command must 2 param");
         }
 
+        boolean isBadNameVAR = true;
+        try {
+            Double.valueOf(dataCommand.get(1));
+        } catch (NumberFormatException e) {
+            isBadNameVAR = false;
+        }
+        if (isBadNameVAR) {
+            throw new BadParamException(NAME + " Bad name var");
+        }
+
         try {
             Double.valueOf(dataCommand.get(2));
         } catch (NumberFormatException e) {

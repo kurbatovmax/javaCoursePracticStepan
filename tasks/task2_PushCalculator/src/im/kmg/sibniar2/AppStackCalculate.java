@@ -16,28 +16,30 @@ class AppStackCalculate
 {
     private final List<ICommand> m_commands;
     private final Stack<String> m_stack;
+    private final  ICommandDefine m_define;
 
     /**
      *
      */
     AppStackCalculate() {
-        m_stack = new Stack<String>();
+        this.m_stack = new Stack<String>();
         this.m_commands = new ArrayList<ICommand>();
+        this.m_define = new CommandDefine();
 
         //add commands
         this.m_commands.add(new CommandHelp(m_commands));
         this.m_commands.add(new CommandExit());
         this.m_commands.add(new CommandVersion(MainPushCalculator.VERSION));
         this.m_commands.add(new CommandDumpStack(m_stack));
-        this.m_commands.add(new CommandAdd(m_stack));
+        this.m_commands.add(new CommandAdd(m_stack, m_define));
         this.m_commands.add(new CommandPop(m_stack));
-        this.m_commands.add(new CommandPush(m_stack));
-        this.m_commands.add(new CommandSub(m_stack));
-        this.m_commands.add(new CommandDivision(m_stack));
-        this.m_commands.add(new CommandMultiplication(m_stack));
+        this.m_commands.add(new CommandPush(m_stack, m_define));
+        this.m_commands.add(new CommandSub(m_stack, m_define));
+        this.m_commands.add(new CommandDivision(m_stack, m_define));
+        this.m_commands.add(new CommandMultiplication(m_stack, m_define));
         this.m_commands.add(new CommandPrint(m_stack));
         this.m_commands.add(new CommandSqrt(m_stack));
-        this.m_commands.add(new CommandDefine());
+        this.m_commands.add((ICommand)m_define);
     }
 
     /**

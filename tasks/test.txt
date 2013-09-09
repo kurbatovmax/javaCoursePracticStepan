@@ -1,0 +1,4 @@
+Push 10
+Push 20
+Define a 33
+Mul a

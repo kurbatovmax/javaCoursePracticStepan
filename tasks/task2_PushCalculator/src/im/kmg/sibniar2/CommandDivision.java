@@ -46,13 +46,17 @@ public class CommandDivision implements ICommand
             throw new BadParamException(NAME + " command take 1 param");
         }
 
+        String param = dataCommand.get(1);
         try {
-            Double.valueOf(dataCommand.get(1));
+            Double.valueOf( param );
         } catch (NumberFormatException e) {
-            throw new BadParamException("The second parameter must be a number");
+            if ( m_define.hasDefineVar(param) == false ) {
+                throw new BadParamException("The second parameter must be a number");
+            } else {
+                param = m_define.getDefineVar(dataCommand.get(1)).toString();
+            }
         }
-
-        m_param =  dataCommand.get(1);
+        m_param =  param;
     }
 
     @Override

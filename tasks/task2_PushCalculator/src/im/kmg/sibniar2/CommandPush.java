@@ -13,10 +13,12 @@ public class CommandPush implements ICommand
 {
     final private String NAME = "Push";
     private final Stack<String> m_stack;
+    private final ICommandDefine m_define;
     private String m_param = null;
 
-    public CommandPush(Stack<String> stack) {
+    public CommandPush(Stack<String> stack, ICommandDefine define) {
         m_stack = stack;
+        m_define = define;
     }
 
     @Override
@@ -42,13 +44,20 @@ public class CommandPush implements ICommand
             throw new BadParamException(NAME + " command take 1 param");
         }
 
+        String param = dataCommand.get(1);
+
         try {
-            Double.valueOf(dataCommand.get(1));
+            Double.valueOf(param);
         } catch (NumberFormatException e) {
-            throw new BadParamException("The second parameter must be a number");
+            if ( m_define.hasDefineVar(dataCommand.get(1)) == false ) {
+                throw new BadParamException("The second parameter must be a number");
+            } else {
+                param = m_define.getDefineVar(dataCommand.get(1)).toString();
+            }
+
         }
 
-        m_param =  dataCommand.get(1);
+        m_param =  param;
     }
 
     @Override

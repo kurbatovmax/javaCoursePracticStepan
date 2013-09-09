@@ -1,5 +1,6 @@
 package im.kmg.sibniar2;
 
+import java.io.*;
 import java.util.Scanner;
 import static java.lang.System.err;
 import static java.lang.System.out;
@@ -24,9 +25,28 @@ public class MainPushCalculator
         AppStackCalculate appMain = new AppStackCalculate();
 
         while (running) {
-            printStartMsg();
-            String s1 = new Scanner(System.in).nextLine();
 
+            FileReader s = null;
+            BufferedReader in = null;
+            if (argv.length > 0) {
+                try {
+                    s = new FileReader( new File(argv[0]));
+                    in = new BufferedReader(s);
+                } catch (FileNotFoundException e) {
+                    System.err.println(e.getLocalizedMessage());
+                    System.exit(-1);
+                }
+            }
+
+            String s1 = null;
+            try {
+                s1 = in.readLine();
+            } catch (IOException e) {
+                System.err.println(e.getLocalizedMessage());
+            }
+
+            printStartMsg();
+            //String s1 = new Scanner(System.in).nextLine();
             CliParser cmdParser = new CliParser(s1);
 
             try {
