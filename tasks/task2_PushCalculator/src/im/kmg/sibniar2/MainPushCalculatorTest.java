@@ -7,7 +7,6 @@ import java.util.*;
  * User: maxim
  * Date: 9/6/13
  * Time: 9:54 PM
- * To change this template use File | Settings | File Templates.
  */
 public class MainPushCalculatorTest
 {
@@ -26,9 +25,9 @@ public class MainPushCalculatorTest
             try {
                 appStack.executeCommand(item);
             } catch (CommandNotFoundException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             } catch (BadParamException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             }
         }
 
@@ -45,7 +44,7 @@ public class MainPushCalculatorTest
             }
         }
 
-        if (PassPushTest == true) {
+        if (PassPushTest) {
             System.out.println("Test Push: PASS");
         } else {
             System.out.println("Test Push: FAIL");
@@ -63,9 +62,9 @@ public class MainPushCalculatorTest
         try {
             appStack.executeCommand(item);
         } catch (BadParamException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         } catch (CommandNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
 
         dbgS = appStack.getStack();

@@ -1,6 +1,7 @@
 package im.kmg.sibniar2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 /**
  * Split String
@@ -21,9 +22,7 @@ class CliParser
     public CliParser(String cmdLine) {
         m_ListString = new ArrayList<String>();
         String param[] = cmdLine.split(" ");
-        for(String s : param) {
-            this.m_ListString.add(s);
-        }
+        Collections.addAll(this.m_ListString, param);
     }
 
     /**

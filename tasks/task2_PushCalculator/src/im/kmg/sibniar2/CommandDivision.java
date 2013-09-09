@@ -11,12 +11,14 @@ import java.util.Stack;
  */
 public class CommandDivision implements ICommand
 {
-    final private String NAME = "Div";
-    public String m_param;
-    public final Stack<String> m_stack;
+    private final String NAME = "Div";
+    private String m_param;
+    private final Stack<String> m_stack;
+    private final ICommandDefine m_define;
 
-    public CommandDivision(Stack<String> stack) {
+    public CommandDivision(Stack<String> stack, ICommandDefine define) {
         this.m_stack = stack;
+        this.m_define = define;
     }
 
     @Override

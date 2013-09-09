@@ -10,7 +10,6 @@ import static java.lang.System.out;
  * User: user
  * Date: 07.09.13
  * Time: 15:52
- * To change this template use File | Settings | File Templates.
  */
 public class Main
 {

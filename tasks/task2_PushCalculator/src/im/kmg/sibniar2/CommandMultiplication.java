@@ -13,7 +13,7 @@ public class CommandMultiplication implements ICommand
 {
     final private String NAME = "Mul";
     private String m_param;
-    private Stack<String> m_stack;
+    private final Stack<String> m_stack;
 
     public CommandMultiplication(Stack<String> stack) {
         m_stack = stack;

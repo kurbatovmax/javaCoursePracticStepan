@@ -11,12 +11,20 @@ import java.util.Stack;
  */
 public class CommandAdd implements ICommand
 {
-    final private String NAME = "Add";
+    private final String NAME = "Add";
     private final Stack<String> m_stack;
+    private final ICommandDefine m_define;
     private String m_param;
 
-    CommandAdd(Stack<String> stack) {
+
+    /**
+     *
+     * @param stack object stack
+     * @param define  object define
+     */
+    CommandAdd(Stack<String> stack, ICommandDefine define) {
         m_stack = stack;
+        m_define = define;
     }
 
     @Override

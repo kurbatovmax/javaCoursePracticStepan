@@ -15,7 +15,7 @@ import java.util.Stack;
 class AppStackCalculate
 {
     private final List<ICommand> m_commands;
-    private  Stack<String> m_stack;
+    private final Stack<String> m_stack;
 
     /**
      *
@@ -37,6 +37,7 @@ class AppStackCalculate
         this.m_commands.add(new CommandMultiplication(m_stack));
         this.m_commands.add(new CommandPrint(m_stack));
         this.m_commands.add(new CommandSqrt(m_stack));
+        this.m_commands.add(new CommandDefine());
     }
 
     /**

@@ -7,7 +7,6 @@ import java.util.Scanner;
  * User: Kurbatov Maxim
  * Date: 9/4/13
  * Time: 11:39 PM
- * To change this template use File | Settings | File Templates.
  */
 public class MainEcho
 {
@@ -36,7 +35,7 @@ public class MainEcho
      * short method for print string
      * @param str
      */
-    public static void printMessage(String str) {
+    private static void printMessage(String str) {
         System.out.print(str);
     }
 }

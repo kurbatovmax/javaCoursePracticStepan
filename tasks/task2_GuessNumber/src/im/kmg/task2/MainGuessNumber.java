@@ -12,14 +12,13 @@ import java.util.Scanner;
 public class MainGuessNumber
 {
 
-    final static int MAX_TRY=10; /** Maximum try */
+    private final static int MAX_TRY=10; /** Maximum try */
 
     /**
      *
      * @param argv
      */
     public static void main(String argv[]) {
-        boolean isRunning = true;
         int dwCurrentTry = 0;
 
         while (true) {
@@ -66,14 +65,7 @@ public class MainGuessNumber
      *
      * @return random number 0...100
      */
-    public static int getRandNumber() {
-        // 0 ... 100
-        int dwRandNumber = (int)( (Math.random() * 1000) % 101 );
-
-        // fro debug
-        //System.out.println("Rand Number: " + dwRandNumber);
-
-        return dwRandNumber;
-
+    private static int getRandNumber() {
+        return (int)( (Math.random() * 1000) % 101 );
     }
 }
