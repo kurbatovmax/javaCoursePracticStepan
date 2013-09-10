@@ -1,5 +1,10 @@
 package im.kmg.task3;
 
+import org.omg.CORBA.MARSHAL;
+
+import java.io.File;
+import java.io.FilenameFilter;
+import java.util.Arrays;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -14,16 +19,21 @@ import static java.lang.System.out;
 public class Main
 {
 
+    public static String tesString = "Во саду ли во городе";
+
+
     /**
      *
      * @param argv
      */
     public static void main(String argv[]) {
-        while (true) {
+    //    while (true) {
             // read input
-            String inBuffer = new Scanner(System.in).nextLine();
+            String inBuffer = Main.tesString; // new Scanner(System.in).nextLine();
 
             // split
+            inBuffer = inBuffer.toLowerCase();
+            inBuffer = inBuffer.trim();
             String listStr[] = inBuffer.split(" ");
 
             for (String s : listStr ) {
@@ -33,7 +43,9 @@ public class Main
 
             Map<String, Integer> popul;
 
-        }
+      //  }
     }
 
 }
+
+

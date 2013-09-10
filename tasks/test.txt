@@ -7,6 +7,11 @@ DEFINE a 10
 DEFINE b 33
 DEFINE c 20
 
+# 2*10
+PUSH 2
+MUL a
+PRINT
+
 # 4*a*c
 PUSH a
 PRINT
@@ -34,11 +39,6 @@ PUSH -1
 PUSH b
 MUL
 ADD
-PRINT
-
-# 2*10
-PUSH 2
-MUL a
 PRINT
 
 DIV
