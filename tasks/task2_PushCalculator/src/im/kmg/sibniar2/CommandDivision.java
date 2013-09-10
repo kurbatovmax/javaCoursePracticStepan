@@ -38,7 +38,7 @@ public class CommandDivision implements ICommand
         } else {
             param2 =  Double.valueOf(m_param);
         }
-        m_param = Double.toString( param2 / param1 );
+        m_param = Double.toString( param1 / param2 );
         m_stack.push(m_param);
     }
 
