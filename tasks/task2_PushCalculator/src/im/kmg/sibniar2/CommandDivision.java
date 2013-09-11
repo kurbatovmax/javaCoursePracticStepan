@@ -9,21 +9,16 @@ import java.util.Stack;
  * Date: 9/5/13
  * Time: 4:06 PM
  */
-public class CommandDivision implements ICommand
+public class CommandDivision extends BaseCommand
 {
-    private final String NAME = "DIV";
     private String m_param;
     private final Stack<String> m_stack;
     private final ICommandDefine m_define;
 
     public CommandDivision(Stack<String> stack, ICommandDefine define) {
+        super("DIV");
         this.m_stack = stack;
         this.m_define = define;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     /**
@@ -80,13 +75,13 @@ public class CommandDivision implements ICommand
                 break;
             }
             default: {
-                throw new BadParamException(NAME + " command may have zero or one param");
+                throw new BadParamException(this.getName() + " command may have zero or one param");
             }
         }
     }
 
     @Override
     public String getHelp() {
-        return NAME + " NUMBER\t\t-\tNUMBER division on top value from stack result store stack\n";
+        return this.getName() + " NUMBER\t\t-\tNUMBER division on top value from stack result store stack\n";
     }
 }

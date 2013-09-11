@@ -2,8 +2,6 @@ package im.kmg.task3;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.util.Arrays;
-
 
 /**
  * Created with IntelliJ IDEA.

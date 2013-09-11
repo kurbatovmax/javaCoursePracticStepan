@@ -12,25 +12,15 @@ import java.util.Map;
  * Date: 9/7/13
  * Time: 7:15 PM
  */
-public class CommandDefine implements
-        ICommand,
-        ICommandDefine
+public class CommandDefine extends BaseCommand implements ICommandDefine
 {
     private final String NAME = "DEFINE";
     private final Map<String, Double> m_listDefine;
     private Pair<String, Double> m_value;
 
     public CommandDefine() {
+        super("DEFINE");
         this.m_listDefine = new HashMap<String, Double>();
-    }
-
-    /**
-     *
-     * @return - name command as string
-     */
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     /**
@@ -50,6 +40,7 @@ public class CommandDefine implements
      */
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
+        final String NAME = this.getName();
         if (dataCommand.size() != 3) {
             throw new BadParamException(NAME + " command must 2 param");
         }
@@ -76,7 +67,7 @@ public class CommandDefine implements
 
     @Override
     public String getHelp() {
-        return NAME + " NAME_VAR NUMBER\t\t-\tAdded define NAME_VAR\n";
+        return this.getName() + " NAME_VAR NUMBER\t\t-\tAdded define NAME_VAR\n";
     }
 
     @Override

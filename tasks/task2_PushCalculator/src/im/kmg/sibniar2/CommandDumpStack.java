@@ -9,19 +9,13 @@ import java.util.Stack;
  * Date: 9/6/13
  * Time: 10:18 AM
  */
-public class CommandDumpStack implements ICommand
+public class CommandDumpStack extends BaseCommand
 {
     private final Stack<String> m_stack;
 
     public CommandDumpStack(Stack<String> stack) {
+        super("DUMPS");
         m_stack = stack;
-    }
-
-    final private String NAME = "DUMPS";
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -32,12 +26,12 @@ public class CommandDumpStack implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 1) {
-            throw new BadParamException("Command \"" + NAME + "\" Do not have param");
+            throw new BadParamException("Command \"" + this.getName() + "\" Do not have param");
         }
     }
 
     @Override
     public String getHelp() {
-        return NAME + "\t\t-\tShow all stack as String\n";
+        return getName() + "\t\t-\tShow all stack as String\n";
     }
 }

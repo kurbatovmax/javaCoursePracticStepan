@@ -8,18 +8,13 @@ import java.util.List;
  * Date: 9/6/13
  * Time: 11:04 AM
  */
-public class CommandVersion implements ICommand
+public class CommandVersion extends BaseCommand
 {
-    final private String NAME = "VERSION";
     private final String m_version;
 
     public CommandVersion(String version) {
+        super("VERSION");
         m_version = version;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -32,6 +27,6 @@ public class CommandVersion implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + "\t\t\t-\tprint version\n";
+        return this.getName() + "\t\t\t-\tprint version\n";
     }
 }

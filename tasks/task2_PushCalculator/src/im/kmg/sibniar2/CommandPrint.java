@@ -9,18 +9,13 @@ import java.util.Stack;
  * Date: 9/5/13
  * Time: 4:08 PM
  */
-public class CommandPrint implements ICommand
+public class CommandPrint extends BaseCommand
 {
-    final private String NAME = "PRINT";
     private final Stack<String> m_stack;
 
     public CommandPrint(Stack<String> stack) {
+        super("PRINT");
         this.m_stack = stack;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -31,7 +26,7 @@ public class CommandPrint implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 1) {
-            throw new BadParamException("Command \"" + NAME + "\" do not have param");
+            throw new BadParamException("Command \"" + this.getName() + "\" do not have param");
         }
         if ( (m_stack == null) || (m_stack.size() <= 0) ) {
             throw new BadParamException("Stack empty");
@@ -40,6 +35,6 @@ public class CommandPrint implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + "\t\t\t-\tPrint Top value without remove, not implements yet\n";
+        return this.getName() + "\t\t\t-\tPrint Top value without remove, not implements yet\n";
     }
 }

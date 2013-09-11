@@ -9,9 +9,8 @@ import java.util.Stack;
  * Date: 9/5/13
  * Time: 4:06 PM
  */
-public class CommandMultiplication implements ICommand
+public class CommandMultiplication extends  BaseCommand
 {
-    final private String NAME = "MUL";
     private String m_param;
     private final Stack<String> m_stack;
     private final ICommandDefine m_define;
@@ -22,13 +21,9 @@ public class CommandMultiplication implements ICommand
      * @param define
      */
     public CommandMultiplication(Stack<String> stack, ICommandDefine define) {
+        super("MUL");
         m_stack = stack;
         m_define = define;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -82,7 +77,7 @@ public class CommandMultiplication implements ICommand
                 break;
             }
             default: {
-                throw new BadParamException(NAME + " command may have zero or one param");
+                throw new BadParamException(this.getName() + " command may have zero or one param");
             }
         }
     }
@@ -93,6 +88,6 @@ public class CommandMultiplication implements ICommand
      */
     @Override
     public String getHelp() {
-        return NAME + " [NUMBER]\t\t-\tif not param Take two top value from stack and multiplication or NUMBER * top stack value,  result store to stack\n";
+        return this.getName() + " [NUMBER]\t\t-\tif not param Take two top value from stack and multiplication or NUMBER * top stack value,  result store to stack\n";
     }
 }

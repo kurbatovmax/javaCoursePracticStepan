@@ -10,10 +10,8 @@ import static java.lang.System.out;
  * Date: 9/6/13
  * Time: 9:42 AM
  */
-public class CommandHelp implements ICommand
+public class CommandHelp extends BaseCommand
 {
-    final private String NAME = "HELP";
-
     private final List<ICommand> m_commands;
 
     /**
@@ -21,12 +19,8 @@ public class CommandHelp implements ICommand
      * @param commands - List of commands
      */
     public CommandHelp(List<ICommand> commands) {
+        super("HELP");
         m_commands = commands;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -46,6 +40,6 @@ public class CommandHelp implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + "\t\t\t-\tprint this message\n";
+        return getName() + "\t\t\t-\tprint this message\n";
     }
 }

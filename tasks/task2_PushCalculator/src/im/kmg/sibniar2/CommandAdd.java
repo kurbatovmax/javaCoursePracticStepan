@@ -9,13 +9,11 @@ import java.util.Stack;
  * Date: 9/5/13
  * Time: 4:03 PM
  */
-public class CommandAdd implements ICommand
+public class CommandAdd extends BaseCommand
 {
-    private final String NAME = "ADD";
     private final Stack<String> m_stack;
     private final ICommandDefine m_define;
     private String m_param;
-
 
     /**
      *
@@ -23,13 +21,9 @@ public class CommandAdd implements ICommand
      * @param define  object define
      */
     CommandAdd(Stack<String> stack, ICommandDefine define) {
+        super("ADD");
         m_stack = stack;
         m_define = define;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -85,13 +79,13 @@ public class CommandAdd implements ICommand
                 break;
             }
             default: {
-                throw new BadParamException(NAME + " command may have zero or one param");
+                throw new BadParamException(this.getName() + " command may have zero or one param");
             }
         }
     }
 
     @Override
     public String getHelp() {
-        return NAME + " NUMBER\t\t-\tAdded NUMBER to Top Value from stack, top value replace new value\n";
+        return this.getName() + " NUMBER\t\t-\tAdded NUMBER to Top Value from stack, top value replace new value\n";
     }
 }

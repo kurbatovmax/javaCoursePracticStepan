@@ -8,13 +8,10 @@ import java.util.List;
  * Date: 9/6/13
  * Time: 9:26 AM
  */
-public class CommandExit implements ICommand
+public class CommandExit extends BaseCommand
 {
-    final private String NAME = "EXIT";
-
-    @Override
-    public String getName() {
-        return NAME;
+    protected CommandExit() {
+        super("EXIT");
     }
 
     @Override
@@ -28,6 +25,6 @@ public class CommandExit implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + "\t\t\t-\texit application\n";
+        return this.getName() + "\t\t\t-\texit application\n";
     }
 }

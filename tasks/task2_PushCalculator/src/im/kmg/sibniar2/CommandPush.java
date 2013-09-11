@@ -9,21 +9,16 @@ import java.util.Stack;
  * Date: 9/5/13
  * Time: 4:00 PM
  */
-public class CommandPush implements ICommand
+public class CommandPush extends BaseCommand
 {
-    final private String NAME = "PUSH";
     private final Stack<String> m_stack;
     private final ICommandDefine m_define;
     private String m_param = null;
 
     public CommandPush(Stack<String> stack, ICommandDefine define) {
+        super("PUSH");
         m_stack = stack;
         m_define = define;
-    }
-
-    @Override
-    public String getName() {
-        return NAME;
     }
 
     @Override
@@ -41,7 +36,7 @@ public class CommandPush implements ICommand
     @Override
     public void init(List<String> dataCommand) throws BadParamException {
         if ( dataCommand.size() != 2 ) {
-            throw new BadParamException(NAME + " command take 1 param");
+            throw new BadParamException(this.getName() + " command take 1 param");
         }
 
         String param = dataCommand.get(1);
@@ -62,6 +57,6 @@ public class CommandPush implements ICommand
 
     @Override
     public String getHelp() {
-        return NAME + " NUMBER\t\t-\tAdd NUMBER to top stack\n";
+        return this.getName() + " NUMBER\t\t-\tAdd NUMBER to top stack\n";
     }
 }
