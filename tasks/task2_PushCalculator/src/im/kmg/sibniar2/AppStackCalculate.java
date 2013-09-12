@@ -49,16 +49,13 @@ class AppStackCalculate
      * @param cmd  command line
      * @return  - command obj or null;
      */
-    ICommand getCommandByName(String cmd) throws CommandNotFoundException {
+    ICommand getCommandByName(String cmd) {
         ICommand rv = null;
         for (ICommand s : this.m_commands) {
             if (s.getName().compareTo(cmd) == 0) {
                 rv = s;
                 break;
             }
-        }
-        if (rv == null) {
-            throw new CommandNotFoundException();
         }
         return rv;
     }
@@ -78,6 +75,10 @@ class AppStackCalculate
 
         sNameCmd = CmdAndParam.get(0);
         ICommand cmd = this.getCommandByName(sNameCmd);
+        if ( cmd == null ) {
+            throw new CommandNotFoundException();
+        }
+
         cmd.init(CmdAndParam);
         cmd.execute();
     }
