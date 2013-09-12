@@ -39,7 +39,7 @@ class CliParser
         return m_ListString;
     }
 
-    public String removeComment(String str) {
+    private String removeComment(String str) {
         return  str.replaceAll("(#.*$)", "").trim();
     }
 

@@ -1,5 +1,8 @@
 package im.kmg.sibniar2;
 
+import im.kmg.sibniar2.commands.*;
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
