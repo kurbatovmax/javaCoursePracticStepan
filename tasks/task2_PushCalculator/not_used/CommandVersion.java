@@ -14,18 +14,15 @@ public class CommandVersion extends BaseCommand
 {
     private final String m_version;
 
-    public CommandVersion(String version) {
-        super("VERSION");
+    public CommandVersion() {
+        super("VERSION", null);
         m_version = im.kmg.sibniar2.MainPushCalculator.VERSION;
     }
 
     @Override
-    public void execute() {
+    public void execute(List<String> commandWithArg) throws BadParamException {
         System.out.println("Version: " + m_version);
     }
-
-    @Override
-    public void init(List<String> dataCommand) throws BadParamException {}
 
     @Override
     public String getHelp() {

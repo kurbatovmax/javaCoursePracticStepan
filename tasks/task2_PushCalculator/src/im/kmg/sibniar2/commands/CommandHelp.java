@@ -1,9 +1,8 @@
 package im.kmg.sibniar2.commands;
 
+import im.kmg.sibniar2.BadParamException;
 import im.kmg.sibniar2.MainPushCalculator;
-
 import java.util.List;
-
 import static java.lang.System.out;
 
 /**
@@ -14,31 +13,19 @@ import static java.lang.System.out;
  */
 public class CommandHelp extends BaseCommand
 {
-    private final List<ICommand> m_commands;
-
-    /**
-     *
-     * @param commands - List of commands
-     */
-    public CommandHelp(List<ICommand> commands) {
-        super("HELP");
-        m_commands = commands;
+    public CommandHelp(CommandDataContainer data) {
+        super("HELP", data);
     }
 
     @Override
-    public void execute() {
-        String str = "";
-        str += "====== Stack calculator =======\n";
-        str += "version: " + MainPushCalculator.VERSION + "\n";
-        str += "--------------------------------\n";
-        for(ICommand s : m_commands) {
+    public void execute(List<String> commandWithArg) throws BadParamException {
+        String str = "\n";
+        str += "====== Stack calculator HELP =======\n";
+        for(ICommand s : this.getCommands() ) {
             str += s.getHelp();
         }
         out.println(str);
     }
-
-    @Override
-    public void init(List<String> dataCommand) {}
 
     @Override
     public String getHelp() {

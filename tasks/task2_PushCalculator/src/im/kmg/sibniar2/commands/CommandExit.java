@@ -1,5 +1,7 @@
 package im.kmg.sibniar2.commands;
 
+import im.kmg.sibniar2.BadParamException;
+import im.kmg.sibniar2.IKMGStack;
 import im.kmg.sibniar2.MainPushCalculator;
 
 import java.util.List;
@@ -12,18 +14,19 @@ import java.util.List;
  */
 public class CommandExit extends BaseCommand
 {
-    public CommandExit() {
-        super("EXIT");
+    /**
+     *
+     * @param data
+     */
+    public CommandExit(CommandDataContainer data) {
+        super("EXIT", data);
     }
 
     @Override
-    public void execute() {
+    public void execute(List<String> commandWithArg) throws BadParamException {
         System.out.println("Good bay");
         MainPushCalculator.running = false;
     }
-
-    @Override
-    public void init(List<String> dataCommand) {}
 
     @Override
     public String getHelp() {

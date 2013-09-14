@@ -1,9 +1,9 @@
 package im.kmg.sibniar2.commands;
 
 import im.kmg.sibniar2.BadParamException;
+import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,38 +13,42 @@ import java.util.Stack;
  */
 public class CommandSqrt extends BaseCommand
 {
-    private final Stack<String> m_stack;
+    private final ICommandDefine m_define;
+    public CommandSqrt(IKMGStack stack, ICommandDefine define) {
+        super("SQRT", stack);
+        m_define = define;
 
-    public CommandSqrt(Stack<String> stack) {
-        super("SQRT");
-        m_stack = stack;
     }
 
     /**
      * Note: result may be NaN negative number !!!
      */
     @Override
-    public void execute() {
-        Double value =  Double.valueOf(m_stack.pop());
+    public void execute(List<String> commandWithArg) throws BadParamException {
+        validate(commandWithArg);
+        IKMGStack stack = this.getStack();
+        Double value =  Double.valueOf(stack.pop());
         value = Math.sqrt(value);
-        m_stack.push(value.toString());
+        stack.push(value.toString());
     }
 
-    @Override
-    public void init(List<String> dataCommand) throws BadParamException {
+    private void validate(List<String> dataCommand) throws BadParamException {
+        IKMGStack stack = this.getStack();
         if ( dataCommand.size() != 1) {
             throw new BadParamException("Command \"" + this.getName() + "\" do not have param");
         }
-        if ( (m_stack == null) || (m_stack.size() <= 0) ) {
+        if ( (stack == null) || (stack.size() <= 0) ) {
             throw new BadParamException("Stack empty");
         }
 
         try {
-            Double.valueOf(m_stack.peek());
+            Double.valueOf(stack.peek());
         } catch (NumberFormatException e) {
             throw new BadParamException("The second parameter must be a number");
         }
     }
+
+
 
     @Override
     public String getHelp() {

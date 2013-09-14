@@ -1,10 +1,9 @@
 package im.kmg.sibniar2.commands;
 
 import im.kmg.sibniar2.BadParamException;
-import im.kmg.sibniar2.commands.ICommandDefine;
+import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,63 +14,65 @@ import java.util.Stack;
 public class CommandDivision extends BaseCommand
 {
     private String m_param;
-    private final Stack<String> m_stack;
     private final ICommandDefine m_define;
 
-    public CommandDivision(Stack<String> stack, ICommandDefine define) {
-        super("DIV");
-        this.m_stack = stack;
-        this.m_define = define;
+
+    public CommandDivision(IKMGStack stack, ICommandDefine define) {
+        super("DIV", stack);
+        m_define = define;
+
     }
 
     /**
      * Note: Division on zero result infinity !!!!
      */
     @Override
-    public void execute() {
-        Double param1 = Double.valueOf(m_stack.pop());
+    public void execute(List<String> commandWithArg) throws BadParamException {
+        validata(commandWithArg);
+
+        IKMGStack stack = this.getStack();
+        Double param1 = Double.valueOf(stack.pop());
         Double param2;
         if (m_param.isEmpty()) {
-            param2 = Double.valueOf(m_stack.pop());
+            param2 = Double.valueOf(stack.pop());
         } else {
             param2 =  Double.valueOf(m_param);
         }
         m_param = Double.toString( param1 / param2 );
-        m_stack.push(m_param);
+        stack.push(m_param);
     }
 
     /**
-     * Command may have zero, one.
-     * If not have param try take two value from  stack top.
-     * If have one param, try take one value from stack top.
-     * Result save in stack top.
+     *
+     * @param commandWithArg - [0] cmd NAME, .... param
+     * @throws im.kmg.sibniar2.BadParamException
      */
-    @Override
-    public void init(List<String> dataCommand) throws BadParamException {
-        if ( (m_stack == null) ||  (m_stack.size() <= 0) ) {
+    private void validata(List<String> commandWithArg) throws BadParamException {
+        IKMGStack stack = this.getStack();
+        if ( (stack == null) ||  (stack.size() <= 0) ) {
             throw new BadParamException("Stack empty");
         }
 
-        Integer szParam = dataCommand.size();
+        Integer szParam = commandWithArg.size();
         switch (szParam) {
             case 1: {
                 m_param="";
-                if (m_stack.size() < 2 ) {
+                if (stack.size() < 2 ) {
                     throw new BadParamException("Not enough parameters");
                 }
 
                 break;
             }
             case 2: {
-                String param = dataCommand.get(1);
+                String param = commandWithArg.get(1);
 
                 try {
                     Double.valueOf( param );
                 } catch (NumberFormatException e) {
-                    if (!m_define.hasDefineVar(param)) {
-                        throw new BadParamException("The second parameter must be a number");
+                    if ( m_define.hasDefineVar(param) == true) {
+                            param = m_define.getDefineVar(commandWithArg.get(1)).toString();
                     } else {
-                        param = m_define.getDefineVar(dataCommand.get(1)).toString();
+                        throw new BadParamException("The second parameter must be a number");
                     }
                 }
                 m_param =  param;

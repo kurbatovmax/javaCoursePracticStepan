@@ -4,7 +4,6 @@ package im.kmg.sibniar2.commands;
 import im.kmg.sibniar2.BadParamException;
 
 // std
-import javafx.util.Pair;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,10 +17,9 @@ import java.util.Map;
 public class CommandDefine extends BaseCommand implements ICommandDefine
 {
     private final Map<String, Double> m_listDefine;
-    private Pair<String, Double> m_value;
 
     public CommandDefine() {
-        super("DEFINE");
+        super("DEFINE", null);
         this.m_listDefine = new HashMap<String, Double>();
     }
 
@@ -29,27 +27,27 @@ public class CommandDefine extends BaseCommand implements ICommandDefine
      * When exe this method add var to list
      */
     @Override
-    public void execute() {
+    public void execute(List<String> commandWithArg) throws BadParamException{
+        validate(commandWithArg);
         System.out.println("");
-        m_listDefine.put(m_value.getKey(), m_value.getValue());
-        m_value = null;
+        m_listDefine.put(commandWithArg.get(1), Double.valueOf(commandWithArg.get(2)));
     }
 
     /**
      *
-     * @param dataCommand
+     * @param commandWithArg - [0] cmd NAME, .... param
      * @throws im.kmg.sibniar2.BadParamException
      */
-    @Override
-    public void init(List<String> dataCommand) throws BadParamException {
+    private void validate(List<String> commandWithArg) throws BadParamException {
         final String NAME = this.getName();
-        if (dataCommand.size() != 3) {
+        if (commandWithArg.size() != 3) {
             throw new BadParamException(NAME + " command must 2 param");
         }
 
         boolean isBadNameVAR = true;
+
         try {
-            Double.valueOf(dataCommand.get(1));
+            Double.valueOf(commandWithArg.get(1));
         } catch (NumberFormatException e) {
             isBadNameVAR = false;
         }
@@ -58,13 +56,10 @@ public class CommandDefine extends BaseCommand implements ICommandDefine
         }
 
         try {
-            Double.valueOf(dataCommand.get(2));
+            Double.valueOf(commandWithArg.get(2));
         } catch (NumberFormatException e) {
             throw new BadParamException(NAME + " Command tow param must be number");
         }
-
-        m_value = new Pair<String, Double>(dataCommand.get(1), Double.valueOf(dataCommand.get(2)) );
-
     }
 
     @Override

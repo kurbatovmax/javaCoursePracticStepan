@@ -5,7 +5,6 @@ import im.kmg.sibniar2.commands.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * This invoker commands
@@ -17,31 +16,10 @@ import java.util.Stack;
  */
 class AppStackCalculate
 {
-    private final List<ICommand> m_commands;
-    private final Stack<String> m_stack;
+    private CommandDataContainer m_data;
 
-    /**
-     *
-     */
-    AppStackCalculate() {
-        this.m_stack = new Stack<String>();
-        this.m_commands = new ArrayList<ICommand>();
-        ICommandDefine m_define = new CommandDefine();
-
-        //add commands
-        this.m_commands.add(new CommandHelp(m_commands));
-        this.m_commands.add(new CommandExit());
-        this.m_commands.add(new CommandVersion(MainPushCalculator.VERSION));
-        this.m_commands.add(new CommandDumpStack(m_stack));
-        this.m_commands.add(new CommandAdd(m_stack, m_define));
-        this.m_commands.add(new CommandPop(m_stack));
-        this.m_commands.add(new CommandPush(m_stack, m_define));
-        this.m_commands.add(new CommandSub(m_stack, m_define));
-        this.m_commands.add(new CommandDivision(m_stack, m_define));
-        this.m_commands.add(new CommandMultiplication(m_stack, m_define));
-        this.m_commands.add(new CommandPrint(m_stack));
-        this.m_commands.add(new CommandSqrt(m_stack));
-        this.m_commands.add((ICommand) m_define);
+    public AppStackCalculate(CommandDataContainer data) {
+        m_data = data;
     }
 
     /**
@@ -51,7 +29,7 @@ class AppStackCalculate
      */
     ICommand getCommandByName(String cmd) {
         ICommand rv = null;
-        for (ICommand s : this.m_commands) {
+        for (ICommand s : this.m_data.getCommands() ) {
             if (s.getName().compareTo(cmd) == 0) {
                 rv = s;
                 break;
@@ -62,32 +40,23 @@ class AppStackCalculate
 
     /**
      *
-     * @param CmdAndParam List cmd with param
+     * @param commandWithArg List cmd with param
      */
-    public void executeCommand(List<String> CmdAndParam) throws
+    public void executeCommand(List<String> commandWithArg) throws
             CommandNotFoundException,
             BadParamException
     {
         String sNameCmd;
-        if ( (CmdAndParam == null) || (CmdAndParam.size() < 1)) {
+        if ( (commandWithArg == null) || (commandWithArg.size() < 1)) {
             throw new CommandNotFoundException();
         }
 
-        sNameCmd = CmdAndParam.get(0);
+        sNameCmd = commandWithArg.get(0);
         ICommand cmd = this.getCommandByName(sNameCmd);
         if ( cmd == null ) {
             throw new CommandNotFoundException();
         }
 
-        cmd.init(CmdAndParam);
-        cmd.execute();
+        cmd.execute(commandWithArg);
     }
-
-    /**
-     *
-     * @return - stack.
-     */
-    public Stack<String> getStack() {
-          return m_stack;
-    }
-}
+ }

@@ -1,9 +1,9 @@
 package im.kmg.sibniar2.commands;
 
 import im.kmg.sibniar2.BadParamException;
+import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,21 +13,23 @@ import java.util.Stack;
  */
 public class CommandDumpStack extends BaseCommand
 {
-    private final Stack<String> m_stack;
-
-    public CommandDumpStack(Stack<String> stack) {
-        super("DUMPS");
-        m_stack = stack;
+    public CommandDumpStack(CommandDataContainer data) {
+        super("DUMPS", data);
     }
 
     @Override
-    public void execute() {
-        System.out.println(m_stack);
+    public void execute(List<String> commandWithArg) throws BadParamException {
+        validata(commandWithArg);
+        System.out.println(this.getStack());
     }
 
-    @Override
-    public void init(List<String> dataCommand) throws BadParamException {
-        if ( dataCommand.size() != 1) {
+    /**
+     *
+     * @param commandWithArg - [0] cmd NAME, .... param
+     * @throws im.kmg.sibniar2.BadParamException
+     */
+    private void validata(List<String> commandWithArg) throws BadParamException {
+        if ( commandWithArg.size() != 1) {
             throw new BadParamException("Command \"" + this.getName() + "\" Do not have param");
         }
     }

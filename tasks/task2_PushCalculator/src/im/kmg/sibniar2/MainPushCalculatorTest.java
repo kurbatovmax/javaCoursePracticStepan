@@ -15,7 +15,7 @@ public class MainPushCalculatorTest
         ////////////////
         // test Push
         ///////////////
-        AppStackCalculate appStack = new AppStackCalculate();
+        AppStackCalculate appStack = new AppStackCalculate(null);
         List<String> list = new ArrayList<String>();
         list.add("Push 1");
         list.add("Push 16");
@@ -31,7 +31,7 @@ public class MainPushCalculatorTest
             }
         }
 
-        Stack<String> dbgS = appStack.getStack();
+        IKMGStack dbgS = CommandPluginLoader.Instance().getContainerData().getStack();
         List<String> dbgList = dbgS.subList(0, dbgS.size());
 
         boolean PassPushTest = false;
@@ -67,7 +67,7 @@ public class MainPushCalculatorTest
             e.printStackTrace();
         }
 
-        dbgS = appStack.getStack();
+        dbgS = CommandPluginLoader.Instance().getContainerData().getStack();
         dbgList = dbgS.subList(0, dbgS.size());
         String dbgResult = dbgList.get(dbgList.size()-1);
         if ( dbgResult.compareTo("4.0") == 0 ) {

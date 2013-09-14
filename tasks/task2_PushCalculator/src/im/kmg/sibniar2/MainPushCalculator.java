@@ -22,8 +22,13 @@ public class MainPushCalculator
      * @param argv for cmd line
      */
     public static void main( String argv[]) throws Exception {
+
+        CommandPluginLoader plugins = CommandPluginLoader.Instance();
+
+        plugins.reload("plugins.list");
+
         // Invoker command
-        AppStackCalculate appMain = new AppStackCalculate();
+        AppStackCalculate appMain = new AppStackCalculate(plugins.getContainerData());
 
         BufferedReader inBufferedReader = null;
         boolean isFromFile = false;

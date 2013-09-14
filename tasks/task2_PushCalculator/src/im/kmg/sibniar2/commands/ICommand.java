@@ -13,7 +13,6 @@ import java.util.List;
 public interface ICommand
 {
     public String getName();
-    public void execute();
-    public void init(List<String> dataCommand) throws BadParamException;
+    public void execute(List<String> commandWithArg) throws BadParamException;
     public  String getHelp();
 }
