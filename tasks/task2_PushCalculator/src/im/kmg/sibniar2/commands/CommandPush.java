@@ -1,7 +1,5 @@
 package im.kmg.sibniar2.commands;
 
-import im.kmg.sibniar2.BadParamException;
-import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
 
@@ -15,12 +13,16 @@ public class CommandPush extends BaseCommand
 {
     private Double m_param;
 
+    public CommandPush() {
+        super("PUSH", null);
+    }
+
     public CommandPush(CommandDataContainer data) {
         super("PUSH", data);
     }
 
     @Override
-    public void execute(List<String> commandWithArg) throws BadParamException {
+    public void execute(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty {
         validate(commandWithArg);
         this.getStack().push(m_param.toString());
     }
@@ -30,20 +32,16 @@ public class CommandPush extends BaseCommand
         return this.getName() + " NUMBER\t\t-\tAdd NUMBER to top stack\n";
     }
 
-    private void validate(List<String> commandWithArg) throws BadParamException{
+    private void validate(List<String> commandWithArg) throws ExceptionBadParam{
         if ( commandWithArg.size() != 2 ) {
-            throw new BadParamException(this.getName() + " command take 1 param");
+            throw new ExceptionBadParam(this.getName() + " command take 1 param");
         }
 
         String sparam = commandWithArg.get(1);
         try {
             m_param = Double.valueOf(sparam);
         } catch (NumberFormatException e) {
-            //if ( m_define.hasDefineVar(sparam) == true) {
-            //    m_param = m_define.getDefineVar(sparam);
-            //} else {
-                throw new BadParamException("The second parameter must be a number");
-            //}
+            throw new ExceptionBadParam("The second parameter must be a number");
         }
     }
 }

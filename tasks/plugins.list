@@ -1,9 +1,0 @@
-HELP=im.kmg.sibniar2.commands.CommandHelp
-EXIT=im.kmg.sibniar2.commands.CommandExit
-PUSH=im.kmg.sibniar2.commands.CommandPush
-DUMPS=im.kmg.sibniar2.commands.CommandDumpStack
-ADD=im.kmg.sibniar2.commands.CommandAdd
-
-#VERSION=im.kmg.sibniar2.commands.CommandVersion
-
-

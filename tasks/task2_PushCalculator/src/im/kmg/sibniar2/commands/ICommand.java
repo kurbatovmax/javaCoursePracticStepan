@@ -1,6 +1,5 @@
 package im.kmg.sibniar2.commands;
 
-import im.kmg.sibniar2.BadParamException;
 import java.util.List;
 
 
@@ -13,6 +12,6 @@ import java.util.List;
 public interface ICommand
 {
     public String getName();
-    public void execute(List<String> commandWithArg) throws BadParamException;
+    public void execute(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty;
     public  String getHelp();
 }

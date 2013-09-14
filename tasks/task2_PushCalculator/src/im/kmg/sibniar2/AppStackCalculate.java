@@ -39,13 +39,13 @@ class AppStackCalculate
     }
 
     /**
-     *
-     * @param commandWithArg List cmd with param
+     * commandWithArg List cmd with param
+     * @param commandWithArg
+     * @throws CommandNotFoundException
+     * @throws ExceptionStackEmpty
+     * @throws ExceptionBadParam
      */
-    public void executeCommand(List<String> commandWithArg) throws
-            CommandNotFoundException,
-            BadParamException
-    {
+    public void executeCommand(List<String> commandWithArg) throws CommandNotFoundException, ExceptionStackEmpty, ExceptionBadParam {
         String sNameCmd;
         if ( (commandWithArg == null) || (commandWithArg.size() < 1)) {
             throw new CommandNotFoundException();

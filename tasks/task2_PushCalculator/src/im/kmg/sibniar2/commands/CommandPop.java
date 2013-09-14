@@ -1,7 +1,6 @@
 package im.kmg.sibniar2.commands;
 
 
-import im.kmg.sibniar2.BadParamException;
 import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
@@ -14,18 +13,23 @@ import java.util.List;
  */
 public class CommandPop extends BaseCommand
 {
-    public CommandPop(IKMGStack stack) {
-        super("POP", stack);
+
+    public CommandPop() {
+        super("POP", null);
+    }
+
+    public CommandPop(CommandDataContainer data) {
+        super("POP", data);
     }
 
     @Override
-    public void execute(List<String> commandWithArg) throws BadParamException {
+    public void execute(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty {
         IKMGStack stack = this.getStack();
         if ( commandWithArg.size() != 1) {
-            throw new BadParamException("Command \"" + this.getName() + "\" do not have param");
+            throw new ExceptionBadParam("Command \"" + this.getName() + "\" do not have param");
         }
         if ( (stack == null) || (stack.size() <= 0) ) {
-            throw new BadParamException("Stack empty");
+            throw new ExceptionStackEmpty();
         }
 
         System.out.println( this.getStack().pop() );

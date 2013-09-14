@@ -1,6 +1,5 @@
 package im.kmg.sibniar2.commands;
 
-import im.kmg.sibniar2.BadParamException;
 import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
@@ -13,18 +12,18 @@ import java.util.List;
  */
 public class CommandPrint extends BaseCommand
 {
-    public CommandPrint(IKMGStack stack) {
-        super("PRINT", stack);
+    public CommandPrint( ) {
+        super("PRINT", null);
     }
 
     @Override
-    public void execute(List<String> commandWithArg) throws BadParamException {
+    public void execute(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty {
         IKMGStack stack = this.getStack();
         if ( commandWithArg.size() != 1) {
-            throw new BadParamException("Command \"" + this.getName() + "\" do not have param");
+            throw new ExceptionBadParam("Command \"" + this.getName() + "\" do not have param");
         }
         if ( (stack == null) || (stack.size() <= 0) ) {
-            throw new BadParamException("Stack empty");
+            throw new ExceptionStackEmpty();
         }
         System.out.println(this.getStack().peek());
     }

@@ -2,12 +2,16 @@ package im.kmg.sibniar2;
 
 import im.kmg.sibniar2.commands.CommandDataContainer;
 import im.kmg.sibniar2.commands.ICommand;
+import im.kmg.sibniar2.commands.KMGResource;
+
+
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Singleton
@@ -49,14 +53,62 @@ public class CommandPluginLoader
             InvocationTargetException,
             NoSuchMethodException,
             InstantiationException,
-            IllegalAccessException
+            IllegalAccessException,
+            ClassNotFoundException,
+            ExceptionNoPlugins
     {
-        FileReader fileReader = new FileReader(fileName);
+        InputStream in =  Class.class.getResourceAsStream(fileName);
         Properties properties = new Properties();
-        properties.load(fileReader);
+        properties.load(in);
 
-        for ( Object obj : properties.keySet() ) {
-            this.loadClass((String) properties.get(obj));
+        Set<?> s =  properties.keySet();
+
+        List<Integer> s1 = new ArrayList<>();
+
+        for(Object item : s) {
+            s1.add(Integer.valueOf((String)item));
+        }
+
+        Collections. sort(s1);
+
+
+        for ( Integer item : s1 ) {
+            String sItem = (String) properties.get(item.toString());
+            this.loadClass(sItem);
+        }
+
+        if (m_data.getCommands().isEmpty()) {
+            throw new ExceptionNoPlugins();
+        }
+    }
+
+    /**
+     *
+     * @param nameClass
+     * @throws ClassNotFoundException
+     */
+    private void loadClass(String nameClass) throws
+            IllegalAccessException,
+            InstantiationException,
+            ClassNotFoundException
+    {
+        Class<?> obj = Class.forName(nameClass);
+        ICommand cmd = (ICommand) obj.newInstance();
+
+        Field[] fields = cmd.getClass().getSuperclass().getDeclaredFields();
+
+        for (Field field : fields) {
+            KMGResource annotation = field.getAnnotation(KMGResource.class);
+            if (annotation == null) { continue;}
+
+            //
+            // Initialize object
+            //
+            if ("CommandDataContainer".equals(annotation.type()))  {
+                field.setAccessible(true);
+                field.set(cmd, this.m_data);
+            }
+            m_data.getCommands().add(cmd);
         }
     }
 
@@ -64,6 +116,7 @@ public class CommandPluginLoader
      *
      * @param nameClass
      */
+    /**
     private void loadClass(String nameClass) throws
             NoSuchMethodException,
             IllegalAccessException,
@@ -79,6 +132,7 @@ public class CommandPluginLoader
             System.exit(-1);
         }
     }
+    */
 
     public CommandDataContainer getContainerData() {
         return this.m_data;

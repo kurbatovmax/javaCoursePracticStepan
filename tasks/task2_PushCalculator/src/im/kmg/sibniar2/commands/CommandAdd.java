@@ -1,6 +1,5 @@
 package im.kmg.sibniar2.commands;
 
-import im.kmg.sibniar2.BadParamException;
 import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
@@ -16,13 +15,16 @@ public class CommandAdd extends BaseCommand
 {
     private String m_param;
 
+    public CommandAdd() {
+        super("ADD", null);
+    }
 
     public CommandAdd(CommandDataContainer data) {
         super("ADD", data);
     }
 
     @Override
-    public void execute(List<String> commandWithArg) throws BadParamException {
+    public void execute(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty {
         this.validate(commandWithArg);
 
         IKMGStack stack = this.getStack();
@@ -40,12 +42,13 @@ public class CommandAdd extends BaseCommand
     /**
      *
      * @param commandWithArg - [0] cmd NAME, .... param
-     * @throws im.kmg.sibniar2.BadParamException
+     * @throws ExceptionBadParam
+     * @throws ExceptionStackEmpty
      */
-    private void validate(List<String> commandWithArg) throws BadParamException {
+    private void validate(List<String> commandWithArg) throws ExceptionBadParam, ExceptionStackEmpty {
         IKMGStack stack = this.getStack();
         if ( (stack == null) ||  (stack.size() <= 0) ) {
-            throw new BadParamException("Stack empty");
+            throw new ExceptionStackEmpty();
         }
 
         Integer szParam = commandWithArg.size();
@@ -53,7 +56,7 @@ public class CommandAdd extends BaseCommand
             case 1: {
                 m_param="";
                 if (stack.size() < 2 ) {
-                    throw new BadParamException("Not enough parameters");
+                    throw new ExceptionBadParam("Not enough parameters");
                 }
                 break;
             }
@@ -62,17 +65,13 @@ public class CommandAdd extends BaseCommand
                 try {
                     Double.valueOf( param );
                 } catch (NumberFormatException e) {
-//                    if ( m_define.hasDefineVar(param) == true) {
-//                        m_param = m_define.getDefineVar(param).toString();
-//                    } else {
-                        throw new BadParamException("The second parameter must be a number");
-//                    }
+                    throw new ExceptionBadParam("The second parameter must be a number");
                 }
                 m_param =  param;
                 break;
             }
             default: {
-                throw new BadParamException(this.getName() + " command may have zero or one param");
+                throw new ExceptionBadParam(this.getName() + " command may have zero or one param");
             }
         }
     }

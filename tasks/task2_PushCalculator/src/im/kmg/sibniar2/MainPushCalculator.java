@@ -1,10 +1,15 @@
 package im.kmg.sibniar2;
 
+import im.kmg.sibniar2.commands.ExceptionBadParam;
+import im.kmg.sibniar2.commands.ExceptionStackEmpty;
+
 import java.io.*;
-import java.util.ArrayList;
+import java.lang.reflect.InvocationTargetException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 import static java.lang.System.err;
+import static java.lang.System.out;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,16 +21,22 @@ public class MainPushCalculator
 {
     final public static  String VERSION = "0.01";
     public static boolean running = true;
+    public static final String PluginListFile = "/plugins.list";
 
     /**
      *
      * @param argv for cmd line
      */
-    public static void main( String argv[]) throws Exception {
+    public static void main( String argv[]) {
 
         CommandPluginLoader plugins = CommandPluginLoader.Instance();
 
-        plugins.reload("plugins.list");
+        try {
+            plugins.reload(PluginListFile);
+        } catch (Exception e) {
+            System.err.println("Error: " + e.getLocalizedMessage()) ;
+            return;
+        }
 
         // Invoker command
         AppStackCalculate appMain = new AppStackCalculate(plugins.getContainerData());
@@ -68,15 +79,16 @@ public class MainPushCalculator
                 continue;
             }
 
+            printCmd(cmdLine, isFromFile);
+
             try {
-                if (isFromFile) {
-                    System.out.println("exec cmd: " + cmdLine);
-                }
                 appMain.executeCommand(cmdParser.getCmdWithParam());
             } catch (CommandNotFoundException e) {
-                err.println("Error: " + e.getLocalizedMessage());
-            } catch (BadParamException e) {
-                err.println("Error: " + e.getLocalizedMessage());
+                err.println(e.getLocalizedMessage());
+            } catch (ExceptionStackEmpty e) {
+                err.println(e.getLocalizedMessage());
+            } catch (ExceptionBadParam e) {
+                err.println(e.getLocalizedMessage());
             }
         }
     }
@@ -88,5 +100,11 @@ public class MainPushCalculator
         System.out.println("-----------------------------------");
         System.out.println("enter \"HELP\" for more information");
         System.out.print("cli>>> ");
+    }
+
+    private static void printCmd(String strCmd, boolean isEnabled) {
+        if (isEnabled) {
+            System.out.println("exec cmd: " + strCmd);
+        }
     }
 }

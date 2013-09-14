@@ -1,5 +1,8 @@
 package im.kmg.sibniar2;
 
+import im.kmg.sibniar2.commands.ExceptionBadParam;
+import im.kmg.sibniar2.commands.ExceptionStackEmpty;
+
 import java.util.*;
 
 /**
@@ -26,8 +29,10 @@ public class MainPushCalculatorTest
                 appStack.executeCommand(item);
             } catch (CommandNotFoundException e) {
                 e.printStackTrace();
-            } catch (BadParamException e) {
-                e.printStackTrace();
+            } catch (ExceptionStackEmpty exceptionStackEmpty) {
+                exceptionStackEmpty.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            } catch (ExceptionBadParam exceptionBadParam) {
+                exceptionBadParam.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         }
 
@@ -61,10 +66,12 @@ public class MainPushCalculatorTest
         Collections.addAll(item, list.get(0).split(" "));
         try {
             appStack.executeCommand(item);
-        } catch (BadParamException e) {
-            e.printStackTrace();
         } catch (CommandNotFoundException e) {
             e.printStackTrace();
+        } catch (ExceptionStackEmpty exceptionStackEmpty) {
+            exceptionStackEmpty.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (ExceptionBadParam exceptionBadParam) {
+            exceptionBadParam.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
         dbgS = CommandPluginLoader.Instance().getContainerData().getStack();

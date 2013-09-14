@@ -1,0 +1,15 @@
+1=im.kmg.sibniar2.commands.CommandVersion
+2=im.kmg.sibniar2.commands.CommandPrint
+3=im.kmg.sibniar2.commands.CommandHelp
+4=im.kmg.sibniar2.commands.CommandExit
+5=im.kmg.sibniar2.commands.CommandPush
+6=im.kmg.sibniar2.commands.CommandPop
+7=im.kmg.sibniar2.commands.CommandDumpStack
+8=im.kmg.sibniar2.commands.CommandAdd
+9=im.kmg.sibniar2.commands.CommandSub
+10=im.kmg.sibniar2.commands.CommandMultiplication
+11=im.kmg.sibniar2.commands.CommandDivision
+12=im.kmg.sibniar2.commands.CommandSqrt
+13=im.kmg.sibniar2.commands.CommandDefine
+
+

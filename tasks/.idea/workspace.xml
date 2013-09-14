@@ -10,29 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31485ade-4b4e-4b24-9019-9648d7b1be18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDataContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/ICommandFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/IKMGStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/KMGStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/StreamPrint.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jfxrt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDivision.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPrint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSqrt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandVersion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/ICommandDefine.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/ExceptionBadParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/ExceptionNoPlugins.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/ExceptionStackEmpty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/KMGResource.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/BadParamException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/ICommandFactory.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins.list" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/plugins.list" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandAdd.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandAdd.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDumpStack.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDumpStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandExit.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandExit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandHelp.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandHelp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/ICommand.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/ICommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" afterPath="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" />
@@ -42,32 +35,32 @@
     </list>
     <ignored path="alltasks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379115806466" ignored="false" />
+    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379174902829" ignored="false" />
     <file path="/Main.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378831011065" ignored="false" />
-    <file path="/CommandDivision.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379031383126" ignored="false" />
+    <file path="/CommandDivision.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379174435324" ignored="false" />
     <file path="/File Header.txt.ft" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378555562622" ignored="false" />
-    <file path="/CommandDefine.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379032515335" ignored="false" />
-    <file path="/fragment.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379124512968" ignored="false" />
-    <file path="/AppStackCalculate.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122533001" ignored="false" />
-    <file path="/CommandAdd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379124550610" ignored="false" />
-    <file path="/CommandMultiplication.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379031682427" ignored="false" />
-    <file path="/CommandPop.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379003432585" ignored="false" />
-    <file path="/CommandPush.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122962926" ignored="false" />
-    <file path="/CommandSqrt.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379032285866" ignored="false" />
-    <file path="/CommandSub.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379032567188" ignored="false" />
-    <file path="/MainPushCalculator.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122484066" ignored="false" />
+    <file path="/CommandDefine.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379182986571" ignored="false" />
+    <file path="/fragment.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379175602207" ignored="false" />
+    <file path="/AppStackCalculate.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379159015901" ignored="false" />
+    <file path="/CommandAdd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165158147" ignored="false" />
+    <file path="/CommandMultiplication.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379175002307" ignored="false" />
+    <file path="/CommandPop.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379166429768" ignored="false" />
+    <file path="/CommandPush.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165083393" ignored="false" />
+    <file path="/CommandSqrt.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379175361655" ignored="false" />
+    <file path="/CommandSub.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165816772" ignored="false" />
+    <file path="/MainPushCalculator.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379164596697" ignored="false" />
     <file path="/GetCommand.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378732961147" ignored="false" />
     <file path="/CommandReader.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378732072868" ignored="false" />
     <file path="/ICommandDefine.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378739236021" ignored="false" />
     <file path="/test.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378998017881" ignored="false" />
     <file path="/CliParser.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378968061637" ignored="false" />
     <file path="$PROJECT_DIR$/vsevolod_test/src/src/Main.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378830190947" ignored="false" />
-    <file path="/BaseCommand.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379121445172" ignored="false" />
-    <file path="/CommandDumpStack.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379124264888" ignored="false" />
-    <file path="/CommandExit.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379121342806" ignored="false" />
-    <file path="/CommandHelp.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122874788" ignored="false" />
-    <file path="/CommandPrint.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379004187875" ignored="false" />
-    <file path="/CommandVersion.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379032207085" ignored="false" />
+    <file path="/BaseCommand.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379162596706" ignored="false" />
+    <file path="/CommandDumpStack.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379164660646" ignored="false" />
+    <file path="/CommandExit.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165007787" ignored="false" />
+    <file path="/CommandHelp.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379162659239" ignored="false" />
+    <file path="/CommandPrint.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165646614" ignored="false" />
+    <file path="/CommandVersion.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379165505035" ignored="false" />
     <file path="/ICommand.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379002942842" ignored="false" />
     <file path="/BadParamException.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378918697810" ignored="false" />
     <file path="/IKMGStack.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379030842266" ignored="false" />
@@ -75,14 +68,18 @@
     <file path="/KMGStack.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379005341533" ignored="false" />
     <file path="/MainPushCalculatorTest.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122616389" ignored="false" />
     <file path="/PluginLoader.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379089100094" ignored="false" />
-    <file path="/CommandPluginLoader.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379124228144" ignored="false" />
-    <file path="/plugins.list" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379124584030" ignored="false" />
+    <file path="/CommandPluginLoader.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379178679393" ignored="false" />
+    <file path="/plugins.list" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379175799633" ignored="false" />
     <file path="/StreamPrint.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379081743015" ignored="false" />
     <file path="/CommandPlugin.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379087379335" ignored="false" />
     <file path="/InitializeObject.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379089812468" ignored="false" />
     <file path="/ICommnadFactory.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379090170259" ignored="false" />
     <file path="/CommandFactory.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379121700994" ignored="false" />
     <file path="/CommandDataContainer.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379122184982" ignored="false" />
+    <file path="/ExceptionBadParam.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379159027573" ignored="false" />
+    <file path="/ExceptionStackEmpty.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379157962713" ignored="false" />
+    <file path="/KMGResource.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379163656094" ignored="false" />
+    <file path="/ExceptionNoPlugins.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379164397348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +87,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel url="file://$PROJECT_DIR$/task2_PushCalculator" />
+    <rightPanel url="file://$PROJECT_DIR$/task2_PushCalculator" />
+    <splitter proportion="0.6147687" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -134,7 +136,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" line="25" class="im.kmg.sibniar2.MainPushCalculator" package="im.kmg.sibniar2">
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java" line="31" class="im.kmg.sibniar2.commands.CommandMultiplication" package="im.kmg.sibniar2.commands">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -149,7 +151,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" line="23" class="im.kmg.sibniar2.commands.CommandPush" package="im.kmg.sibniar2.commands">
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java" line="32" class="im.kmg.sibniar2.commands.CommandMultiplication" package="im.kmg.sibniar2.commands">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -164,7 +166,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" line="57" class="im.kmg.sibniar2.CommandPluginLoader" package="im.kmg.sibniar2">
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDivision.java" line="31" class="im.kmg.sibniar2.commands.CommandDivision" package="im.kmg.sibniar2.commands">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -179,7 +181,97 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" line="55" class="im.kmg.sibniar2.CommandPluginLoader" package="im.kmg.sibniar2">
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java" line="40" class="im.kmg.sibniar2.commands.CommandMultiplication" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" line="43" class="im.kmg.sibniar2.commands.CommandDefine" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" line="38" class="im.kmg.sibniar2.commands.CommandDefine" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" line="52" class="im.kmg.sibniar2.commands.CommandDefine" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" line="61" class="im.kmg.sibniar2.commands.CommandDefine" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" line="25" class="im.kmg.sibniar2.commands.CommandPush" package="im.kmg.sibniar2.commands">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" line="34" class="im.kmg.sibniar2.commands.CommandDefine" package="im.kmg.sibniar2.commands">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -205,28 +297,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainPushCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="47" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandAdd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="19" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommandPluginLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="25" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
+            <state line="61" column="0" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandDefine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,19 +317,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandDumpStack.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDumpStack.java">
+      <file leaf-file-name="BaseCommand.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.list" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins.list">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0921659">
+            <state line="54" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.7863924">
               <folding />
             </state>
           </provider>
@@ -255,7 +329,7 @@
       <file leaf-file-name="AppStackCalculate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,36 +338,16 @@
       <file leaf-file-name="CommandPush.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+            <state line="38" column="7" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KMGStack.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/KMGStack.java">
+      <file leaf-file-name="MainPushCalculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandDataContainer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDataContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="35" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -317,30 +371,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSub.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDataContener.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandExit.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandFactory.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDataContainer.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/ExceptionNoPlugins.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandHelp.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/KMGStack.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDumpStack.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandExit.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandAdd.java" />
-        <option value="$PROJECT_DIR$/plugins.list" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandVersion.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPrint.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSub.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPop.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDivision.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSqrt.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/plugins.list" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1871" />
-    <option name="height" value="1176" />
+    <option name="x" value="48" />
+    <option name="y" value="-4" />
+    <option name="width" value="1873" />
+    <option name="height" value="1205" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -377,6 +431,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alltasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,10 +470,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,13 +515,118 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alltasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="META-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="im/kmg/sibniar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task2_PushCalculator">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="im/kmg/sibniar2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="commands">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -471,14 +636,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="241" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="254" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="259" />
@@ -494,9 +659,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -504,23 +669,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="im.kmg.sibniar2" />
       <recent name="im.kmg.sibniar2.commands" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/task2_PushCalculator" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.kmg.task3" />
       <recent name="src" />
       <recent name="im.kmg.sibniar2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task2_PushCalculator/src" />
+      <recent name="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2" />
+      <recent name="$PROJECT_DIR$/task2_PushCalculator" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainPushCalculator">
@@ -667,19 +835,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -706,6 +861,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -797,35 +965,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1871" height="1176" extended-state="6" />
+    <frame x="48" y="-4" width="1873" height="1205" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="156" y="320" width="1671" height="976" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3744076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3308057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.66919434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.6230137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21315068" sideWeight="0.6654028" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33459717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21315068" sideWeight="0.6255924" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33459717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="159" y="404" width="1671" height="976" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39766082" sideWeight="0.76742303" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3971564" sideWeight="0.76742303" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -894,118 +1062,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/lang/annotation/RetentionPolicy.java">
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="4" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.75949365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/ICommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="242" selection-end="242" vertical-scroll-proportion="0.2955665">
+        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.023734177">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandFactory.java">
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="48" selection-start="547" selection-end="547" vertical-scroll-proportion="0.5490506">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="76" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.35601267">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandExit.java">
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDataContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/KMGStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDumpStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="24" column="29" selection-start="636" selection-end="636" vertical-scroll-proportion="0.5221519">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
+        <state line="26" column="51" selection-start="473" selection-end="473" vertical-scroll-proportion="0.023734177">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins.list">
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0921659">
+        <state line="11" column="9" selection-start="189" selection-end="189" vertical-scroll-proportion="0.26107594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="57" selection-start="6705" selection-end="6705" vertical-scroll-proportion="-0.7357595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandSqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="2" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.64398736">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="8" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.6170886">
+          <folding>
+            <element signature="e#1175#1183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.3322785">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/plugins.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="84" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/CommandPluginLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/MainPushCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/AppStackCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandDefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/BaseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.7863924">
           <folding />
         </state>
       </provider>
@@ -1017,8 +1190,8 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
               <type id="library" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>task2_PushCalculator:jar</last-edited>

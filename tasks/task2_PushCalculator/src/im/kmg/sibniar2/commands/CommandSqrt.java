@@ -1,6 +1,5 @@
 package im.kmg.sibniar2.commands;
 
-import im.kmg.sibniar2.BadParamException;
 import im.kmg.sibniar2.IKMGStack;
 
 import java.util.List;
@@ -13,18 +12,19 @@ import java.util.List;
  */
 public class CommandSqrt extends BaseCommand
 {
-    private final ICommandDefine m_define;
-    public CommandSqrt(IKMGStack stack, ICommandDefine define) {
-        super("SQRT", stack);
-        m_define = define;
+    public CommandSqrt() {
+        super("SQRT", null);
+    }
 
+    public CommandSqrt(CommandDataContainer data) {
+        super("SQRT", data);
     }
 
     /**
      * Note: result may be NaN negative number !!!
      */
     @Override
-    public void execute(List<String> commandWithArg) throws BadParamException {
+    public void execute(List<String> commandWithArg) throws ExceptionStackEmpty, ExceptionBadParam {
         validate(commandWithArg);
         IKMGStack stack = this.getStack();
         Double value =  Double.valueOf(stack.pop());
@@ -32,19 +32,25 @@ public class CommandSqrt extends BaseCommand
         stack.push(value.toString());
     }
 
-    private void validate(List<String> dataCommand) throws BadParamException {
+    /**
+     *
+     * @param dataCommand
+     * @throws ExceptionBadParam
+     * @throws ExceptionStackEmpty
+     */
+    private void validate(List<String> dataCommand) throws ExceptionBadParam, ExceptionStackEmpty {
         IKMGStack stack = this.getStack();
         if ( dataCommand.size() != 1) {
-            throw new BadParamException("Command \"" + this.getName() + "\" do not have param");
+            throw new ExceptionBadParam("Command \"" + this.getName() + "\" do not have param");
         }
         if ( (stack == null) || (stack.size() <= 0) ) {
-            throw new BadParamException("Stack empty");
+            throw new ExceptionStackEmpty();
         }
 
         try {
             Double.valueOf(stack.peek());
         } catch (NumberFormatException e) {
-            throw new BadParamException("The second parameter must be a number");
+            throw new ExceptionBadParam("The second parameter must be a number");
         }
     }
 
