@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31485ade-4b4e-4b24-9019-9648d7b1be18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MyPair.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/Main.java" afterPath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4_httpd/src/httpd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alltasks.iws" />
@@ -70,6 +70,8 @@
     <file path="/book_text.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379232410178" ignored="false" />
     <file path="/MySorting.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379240241935" ignored="false" />
     <file path="/MyPair.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379241773382" ignored="false" />
+    <file path="/MainHttpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379258805638" ignored="false" />
+    <file path="/httpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379254050358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +188,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task4_httpd/src/httpd.java" line="12" class="httpd" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" line="53" class="MainHttpd" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -197,10 +229,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainCountWord.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java">
+      <file leaf-file-name="MainHttpd.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6677215">
+            <state line="33" column="47" selection-start="761" selection-end="761" vertical-scroll-proportion="0.023734177">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="15" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="httpd.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4_httpd/src/httpd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="63" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,8 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandAdd.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDivision.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandMultiplication.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPop.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPrint.java" />
@@ -260,6 +310,8 @@
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MySorting.java" />
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MyPair.java" />
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/httpd.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
       </list>
     </option>
   </component>
@@ -444,7 +496,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task3_CountPopulWorld" />
+              <option name="myItemId" value="task4_httpd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,15 +506,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task3_CountPopulWorld" />
+              <option name="myItemId" value="task4_httpd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,7 +576,7 @@
       <recent name="im.kmg.sibniar2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCountWord">
+  <component name="RunManager" selected="Application.MainHttpd">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="im.kmg.task3.Main" />
@@ -580,32 +628,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="test1" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="test.test1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="vsevolod_test" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
     <configuration default="false" name="DirList2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -649,6 +671,29 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="task3_CountPopulWorld" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainHttpd" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MainHttpd" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="task4_httpd" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -754,17 +799,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DirList2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainCountWord" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DirList2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainCountWord" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainHttpd" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainCountWord" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DirList2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainHttpd" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainCountWord" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DirList2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -805,14 +850,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1873" height="1205" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3744076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3744076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -901,36 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDumpStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandMultiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="28" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandSqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandSub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
@@ -1282,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="15" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.3322785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
@@ -1305,10 +1313,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="13" selection-start="5037" selection-end="5037" vertical-scroll-proportion="0.3322785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="-0.5221519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6677215">
+        <state line="139" column="0" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.738924">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/httpd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="63" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="11" selection-start="8934" selection-end="8934" vertical-scroll-proportion="0.33222592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="15" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="73" selection-start="3275" selection-end="3275" vertical-scroll-proportion="0.64082277">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="47" selection-start="761" selection-end="761" vertical-scroll-proportion="0.023734177">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
