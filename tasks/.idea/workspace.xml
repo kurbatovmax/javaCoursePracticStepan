@@ -10,16 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31485ade-4b4e-4b24-9019-9648d7b1be18" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\pscience.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\test.cvs" afterPath="" />
-      <change type="MOVED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\task4_httpd\src\httpd.java" afterPath="$PROJECT_DIR$/task4_httpd/src/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" afterPath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" afterPath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alltasks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379503434285" ignored="false" />
+    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379510379918" ignored="false" />
     <file path="/Main.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379240089591" ignored="false" />
     <file path="/CommandDivision.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224798227" ignored="false" />
     <file path="/File Header.txt.ft" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378555562622" ignored="false" />
@@ -74,6 +69,7 @@
     <file path="/MyPair.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379241773382" ignored="false" />
     <file path="/MainHttpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379508165883" ignored="false" />
     <file path="/httpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379508205292" ignored="false" />
+    <file path="/Client.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379512088727" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +89,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -155,55 +152,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainPushCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java">
+      <file leaf-file-name="MainHttpd.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="44" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="58" column="0" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandPluginLoader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4_httpd/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="16" selection-start="2255" selection-end="2255" vertical-scroll-proportion="1.7369093">
-              <folding />
+            <state line="25" column="14" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/BaseCommand.java">
+      <file leaf-file-name="InputStream.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/InputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="44" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandDataContainer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/CommandDataContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandAdd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandDefine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDefine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+            <state line="253" column="61" selection-start="10809" selection-end="10814" vertical-scroll-proportion="0.2264151">
               <folding />
             </state>
           </provider>
@@ -240,9 +214,9 @@
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
         <option value="$PROJECT_DIR$/task4_httpd/src/httpd.java" />
         <option value="$PROJECT_DIR$/task4_httpd/src/client.java" />
-        <option value="$PROJECT_DIR$/task4_httpd/src/Client.java" />
-        <option value="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPrint.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/Client.java" />
       </list>
     </option>
   </component>
@@ -403,16 +377,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alltasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -445,28 +409,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="alltasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task2_PushCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alltasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task2_PushCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -476,14 +426,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="241" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="254" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="254" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="259" />
@@ -499,9 +449,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -509,8 +459,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -531,7 +481,7 @@
       <recent name="im.kmg.sibniar2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPushCalculator">
+  <component name="RunManager" selected="Application.MainHttpd">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="im.kmg.task3.Main" />
@@ -674,6 +624,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -700,19 +663,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -760,9 +710,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainCountWord" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainHttpd" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainHttpd" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainCountWord" />
         <item index="3" class="java.lang.String" itemvalue="Application.DirList2" />
         <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
@@ -804,8 +754,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -820,7 +770,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.66919434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.6230137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31361425" sideWeight="0.66548043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3128039" sideWeight="0.62633455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33451957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="159" y="404" width="1671" height="976" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -901,6 +851,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -919,44 +876,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book_text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.36448598">
-          <folding />
-        </state>
+        <state line="55" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.36448598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="25" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.33414933">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="44" selection-start="2437" selection-end="2437" vertical-scroll-proportion="-0.39412484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4_httpd/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5630355">
           <folding />
         </state>
       </provider>
@@ -998,7 +933,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="16" selection-start="2255" selection-end="2255" vertical-scroll-proportion="1.7369093">
+        <state line="88" column="16" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="61" selection-start="10809" selection-end="10814" vertical-scroll-proportion="0.2264151">
           <folding />
         </state>
       </provider>

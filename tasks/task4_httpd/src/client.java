@@ -1,3 +1,6 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.Socket;
 
 /**
@@ -9,37 +12,33 @@ import java.net.Socket;
 public class Client implements Runnable
 {
     private  Thread m_tThread;
-    private long m_i;
     private Socket m_client;
 
-    Client() {
+    Client(Socket client) {
         m_tThread = new Thread(this, getClass().getName());
-        m_i = 0;
-    }
-
-    Client(String name) {
-        m_tThread = new Thread(this, name);
-        m_i = 0;
+        m_client  = client;
+        m_tThread.start();
     }
 
     @Override
     public void run() {
-        while(true) {
-            m_i++;
-            System.out.println(Thread.currentThread().getName()  +  " i=:" + m_i);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        byte []inputBuffer = new byte[1024];
+        InputStream inputStream;
+        OutputStream outputStream;
+        try {
+            inputStream = m_client.getInputStream();
+
+            if ( inputStream.available() > 0) {
+                inputStream.read(inputBuffer);
             }
+
+            outputStream = m_client.getOutputStream();
+            outputStream.write(inputBuffer);
+            outputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
-    /**
-     *
-     */
-    public void start(Socket client) {
-        m_client = client;
-        m_tThread.start();
-    }
+
 }

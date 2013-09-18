@@ -52,29 +52,19 @@ import java.net.Socket;
  */
 public class MainHttpd
 {
-
     /**
      *
      * @param argv - arguments
      */
     public static  void main (String argv[]) throws IOException {
         System.out.println("Start httpd");
-        //httpd thread1 = new httpd("thread1");
-        //httpd thread2 = new httpd("thread2");
-        //httpd thread3 = new httpd("thread3");
-
-        //thread1.start();
-        //thread2.start();
-        //thread3.start();
-
         ServerSocket serverSocket = null;
         try {
             System.out.println("Create socket server");
             serverSocket =  new ServerSocket(30000);
             while (true) {
-                Socket clientSocket = serverSocket.accept();
+                new Client(serverSocket.accept());
                 System.out.println("accept done");
-                new Client().start(clientSocket);
             }
         } catch (Exception e) {
             e.printStackTrace();
