@@ -10,19 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31485ade-4b4e-4b24-9019-9648d7b1be18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4_httpd/src/httpd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\pscience.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\test.cvs" afterPath="" />
+      <change type="MOVED" beforePath="C:\Java\kurbatovmax\javaCoursePracticStepan\tasks\task4_httpd\src\httpd.java" afterPath="$PROJECT_DIR$/task4_httpd/src/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" afterPath="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" afterPath="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alltasks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379240258834" ignored="false" />
+    <file path="/Dummy.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379503434285" ignored="false" />
     <file path="/Main.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379240089591" ignored="false" />
     <file path="/CommandDivision.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224798227" ignored="false" />
     <file path="/File Header.txt.ft" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378555562622" ignored="false" />
     <file path="/CommandDefine.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379227118617" ignored="false" />
-    <file path="/fragment.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379242362075" ignored="false" />
+    <file path="/fragment.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379505007377" ignored="false" />
     <file path="/AppStackCalculate.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224668460" ignored="false" />
     <file path="/CommandAdd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379227922643" ignored="false" />
     <file path="/CommandMultiplication.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224994880" ignored="false" />
@@ -41,7 +43,7 @@
     <file path="/CommandDumpStack.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379225560927" ignored="false" />
     <file path="/CommandExit.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379225387754" ignored="false" />
     <file path="/CommandHelp.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224604427" ignored="false" />
-    <file path="/CommandPrint.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379228061962" ignored="false" />
+    <file path="/CommandPrint.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379508516666" ignored="false" />
     <file path="/CommandVersion.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224858148" ignored="false" />
     <file path="/ICommand.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224650107" ignored="false" />
     <file path="/BadParamException.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1378918697810" ignored="false" />
@@ -66,12 +68,12 @@
     <file path="/CommandNotFoundException.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224494995" ignored="false" />
     <file path="/MANIFEST.MF" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379224873339" ignored="false" />
     <file path="/MainCountPopulWord.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379229082307" ignored="false" />
-    <file path="/MainCountWord.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379245499501" ignored="false" />
+    <file path="/MainCountWord.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379507779103" ignored="false" />
     <file path="/book_text.txt" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379232410178" ignored="false" />
     <file path="/MySorting.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379240241935" ignored="false" />
     <file path="/MyPair.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379241773382" ignored="false" />
-    <file path="/MainHttpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379258805638" ignored="false" />
-    <file path="/httpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379254050358" ignored="false" />
+    <file path="/MainHttpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379508165883" ignored="false" />
+    <file path="/httpd.java" changelist="31485ade-4b4e-4b24-9019-9648d7b1be18" time="1379508205292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,82 +130,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/FileReader.java" line="57" class="java.io.FileReader" package="java.io">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java" line="19" class="im.kmg.pc.MainPushCalculator" package="im.kmg.pc">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java" line="27" class="im.kmg.pc.MainPushCalculator" package="im.kmg.pc">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java" line="89" class="im.kmg.pc.CommandPluginLoader" package="im.kmg.pc">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task4_httpd/src/httpd.java" line="12" class="httpd" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" line="53" class="MainHttpd" package="">
+      <breakpoint url="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" line="34" class="im.kmg.task3.MainCountWord" package="im.kmg.task3">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -219,7 +146,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -229,50 +155,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainHttpd.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
+      <file leaf-file-name="MainPushCalculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="47" selection-start="761" selection-end="761" vertical-scroll-proportion="0.023734177">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="15" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
+            <state line="50" column="44" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task4_httpd/src/httpd.java">
+      <file leaf-file-name="CommandPluginLoader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="63" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="88" column="16" selection-start="2255" selection-end="2255" vertical-scroll-proportion="1.7369093">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyPair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MyPair.java">
+      <file leaf-file-name="BaseCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/BaseCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="21" column="44" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book_text.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_text.txt">
+      <file leaf-file-name="CommandDataContainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/CommandDataContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandAdd.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandAdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandDefine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDefine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,9 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandMultiplication.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPop.java" />
-        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandPrint.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandSqrt.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandSub.java" />
         <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java" />
@@ -311,15 +239,18 @@
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MyPair.java" />
         <option value="$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java" />
         <option value="$PROJECT_DIR$/task4_httpd/src/httpd.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/client.java" />
+        <option value="$PROJECT_DIR$/task4_httpd/src/Client.java" />
         <option value="$PROJECT_DIR$/task4_httpd/src/MainHttpd.java" />
+        <option value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands/CommandPrint.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="-4" />
-    <option name="width" value="1873" />
-    <option name="height" value="1205" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -334,7 +265,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
@@ -514,6 +445,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alltasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task2_PushCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alltasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task2_PushCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -521,14 +476,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="241" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="254" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="259" />
@@ -544,9 +499,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/sibniar2/commands" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -554,8 +509,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -576,7 +531,7 @@
       <recent name="im.kmg.sibniar2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainHttpd">
+  <component name="RunManager" selected="Application.MainPushCalculator">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="im.kmg.task3.Main" />
@@ -719,19 +674,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -758,6 +700,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -805,9 +760,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainHttpd" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
         <item index="1" class="java.lang.String" itemvalue="Application.MainCountWord" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainPushCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainHttpd" />
         <item index="3" class="java.lang.String" itemvalue="Application.DirList2" />
         <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
@@ -849,30 +804,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1873" height="1205" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3744076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37366548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.66919434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.6230137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21315068" sideWeight="0.6255924" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33459717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31361425" sideWeight="0.66548043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33451957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="159" y="404" width="1671" height="976" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -946,354 +901,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandSub.java">
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="4" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="0.0" y="75.0">classes</node>
-            <node x="167.0" y="225.0">com</node>
-            <node x="172.0" y="150.0">sunw</node>
-            <node x="0.0" y="300.0">test</node>
-            <node x="0.0" y="225.0">javax</node>
-            <node x="200.0" y="0.0">netscape</node>
-            <node x="162.0" y="300.0">java</node>
-            <node x="315.0" y="375.0">src</node>
-            <node x="158.0" y="375.0">org</node>
-            <node x="182.0" y="75.0">oracle</node>
-            <node x="0.0" y="450.0">im</node>
-            <node x="0.0" y="150.0">javafx</node>
-            <node x="0.0" y="0.0">META-INF</node>
-            <node x="0.0" y="375.0">sun</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-265.0" y="168.0" />
-          <SelectedNodes>
-            <node>im</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/im.kmg.pc">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>im.kmg.pc</OriginalElement>
-          <nodes>
-            <node x="0.0" y="545.0">im.kmg.pc.commands.api.KMGResource</node>
-            <node x="1592.161682067932" y="160.0">im.kmg.pc.CommandPluginLoader</node>
-            <node x="1434.8283487345986" y="80.0">im.kmg.pc.ExceptionNoPlugins</node>
-            <node x="451.9999999999999" y="470.0">im.kmg.pc.commands.CommandPrint</node>
-            <node x="311.0" y="470.0">im.kmg.pc.commands.CommandSub</node>
-            <node x="1095.0" y="470.0">im.kmg.pc.commands.CommandDumpStack</node>
-            <node x="0.0" y="470.0">im.kmg.pc.commands.CommandAdd</node>
-            <node x="1428.0" y="470.0">im.kmg.pc.commands.CommandPush</node>
-            <node x="1576.0" y="470.0">im.kmg.pc.commands.CommandVersion</node>
-            <node x="949.9999999999999" y="470.0">im.kmg.pc.commands.CommandSqrt</node>
-            <node x="2050.0" y="470.0">im.kmg.pc.MainPushCalculatorTest</node>
-            <node x="808.9999999999999" y="470.0">im.kmg.pc.commands.CommandPop</node>
-            <node x="1890.0" y="470.0">im.kmg.pc.commands.CommandDefine</node>
-            <node x="1137.1661463536466" y="160.0">im.kmg.pc.commands.api.BaseCommand</node>
-            <node x="788.4999999999999" y="160.0">im.kmg.pc.commands.api.ExceptionBadParam</node>
-            <node x="2110.5" y="80.0">im.kmg.pc.CommandNotFoundException</node>
-            <node x="2336.5" y="160.0">im.kmg.pc.CliParser</node>
-            <node x="1617.8283487345986" y="80.0">im.kmg.pc.commands.api.CommandDataContainer</node>
-            <node x="385.9999999999999" y="160.0">im.kmg.pc.commands.api.ExceptionStackEmpty</node>
-            <node x="1743.0" y="470.0">im.kmg.pc.commands.CommandHelp</node>
-            <node x="142.0" y="470.0">im.kmg.pc.commands.CommandDivision</node>
-            <node x="2107.0" y="160.0">im.kmg.pc.AppStackCalculate</node>
-            <node x="1286.0" y="470.0">im.kmg.pc.commands.CommandExit</node>
-            <node x="1582.5" y="0.0">im.kmg.pc.commands.api.ICommand</node>
-            <node x="2261.0" y="470.0">im.kmg.pc.MainPushCalculator</node>
-            <node x="600.9999999999999" y="470.0">im.kmg.pc.commands.CommandMultiplication</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="im.kmg.pc.commands.CommandDefine" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="1960.0" y="210.0" />
-              <point x="1260.2430694305694" y="210.0" />
-              <point x="59.076923076923094" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandAdd" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="61.0" y="340.0" />
-              <point x="795.8636363636363" y="340.0" />
-              <point x="-73.63636363636363" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandAdd" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-40.66666666666663" y="-15.0" />
-              <point x="20.333333333333485" y="310.0" />
-              <point x="398.4999999999999" y="310.0" />
-              <point x="-75.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDivision" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-49.66666666666663" y="-15.0" />
-              <point x="166.83333333333348" y="320.0" />
-              <point x="423.4999999999999" y="320.0" />
-              <point x="-50.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.api.CommandDataContainer" target="im.kmg.pc.commands.api.ICommand">
-              <point x="0.0" y="-15.0" />
-              <point x="1712.8283487345986" y="60.0" />
-              <point x="1633.0" y="60.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.api.BaseCommand" target="im.kmg.pc.commands.api.ICommand">
-              <point x="-32.0" y="-15.0" />
-              <point x="1169.1661463536466" y="60.0" />
-              <point x="1599.3333333333333" y="60.0" />
-              <point x="-33.66666666666663" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPop" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-40.33333333333326" y="-15.0" />
-              <point x="829.1666666666666" y="320.0" />
-              <point x="523.4999999999999" y="320.0" />
-              <point x="50.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandVersion" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="1649.5" y="240.0" />
-              <point x="1240.5507617382618" y="240.0" />
-              <point x="39.38461538461536" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSub" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-40.33333333333337" y="-15.0" />
-              <point x="331.1666666666665" y="330.0" />
-              <point x="448.4999999999999" y="330.0" />
-              <point x="-25.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDivision" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="216.5" y="350.0" />
-              <point x="810.590909090909" y="350.0" />
-              <point x="-58.90909090909091" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.AppStackCalculate" target="im.kmg.pc.commands.api.CommandDataContainer">
-              <point x="-38.5" y="-15.0" />
-              <point x="2145.5" y="140.0" />
-              <point x="1784.0783487345986" y="140.0" />
-              <point x="71.25" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandExit" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="30.5" y="-15.0" />
-              <point x="1377.5" y="270.0" />
-              <point x="1220.8584540459542" y="270.0" />
-              <point x="19.692307692307622" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPrint" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="43.0" y="-15.0" />
-              <point x="559.4999999999999" y="420.0" />
-              <point x="1171.627684815185" y="420.0" />
-              <point x="-29.538461538461547" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDefine" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="-46.66666666666663" y="-15.0" />
-              <point x="1913.3333333333333" y="220.0" />
-              <point x="943.1363636363635" y="220.0" />
-              <point x="73.63636363636363" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandHelp" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="1806.5" y="230.0" />
-              <point x="1250.3969155844156" y="230.0" />
-              <point x="49.23076923076928" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandMultiplication" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="694.9999999999999" y="380.0" />
-              <point x="854.7727272727271" y="380.0" />
-              <point x="-14.727272727272748" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDefine" target="im.kmg.pc.commands.api.ICommand">
-              <point x="46.66666666666663" y="-15.0" />
-              <point x="2006.6666666666665" y="450.0" />
-              <point x="1997.9478750416247" y="450.0" />
-              <point x="1997.9478750416247" y="50.0" />
-              <point x="1666.6666666666665" y="50.0" />
-              <point x="33.66666666666663" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.CommandPluginLoader" target="im.kmg.pc.ExceptionNoPlugins">
-              <point x="-60.33333333333334" y="-15.0" />
-              <point x="1622.3283487345984" y="130.0" />
-              <point x="1516.3283487345986" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.CommandPluginLoader" target="im.kmg.pc.commands.api.CommandDataContainer">
-              <point x="0.0" y="-15.0" />
-              <point x="1682.661682067932" y="140.0" />
-              <point x="1689.0783487345986" y="140.0" />
-              <point x="-23.75" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDumpStack" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="-42.75" y="-15.0" />
-              <point x="1137.75" y="290.0" />
-              <point x="898.9545454545453" y="290.0" />
-              <point x="29.45454545454544" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandMultiplication" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-62.66666666666674" y="-15.0" />
-              <point x="632.3333333333331" y="330.0" />
-              <point x="498.4999999999999" y="330.0" />
-              <point x="25.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSqrt" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="41.66666666666674" y="-15.0" />
-              <point x="1054.1666666666665" y="450.0" />
-              <point x="1201.1661463536466" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.MainPushCalculatorTest" target="im.kmg.pc.AppStackCalculate">
-              <point x="0.0" y="-15.0" />
-              <point x="-38.5" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDumpStack" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="42.75" y="-15.0" />
-              <point x="1223.25" y="450.0" />
-              <point x="1211.0123001998004" y="450.0" />
-              <point x="9.846153846153811" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandAdd" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="40.66666666666663" y="-15.0" />
-              <point x="101.66666666666652" y="390.0" />
-              <point x="1142.0892232767233" y="390.0" />
-              <point x="-59.076923076923094" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSub" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="371.5" y="360.0" />
-              <point x="825.3181818181818" y="360.0" />
-              <point x="-44.18181818181819" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPop" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="40.33333333333326" y="-15.0" />
-              <point x="909.8333333333331" y="440.0" />
-              <point x="1191.3199925074928" y="440.0" />
-              <point x="-9.846153846153811" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSub" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="40.33333333333337" y="-15.0" />
-              <point x="411.83333333333337" y="410.0" />
-              <point x="1161.781530969031" y="410.0" />
-              <point x="-39.38461538461536" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPush" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="-32.0" y="-15.0" />
-              <point x="1460.0" y="260.0" />
-              <point x="928.4090909090908" y="260.0" />
-              <point x="58.90909090909088" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.MainPushCalculator" target="im.kmg.pc.CliParser">
-              <point x="40.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPrint" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="516.4999999999999" y="370.0" />
-              <point x="840.0454545454545" y="370.0" />
-              <point x="-29.45454545454544" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandExit" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="-30.5" y="-15.0" />
-              <point x="1316.5" y="280.0" />
-              <point x="913.681818181818" y="280.0" />
-              <point x="44.18181818181813" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.api.BaseCommand" target="im.kmg.pc.commands.api.CommandDataContainer">
-              <point x="32.0" y="-15.0" />
-              <point x="1233.1661463536466" y="140.0" />
-              <point x="1641.5783487345986" y="140.0" />
-              <point x="-71.25" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.AppStackCalculate" target="im.kmg.pc.CommandNotFoundException">
-              <point x="38.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPush" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="32.0" y="-15.0" />
-              <point x="1524.0" y="250.0" />
-              <point x="1230.704607892108" y="250.0" />
-              <point x="29.538461538461547" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandMultiplication" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="62.66666666666674" y="-15.0" />
-              <point x="757.6666666666666" y="430.0" />
-              <point x="1181.4738386613387" y="430.0" />
-              <point x="-19.692307692307736" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSqrt" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="1012.4999999999999" y="300.0" />
-              <point x="884.2272727272726" y="300.0" />
-              <point x="14.727272727272748" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandDivision" target="im.kmg.pc.commands.api.BaseCommand">
-              <point x="49.66666666666674" y="-15.0" />
-              <point x="266.16666666666674" y="400.0" />
-              <point x="1151.935377122877" y="400.0" />
-              <point x="-49.23076923076928" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPop" target="im.kmg.pc.commands.api.ExceptionBadParam">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandSqrt" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-41.66666666666674" y="-15.0" />
-              <point x="970.8333333333331" y="310.0" />
-              <point x="548.4999999999999" y="310.0" />
-              <point x="75.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.commands.CommandPrint" target="im.kmg.pc.commands.api.ExceptionStackEmpty">
-              <point x="-43.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="im.kmg.pc.MainPushCalculator" target="im.kmg.pc.AppStackCalculate">
-              <point x="-40.5" y="-15.0" />
-              <point x="2301.5" y="450.0" />
-              <point x="2222.5" y="450.0" />
-              <point x="38.5" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7452021233156391" x="1215.0" y="288.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="0.54113925">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="25" column="63" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,70 +924,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MyPair.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="13" selection-start="5037" selection-end="5037" vertical-scroll-proportion="0.3322785">
+        <state line="55" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.36448598">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/book_text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="-0.5221519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.738924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4_httpd/src/httpd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="63" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="11" selection-start="8934" selection-end="8934" vertical-scroll-proportion="0.33222592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="15" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk_current/src.zip!/java/util/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="73" selection-start="3275" selection-end="3275" vertical-scroll-proportion="0.64082277">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task4_httpd/src/MainHttpd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="761" selection-end="761" vertical-scroll-proportion="0.023734177">
+        <state line="59" column="25" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.33414933">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3_CountPopulWorld/src/im/kmg/task3/MainCountWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="44" selection-start="2437" selection-end="2437" vertical-scroll-proportion="-0.39412484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4_httpd/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5630355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/MainPushCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="44" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/CommandDataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/CommandDefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/commands/api/BaseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_PushCalculator/src/im/kmg/pc/CommandPluginLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="16" selection-start="2255" selection-end="2255" vertical-scroll-proportion="1.7369093">
+          <folding />
         </state>
       </provider>
     </entry>

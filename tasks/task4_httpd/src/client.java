@@ -1,20 +1,23 @@
+import java.net.Socket;
+
 /**
  * Created with IntelliJ IDEA.
  * User: maxim
  * Date: 9/15/13
  * Time: 6:56 PM
  */
-public class httpd implements Runnable
+public class Client implements Runnable
 {
     private  Thread m_tThread;
     private long m_i;
+    private Socket m_client;
 
-    httpd() {
+    Client() {
         m_tThread = new Thread(this, getClass().getName());
         m_i = 0;
     }
 
-    httpd(String name) {
+    Client(String name) {
         m_tThread = new Thread(this, name);
         m_i = 0;
     }
@@ -35,7 +38,8 @@ public class httpd implements Runnable
     /**
      *
      */
-    public void start() {
+    public void start(Socket client) {
+        m_client = client;
         m_tThread.start();
     }
 }

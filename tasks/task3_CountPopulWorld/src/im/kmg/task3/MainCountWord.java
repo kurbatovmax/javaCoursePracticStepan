@@ -14,6 +14,8 @@ public class MainCountWord
 
     public static String tesString = "Во саду ли во городе";
     public static Map<String, Integer> s_table;
+    private static String dstFileName = "pscience_count.cvs";
+
 
     static {
         s_table = new HashMap<String, Integer>();
@@ -36,6 +38,7 @@ public class MainCountWord
             inputStream = new FileInputStream(file);
         } catch (FileNotFoundException e) {
             System.err.println("error: file " + file.getAbsolutePath() + " not found");
+            return;
         }
 
         BufferedInputStream bufferedReader = new BufferedInputStream(inputStream);
@@ -43,9 +46,10 @@ public class MainCountWord
 
         StringBuffer des = new StringBuffer();
 
+        int oneChar;
         try {
             while (true) {
-                int oneChar = reader.read();
+                oneChar = reader.read();
                 if (oneChar == -1) {
                     if (des.length() > 0) {
                         storeWorld(des.toString());
@@ -64,6 +68,8 @@ public class MainCountWord
             }
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }   finally {
+            reader.close();
         }
 
         List<MyPair> list = MyPair.convertMap(s_table);
@@ -72,7 +78,7 @@ public class MainCountWord
         for (MyPair item : list) {
             System.out.println( item.getKey() + " : "  + item.getValue());
         }
-        createCSV("test.cvs", list);
+        createCSV(dstFileName, list);
         System.out.println("Add done");
     }
 
