@@ -11,7 +11,7 @@ import java.net.Socket;
 public class MainHttpd
 {
     static Thread m_Thread;
-    {
+    static {
         m_Thread = Thread.currentThread();
     }
 
@@ -28,7 +28,6 @@ public class MainHttpd
                 Socket sClient = serverSocket.accept();
                 new Client(sClient);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

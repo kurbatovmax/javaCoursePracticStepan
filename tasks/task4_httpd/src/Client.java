@@ -1,11 +1,8 @@
 import java.io.*;
-import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.net.Socket;
-import java.sql.Time;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+import java.net.URL;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,6 +15,10 @@ public class Client implements Runnable
     private  Thread m_tThread;
     private Socket m_client;
 
+    /**
+     *
+     * @param client
+     */
     Client(Socket client) {
         synchronized (this) {
             m_tThread = new Thread(this, getClass().getName());
@@ -26,16 +27,27 @@ public class Client implements Runnable
         }
     }
 
+    /**
+     *
+     */
     @Override
     public void run() {
         printDbgMsg("Enter: ", new Throwable());
         List <String> headers;
         try {
-           headers = this.getHeaders(m_client.getInputStream());
-            try {
-                m_tThread.sleep(10);
-            } catch (InterruptedException e) {}
-            writeToClient(headers, m_client.getOutputStream());
+            headers = this.getHeaders(m_client.getInputStream());
+            //headers.add(new Date().toString());
+            //writeToClient(headers, m_client.getOutputStream());
+
+            Properties getsParam = getListGetParams(headers);
+
+            //
+            String[] arrayDir;
+
+            arrayDir = new File("/").list();
+
+            List<String> listDir = Arrays.asList(arrayDir);
+            writeToClient(listDir, m_client.getOutputStream());
 
             m_client.getOutputStream().close();
         } catch (IOException e) {
@@ -50,6 +62,57 @@ public class Client implements Runnable
         printDbgMsg("Leave: ", new Throwable());
     }
 
+    /**
+     *
+     * @param headers
+     * @return
+     */
+    private Properties getListGetParams(List<String> headers) throws MalformedURLException {
+        Properties retv = null;
+
+        for (String s : headers ) {
+            if ( s.matches("^GET\\s.*")) {
+                retv = parserGetParams(s);
+                break;
+            }
+        }
+        return retv;
+    }
+
+    /**
+     *
+     * @param s
+     * @return
+     */
+    private Properties parserGetParams(String s) throws MalformedURLException {
+        Properties retv = new Properties();
+
+        URL url = new URL(s);
+
+        /*
+        int index = s.indexOf("?");
+        if (index == -1) {
+            return retv;
+        }
+
+        s = s.substring(index);
+        s = s.replace("?", "");
+
+        String[] listP = s.split("\\s");
+
+        if (listP.length == 2 ){
+            String [] listGet = listP[0].split("&");
+            for (String str : listGet ) {
+                String tmp[] = str.split("=");
+                if (tmp.length == 2) {
+                    retv.setProperty(tmp[0], tmp[1]);
+                }
+            }
+        }
+        */
+
+        return retv;
+    }
 
     /**
      *
@@ -87,8 +150,7 @@ public class Client implements Runnable
     void writeToClient(List<String> list, OutputStream out) throws IOException {
         printDbgMsg("Enter: ", new Throwable());
         if (!list.isEmpty()) {
-            list.add(new Date().toString());
-            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
+           BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
 
             for (String item : list) {
                 writer.write(item + "\n");
@@ -97,7 +159,6 @@ public class Client implements Runnable
         }
         printDbgMsg("Leave: ", new Throwable());
     }
-
 
     /**
      *
@@ -115,6 +176,6 @@ public class Client implements Runnable
      * @param cthrow
      */
     void printDbgMsg(String msg, Throwable cthrow) {
-        System.err.println(getNameMethod(cthrow) + " "  + msg);
+        System.out.println(getNameMethod(cthrow) + " "  + msg);
     }
 }
