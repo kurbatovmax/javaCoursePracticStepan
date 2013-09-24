@@ -1,3 +1,5 @@
+import org.apache.log4j.Logger;
+
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.Socket;
@@ -12,9 +14,12 @@ import java.util.*;
  */
 public class Client implements Runnable
 {
+    private final Logger Log = Logger.getLogger(Client.class);
+
     private  Thread m_tThread;
     private Socket m_client;
 
+    //-------------------------------------------------------------------------
     /**
      *
      * @param client
@@ -27,100 +32,81 @@ public class Client implements Runnable
         }
     }
 
+    //-------------------------------------------------------------------------
     /**
      *
      */
     @Override
     public void run() {
-        printDbgMsg("Enter: ", new Throwable());
+        Log.debug("Enter: ");
+
+        List <String> headers_send;
         List <String> headers;
         try {
             headers = this.getHeaders(m_client.getInputStream());
-            //headers.add(new Date().toString());
-            //writeToClient(headers, m_client.getOutputStream());
 
-            Properties getsParam = getListGetParams(headers);
+            String pathToFile = getPathToFile(headers);
 
-            //
-            String[] arrayDir;
+            File f = new File(pathToFile);
+            String html = getHtmlDirsAndFile(f);
 
-            arrayDir = new File("/").list();
 
-            List<String> listDir = Arrays.asList(arrayDir);
-            writeToClient(listDir, m_client.getOutputStream());
-
+            headers_send = new ArrayList<>();
+            headers_send.add("HTTP/1.1 200 OK");
+            headers_send.add(new Date().toString());
+            headers_send.add("Server: Super http server ver: 0.1" );
+            headers_send.add("Content-Type: text/html; charset=utf-8");
+            headers_send.add("Content-Language: ru");
+            headers_send.add("Content-Length: " + html.length());
+            headers_send.add("Connection: close");
+            headers_send.add("");
+            headers_send.add(html);
+            writeToClient(headers_send, m_client.getOutputStream());
             m_client.getOutputStream().close();
         } catch (IOException e) {
-            e.printStackTrace();
+            try {
+                m_client.getOutputStream().write(e.toString().getBytes());
+            } catch (IOException e1) {}
+            Log.error("problem", e);
         } finally {
             try {
                 m_client.close();
             } catch (IOException e) {
-                e.printStackTrace();
+                Log.error("problem", e);
             }
         }
-        printDbgMsg("Leave: ", new Throwable());
+        Log.debug("Leave");
     }
 
+    //-------------------------------------------------------------------------
     /**
      *
      * @param headers
      * @return
      */
-    private Properties getListGetParams(List<String> headers) throws MalformedURLException {
-        Properties retv = null;
-
-        for (String s : headers ) {
-            if ( s.matches("^GET\\s.*")) {
-                retv = parserGetParams(s);
+    private String getPathToFile(List<String> headers) {
+        String [] list = null;
+        String retv = "/";
+        for(String s : headers) {
+            if (s.matches("^GET\\s.*")) {
+                list = s.split("\\s");
+                if (list.length == 3) {
+                    retv = list[1];
+                }
                 break;
             }
         }
         return retv;
     }
 
-    /**
-     *
-     * @param s
-     * @return
-     */
-    private Properties parserGetParams(String s) throws MalformedURLException {
-        Properties retv = new Properties();
-
-        URL url = new URL(s);
-
-        /*
-        int index = s.indexOf("?");
-        if (index == -1) {
-            return retv;
-        }
-
-        s = s.substring(index);
-        s = s.replace("?", "");
-
-        String[] listP = s.split("\\s");
-
-        if (listP.length == 2 ){
-            String [] listGet = listP[0].split("&");
-            for (String str : listGet ) {
-                String tmp[] = str.split("=");
-                if (tmp.length == 2) {
-                    retv.setProperty(tmp[0], tmp[1]);
-                }
-            }
-        }
-        */
-
-        return retv;
-    }
-
+    //-------------------------------------------------------------------------
     /**
      *
      * @param in stream for reading
      * @return   list of header
      */
     List<String> getHeaders(InputStream in) {
-        printDbgMsg("Enter: ", new Throwable());
+        Log.info("Enter: ");
         List<String> retv = new ArrayList<>();
         Reader reader = new InputStreamReader(in);
         BufferedReader bufferedReader = new BufferedReader(reader);
@@ -134,13 +120,13 @@ public class Client implements Runnable
                 retv.add(tmp);
             }
         } catch (IOException e) {
-            printDbgMsg("Leave: ", new Throwable());
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            Log.fatal("Leave: ", e);
         }
-        printDbgMsg("Leave: ", new Throwable());
+        Log.info("Leave: ");
         return retv;
     }
 
+    //-------------------------------------------------------------------------
     /**
      *
      * @param list
@@ -148,7 +134,7 @@ public class Client implements Runnable
      * @throws IOException
      */
     void writeToClient(List<String> list, OutputStream out) throws IOException {
-        printDbgMsg("Enter: ", new Throwable());
+        Log.warn("Enter: ");
         if (!list.isEmpty()) {
            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
 
@@ -157,25 +143,38 @@ public class Client implements Runnable
                 writer.flush();
             }
         }
-        printDbgMsg("Leave: ", new Throwable());
+        Log.warn("Leave: ");
     }
 
+    //-------------------------------------------------------------------------
     /**
      *
-     * @param e
+     * @param file
      * @return
-     */
-    String getNameMethod(Throwable e) {
-        String retv = e.getStackTrace()[0].toString();
-        return  retv;
-    }
+     */            //headers.add(new Date().toString());
+            //writeToClient(headers, m_client.getOutputStream());
+//headers.add(new Date().toString());
+            //writeToClient(headers, m_client.getOutputStream());
 
-    /**
-     *
-     * @param msg
-     * @param cthrow
-     */
-    void printDbgMsg(String msg, Throwable cthrow) {
-        System.out.println(getNameMethod(cthrow) + " "  + msg);
+    String getHtmlDirsAndFile(File file) {
+        StringBuilder  html = new StringBuilder();
+
+        File []listFile = file.listFiles();
+        if ( listFile != null ) {
+            html.append("<html><body>");
+            for (File f : listFile) {
+                if (f.isDirectory() == true) {
+                    html.append("<a href=\"" + f.getAbsolutePath() + "\" >" + f.getAbsolutePath() + "/" + "</a></br>");
+                } else {
+                    html.append("<a href=\"" + f.getAbsolutePath() + "\" >" + f.getAbsolutePath() + "</a></br>");
+                }
+            }
+            html.append("<br><hr><p>ATM-Turbo 512k, CP/M OS <br>Date:  " + new Date().toString() +  "<br><hr></p>");
+            html.append("</body><html>");
+        } else {
+
+        }
+
+        return html.toString();
     }
 }
