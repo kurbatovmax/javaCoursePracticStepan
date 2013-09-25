@@ -12,27 +12,23 @@ import java.util.*;
  * Date: 9/15/13
  * Time: 6:56 PM
  */
-public class Client implements Runnable
+class Client implements Runnable
 {
     private final Logger Log = Logger.getLogger(Client.class);
+    private final Socket m_client;
 
-    private  Thread m_tThread;
-    private Socket m_client;
-
-    //-------------------------------------------------------------------------
     /**
      *
      * @param client
      */
     Client(Socket client) {
         synchronized (this) {
-            m_tThread = new Thread(this, getClass().getName());
+            Thread l_Thread = new Thread(this, getClass().getName());
             m_client  = client;
-            m_tThread.start();
+            l_Thread.start();
         }
     }
 
-    //-------------------------------------------------------------------------
     /**
      *
      */
@@ -40,33 +36,58 @@ public class Client implements Runnable
     public void run() {
         Log.debug("Enter: ");
 
-        List <String> headers_send;
-        List <String> headers;
+        List<String> headers_send;
+        List<String> headers;
         try {
             headers = this.getHeaders(m_client.getInputStream());
-
             String pathToFile = getPathToFile(headers);
 
             File f = new File(pathToFile);
-            String html = getHtmlDirsAndFile(f);
+            if (!f.exists()) {
+                String html = getHtmlWithError();
+                headers_send = new ArrayList<>();
+                headers_send.add("HTTP/1.1 200 OK");
+                headers_send.add(new Date().toString());
+                headers_send.add("Server: Super http server ver: 0.1");
+                headers_send.add("Content-Type: text/html; charset=utf-8");
+                headers_send.add("Content-Language: ru");
+                headers_send.add("Content-Length: " + html.length());
+                headers_send.add("Connection: close");
+                headers_send.add("");
+                headers_send.add(html);
+            }else if (f.isDirectory()) {
+                String html = getHtmlDirsAndFile(f);
+                headers_send = new ArrayList<>();
+                headers_send.add("HTTP/1.1 200 OK");
+                headers_send.add(new Date().toString());
+                headers_send.add("Server: Super http server ver: 0.1");
+                headers_send.add("Content-Type: text/html; charset=utf-8");
+                headers_send.add("Content-Language: ru");
+                headers_send.add("Content-Length: " + html.length());
+                headers_send.add("Connection: close");
+                headers_send.add("");
+                headers_send.add(html);
+            } else {
+                // this file
+                headers_send = new ArrayList<>();
+                headers_send.add("HTTP/1.1 400 ERROR");
+                headers_send.add(new Date().toString());
+                headers_send.add("Server: Super http server ver: 0.1");
+                headers_send.add("Content-Type: text/html; charset=utf-8");
+                headers_send.add("Content-Language: ru");
+                headers_send.add("Connection: close");
+                headers_send.add("");
+            }
 
-
-            headers_send = new ArrayList<>();
-            headers_send.add("HTTP/1.1 200 OK");
-            headers_send.add(new Date().toString());
-            headers_send.add("Server: Super http server ver: 0.1" );
-            headers_send.add("Content-Type: text/html; charset=utf-8");
-            headers_send.add("Content-Language: ru");
-            headers_send.add("Content-Length: " + html.length());
-            headers_send.add("Connection: close");
-            headers_send.add("");
-            headers_send.add(html);
             writeToClient(headers_send, m_client.getOutputStream());
             m_client.getOutputStream().close();
+
         } catch (IOException e) {
             try {
                 m_client.getOutputStream().write(e.toString().getBytes());
-            } catch (IOException e1) {}
+            } catch (IOException e1) {
+                Log.error("problem", e);
+            }
             Log.error("problem", e);
         } finally {
             try {
@@ -78,14 +99,14 @@ public class Client implements Runnable
         Log.debug("Leave");
     }
 
-    //-------------------------------------------------------------------------
     /**
      *
      * @param headers
      * @return
      */
     private String getPathToFile(List<String> headers) {
-        String [] list = null;
+        String rf = MainHttpd.getHttpRootFolder(); // root dir
+        String [] list;
         String retv = "/";
         for(String s : headers) {
             if (s.matches("^GET\\s.*")) {
@@ -96,10 +117,10 @@ public class Client implements Runnable
                 break;
             }
         }
+        retv  = rf + retv;
         return retv;
     }
 
-    //-------------------------------------------------------------------------
     /**
      *
      * @param in stream for reading
@@ -126,7 +147,6 @@ public class Client implements Runnable
         return retv;
     }
 
-    //-------------------------------------------------------------------------
     /**
      *
      * @param list
@@ -135,46 +155,62 @@ public class Client implements Runnable
      */
     void writeToClient(List<String> list, OutputStream out) throws IOException {
         Log.warn("Enter: ");
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
         if (!list.isEmpty()) {
-           BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
+
 
             for (String item : list) {
                 writer.write(item + "\n");
                 writer.flush();
             }
         }
+        writer.flush();
         Log.warn("Leave: ");
     }
 
-    //-------------------------------------------------------------------------
     /**
      *
      * @param file
      * @return
-     */            //headers.add(new Date().toString());
-            //writeToClient(headers, m_client.getOutputStream());
-//headers.add(new Date().toString());
-            //writeToClient(headers, m_client.getOutputStream());
-
+     */
     String getHtmlDirsAndFile(File file) {
         StringBuilder  html = new StringBuilder();
-
+        html.append("<html><body>");
         File []listFile = file.listFiles();
         if ( listFile != null ) {
-            html.append("<html><body>");
+
             for (File f : listFile) {
-                if (f.isDirectory() == true) {
-                    html.append("<a href=\"" + f.getAbsolutePath() + "\" >" + f.getAbsolutePath() + "/" + "</a></br>");
+                if (f.isDirectory()) {
+                    html.append("<a href=\"").append(f.getName()).append("\" >").append(f.getName()).append(File.separator).append("</a></br>");
                 } else {
-                    html.append("<a href=\"" + f.getAbsolutePath() + "\" >" + f.getAbsolutePath() + "</a></br>");
+                    html.append("<a href=\"").append(f.getName()).append("\" >").append(f.getName()).append("</a></br>");
                 }
             }
-            html.append("<br><hr><p>ATM-Turbo 512k, CP/M OS <br>Date:  " + new Date().toString() +  "<br><hr></p>");
-            html.append("</body><html>");
-        } else {
-
+            html.append(getFooter());
         }
-
+        html.append("</body><html>");
         return html.toString();
+    }
+
+    /**
+     *
+     * @return
+     */
+    String getHtmlWithError() {
+        String html="<html><body><h1>Error: Page not found</body></html>";
+        return html;
+    }
+
+    /**
+     *
+     * @return  String footer
+     */
+    String getFooter() {
+        StringBuilder str = new StringBuilder();
+
+        str.append("<br><br><hr><p>ATM-Turbo 512k, OS: CP/M, ")
+                .append(new Date().toString())
+                .append(" </br><hr></p>");
+        return str.toString();
     }
 }

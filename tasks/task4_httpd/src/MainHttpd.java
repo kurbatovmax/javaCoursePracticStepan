@@ -14,15 +14,12 @@ import java.util.Properties;
 public class MainHttpd
 {
     private static final Logger Log = Logger.getLogger(MainHttpd.class);
-    private static Thread m_Thread;
-    private static Properties Configs;
-    private static String nameConfigFile = "httpd.conf";
+    private static final Properties Configs = new Properties();
 
     static {
-        m_Thread = Thread.currentThread();
         try {
+            String nameConfigFile = "httpd.conf";
             InputStream in = MainHttpd.class.getResourceAsStream(nameConfigFile);
-            Configs = new Properties();
             Configs.load(in);
         } catch (IOException e) {
             Log.fatal("", e);
@@ -40,7 +37,13 @@ public class MainHttpd
         try {
             serverSocket =  new ServerSocket(port);
             while (true) {
-                Socket sClient = serverSocket.accept();
+                Socket sClient;
+                try {
+                    sClient = serverSocket.accept();
+                } catch (IOException e) {
+                    Log.fatal("", e);
+                    break;
+                }
                 new Client(sClient);
             }
         } catch (Exception e) {
@@ -50,5 +53,19 @@ public class MainHttpd
                 serverSocket.close();
             }
         }
+    }
+
+    /**
+     *
+     * @return
+     */
+    public static String getHttpRootFolder() {
+        String rootFolder = Configs.getProperty("server_root_folder");
+        if ( rootFolder == null) {
+            rootFolder = "/";
+        } else {
+            rootFolder = rootFolder.replaceAll("\"", "");
+        }
+        return rootFolder;
     }
 }
