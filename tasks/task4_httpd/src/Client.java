@@ -16,6 +16,7 @@ class Client implements Runnable
 {
     private final Logger Log = Logger.getLogger(Client.class);
     private final Socket m_client;
+    private String byteData;
 
     /**
      *
@@ -29,6 +30,47 @@ class Client implements Runnable
         }
     }
 
+    enum TYPE_DATA{
+        HTML("text/html") ,
+        PNG ("text/png"),
+        JPG ("text/jpg"),
+        TEXT("text/plain"),
+        UNKNOWN("text/html");
+
+        private String str_type;
+        TYPE_DATA(String s) {str_type = s;}
+        String getStr_type() {return str_type;}
+    }
+
+    public List<String> getBodyData(String body, TYPE_DATA type) {
+        List<String> headers_send;
+        headers_send = new ArrayList<>();
+        headers_send.add("HTTP/1.1 200 OK");
+        headers_send.add(new Date().toString());
+        headers_send.add("Server: Super http server ver: 0.1");
+        headers_send.add("Content-Language: ru");
+        headers_send.add("Content-Type: text/html; charset=utf-8");
+        headers_send.add("Content-Length: " + body.length());
+        headers_send.add("Connection: close");
+        headers_send.add("");
+        headers_send.add(body);
+        return headers_send;
+    }
+
+    public List<String> getTemplateHeader(long sizeBody, TYPE_DATA type) {
+        List<String> headers_send;
+        headers_send = new ArrayList<>();
+        headers_send.add("HTTP/1.1 200 OK");
+        headers_send.add(new Date().toString());
+        headers_send.add("Server: Super http server ver: 0.1");
+        headers_send.add("Content-Language: ru");
+        headers_send.add("Content-Type: " + type.getStr_type() + "; charset=utf-8");
+        headers_send.add("Content-Length: " + sizeBody);
+        headers_send.add("Connection: close");
+        headers_send.add("");
+        return headers_send;
+    }
+
     /**
      *
      */
@@ -36,47 +78,21 @@ class Client implements Runnable
     public void run() {
         Log.debug("Enter: ");
 
-        List<String> headers_send;
+
         List<String> headers;
         try {
             headers = this.getHeaders(m_client.getInputStream());
             String pathToFile = getPathToFile(headers);
+            List<String> headers_send = null;
 
             File f = new File(pathToFile);
             if (!f.exists()) {
                 String html = getHtmlWithError();
-                headers_send = new ArrayList<>();
-                headers_send.add("HTTP/1.1 200 OK");
-                headers_send.add(new Date().toString());
-                headers_send.add("Server: Super http server ver: 0.1");
-                headers_send.add("Content-Type: text/html; charset=utf-8");
-                headers_send.add("Content-Language: ru");
-                headers_send.add("Content-Length: " + html.length());
-                headers_send.add("Connection: close");
-                headers_send.add("");
-                headers_send.add(html);
-            }else if (f.isDirectory()) {
+            } else if (f.isDirectory()) {
                 String html = getHtmlDirsAndFile(f);
-                headers_send = new ArrayList<>();
-                headers_send.add("HTTP/1.1 200 OK");
-                headers_send.add(new Date().toString());
-                headers_send.add("Server: Super http server ver: 0.1");
-                headers_send.add("Content-Type: text/html; charset=utf-8");
-                headers_send.add("Content-Language: ru");
-                headers_send.add("Content-Length: " + html.length());
-                headers_send.add("Connection: close");
-                headers_send.add("");
-                headers_send.add(html);
+                headers_send = getBodyData(html, TYPE_DATA.HTML);
             } else {
-                // this file
-                headers_send = new ArrayList<>();
-                headers_send.add("HTTP/1.1 400 ERROR");
-                headers_send.add(new Date().toString());
-                headers_send.add("Server: Super http server ver: 0.1");
-                headers_send.add("Content-Type: text/html; charset=utf-8");
-                headers_send.add("Content-Language: ru");
-                headers_send.add("Connection: close");
-                headers_send.add("");
+                CopyFileToOutStream(f, m_client.getOutputStream());
             }
 
             writeToClient(headers_send, m_client.getOutputStream());
@@ -97,6 +113,48 @@ class Client implements Runnable
             }
         }
         Log.debug("Leave");
+    }
+
+    /**
+     *
+     * @param f
+     * @param outputStream
+     */
+    private void CopyFileToOutStream(File f, OutputStream outputStream) throws FileNotFoundException {
+        List<String> headers_body = getTemplateHeader(f.length(), getFileType(f));
+
+        FileInputStream in = new FileInputStream(f);
+
+        int oneData;
+        try {
+            if ( in.available() > 0) {
+                oneData = in.read();
+                outputStream.write(oneData);
+            }
+        } catch (IOException e) { }
+    }
+
+    /**
+     *
+     * @param f
+     * @return
+     */
+    private TYPE_DATA getFileType(File f) {
+        String s = f.getName();
+        String []exes = s.split("\\.");
+        TYPE_DATA type_retv = TYPE_DATA.UNKNOWN;
+
+        if ( exes.length == 2 ) {
+            String exe = exes[1];
+            if ( exe.equals("html") ) {
+                type_retv = TYPE_DATA.HTML;
+            } else if (exe.equals("png")) {
+                type_retv = TYPE_DATA.PNG;
+            } else if (exe.equals("txt")) {
+                type_retv = TYPE_DATA.TEXT;
+            }
+        }
+        return type_retv;
     }
 
     /**
@@ -133,8 +191,13 @@ class Client implements Runnable
         BufferedReader bufferedReader = new BufferedReader(reader);
 
         try {
-            while (bufferedReader.ready()) {
+            //while (bufferedReader.ready()) {
+            while (true) {
                 String tmp =  bufferedReader.readLine();
+                if (tmp == null) {
+                    break;
+                }
+
                 if (tmp.equals("\n") || tmp.isEmpty() ) {
                     break;
                 }
