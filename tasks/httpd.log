@@ -1,1830 +1,1253 @@
-21:04:55,227  INFO main MainHttpd:main:37 - Start httpd
-21:05:07,068 DEBUG Client Client:run:41 - Enter: 
-21:05:07,070  INFO Client Client:getHeaders:133 - Enter: 
-21:05:07,077  INFO Client Client:getHeaders:149 - Leave: 
-21:05:07,117  WARN Client Client:writeToClient:161 - Enter: 
-21:05:07,122  WARN Client Client:writeToClient:170 - Leave: 
-21:05:07,132  WARN Client Client:writeToClient:161 - Enter: 
-21:05:07,137  WARN Client Client:writeToClient:170 - Leave: 
-21:05:10,826 DEBUG Client Client:run:69 - Leave
-21:05:20,985 DEBUG Client Client:run:41 - Enter: 
-21:05:20,986  INFO Client Client:getHeaders:133 - Enter: 
-21:05:20,987  INFO Client Client:getHeaders:149 - Leave: 
-21:05:20,987  WARN Client Client:writeToClient:161 - Enter: 
-21:05:20,989  WARN Client Client:writeToClient:170 - Leave: 
-21:05:20,990  WARN Client Client:writeToClient:161 - Enter: 
-21:05:20,992  WARN Client Client:writeToClient:170 - Leave: 
-21:05:23,425 DEBUG Client Client:run:69 - Leave
-21:05:32,760 DEBUG Client Client:run:41 - Enter: 
-21:05:32,761  INFO Client Client:getHeaders:133 - Enter: 
-21:05:32,761  INFO Client Client:getHeaders:149 - Leave: 
-21:05:32,762  WARN Client Client:writeToClient:161 - Enter: 
-21:05:32,763  WARN Client Client:writeToClient:170 - Leave: 
-21:05:32,764  WARN Client Client:writeToClient:161 - Enter: 
-21:05:32,765  WARN Client Client:writeToClient:170 - Leave: 
-21:05:32,766 DEBUG Client Client:run:69 - Leave
-21:05:36,520 DEBUG Client Client:run:41 - Enter: 
-21:05:36,521  INFO Client Client:getHeaders:133 - Enter: 
-21:05:36,523  INFO Client Client:getHeaders:149 - Leave: 
-21:05:36,524  WARN Client Client:writeToClient:161 - Enter: 
-21:05:36,529  WARN Client Client:writeToClient:170 - Leave: 
-21:05:36,532  WARN Client Client:writeToClient:161 - Enter: 
-21:05:36,542  WARN Client Client:writeToClient:170 - Leave: 
-21:05:36,543 DEBUG Client Client:run:69 - Leave
-21:05:37,342 DEBUG Client Client:run:41 - Enter: 
-21:05:37,343  INFO Client Client:getHeaders:133 - Enter: 
-21:05:37,344  INFO Client Client:getHeaders:149 - Leave: 
-21:05:37,344  WARN Client Client:writeToClient:161 - Enter: 
-21:05:37,345  WARN Client Client:writeToClient:170 - Leave: 
-21:05:37,346  WARN Client Client:writeToClient:161 - Enter: 
-21:05:37,348  WARN Client Client:writeToClient:170 - Leave: 
-21:05:37,348 DEBUG Client Client:run:69 - Leave
-21:05:38,327 DEBUG Client Client:run:41 - Enter: 
-21:05:38,327  INFO Client Client:getHeaders:133 - Enter: 
-21:05:38,328  INFO Client Client:getHeaders:149 - Leave: 
-21:05:38,328  WARN Client Client:writeToClient:161 - Enter: 
-21:05:38,329  WARN Client Client:writeToClient:170 - Leave: 
-21:05:38,330  WARN Client Client:writeToClient:161 - Enter: 
-21:05:38,331  WARN Client Client:writeToClient:170 - Leave: 
-21:05:38,332 DEBUG Client Client:run:69 - Leave
-21:05:39,898 DEBUG Client Client:run:41 - Enter: 
-21:05:39,899  INFO Client Client:getHeaders:133 - Enter: 
-21:05:39,908  INFO Client Client:getHeaders:149 - Leave: 
-21:05:39,908  WARN Client Client:writeToClient:161 - Enter: 
-21:05:39,909  WARN Client Client:writeToClient:170 - Leave: 
-21:05:39,910  WARN Client Client:writeToClient:161 - Enter: 
-21:05:39,913  WARN Client Client:writeToClient:170 - Leave: 
-21:05:39,913 DEBUG Client Client:run:69 - Leave
-21:05:40,514 DEBUG Client Client:run:41 - Enter: 
-21:05:40,514  INFO Client Client:getHeaders:133 - Enter: 
-21:05:40,515  INFO Client Client:getHeaders:149 - Leave: 
-21:05:40,515  WARN Client Client:writeToClient:161 - Enter: 
-21:05:40,516  WARN Client Client:writeToClient:170 - Leave: 
-21:05:40,516  WARN Client Client:writeToClient:161 - Enter: 
-21:05:40,517  WARN Client Client:writeToClient:170 - Leave: 
-21:05:40,518 DEBUG Client Client:run:69 - Leave
-21:05:41,303 DEBUG Client Client:run:41 - Enter: 
-21:05:41,304  INFO Client Client:getHeaders:133 - Enter: 
-21:05:41,305  INFO Client Client:getHeaders:149 - Leave: 
-21:05:41,305  WARN Client Client:writeToClient:161 - Enter: 
-21:05:41,307  WARN Client Client:writeToClient:170 - Leave: 
-21:05:41,308  WARN Client Client:writeToClient:161 - Enter: 
-21:05:41,310  WARN Client Client:writeToClient:170 - Leave: 
-21:05:41,311 DEBUG Client Client:run:69 - Leave
-21:05:42,073 DEBUG Client Client:run:41 - Enter: 
-21:05:42,074  INFO Client Client:getHeaders:133 - Enter: 
-21:05:42,075  INFO Client Client:getHeaders:149 - Leave: 
-21:05:42,076  WARN Client Client:writeToClient:161 - Enter: 
-21:05:42,077  WARN Client Client:writeToClient:170 - Leave: 
-21:05:42,078  WARN Client Client:writeToClient:161 - Enter: 
-21:05:42,080  WARN Client Client:writeToClient:170 - Leave: 
-21:05:42,083 DEBUG Client Client:run:69 - Leave
-21:05:43,085 DEBUG Client Client:run:41 - Enter: 
-21:05:43,086  INFO Client Client:getHeaders:133 - Enter: 
-21:05:43,086  INFO Client Client:getHeaders:149 - Leave: 
-21:05:43,086  WARN Client Client:writeToClient:161 - Enter: 
-21:05:43,087  WARN Client Client:writeToClient:170 - Leave: 
-21:05:43,088  WARN Client Client:writeToClient:161 - Enter: 
-21:05:43,089  WARN Client Client:writeToClient:170 - Leave: 
-21:05:43,089 DEBUG Client Client:run:69 - Leave
-21:05:43,953 DEBUG Client Client:run:41 - Enter: 
-21:05:43,953  INFO Client Client:getHeaders:133 - Enter: 
-21:05:43,954  INFO Client Client:getHeaders:149 - Leave: 
-21:05:43,955  WARN Client Client:writeToClient:161 - Enter: 
-21:05:43,956  WARN Client Client:writeToClient:170 - Leave: 
-21:05:43,957  WARN Client Client:writeToClient:161 - Enter: 
-21:05:43,960  WARN Client Client:writeToClient:170 - Leave: 
-21:05:43,962 DEBUG Client Client:run:69 - Leave
-21:05:45,295 DEBUG Client Client:run:41 - Enter: 
-21:05:45,296  INFO Client Client:getHeaders:133 - Enter: 
-21:05:45,297  INFO Client Client:getHeaders:149 - Leave: 
-21:05:45,297  WARN Client Client:writeToClient:161 - Enter: 
-21:05:45,299  WARN Client Client:writeToClient:170 - Leave: 
-21:05:45,300  WARN Client Client:writeToClient:161 - Enter: 
-21:05:45,302  WARN Client Client:writeToClient:170 - Leave: 
-21:05:45,303 DEBUG Client Client:run:69 - Leave
-21:05:46,085 DEBUG Client Client:run:41 - Enter: 
-21:05:46,085  INFO Client Client:getHeaders:133 - Enter: 
-21:05:46,086  INFO Client Client:getHeaders:149 - Leave: 
-21:05:46,086  WARN Client Client:writeToClient:161 - Enter: 
-21:05:46,087  WARN Client Client:writeToClient:170 - Leave: 
-21:05:46,087  WARN Client Client:writeToClient:161 - Enter: 
-21:05:46,089  WARN Client Client:writeToClient:170 - Leave: 
-21:05:46,089 DEBUG Client Client:run:69 - Leave
-21:05:47,038 DEBUG Client Client:run:41 - Enter: 
-21:05:47,038  INFO Client Client:getHeaders:133 - Enter: 
-21:05:47,038  INFO Client Client:getHeaders:149 - Leave: 
-21:05:47,039  WARN Client Client:writeToClient:161 - Enter: 
-21:05:47,039  WARN Client Client:writeToClient:170 - Leave: 
-21:05:47,040  WARN Client Client:writeToClient:161 - Enter: 
-21:05:47,042  WARN Client Client:writeToClient:170 - Leave: 
-21:05:47,042 DEBUG Client Client:run:69 - Leave
-21:05:48,038 DEBUG Client Client:run:41 - Enter: 
-21:05:48,039  INFO Client Client:getHeaders:133 - Enter: 
-21:05:48,040  INFO Client Client:getHeaders:149 - Leave: 
-21:05:48,041  WARN Client Client:writeToClient:161 - Enter: 
-21:05:48,042  WARN Client Client:writeToClient:170 - Leave: 
-21:05:48,044  WARN Client Client:writeToClient:161 - Enter: 
-21:05:48,045  WARN Client Client:writeToClient:170 - Leave: 
-21:05:48,046 DEBUG Client Client:run:69 - Leave
-21:05:50,824 DEBUG Client Client:run:41 - Enter: 
-21:05:50,824  INFO Client Client:getHeaders:133 - Enter: 
-21:05:50,825  INFO Client Client:getHeaders:149 - Leave: 
-21:05:50,825  WARN Client Client:writeToClient:161 - Enter: 
-21:05:50,825  WARN Client Client:writeToClient:170 - Leave: 
-21:05:50,826  WARN Client Client:writeToClient:161 - Enter: 
-21:05:50,827  WARN Client Client:writeToClient:170 - Leave: 
-21:05:50,827 DEBUG Client Client:run:69 - Leave
-21:05:51,309 DEBUG Client Client:run:41 - Enter: 
-21:05:51,309  INFO Client Client:getHeaders:133 - Enter: 
-21:05:51,309  INFO Client Client:getHeaders:149 - Leave: 
-21:05:51,310  WARN Client Client:writeToClient:161 - Enter: 
-21:05:51,310  WARN Client Client:writeToClient:170 - Leave: 
-21:05:51,311  WARN Client Client:writeToClient:161 - Enter: 
-21:05:51,312  WARN Client Client:writeToClient:170 - Leave: 
-21:05:51,312 DEBUG Client Client:run:69 - Leave
-21:30:48,522  INFO main MainHttpd:main:37 - Start httpd
-21:30:52,999 DEBUG Client Client:run:41 - Enter: 
-21:30:53,000  INFO Client Client:getHeaders:76 - Enter: 
-21:30:53,001  INFO Client Client:getHeaders:92 - Leave: 
-21:30:53,014  WARN Client Client:writeToClient:104 - Enter: 
-21:30:53,015  WARN Client Client:writeToClient:113 - Leave: 
-21:30:53,018 DEBUG Client Client:run:66 - Leave
-21:31:01,599 DEBUG Client Client:run:41 - Enter: 
-21:31:01,600  INFO Client Client:getHeaders:76 - Enter: 
-21:31:01,601  INFO Client Client:getHeaders:92 - Leave: 
-21:31:01,601  WARN Client Client:writeToClient:104 - Enter: 
-21:31:01,603  WARN Client Client:writeToClient:113 - Leave: 
-21:31:01,606 DEBUG Client Client:run:66 - Leave
-21:31:19,485  INFO main MainHttpd:main:37 - Start httpd
-21:31:23,727 DEBUG Client Client:run:41 - Enter: 
-21:31:23,730  INFO Client Client:getHeaders:76 - Enter: 
-21:31:23,732  INFO Client Client:getHeaders:92 - Leave: 
-21:31:23,740 DEBUG Client Client:run:66 - Leave
-21:31:34,138 DEBUG Client Client:run:41 - Enter: 
-21:31:34,140  INFO Client Client:getHeaders:76 - Enter: 
-21:31:34,140  INFO Client Client:getHeaders:92 - Leave: 
-21:31:34,142 DEBUG Client Client:run:66 - Leave
-21:36:34,506  INFO main MainHttpd:main:37 - Start httpd
-21:36:40,714 DEBUG Client Client:run:41 - Enter: 
-21:36:40,716  WARN Client Client:writeToClient:112 - Enter: 
-21:36:40,718  WARN Client Client:writeToClient:121 - Leave: 
-21:36:40,729 DEBUG Client Client:run:74 - Leave
-21:36:43,974 DEBUG Client Client:run:41 - Enter: 
-21:36:43,975  WARN Client Client:writeToClient:112 - Enter: 
-21:36:43,976  WARN Client Client:writeToClient:121 - Leave: 
-21:36:43,977 DEBUG Client Client:run:74 - Leave
-21:37:33,650  INFO main MainHttpd:main:37 - Start httpd
-21:37:36,623 DEBUG Client Client:run:41 - Enter: 
-21:37:36,625  WARN Client Client:writeToClient:113 - Enter: 
-21:37:36,626  WARN Client Client:writeToClient:122 - Leave: 
-21:37:36,628 DEBUG Client Client:run:75 - Leave
-21:37:39,342 DEBUG Client Client:run:41 - Enter: 
-21:37:39,344  WARN Client Client:writeToClient:113 - Enter: 
-21:37:39,345  WARN Client Client:writeToClient:122 - Leave: 
-21:37:39,346 DEBUG Client Client:run:75 - Leave
-21:37:40,727 DEBUG Client Client:run:41 - Enter: 
-21:37:40,728  WARN Client Client:writeToClient:113 - Enter: 
-21:37:40,730  WARN Client Client:writeToClient:122 - Leave: 
-21:37:40,733 DEBUG Client Client:run:75 - Leave
-21:37:41,853 DEBUG Client Client:run:41 - Enter: 
-21:37:41,854  WARN Client Client:writeToClient:113 - Enter: 
-21:37:41,854  WARN Client Client:writeToClient:122 - Leave: 
-21:37:41,856 DEBUG Client Client:run:75 - Leave
-21:40:10,252  INFO main MainHttpd:main:37 - Start httpd
-21:40:13,655 DEBUG Client Client:run:41 - Enter: 
-21:40:13,662  WARN Client Client:writeToClient:115 - Enter: 
-21:40:13,668  WARN Client Client:writeToClient:124 - Leave: 
-21:40:13,670 DEBUG Client Client:run:77 - Leave
-21:40:16,765 DEBUG Client Client:run:41 - Enter: 
-21:40:16,766  WARN Client Client:writeToClient:115 - Enter: 
-21:40:16,767  WARN Client Client:writeToClient:124 - Leave: 
-21:40:16,770 DEBUG Client Client:run:77 - Leave
-21:40:18,363 DEBUG Client Client:run:41 - Enter: 
-21:40:18,363  WARN Client Client:writeToClient:115 - Enter: 
-21:40:18,364  WARN Client Client:writeToClient:124 - Leave: 
-21:40:18,366 DEBUG Client Client:run:77 - Leave
-21:42:14,478  INFO main MainHttpd:main:37 - Start httpd
-21:42:17,458 DEBUG Client Client:run:41 - Enter: 
-21:42:17,482  WARN Client Client:writeToClient:113 - Enter: 
-21:42:17,483  WARN Client Client:writeToClient:122 - Leave: 
-21:42:17,485 DEBUG Client Client:run:75 - Leave
-21:42:20,253 DEBUG Client Client:run:41 - Enter: 
-21:42:20,255  WARN Client Client:writeToClient:113 - Enter: 
-21:42:20,256  WARN Client Client:writeToClient:122 - Leave: 
-21:42:20,257 DEBUG Client Client:run:75 - Leave
-21:42:21,447 DEBUG Client Client:run:41 - Enter: 
-21:42:21,449  WARN Client Client:writeToClient:113 - Enter: 
-21:42:21,450  WARN Client Client:writeToClient:122 - Leave: 
-21:42:21,451 DEBUG Client Client:run:75 - Leave
-21:42:22,351 DEBUG Client Client:run:41 - Enter: 
-21:42:22,357  WARN Client Client:writeToClient:113 - Enter: 
-21:42:22,358  WARN Client Client:writeToClient:122 - Leave: 
-21:42:22,358 DEBUG Client Client:run:75 - Leave
-21:42:23,683 DEBUG Client Client:run:41 - Enter: 
-21:42:23,685  WARN Client Client:writeToClient:113 - Enter: 
-21:42:23,686  WARN Client Client:writeToClient:122 - Leave: 
-21:42:23,687 DEBUG Client Client:run:75 - Leave
-21:42:28,717 DEBUG Client Client:run:41 - Enter: 
-21:42:28,720  WARN Client Client:writeToClient:113 - Enter: 
-21:42:28,721  WARN Client Client:writeToClient:122 - Leave: 
-21:42:28,722 DEBUG Client Client:run:75 - Leave
-21:42:29,584 DEBUG Client Client:run:41 - Enter: 
-21:42:29,586  WARN Client Client:writeToClient:113 - Enter: 
-21:42:29,586  WARN Client Client:writeToClient:122 - Leave: 
-21:42:29,587 DEBUG Client Client:run:75 - Leave
-21:42:32,422 DEBUG Client Client:run:41 - Enter: 
-21:42:32,439  WARN Client Client:writeToClient:113 - Enter: 
-21:42:32,441  WARN Client Client:writeToClient:122 - Leave: 
-21:42:32,442 DEBUG Client Client:run:75 - Leave
-21:42:34,149 DEBUG Client Client:run:41 - Enter: 
-21:42:34,151  WARN Client Client:writeToClient:113 - Enter: 
-21:42:34,152  WARN Client Client:writeToClient:122 - Leave: 
-21:42:34,153 DEBUG Client Client:run:75 - Leave
-21:43:42,191  INFO main MainHttpd:main:37 - Start httpd
-21:43:43,871 DEBUG Client Client:run:41 - Enter: 
-21:43:43,884  WARN Client Client:writeToClient:113 - Enter: 
-21:43:43,885  WARN Client Client:writeToClient:122 - Leave: 
-21:43:43,887 DEBUG Client Client:run:75 - Leave
-21:43:45,206 DEBUG Client Client:run:41 - Enter: 
-21:43:45,210  WARN Client Client:writeToClient:113 - Enter: 
-21:43:45,212  WARN Client Client:writeToClient:122 - Leave: 
-21:43:45,213 DEBUG Client Client:run:75 - Leave
-21:43:46,439 DEBUG Client Client:run:41 - Enter: 
-21:43:46,442  WARN Client Client:writeToClient:113 - Enter: 
-21:43:46,445  WARN Client Client:writeToClient:122 - Leave: 
-21:43:46,446 DEBUG Client Client:run:75 - Leave
-21:44:51,547  INFO main MainHttpd:main:37 - Start httpd
-21:44:52,584 DEBUG Client Client:run:41 - Enter: 
-21:44:52,601 DEBUG Client Client:run:78 - Leave
-21:44:53,892 DEBUG Client Client:run:41 - Enter: 
-21:44:53,894 DEBUG Client Client:run:78 - Leave
-21:44:54,693 DEBUG Client Client:run:41 - Enter: 
-21:44:54,695 DEBUG Client Client:run:78 - Leave
-21:44:56,569 DEBUG Client Client:run:41 - Enter: 
-21:44:56,573 DEBUG Client Client:run:78 - Leave
-21:45:43,125  INFO main MainHttpd:main:37 - Start httpd
-21:45:47,063 DEBUG Client Client:run:41 - Enter: 
-21:45:47,086 DEBUG Client Client:run:78 - Leave
-21:45:51,795 DEBUG Client Client:run:41 - Enter: 
-21:45:51,796 DEBUG Client Client:run:78 - Leave
-21:45:57,348 DEBUG Client Client:run:41 - Enter: 
-21:46:28,766  INFO main MainHttpd:main:37 - Start httpd
-21:46:33,442 DEBUG Client Client:run:41 - Enter: 
-21:46:48,533 DEBUG Client Client:run:78 - Leave
-21:46:48,543 DEBUG Client Client:run:41 - Enter: 
-21:46:49,569 DEBUG Client Client:run:78 - Leave
-21:46:53,830 DEBUG Client Client:run:41 - Enter: 
-21:46:53,832 DEBUG Client Client:run:78 - Leave
-21:46:56,853 DEBUG Client Client:run:41 - Enter: 
-21:46:56,855 DEBUG Client Client:run:78 - Leave
-21:47:27,245  INFO main MainHttpd:main:37 - Start httpd
-21:47:28,054 DEBUG Client Client:run:41 - Enter: 
-21:47:28,094 DEBUG Client Client:run:78 - Leave
-21:47:29,269 DEBUG Client Client:run:41 - Enter: 
-21:47:29,271 DEBUG Client Client:run:78 - Leave
-21:47:52,991 DEBUG Client Client:run:41 - Enter: 
-21:47:52,993 DEBUG Client Client:run:78 - Leave
-21:48:56,128  INFO main MainHttpd:main:37 - Start httpd
-21:48:58,401 DEBUG Client Client:run:41 - Enter: 
-21:48:58,411  WARN Client Client:writeToClient:112 - Enter: 
-21:48:58,425  WARN Client Client:writeToClient:121 - Leave: 
-21:48:58,426 DEBUG Client Client:run:74 - Leave
-21:49:55,258  INFO main MainHttpd:main:37 - Start httpd
-21:49:57,489 DEBUG Client Client:run:41 - Enter: 
-21:49:57,528  WARN Client Client:writeToClient:112 - Enter: 
-21:49:57,533  WARN Client Client:writeToClient:121 - Leave: 
-21:49:57,534 DEBUG Client Client:run:74 - Leave
-21:50:49,304  INFO main MainHttpd:main:37 - Start httpd
-21:50:49,813 DEBUG Client Client:run:41 - Enter: 
-21:50:49,855  WARN Client Client:writeToClient:112 - Enter: 
-21:50:49,858  WARN Client Client:writeToClient:121 - Leave: 
-21:50:49,859 DEBUG Client Client:run:74 - Leave
-21:50:55,242 DEBUG Client Client:run:41 - Enter: 
-21:50:55,244  WARN Client Client:writeToClient:112 - Enter: 
-21:50:55,246  WARN Client Client:writeToClient:121 - Leave: 
-21:50:55,246 DEBUG Client Client:run:74 - Leave
-21:50:57,872 DEBUG Client Client:run:41 - Enter: 
-21:50:57,874  WARN Client Client:writeToClient:112 - Enter: 
-21:50:57,875  WARN Client Client:writeToClient:121 - Leave: 
-21:50:57,875 DEBUG Client Client:run:74 - Leave
-21:51:38,677  INFO main MainHttpd:main:37 - Start httpd
-21:51:41,161 DEBUG Client Client:run:41 - Enter: 
-21:51:41,180  WARN Client Client:writeToClient:112 - Enter: 
-21:51:41,183  WARN Client Client:writeToClient:121 - Leave: 
-21:51:41,186 DEBUG Client Client:run:74 - Leave
-21:52:12,959  INFO main MainHttpd:main:37 - Start httpd
-21:52:14,320 DEBUG Client Client:run:41 - Enter: 
-21:52:14,333  WARN Client Client:writeToClient:112 - Enter: 
-21:52:14,335  WARN Client Client:writeToClient:121 - Leave: 
-21:52:14,336 DEBUG Client Client:run:74 - Leave
-21:53:04,358  INFO main MainHttpd:main:37 - Start httpd
-21:53:13,516 DEBUG Client Client:run:41 - Enter: 
-21:53:13,531  WARN Client Client:writeToClient:112 - Enter: 
-21:53:13,533  WARN Client Client:writeToClient:121 - Leave: 
-21:53:13,534 DEBUG Client Client:run:74 - Leave
-21:53:17,874 DEBUG Client Client:run:41 - Enter: 
-21:53:17,876  WARN Client Client:writeToClient:112 - Enter: 
-21:53:17,877  WARN Client Client:writeToClient:121 - Leave: 
-21:53:17,877 DEBUG Client Client:run:74 - Leave
-21:53:20,622 DEBUG Client Client:run:41 - Enter: 
-21:53:20,624  WARN Client Client:writeToClient:112 - Enter: 
-21:53:20,625  WARN Client Client:writeToClient:121 - Leave: 
-21:53:20,625 DEBUG Client Client:run:74 - Leave
-21:55:01,504  INFO main MainHttpd:main:37 - Start httpd
-21:55:03,925 DEBUG Client Client:run:41 - Enter: 
-21:55:03,943  WARN Client Client:writeToClient:112 - Enter: 
-21:55:03,945  WARN Client Client:writeToClient:121 - Leave: 
-21:55:03,946 DEBUG Client Client:run:74 - Leave
-21:56:10,794  INFO main MainHttpd:main:37 - Start httpd
-21:56:13,729 DEBUG Client Client:run:41 - Enter: 
-21:56:13,742  WARN Client Client:writeToClient:112 - Enter: 
-21:56:13,744  WARN Client Client:writeToClient:121 - Leave: 
-21:56:13,745 DEBUG Client Client:run:74 - Leave
-21:56:54,173  INFO main MainHttpd:main:37 - Start httpd
-21:56:55,973 DEBUG Client Client:run:41 - Enter: 
-21:56:56,028  WARN Client Client:writeToClient:112 - Enter: 
-21:56:56,035  WARN Client Client:writeToClient:121 - Leave: 
-21:56:56,039 DEBUG Client Client:run:74 - Leave
-21:57:16,221  INFO main MainHttpd:main:37 - Start httpd
-21:57:18,230 DEBUG Client Client:run:41 - Enter: 
-21:57:18,249  WARN Client Client:writeToClient:112 - Enter: 
-21:57:18,250  WARN Client Client:writeToClient:121 - Leave: 
-21:57:18,257 DEBUG Client Client:run:74 - Leave
-21:57:26,443 DEBUG Client Client:run:41 - Enter: 
-21:57:26,445  WARN Client Client:writeToClient:112 - Enter: 
-21:57:26,446  WARN Client Client:writeToClient:121 - Leave: 
-21:57:26,446 DEBUG Client Client:run:74 - Leave
-21:57:58,176 DEBUG Client Client:run:41 - Enter: 
-21:57:58,178  WARN Client Client:writeToClient:112 - Enter: 
-21:57:58,179  WARN Client Client:writeToClient:121 - Leave: 
-21:57:58,179 DEBUG Client Client:run:74 - Leave
-21:58:20,411 DEBUG Client Client:run:41 - Enter: 
-21:58:20,414  WARN Client Client:writeToClient:112 - Enter: 
-21:58:20,415  WARN Client Client:writeToClient:121 - Leave: 
-21:58:20,415 DEBUG Client Client:run:74 - Leave
-21:58:26,494 DEBUG Client Client:run:41 - Enter: 
-22:00:40,512  INFO main MainHttpd:main:37 - Start httpd
-22:00:45,168 DEBUG Client Client:run:41 - Enter: 
-22:00:45,171  INFO Client Client:getHeaders:83 - Enter: 
-22:00:45,172  INFO Client Client:getHeaders:99 - Leave: 
-22:02:09,496  INFO main MainHttpd:main:37 - Start httpd
-22:02:10,622 DEBUG Client Client:run:41 - Enter: 
-22:02:14,163  INFO Client Client:getHeaders:83 - Enter: 
-22:02:31,659  INFO Client Client:getHeaders:99 - Leave: 
-22:02:50,173  WARN Client Client:writeToClient:111 - Enter: 
-22:02:50,176  WARN Client Client:writeToClient:120 - Leave: 
-22:02:50,178 DEBUG Client Client:run:73 - Leave
-22:06:33,472  INFO main MainHttpd:main:37 - Start httpd
-22:06:38,196 DEBUG Client Client:run:41 - Enter: 
-22:06:40,750  INFO Client Client:getHeaders:101 - Enter: 
-22:06:40,755  INFO Client Client:getHeaders:117 - Leave: 
-22:07:52,569  INFO main MainHttpd:main:37 - Start httpd
-22:07:55,027 DEBUG Client Client:run:41 - Enter: 
-22:07:57,224  INFO Client Client:getHeaders:102 - Enter: 
-22:07:57,228  INFO Client Client:getHeaders:118 - Leave: 
-22:09:51,450  INFO main MainHttpd:main:37 - Start httpd
-22:09:53,577 DEBUG Client Client:run:41 - Enter: 
-22:09:55,614  INFO Client Client:getHeaders:106 - Enter: 
-22:09:55,622  INFO Client Client:getHeaders:122 - Leave: 
-22:10:08,916  WARN Client Client:writeToClient:134 - Enter: 
-22:10:08,919  WARN Client Client:writeToClient:143 - Leave: 
-22:10:08,920 DEBUG Client Client:run:75 - Leave
-22:10:20,878 DEBUG Client Client:run:41 - Enter: 
-22:10:22,893  INFO Client Client:getHeaders:106 - Enter: 
-22:10:22,895  INFO Client Client:getHeaders:122 - Leave: 
-22:10:53,294  INFO main MainHttpd:main:37 - Start httpd
-22:11:01,094 DEBUG Client Client:run:41 - Enter: 
-22:11:04,412  INFO Client Client:getHeaders:106 - Enter: 
-22:11:04,420  INFO Client Client:getHeaders:122 - Leave: 
-22:11:10,716  WARN Client Client:writeToClient:134 - Enter: 
-22:11:10,719  WARN Client Client:writeToClient:143 - Leave: 
-22:11:10,720 DEBUG Client Client:run:75 - Leave
-22:12:18,618  INFO main MainHttpd:main:37 - Start httpd
-22:12:20,912 DEBUG Client Client:run:41 - Enter: 
-22:12:20,914  INFO Client Client:getHeaders:109 - Enter: 
-22:12:20,916  INFO Client Client:getHeaders:125 - Leave: 
-22:12:25,567  WARN Client Client:writeToClient:137 - Enter: 
-22:12:25,569  WARN Client Client:writeToClient:146 - Leave: 
-22:12:25,574 DEBUG Client Client:run:78 - Leave
-22:12:29,605 DEBUG Client Client:run:41 - Enter: 
-22:12:29,606  INFO Client Client:getHeaders:109 - Enter: 
-22:12:29,607  INFO Client Client:getHeaders:125 - Leave: 
-22:12:29,608  WARN Client Client:writeToClient:137 - Enter: 
-22:12:29,610  WARN Client Client:writeToClient:146 - Leave: 
-22:12:29,611 DEBUG Client Client:run:78 - Leave
-22:12:30,599 DEBUG Client Client:run:41 - Enter: 
-22:12:30,600  INFO Client Client:getHeaders:109 - Enter: 
-22:12:30,601  INFO Client Client:getHeaders:125 - Leave: 
-22:12:30,603  WARN Client Client:writeToClient:137 - Enter: 
-22:12:30,605  WARN Client Client:writeToClient:146 - Leave: 
-22:12:30,606 DEBUG Client Client:run:78 - Leave
-22:12:32,557 DEBUG Client Client:run:41 - Enter: 
-22:12:32,557  INFO Client Client:getHeaders:109 - Enter: 
-22:12:32,558  INFO Client Client:getHeaders:125 - Leave: 
-22:12:32,559  WARN Client Client:writeToClient:137 - Enter: 
-22:12:32,560  WARN Client Client:writeToClient:146 - Leave: 
-22:12:32,561 DEBUG Client Client:run:78 - Leave
-22:12:34,765 DEBUG Client Client:run:41 - Enter: 
-22:12:34,767  INFO Client Client:getHeaders:109 - Enter: 
-22:12:34,768  INFO Client Client:getHeaders:125 - Leave: 
-22:12:34,773  WARN Client Client:writeToClient:137 - Enter: 
-22:12:34,774  WARN Client Client:writeToClient:146 - Leave: 
-22:12:34,774 DEBUG Client Client:run:78 - Leave
-22:12:42,973 DEBUG Client Client:run:41 - Enter: 
-22:12:42,982  INFO Client Client:getHeaders:109 - Enter: 
-22:12:42,983  INFO Client Client:getHeaders:125 - Leave: 
-22:12:42,984  WARN Client Client:writeToClient:137 - Enter: 
-22:12:42,985  WARN Client Client:writeToClient:146 - Leave: 
-22:12:42,985 DEBUG Client Client:run:78 - Leave
-22:12:52,672 DEBUG Client Client:run:41 - Enter: 
-22:12:52,673  INFO Client Client:getHeaders:109 - Enter: 
-22:12:52,673  INFO Client Client:getHeaders:125 - Leave: 
-22:12:52,674  WARN Client Client:writeToClient:137 - Enter: 
-22:12:52,675  WARN Client Client:writeToClient:146 - Leave: 
-22:12:52,675 DEBUG Client Client:run:78 - Leave
-22:12:56,189 DEBUG Client Client:run:41 - Enter: 
-22:12:56,190  INFO Client Client:getHeaders:109 - Enter: 
-22:12:56,190  INFO Client Client:getHeaders:125 - Leave: 
-22:12:56,192  WARN Client Client:writeToClient:137 - Enter: 
-22:12:56,192  WARN Client Client:writeToClient:146 - Leave: 
-22:12:56,193 DEBUG Client Client:run:78 - Leave
-22:13:02,043 DEBUG Client Client:run:41 - Enter: 
-22:13:02,043  INFO Client Client:getHeaders:109 - Enter: 
-22:13:02,044  INFO Client Client:getHeaders:125 - Leave: 
-22:13:10,429  WARN Client Client:writeToClient:137 - Enter: 
-22:13:10,429  WARN Client Client:writeToClient:146 - Leave: 
-22:13:10,430 DEBUG Client Client:run:78 - Leave
-22:13:13,097 DEBUG Client Client:run:41 - Enter: 
-22:13:13,097  INFO Client Client:getHeaders:109 - Enter: 
-22:13:13,097  INFO Client Client:getHeaders:125 - Leave: 
-22:13:19,074  WARN Client Client:writeToClient:137 - Enter: 
-22:13:19,076  WARN Client Client:writeToClient:146 - Leave: 
-22:13:19,077 DEBUG Client Client:run:78 - Leave
-22:13:22,707 DEBUG Client Client:run:41 - Enter: 
-22:13:22,708  INFO Client Client:getHeaders:109 - Enter: 
-22:13:22,708  INFO Client Client:getHeaders:125 - Leave: 
-22:13:28,474  WARN Client Client:writeToClient:137 - Enter: 
-22:13:28,474  WARN Client Client:writeToClient:146 - Leave: 
-22:13:28,475 DEBUG Client Client:run:78 - Leave
-22:13:30,690 DEBUG Client Client:run:41 - Enter: 
-22:13:33,746  INFO Client Client:getHeaders:109 - Enter: 
-22:13:33,753  INFO Client Client:getHeaders:125 - Leave: 
-22:13:50,323  WARN Client Client:writeToClient:137 - Enter: 
-22:13:50,325  WARN Client Client:writeToClient:146 - Leave: 
-22:13:50,327 DEBUG Client Client:run:78 - Leave
-22:14:09,985 DEBUG Client Client:run:41 - Enter: 
-22:14:09,986  INFO Client Client:getHeaders:109 - Enter: 
-22:14:09,986  INFO Client Client:getHeaders:125 - Leave: 
-22:14:09,988  WARN Client Client:writeToClient:137 - Enter: 
-22:14:09,989  WARN Client Client:writeToClient:146 - Leave: 
-22:14:09,989 DEBUG Client Client:run:78 - Leave
-22:14:18,921 DEBUG Client Client:run:41 - Enter: 
-22:14:18,921  INFO Client Client:getHeaders:109 - Enter: 
-22:14:18,922  INFO Client Client:getHeaders:125 - Leave: 
-22:14:18,923  WARN Client Client:writeToClient:137 - Enter: 
-22:14:18,924  WARN Client Client:writeToClient:146 - Leave: 
-22:14:18,925 DEBUG Client Client:run:78 - Leave
-22:14:43,740 DEBUG Client Client:run:41 - Enter: 
-22:14:43,741  INFO Client Client:getHeaders:109 - Enter: 
-22:14:43,742  INFO Client Client:getHeaders:125 - Leave: 
-22:14:43,750  WARN Client Client:writeToClient:137 - Enter: 
-22:14:43,752  WARN Client Client:writeToClient:146 - Leave: 
-22:14:43,754 DEBUG Client Client:run:78 - Leave
-22:14:46,253 DEBUG Client Client:run:41 - Enter: 
-22:14:46,254  INFO Client Client:getHeaders:109 - Enter: 
-22:14:46,255  INFO Client Client:getHeaders:125 - Leave: 
-22:14:46,257  WARN Client Client:writeToClient:137 - Enter: 
-22:14:46,258  WARN Client Client:writeToClient:146 - Leave: 
-22:14:46,259 DEBUG Client Client:run:78 - Leave
-22:14:47,407 DEBUG Client Client:run:41 - Enter: 
-22:14:47,408  INFO Client Client:getHeaders:109 - Enter: 
-22:14:47,408  INFO Client Client:getHeaders:125 - Leave: 
-22:14:47,421  WARN Client Client:writeToClient:137 - Enter: 
-22:14:47,422  WARN Client Client:writeToClient:146 - Leave: 
-22:14:47,423 DEBUG Client Client:run:78 - Leave
-22:14:49,165 DEBUG Client Client:run:41 - Enter: 
-22:14:49,165  INFO Client Client:getHeaders:109 - Enter: 
-22:14:49,166  INFO Client Client:getHeaders:125 - Leave: 
-22:14:49,167  WARN Client Client:writeToClient:137 - Enter: 
-22:14:49,168  WARN Client Client:writeToClient:146 - Leave: 
-22:14:49,168 DEBUG Client Client:run:78 - Leave
-22:15:07,976 DEBUG Client Client:run:41 - Enter: 
-22:15:07,976  INFO Client Client:getHeaders:109 - Enter: 
-22:15:07,977  INFO Client Client:getHeaders:125 - Leave: 
-22:15:07,978  WARN Client Client:writeToClient:137 - Enter: 
-22:15:07,979  WARN Client Client:writeToClient:146 - Leave: 
-22:15:07,979 DEBUG Client Client:run:78 - Leave
-22:15:11,713 DEBUG Client Client:run:41 - Enter: 
-22:15:11,713  INFO Client Client:getHeaders:109 - Enter: 
-22:15:11,714  INFO Client Client:getHeaders:125 - Leave: 
-22:15:11,715  WARN Client Client:writeToClient:137 - Enter: 
-22:15:11,716  WARN Client Client:writeToClient:146 - Leave: 
-22:15:11,716 DEBUG Client Client:run:78 - Leave
-22:15:15,840 DEBUG Client Client:run:41 - Enter: 
-22:15:15,840  INFO Client Client:getHeaders:109 - Enter: 
-22:15:15,841  INFO Client Client:getHeaders:125 - Leave: 
-22:15:15,842  WARN Client Client:writeToClient:137 - Enter: 
-22:15:15,843  WARN Client Client:writeToClient:146 - Leave: 
-22:15:15,843 DEBUG Client Client:run:78 - Leave
-22:15:30,297 DEBUG Client Client:run:41 - Enter: 
-22:15:30,298  INFO Client Client:getHeaders:109 - Enter: 
-22:15:30,298  INFO Client Client:getHeaders:125 - Leave: 
-22:15:30,299  WARN Client Client:writeToClient:137 - Enter: 
-22:15:30,300  WARN Client Client:writeToClient:146 - Leave: 
-22:15:30,300 DEBUG Client Client:run:78 - Leave
-22:15:32,807 DEBUG Client Client:run:41 - Enter: 
-22:15:32,808  INFO Client Client:getHeaders:109 - Enter: 
-22:15:32,808  INFO Client Client:getHeaders:125 - Leave: 
-22:15:32,809  WARN Client Client:writeToClient:137 - Enter: 
-22:15:32,810  WARN Client Client:writeToClient:146 - Leave: 
-22:15:32,810 DEBUG Client Client:run:78 - Leave
-22:15:34,523 DEBUG Client Client:run:41 - Enter: 
-22:15:34,523  INFO Client Client:getHeaders:109 - Enter: 
-22:15:34,523  INFO Client Client:getHeaders:125 - Leave: 
-22:15:34,525  WARN Client Client:writeToClient:137 - Enter: 
-22:15:34,525  WARN Client Client:writeToClient:146 - Leave: 
-22:15:34,526 DEBUG Client Client:run:78 - Leave
-22:15:36,628 DEBUG Client Client:run:41 - Enter: 
-22:15:36,629  INFO Client Client:getHeaders:109 - Enter: 
-22:15:36,629  INFO Client Client:getHeaders:125 - Leave: 
-22:15:36,630  WARN Client Client:writeToClient:137 - Enter: 
-22:15:36,631  WARN Client Client:writeToClient:146 - Leave: 
-22:15:36,631 DEBUG Client Client:run:78 - Leave
-22:15:39,366 DEBUG Client Client:run:41 - Enter: 
-22:15:39,367  INFO Client Client:getHeaders:109 - Enter: 
-22:15:39,367  INFO Client Client:getHeaders:125 - Leave: 
-22:15:39,368  WARN Client Client:writeToClient:137 - Enter: 
-22:15:39,369  WARN Client Client:writeToClient:146 - Leave: 
-22:15:39,370 DEBUG Client Client:run:78 - Leave
-22:15:48,570  INFO main MainHttpd:main:37 - Start httpd
-22:15:52,813 DEBUG Client Client:run:41 - Enter: 
-22:15:52,814  INFO Client Client:getHeaders:109 - Enter: 
-22:15:52,815  INFO Client Client:getHeaders:125 - Leave: 
-22:15:52,865  WARN Client Client:writeToClient:137 - Enter: 
-22:15:52,866  WARN Client Client:writeToClient:146 - Leave: 
-22:15:52,878 DEBUG Client Client:run:78 - Leave
-22:15:59,880 DEBUG Client Client:run:41 - Enter: 
-22:15:59,881  INFO Client Client:getHeaders:109 - Enter: 
-22:15:59,882  INFO Client Client:getHeaders:125 - Leave: 
-22:15:59,883  WARN Client Client:writeToClient:137 - Enter: 
-22:15:59,884  WARN Client Client:writeToClient:146 - Leave: 
-22:15:59,885 DEBUG Client Client:run:78 - Leave
-22:16:04,085 DEBUG Client Client:run:41 - Enter: 
-22:16:04,086  INFO Client Client:getHeaders:109 - Enter: 
-22:16:04,087  INFO Client Client:getHeaders:125 - Leave: 
-22:16:04,091  WARN Client Client:writeToClient:137 - Enter: 
-22:16:04,093  WARN Client Client:writeToClient:146 - Leave: 
-22:16:04,093 DEBUG Client Client:run:78 - Leave
-22:16:08,094 DEBUG Client Client:run:41 - Enter: 
-22:16:08,094  INFO Client Client:getHeaders:109 - Enter: 
-22:16:20,584  INFO Client Client:getHeaders:125 - Leave: 
-22:16:33,913  WARN Client Client:writeToClient:137 - Enter: 
-22:16:33,919  WARN Client Client:writeToClient:146 - Leave: 
-22:16:35,564 DEBUG Client Client:run:78 - Leave
-22:16:39,305 DEBUG Client Client:run:41 - Enter: 
-22:16:39,306  INFO Client Client:getHeaders:109 - Enter: 
-22:16:40,931  INFO Client Client:getHeaders:125 - Leave: 
-22:16:41,824  WARN Client Client:writeToClient:137 - Enter: 
-22:16:41,845  WARN Client Client:writeToClient:146 - Leave: 
-22:16:41,845 DEBUG Client Client:run:78 - Leave
-22:16:52,843 DEBUG Client Client:run:41 - Enter: 
-22:16:52,843  INFO Client Client:getHeaders:109 - Enter: 
-22:16:55,053  INFO Client Client:getHeaders:125 - Leave: 
-22:16:56,598 DEBUG Client Client:run:41 - Enter: 
-22:16:56,600  INFO Client Client:getHeaders:109 - Enter: 
-22:16:59,216  INFO Client Client:getHeaders:125 - Leave: 
-22:17:13,799 DEBUG Client Client:run:41 - Enter: 
-22:17:13,800  INFO Client Client:getHeaders:109 - Enter: 
-22:17:18,565  INFO Client Client:getHeaders:125 - Leave: 
-09:21:05,986  INFO main MainHttpd:main:37 - Start httpd
-09:21:26,168 DEBUG Client Client:run:41 - Enter: 
-09:21:26,177  INFO Client Client:getHeaders:109 - Enter: 
-09:24:31,945  INFO main MainHttpd:main:37 - Start httpd
-09:24:39,133 DEBUG Client Client:run:41 - Enter: 
-09:24:39,134  INFO Client Client:getHeaders:109 - Enter: 
-09:26:00,002  INFO main MainHttpd:main:37 - Start httpd
-09:26:06,529 DEBUG Client Client:run:41 - Enter: 
-09:26:06,530  INFO Client Client:getHeaders:111 - Enter: 
-09:26:19,871  INFO Client Client:getHeaders:127 - Leave: 
-09:27:38,363  INFO main MainHttpd:main:37 - Start httpd
-09:27:45,111 DEBUG Client Client:run:41 - Enter: 
-09:27:45,112  INFO Client Client:getHeaders:113 - Enter: 
-09:27:45,112  INFO Client Client:getHeaders:129 - Leave: 
-09:28:08,901  WARN Client Client:writeToClient:141 - Enter: 
-09:28:08,903  WARN Client Client:writeToClient:150 - Leave: 
-09:28:08,907 DEBUG Client Client:run:80 - Leave
-09:28:08,990 DEBUG Client Client:run:41 - Enter: 
-09:28:08,991  INFO Client Client:getHeaders:113 - Enter: 
-09:28:08,991 DEBUG Client Client:run:41 - Enter: 
-09:28:08,992  INFO Client Client:getHeaders:129 - Leave: 
-09:28:08,992  INFO Client Client:getHeaders:113 - Enter: 
-09:28:09,103  INFO Client Client:getHeaders:129 - Leave: 
-09:28:10,967  WARN Client Client:writeToClient:141 - Enter: 
-09:28:12,047  WARN Client Client:writeToClient:141 - Enter: 
-09:28:12,048  WARN Client Client:writeToClient:150 - Leave: 
-09:28:12,048 DEBUG Client Client:run:80 - Leave
-09:28:12,048  WARN Client Client:writeToClient:150 - Leave: 
-09:28:12,049 DEBUG Client Client:run:80 - Leave
-09:28:19,920 DEBUG Client Client:run:41 - Enter: 
-09:28:19,920  INFO Client Client:getHeaders:113 - Enter: 
-09:28:19,921  INFO Client Client:getHeaders:129 - Leave: 
-09:29:40,840  INFO main MainHttpd:main:37 - Start httpd
-09:29:45,917 DEBUG Client Client:run:41 - Enter: 
-09:29:45,918  INFO Client Client:getHeaders:113 - Enter: 
-09:29:45,919  INFO Client Client:getHeaders:129 - Leave: 
-09:30:25,240  INFO main MainHttpd:main:37 - Start httpd
-09:30:29,326 DEBUG Client Client:run:41 - Enter: 
-09:30:29,327  INFO Client Client:getHeaders:110 - Enter: 
-09:30:29,328  INFO Client Client:getHeaders:126 - Leave: 
-09:30:56,237  INFO main MainHttpd:main:37 - Start httpd
-09:30:58,843 DEBUG Client Client:run:41 - Enter: 
-09:30:58,844  INFO Client Client:getHeaders:110 - Enter: 
-09:30:58,844  INFO Client Client:getHeaders:126 - Leave: 
-09:31:50,162  WARN Client Client:writeToClient:138 - Enter: 
-09:31:50,163  WARN Client Client:writeToClient:147 - Leave: 
-09:31:50,164 DEBUG Client Client:run:77 - Leave
-09:32:03,062 DEBUG Client Client:run:41 - Enter: 
-09:32:03,063  INFO Client Client:getHeaders:110 - Enter: 
-09:32:03,064  INFO Client Client:getHeaders:126 - Leave: 
-09:32:18,698  WARN Client Client:writeToClient:138 - Enter: 
-09:32:18,700  WARN Client Client:writeToClient:147 - Leave: 
-09:32:18,700 DEBUG Client Client:run:77 - Leave
-09:32:37,765 DEBUG Client Client:run:41 - Enter: 
-09:32:42,373  INFO Client Client:getHeaders:110 - Enter: 
-09:32:42,374  INFO Client Client:getHeaders:126 - Leave: 
-09:32:43,222  WARN Client Client:writeToClient:138 - Enter: 
-09:32:43,225 ERROR Client Client:run:69 - problem
-java.net.SocketException: Software caused connection abort: socket write error
-	at java.net.SocketOutputStream.socketWrite0(Native Method)
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:144)
-	at Client.run(Client.java:63)
-	at java.lang.Thread.run(Thread.java:724)
-09:32:43,227 DEBUG Client Client:run:77 - Leave
-09:34:23,165 DEBUG Client Client:run:41 - Enter: 
-09:34:25,829  INFO Client Client:getHeaders:110 - Enter: 
-09:34:25,830  INFO Client Client:getHeaders:126 - Leave: 
-09:34:33,352  WARN Client Client:writeToClient:138 - Enter: 
-09:34:33,354  WARN Client Client:writeToClient:147 - Leave: 
-09:34:33,355 DEBUG Client Client:run:77 - Leave
-09:34:39,358 DEBUG Client Client:run:41 - Enter: 
-09:34:42,011  INFO Client Client:getHeaders:110 - Enter: 
-09:34:42,012  INFO Client Client:getHeaders:126 - Leave: 
-09:37:16,787  INFO main MainHttpd:main:37 - Start httpd
-09:37:26,876 DEBUG Client Client:run:41 - Enter: 
-09:37:29,951  INFO Client Client:getHeaders:110 - Enter: 
-09:37:29,953  INFO Client Client:getHeaders:126 - Leave: 
-09:37:42,036  WARN Client Client:writeToClient:138 - Enter: 
-09:37:42,037  WARN Client Client:writeToClient:147 - Leave: 
-09:37:42,038 DEBUG Client Client:run:77 - Leave
-09:37:53,572 DEBUG Client Client:run:41 - Enter: 
-09:38:05,662  INFO Client Client:getHeaders:110 - Enter: 
-09:38:05,664  INFO Client Client:getHeaders:126 - Leave: 
-09:39:08,818  WARN Client Client:writeToClient:138 - Enter: 
-09:39:08,819  WARN Client Client:writeToClient:147 - Leave: 
-09:39:08,819 DEBUG Client Client:run:77 - Leave
-09:39:48,179 DEBUG Client Client:run:41 - Enter: 
-09:39:50,748  INFO Client Client:getHeaders:110 - Enter: 
-09:39:50,749  INFO Client Client:getHeaders:126 - Leave: 
-09:39:51,970  WARN Client Client:writeToClient:138 - Enter: 
-09:39:51,971  WARN Client Client:writeToClient:147 - Leave: 
-09:39:51,971 DEBUG Client Client:run:77 - Leave
-09:39:59,124 DEBUG Client Client:run:41 - Enter: 
-09:40:03,458  INFO Client Client:getHeaders:110 - Enter: 
-09:40:03,460  INFO Client Client:getHeaders:126 - Leave: 
-09:40:04,930  WARN Client Client:writeToClient:138 - Enter: 
-09:40:04,931  WARN Client Client:writeToClient:147 - Leave: 
-09:40:04,932 DEBUG Client Client:run:77 - Leave
-09:40:08,508 DEBUG Client Client:run:41 - Enter: 
-09:40:11,449  INFO Client Client:getHeaders:110 - Enter: 
-09:40:11,450  INFO Client Client:getHeaders:126 - Leave: 
-09:40:23,109  WARN Client Client:writeToClient:138 - Enter: 
-09:40:23,111  WARN Client Client:writeToClient:147 - Leave: 
-09:40:23,112 DEBUG Client Client:run:77 - Leave
-09:40:32,463 DEBUG Client Client:run:41 - Enter: 
-09:40:36,613  INFO Client Client:getHeaders:110 - Enter: 
-09:40:36,615  INFO Client Client:getHeaders:126 - Leave: 
-09:40:43,169  WARN Client Client:writeToClient:138 - Enter: 
-09:40:43,171  WARN Client Client:writeToClient:147 - Leave: 
-09:40:43,171 DEBUG Client Client:run:77 - Leave
-09:46:57,726  INFO main MainHttpd:main:37 - Start httpd
-09:47:01,928 DEBUG Client Client:run:39 - Enter: 
-09:47:04,713  INFO Client Client:getHeaders:117 - Enter: 
-09:47:04,715  INFO Client Client:getHeaders:133 - Leave: 
-09:47:12,247  WARN Client Client:writeToClient:144 - Enter: 
-09:47:12,248  WARN Client Client:writeToClient:153 - Leave: 
-09:47:12,249 DEBUG Client Client:run:86 - Leave
-09:47:58,912 DEBUG Client Client:run:39 - Enter: 
-09:48:05,782  INFO Client Client:getHeaders:117 - Enter: 
-09:48:05,782  INFO Client Client:getHeaders:133 - Leave: 
-09:48:08,379  WARN Client Client:writeToClient:144 - Enter: 
-09:48:08,380  WARN Client Client:writeToClient:153 - Leave: 
-09:48:08,380 DEBUG Client Client:run:86 - Leave
-09:48:12,915 DEBUG Client Client:run:39 - Enter: 
-09:48:12,916  INFO Client Client:getHeaders:117 - Enter: 
-09:48:12,916  INFO Client Client:getHeaders:133 - Leave: 
-09:48:12,917  WARN Client Client:writeToClient:144 - Enter: 
-09:48:12,919  WARN Client Client:writeToClient:153 - Leave: 
-09:48:12,919 DEBUG Client Client:run:86 - Leave
-09:48:14,526 DEBUG Client Client:run:39 - Enter: 
-09:48:14,526  INFO Client Client:getHeaders:117 - Enter: 
-09:48:14,527  INFO Client Client:getHeaders:133 - Leave: 
-09:48:14,528  WARN Client Client:writeToClient:144 - Enter: 
-09:48:14,529  WARN Client Client:writeToClient:153 - Leave: 
-09:48:14,529 DEBUG Client Client:run:86 - Leave
-09:48:16,168 DEBUG Client Client:run:39 - Enter: 
-09:48:16,169  INFO Client Client:getHeaders:117 - Enter: 
-09:48:16,169  INFO Client Client:getHeaders:133 - Leave: 
-09:48:16,170  WARN Client Client:writeToClient:144 - Enter: 
-09:48:16,171  WARN Client Client:writeToClient:153 - Leave: 
-09:48:16,172 DEBUG Client Client:run:86 - Leave
-09:48:18,194 DEBUG Client Client:run:39 - Enter: 
-09:48:18,194  INFO Client Client:getHeaders:117 - Enter: 
-09:48:18,195  INFO Client Client:getHeaders:133 - Leave: 
-09:48:18,195  WARN Client Client:writeToClient:144 - Enter: 
-09:48:18,196  WARN Client Client:writeToClient:153 - Leave: 
-09:48:18,197 DEBUG Client Client:run:86 - Leave
-09:48:21,049 DEBUG Client Client:run:39 - Enter: 
-09:48:21,049  INFO Client Client:getHeaders:117 - Enter: 
-09:48:21,050  INFO Client Client:getHeaders:133 - Leave: 
-09:48:21,050  WARN Client Client:writeToClient:144 - Enter: 
-09:48:21,051  WARN Client Client:writeToClient:153 - Leave: 
-09:48:21,052 DEBUG Client Client:run:86 - Leave
-09:48:22,740 DEBUG Client Client:run:39 - Enter: 
-09:48:22,741  INFO Client Client:getHeaders:117 - Enter: 
-09:48:22,741  INFO Client Client:getHeaders:133 - Leave: 
-09:48:22,742  WARN Client Client:writeToClient:144 - Enter: 
-09:48:22,743  WARN Client Client:writeToClient:153 - Leave: 
-09:48:22,743 DEBUG Client Client:run:86 - Leave
-09:48:27,489 DEBUG Client Client:run:39 - Enter: 
-09:48:27,490  INFO Client Client:getHeaders:117 - Enter: 
-09:48:27,490  INFO Client Client:getHeaders:133 - Leave: 
-09:48:27,492  WARN Client Client:writeToClient:144 - Enter: 
-09:48:27,493  WARN Client Client:writeToClient:153 - Leave: 
-09:48:27,493 DEBUG Client Client:run:86 - Leave
-09:48:28,512 DEBUG Client Client:run:39 - Enter: 
-09:48:28,512  INFO Client Client:getHeaders:117 - Enter: 
-09:48:28,513  INFO Client Client:getHeaders:133 - Leave: 
-09:48:28,513  WARN Client Client:writeToClient:144 - Enter: 
-09:48:28,514  WARN Client Client:writeToClient:153 - Leave: 
-09:48:28,514 DEBUG Client Client:run:86 - Leave
-09:48:40,247 DEBUG Client Client:run:39 - Enter: 
-09:48:40,248  INFO Client Client:getHeaders:117 - Enter: 
-09:48:40,248  INFO Client Client:getHeaders:133 - Leave: 
-09:48:56,828  WARN Client Client:writeToClient:144 - Enter: 
-09:48:56,830  WARN Client Client:writeToClient:153 - Leave: 
-09:48:56,830 DEBUG Client Client:run:86 - Leave
-09:50:13,772  INFO main MainHttpd:main:37 - Start httpd
-09:50:17,107 DEBUG Client Client:run:39 - Enter: 
-09:50:17,108  INFO Client Client:getHeaders:117 - Enter: 
-09:50:17,109  INFO Client Client:getHeaders:133 - Leave: 
-09:50:17,117  WARN Client Client:writeToClient:144 - Enter: 
-09:50:17,118  WARN Client Client:writeToClient:153 - Leave: 
-09:50:17,119 DEBUG Client Client:run:86 - Leave
-09:51:09,297  INFO main MainHttpd:main:37 - Start httpd
-09:51:15,348 DEBUG Client Client:run:39 - Enter: 
-09:51:15,348  INFO Client Client:getHeaders:117 - Enter: 
-09:51:15,349  INFO Client Client:getHeaders:133 - Leave: 
-09:51:15,359  WARN Client Client:writeToClient:144 - Enter: 
-09:51:15,362  WARN Client Client:writeToClient:153 - Leave: 
-09:51:15,363 DEBUG Client Client:run:86 - Leave
-09:52:18,159  INFO main MainHttpd:main:37 - Start httpd
-09:52:25,174 DEBUG Client Client:run:39 - Enter: 
-09:52:25,174  INFO Client Client:getHeaders:117 - Enter: 
-09:52:25,175  INFO Client Client:getHeaders:133 - Leave: 
-09:52:41,273  WARN Client Client:writeToClient:144 - Enter: 
-09:52:41,276  WARN Client Client:writeToClient:153 - Leave: 
-09:52:41,277 DEBUG Client Client:run:86 - Leave
-09:52:57,060 DEBUG Client Client:run:39 - Enter: 
-09:52:57,060  INFO Client Client:getHeaders:117 - Enter: 
-09:52:57,061  INFO Client Client:getHeaders:133 - Leave: 
-09:54:12,079  WARN Client Client:writeToClient:144 - Enter: 
-09:54:12,081  WARN Client Client:writeToClient:153 - Leave: 
-09:54:12,081 DEBUG Client Client:run:86 - Leave
-09:56:20,513  INFO main MainHttpd:main:37 - Start httpd
-09:56:24,158 DEBUG Client Client:run:39 - Enter: 
-09:56:24,159  INFO Client Client:getHeaders:117 - Enter: 
-09:56:24,160  INFO Client Client:getHeaders:133 - Leave: 
-09:56:29,695  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 222
-09:56:49,237  WARN Client Client:writeToClient:144 - Enter: 
-09:56:49,238  WARN Client Client:writeToClient:153 - Leave: 
-09:56:49,239 DEBUG Client Client:run:86 - Leave
-09:57:19,872 DEBUG Client Client:run:39 - Enter: 
-09:57:19,873 DEBUG Client Client:run:39 - Enter: 
-09:57:19,873  INFO Client Client:getHeaders:117 - Enter: 
-09:57:19,873  INFO Client Client:getHeaders:117 - Enter: 
-09:57:19,873  INFO Client Client:getHeaders:133 - Leave: 
-09:57:19,873  INFO Client Client:getHeaders:133 - Leave: 
-09:57:22,074  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 222
-09:57:22,403  WARN Client Client:writeToClient:144 - Enter: 
-09:57:22,402  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 222
-09:57:22,404  WARN Client Client:writeToClient:144 - Enter: 
-09:57:22,404  WARN Client Client:writeToClient:153 - Leave: 
-09:57:22,405 DEBUG Client Client:run:86 - Leave
-09:57:22,405  WARN Client Client:writeToClient:153 - Leave: 
-09:57:22,406 DEBUG Client Client:run:86 - Leave
-09:57:26,373 DEBUG Client Client:run:39 - Enter: 
-09:57:26,373  INFO Client Client:getHeaders:117 - Enter: 
-09:57:26,374  INFO Client Client:getHeaders:133 - Leave: 
-09:57:29,306  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 222
-09:57:29,307  WARN Client Client:writeToClient:144 - Enter: 
-09:57:29,308  WARN Client Client:writeToClient:153 - Leave: 
-09:57:29,308 DEBUG Client Client:run:86 - Leave
-09:57:36,571 DEBUG Client Client:run:39 - Enter: 
-09:57:36,571  INFO Client Client:getHeaders:117 - Enter: 
-09:57:36,571  INFO Client Client:getHeaders:133 - Leave: 
-09:57:36,572  WARN Client Client:writeToClient:144 - Enter: 
-09:57:36,573  WARN Client Client:writeToClient:153 - Leave: 
-09:57:36,573 DEBUG Client Client:run:86 - Leave
-09:59:13,526  INFO main MainHttpd:main:37 - Start httpd
-09:59:20,678 DEBUG Client Client:run:39 - Enter: 
-09:59:20,679  INFO Client Client:getHeaders:117 - Enter: 
-09:59:20,679 DEBUG Client Client:run:39 - Enter: 
-09:59:20,680  INFO Client Client:getHeaders:117 - Enter: 
-09:59:20,680  INFO Client Client:getHeaders:133 - Leave: 
-09:59:20,680  INFO Client Client:getHeaders:133 - Leave: 
-09:59:24,137  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 192
-09:59:24,137  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 192
-09:59:24,139  WARN Client Client:writeToClient:144 - Enter: 
-09:59:24,139  WARN Client Client:writeToClient:144 - Enter: 
-09:59:24,140  WARN Client Client:writeToClient:153 - Leave: 
-09:59:24,140  WARN Client Client:writeToClient:153 - Leave: 
-09:59:24,141 DEBUG Client Client:run:86 - Leave
-09:59:24,141 DEBUG Client Client:run:86 - Leave
-09:59:24,279 DEBUG Client Client:run:39 - Enter: 
-09:59:24,280  INFO Client Client:getHeaders:117 - Enter: 
-09:59:24,281  INFO Client Client:getHeaders:133 - Leave: 
-09:59:24,282  WARN Client Client:writeToClient:144 - Enter: 
-09:59:24,284  WARN Client Client:writeToClient:153 - Leave: 
-09:59:24,287 DEBUG Client Client:run:86 - Leave
-10:00:03,115  INFO main MainHttpd:main:37 - Start httpd
-10:00:08,443  INFO main MainHttpd:main:37 - Start httpd
-10:00:11,097 DEBUG Client Client:run:39 - Enter: 
-10:00:11,098 DEBUG Client Client:run:39 - Enter: 
-10:00:11,098  INFO Client Client:getHeaders:117 - Enter: 
-10:00:11,098  INFO Client Client:getHeaders:117 - Enter: 
-10:00:11,099  INFO Client Client:getHeaders:133 - Leave: 
-10:00:11,099  INFO Client Client:getHeaders:133 - Leave: 
-10:00:14,265  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 193
-10:00:14,265  WARN Client Client:getHtmlDirsAndFile:180 - lenght: 193
-10:00:14,266  WARN Client Client:writeToClient:144 - Enter: 
-10:00:14,266  WARN Client Client:writeToClient:144 - Enter: 
-10:00:14,268  WARN Client Client:writeToClient:153 - Leave: 
-10:00:14,268  WARN Client Client:writeToClient:153 - Leave: 
-10:00:14,268 DEBUG Client Client:run:86 - Leave
-10:00:14,269 DEBUG Client Client:run:86 - Leave
-10:00:14,416 DEBUG Client Client:run:39 - Enter: 
-10:00:14,416  INFO Client Client:getHeaders:117 - Enter: 
-10:00:14,417  INFO Client Client:getHeaders:133 - Leave: 
-10:00:14,418  WARN Client Client:writeToClient:144 - Enter: 
-10:00:14,420  WARN Client Client:writeToClient:153 - Leave: 
-10:00:14,420 DEBUG Client Client:run:86 - Leave
-10:00:59,877  INFO main MainHttpd:main:37 - Start httpd
-10:01:02,905 DEBUG Client Client:run:39 - Enter: 
-10:01:02,906  INFO Client Client:getHeaders:117 - Enter: 
-10:01:02,907 DEBUG Client Client:run:39 - Enter: 
-10:01:02,907  INFO Client Client:getHeaders:133 - Leave: 
-10:01:02,910  INFO Client Client:getHeaders:117 - Enter: 
-10:01:02,910  INFO Client Client:getHeaders:133 - Leave: 
-10:01:05,570  WARN Client Client:getHtmlDirsAndFile:181 - lenght: 188
-10:01:06,217  WARN Client Client:getHtmlDirsAndFile:181 - lenght: 188
-10:01:06,218  WARN Client Client:writeToClient:144 - Enter: 
-10:01:06,218  WARN Client Client:writeToClient:144 - Enter: 
-10:01:06,219  WARN Client Client:writeToClient:153 - Leave: 
-10:01:06,219  WARN Client Client:writeToClient:153 - Leave: 
-10:01:06,220 DEBUG Client Client:run:86 - Leave
-10:01:06,220 DEBUG Client Client:run:86 - Leave
-10:01:06,362 DEBUG Client Client:run:39 - Enter: 
-10:01:06,363  INFO Client Client:getHeaders:117 - Enter: 
-10:01:06,363  INFO Client Client:getHeaders:133 - Leave: 
-10:01:06,364  WARN Client Client:writeToClient:144 - Enter: 
-10:01:06,367  WARN Client Client:writeToClient:153 - Leave: 
-10:01:06,368 DEBUG Client Client:run:86 - Leave
-10:01:44,359  INFO main MainHttpd:main:37 - Start httpd
-10:02:01,261 DEBUG Client Client:run:39 - Enter: 
-10:02:01,263 DEBUG Client Client:run:39 - Enter: 
-10:02:01,263  INFO Client Client:getHeaders:117 - Enter: 
-10:02:01,263  INFO Client Client:getHeaders:117 - Enter: 
-10:02:01,266  INFO Client Client:getHeaders:133 - Leave: 
-10:02:01,266  INFO Client Client:getHeaders:133 - Leave: 
-10:02:03,018  WARN Client Client:getHtmlDirsAndFile:181 - lenght: 180
-10:02:05,035  WARN Client Client:writeToClient:144 - Enter: 
-10:02:07,924  WARN Client Client:getHtmlDirsAndFile:181 - lenght: 180
-10:02:07,925  WARN Client Client:writeToClient:144 - Enter: 
-10:02:07,925  WARN Client Client:writeToClient:153 - Leave: 
-10:02:07,926  WARN Client Client:writeToClient:153 - Leave: 
-10:02:07,926 DEBUG Client Client:run:86 - Leave
-10:02:07,926 DEBUG Client Client:run:86 - Leave
-10:02:08,063 DEBUG Client Client:run:39 - Enter: 
-10:02:08,064  INFO Client Client:getHeaders:117 - Enter: 
-10:02:08,064  INFO Client Client:getHeaders:133 - Leave: 
-10:02:08,065  WARN Client Client:writeToClient:144 - Enter: 
-10:02:08,067  WARN Client Client:writeToClient:153 - Leave: 
-10:02:08,069 DEBUG Client Client:run:86 - Leave
-10:03:53,736  INFO main MainHttpd:main:37 - Start httpd
-10:04:01,326 DEBUG Client Client:run:39 - Enter: 
-10:04:01,327  INFO Client Client:getHeaders:117 - Enter: 
-10:04:01,327 DEBUG Client Client:run:39 - Enter: 
-10:04:01,328  INFO Client Client:getHeaders:133 - Leave: 
-10:04:01,332  INFO Client Client:getHeaders:117 - Enter: 
-10:04:01,332  INFO Client Client:getHeaders:133 - Leave: 
-10:04:02,801  WARN Client Client:writeToClient:144 - Enter: 
-10:04:02,801  WARN Client Client:writeToClient:144 - Enter: 
-10:04:02,802  WARN Client Client:writeToClient:153 - Leave: 
-10:04:02,802  WARN Client Client:writeToClient:153 - Leave: 
-10:04:02,803 DEBUG Client Client:run:86 - Leave
-10:04:02,803 DEBUG Client Client:run:86 - Leave
-10:04:02,941 DEBUG Client Client:run:39 - Enter: 
-10:04:02,942  INFO Client Client:getHeaders:117 - Enter: 
-10:04:02,942  INFO Client Client:getHeaders:133 - Leave: 
-10:04:02,944  WARN Client Client:writeToClient:144 - Enter: 
-10:04:02,945  WARN Client Client:writeToClient:153 - Leave: 
-10:04:02,945 DEBUG Client Client:run:86 - Leave
-10:04:31,934  INFO main MainHttpd:main:37 - Start httpd
-10:04:34,022 DEBUG Client Client:run:39 - Enter: 
-10:04:34,023 DEBUG Client Client:run:39 - Enter: 
-10:04:34,023  INFO Client Client:getHeaders:117 - Enter: 
-10:04:34,023  INFO Client Client:getHeaders:117 - Enter: 
-10:04:34,024  INFO Client Client:getHeaders:133 - Leave: 
-10:04:34,024  INFO Client Client:getHeaders:133 - Leave: 
-10:04:36,094  WARN Client Client:writeToClient:144 - Enter: 
-10:04:36,094  WARN Client Client:writeToClient:144 - Enter: 
-10:04:36,096  WARN Client Client:writeToClient:153 - Leave: 
-10:04:36,096  WARN Client Client:writeToClient:153 - Leave: 
-10:04:36,096 DEBUG Client Client:run:86 - Leave
-10:04:36,097 DEBUG Client Client:run:86 - Leave
-10:04:36,229 DEBUG Client Client:run:39 - Enter: 
-10:04:36,231  INFO Client Client:getHeaders:117 - Enter: 
-10:04:36,233  INFO Client Client:getHeaders:133 - Leave: 
-10:04:36,235  WARN Client Client:writeToClient:144 - Enter: 
-10:04:36,238  WARN Client Client:writeToClient:153 - Leave: 
-10:04:36,238 DEBUG Client Client:run:86 - Leave
-10:04:45,813 DEBUG Client Client:run:39 - Enter: 
-10:04:45,813 DEBUG Client Client:run:39 - Enter: 
-10:04:45,814  INFO Client Client:getHeaders:117 - Enter: 
-10:04:45,814  INFO Client Client:getHeaders:117 - Enter: 
-10:04:45,815  INFO Client Client:getHeaders:133 - Leave: 
-10:04:45,815  INFO Client Client:getHeaders:133 - Leave: 
-10:04:56,795  WARN Client Client:writeToClient:144 - Enter: 
-10:04:58,055  WARN Client Client:writeToClient:144 - Enter: 
-10:04:58,056  WARN Client Client:writeToClient:153 - Leave: 
-10:04:58,057 DEBUG Client Client:run:86 - Leave
-10:04:58,058 ERROR Client Client:run:78 - problem
-java.net.SocketException: Software caused connection abort: socket write error
-	at java.net.SocketOutputStream.socketWrite0(Native Method)
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:150)
-	at Client.run(Client.java:72)
-	at java.lang.Thread.run(Thread.java:724)
-10:04:58,060 DEBUG Client Client:run:86 - Leave
-10:04:58,209 DEBUG Client Client:run:39 - Enter: 
-10:04:58,210  INFO Client Client:getHeaders:117 - Enter: 
-10:04:58,210  INFO Client Client:getHeaders:133 - Leave: 
-10:04:58,211  WARN Client Client:writeToClient:144 - Enter: 
-10:04:58,212  WARN Client Client:writeToClient:153 - Leave: 
-10:04:58,213 DEBUG Client Client:run:86 - Leave
-10:05:21,612 DEBUG Client Client:run:39 - Enter: 
-10:05:21,612 DEBUG Client Client:run:39 - Enter: 
-10:05:21,613  INFO Client Client:getHeaders:117 - Enter: 
-10:05:21,613  INFO Client Client:getHeaders:117 - Enter: 
-10:05:21,613  INFO Client Client:getHeaders:133 - Leave: 
-10:05:21,614  INFO Client Client:getHeaders:133 - Leave: 
-10:05:21,614  WARN Client Client:writeToClient:144 - Enter: 
-10:05:21,614  WARN Client Client:writeToClient:144 - Enter: 
-10:05:21,616  WARN Client Client:writeToClient:153 - Leave: 
-10:05:21,616  WARN Client Client:writeToClient:153 - Leave: 
-10:05:21,616 DEBUG Client Client:run:86 - Leave
-10:05:21,617 DEBUG Client Client:run:86 - Leave
-10:05:21,758 DEBUG Client Client:run:39 - Enter: 
-10:05:21,758  INFO Client Client:getHeaders:117 - Enter: 
-10:05:21,759  INFO Client Client:getHeaders:133 - Leave: 
-10:05:21,759  WARN Client Client:writeToClient:144 - Enter: 
-10:05:21,761  WARN Client Client:writeToClient:153 - Leave: 
-10:05:21,761 DEBUG Client Client:run:86 - Leave
-10:05:24,614 DEBUG Client Client:run:39 - Enter: 
-10:05:24,614 DEBUG Client Client:run:39 - Enter: 
-10:05:24,614  INFO Client Client:getHeaders:117 - Enter: 
-10:05:24,615  INFO Client Client:getHeaders:117 - Enter: 
-10:05:24,615  INFO Client Client:getHeaders:133 - Leave: 
-10:05:24,615  INFO Client Client:getHeaders:133 - Leave: 
-10:05:24,617  WARN Client Client:writeToClient:144 - Enter: 
-10:05:24,617  WARN Client Client:writeToClient:144 - Enter: 
-10:05:24,618  WARN Client Client:writeToClient:153 - Leave: 
-10:05:24,618  WARN Client Client:writeToClient:153 - Leave: 
-10:05:24,619 DEBUG Client Client:run:86 - Leave
-10:05:24,618 DEBUG Client Client:run:86 - Leave
-10:05:24,750 DEBUG Client Client:run:39 - Enter: 
-10:05:24,751  INFO Client Client:getHeaders:117 - Enter: 
-10:05:24,751  INFO Client Client:getHeaders:133 - Leave: 
-10:05:24,752  WARN Client Client:writeToClient:144 - Enter: 
-10:05:24,754  WARN Client Client:writeToClient:153 - Leave: 
-10:05:24,754 DEBUG Client Client:run:86 - Leave
-10:05:32,656 DEBUG Client Client:run:39 - Enter: 
-10:05:32,656  INFO Client Client:getHeaders:117 - Enter: 
-10:05:32,657  INFO Client Client:getHeaders:133 - Leave: 
-10:05:32,658  WARN Client Client:writeToClient:144 - Enter: 
-10:05:32,658  WARN Client Client:writeToClient:153 - Leave: 
-10:05:32,659 DEBUG Client Client:run:86 - Leave
-10:05:34,294 DEBUG Client Client:run:39 - Enter: 
-10:05:34,294  INFO Client Client:getHeaders:117 - Enter: 
-10:05:34,295  INFO Client Client:getHeaders:133 - Leave: 
-10:05:34,296  WARN Client Client:writeToClient:144 - Enter: 
-10:05:34,296  WARN Client Client:writeToClient:153 - Leave: 
-10:05:34,297 DEBUG Client Client:run:86 - Leave
-10:06:11,711  INFO main MainHttpd:main:37 - Start httpd
-10:06:14,214 DEBUG Client Client:run:39 - Enter: 
-10:06:14,214  INFO Client Client:getHeaders:117 - Enter: 
-10:06:14,215  INFO Client Client:getHeaders:133 - Leave: 
-10:06:14,225  WARN Client Client:writeToClient:144 - Enter: 
-10:06:14,226  WARN Client Client:writeToClient:153 - Leave: 
-10:06:14,227 DEBUG Client Client:run:86 - Leave
-10:06:15,456 DEBUG Client Client:run:39 - Enter: 
-10:06:15,457  INFO Client Client:getHeaders:117 - Enter: 
-10:06:15,457  INFO Client Client:getHeaders:133 - Leave: 
-10:06:15,458  WARN Client Client:writeToClient:144 - Enter: 
-10:06:15,459  WARN Client Client:writeToClient:153 - Leave: 
-10:06:15,459 DEBUG Client Client:run:86 - Leave
-10:06:38,657  INFO main MainHttpd:main:37 - Start httpd
-10:06:41,485 DEBUG Client Client:run:39 - Enter: 
-10:06:41,486  INFO Client Client:getHeaders:117 - Enter: 
-10:06:41,487  INFO Client Client:getHeaders:133 - Leave: 
-10:06:41,496  WARN Client Client:writeToClient:144 - Enter: 
-10:06:41,498  WARN Client Client:writeToClient:153 - Leave: 
-10:06:41,498 DEBUG Client Client:run:86 - Leave
-10:06:59,213  INFO main MainHttpd:main:37 - Start httpd
-10:07:01,716 DEBUG Client Client:run:39 - Enter: 
-10:07:01,717  INFO Client Client:getHeaders:117 - Enter: 
-10:07:01,718  INFO Client Client:getHeaders:133 - Leave: 
-10:07:01,727  WARN Client Client:writeToClient:144 - Enter: 
-10:07:01,728  WARN Client Client:writeToClient:153 - Leave: 
-10:07:01,729 DEBUG Client Client:run:86 - Leave
-10:07:02,737 DEBUG Client Client:run:39 - Enter: 
-10:07:02,737  INFO Client Client:getHeaders:117 - Enter: 
-10:07:02,738  INFO Client Client:getHeaders:133 - Leave: 
-10:07:02,739  WARN Client Client:writeToClient:144 - Enter: 
-10:07:02,740  WARN Client Client:writeToClient:153 - Leave: 
-10:07:02,741 DEBUG Client Client:run:86 - Leave
-10:10:14,173  INFO main MainHttpd:main:37 - Start httpd
-10:10:17,940 DEBUG Client Client:run:39 - Enter: 
-10:10:17,941  INFO Client Client:getHeaders:117 - Enter: 
-10:10:17,942  INFO Client Client:getHeaders:133 - Leave: 
-10:10:17,954  WARN Client Client:writeToClient:144 - Enter: 
-10:10:17,956  WARN Client Client:writeToClient:153 - Leave: 
-10:10:17,957 DEBUG Client Client:run:86 - Leave
-10:10:22,230 DEBUG Client Client:run:39 - Enter: 
-10:10:22,231  INFO Client Client:getHeaders:117 - Enter: 
-10:10:22,231  INFO Client Client:getHeaders:133 - Leave: 
-10:10:22,232  WARN Client Client:writeToClient:144 - Enter: 
-10:10:22,233  WARN Client Client:writeToClient:153 - Leave: 
-10:10:22,233 DEBUG Client Client:run:86 - Leave
-10:10:44,308 DEBUG Client Client:run:39 - Enter: 
-10:10:44,308  INFO Client Client:getHeaders:117 - Enter: 
-10:10:44,309  INFO Client Client:getHeaders:133 - Leave: 
-10:14:50,028  INFO main MainHttpd:main:37 - Start httpd
-10:14:53,236 DEBUG Client Client:run:39 - Enter: 
-10:14:53,238  INFO Client Client:getHeaders:117 - Enter: 
-10:14:53,239  INFO Client Client:getHeaders:133 - Leave: 
-10:14:56,474  WARN Client Client:writeToClient:144 - Enter: 
-10:14:56,475  WARN Client Client:writeToClient:155 - Leave: 
-10:14:56,476 DEBUG Client Client:run:86 - Leave
-10:17:08,212  INFO main MainHttpd:main:37 - Start httpd
-10:17:12,295 DEBUG Client Client:run:39 - Enter: 
-10:17:12,296  INFO Client Client:getHeaders:117 - Enter: 
-10:17:12,297  INFO Client Client:getHeaders:133 - Leave: 
-10:17:16,939  WARN Client Client:writeToClient:144 - Enter: 
-10:17:16,940  WARN Client Client:writeToClient:155 - Leave: 
-10:17:16,941 DEBUG Client Client:run:86 - Leave
-10:17:42,009  INFO main MainHttpd:main:37 - Start httpd
-10:17:43,089 DEBUG Client Client:run:39 - Enter: 
-10:17:43,091  INFO Client Client:getHeaders:117 - Enter: 
-10:17:43,093  INFO Client Client:getHeaders:133 - Leave: 
-10:17:47,939  WARN Client Client:writeToClient:144 - Enter: 
-10:17:47,940  WARN Client Client:writeToClient:155 - Leave: 
-10:17:47,941 DEBUG Client Client:run:86 - Leave
-10:18:40,150  INFO main MainHttpd:main:37 - Start httpd
-10:18:40,386 DEBUG Client Client:run:39 - Enter: 
-10:18:40,387  INFO Client Client:getHeaders:117 - Enter: 
-10:18:40,388  INFO Client Client:getHeaders:133 - Leave: 
-10:18:46,516  WARN Client Client:writeToClient:144 - Enter: 
-10:18:46,518  WARN Client Client:writeToClient:155 - Leave: 
-10:18:46,519 DEBUG Client Client:run:86 - Leave
-10:19:20,835  INFO main MainHttpd:main:37 - Start httpd
-10:19:22,851 DEBUG Client Client:run:39 - Enter: 
-10:19:22,852  INFO Client Client:getHeaders:117 - Enter: 
-10:19:22,853  INFO Client Client:getHeaders:133 - Leave: 
-10:19:24,858  WARN Client Client:writeToClient:144 - Enter: 
-10:19:24,861  WARN Client Client:writeToClient:155 - Leave: 
-10:19:24,862 DEBUG Client Client:run:86 - Leave
-10:19:27,534 DEBUG Client Client:run:39 - Enter: 
-10:19:27,535  INFO Client Client:getHeaders:117 - Enter: 
-10:19:27,535  INFO Client Client:getHeaders:133 - Leave: 
-10:19:28,873  WARN Client Client:writeToClient:144 - Enter: 
-10:19:28,875  WARN Client Client:writeToClient:155 - Leave: 
-10:19:28,876 DEBUG Client Client:run:86 - Leave
-10:19:32,917 DEBUG Client Client:run:39 - Enter: 
-10:19:32,917  INFO Client Client:getHeaders:117 - Enter: 
-10:19:32,918  INFO Client Client:getHeaders:133 - Leave: 
-10:19:32,919  WARN Client Client:writeToClient:144 - Enter: 
-10:19:32,919  WARN Client Client:writeToClient:155 - Leave: 
-10:19:32,920 DEBUG Client Client:run:86 - Leave
-10:19:35,348 DEBUG Client Client:run:39 - Enter: 
-10:19:35,349  INFO Client Client:getHeaders:117 - Enter: 
-10:19:35,349  INFO Client Client:getHeaders:133 - Leave: 
-10:19:35,350  WARN Client Client:writeToClient:144 - Enter: 
-10:19:35,351  WARN Client Client:writeToClient:155 - Leave: 
-10:19:35,351 DEBUG Client Client:run:86 - Leave
-10:19:36,851 DEBUG Client Client:run:39 - Enter: 
-10:19:36,852  INFO Client Client:getHeaders:117 - Enter: 
-10:19:36,852  INFO Client Client:getHeaders:133 - Leave: 
-10:19:36,853  WARN Client Client:writeToClient:144 - Enter: 
-10:19:36,854  WARN Client Client:writeToClient:155 - Leave: 
-10:19:36,854 DEBUG Client Client:run:86 - Leave
-10:19:38,674 DEBUG Client Client:run:39 - Enter: 
-10:19:38,675  INFO Client Client:getHeaders:117 - Enter: 
-10:19:38,675  INFO Client Client:getHeaders:133 - Leave: 
-10:19:38,676  WARN Client Client:writeToClient:144 - Enter: 
-10:19:38,676  WARN Client Client:writeToClient:155 - Leave: 
-10:19:38,677 DEBUG Client Client:run:86 - Leave
-10:19:39,628 DEBUG Client Client:run:39 - Enter: 
-10:19:39,629  INFO Client Client:getHeaders:117 - Enter: 
-10:19:39,629  INFO Client Client:getHeaders:133 - Leave: 
-10:19:39,630  WARN Client Client:writeToClient:144 - Enter: 
-10:19:39,631  WARN Client Client:writeToClient:155 - Leave: 
-10:19:39,631 DEBUG Client Client:run:86 - Leave
-10:21:18,379  INFO main MainHttpd:main:37 - Start httpd
-10:21:18,699 DEBUG Client Client:run:39 - Enter: 
-10:21:18,700  INFO Client Client:getHeaders:117 - Enter: 
-10:21:18,701  INFO Client Client:getHeaders:133 - Leave: 
-10:21:18,714  WARN Client Client:writeToClient:144 - Enter: 
-10:21:18,716  WARN Client Client:writeToClient:155 - Leave: 
-10:21:18,717 DEBUG Client Client:run:86 - Leave
-10:21:21,566 DEBUG Client Client:run:39 - Enter: 
-10:21:21,566  INFO Client Client:getHeaders:117 - Enter: 
-10:21:21,567  INFO Client Client:getHeaders:133 - Leave: 
-10:21:21,568  WARN Client Client:writeToClient:144 - Enter: 
-10:21:21,570  WARN Client Client:writeToClient:155 - Leave: 
-10:21:21,570 DEBUG Client Client:run:86 - Leave
-10:21:22,525 DEBUG Client Client:run:39 - Enter: 
-10:21:22,526  INFO Client Client:getHeaders:117 - Enter: 
-10:21:22,526  INFO Client Client:getHeaders:133 - Leave: 
-10:21:22,527  WARN Client Client:writeToClient:144 - Enter: 
-10:21:22,528  WARN Client Client:writeToClient:155 - Leave: 
-10:21:22,529 DEBUG Client Client:run:86 - Leave
-10:21:23,650 DEBUG Client Client:run:39 - Enter: 
-10:21:23,651  INFO Client Client:getHeaders:117 - Enter: 
-10:21:23,651  INFO Client Client:getHeaders:133 - Leave: 
-10:21:23,652  WARN Client Client:writeToClient:144 - Enter: 
-10:21:23,653  WARN Client Client:writeToClient:155 - Leave: 
-10:21:23,653 DEBUG Client Client:run:86 - Leave
-10:21:25,139 DEBUG Client Client:run:39 - Enter: 
-10:21:25,139  INFO Client Client:getHeaders:117 - Enter: 
-10:21:25,140  INFO Client Client:getHeaders:133 - Leave: 
-10:21:25,140  WARN Client Client:writeToClient:144 - Enter: 
-10:21:25,142  WARN Client Client:writeToClient:155 - Leave: 
-10:21:25,142 DEBUG Client Client:run:86 - Leave
-10:21:28,644 DEBUG Client Client:run:39 - Enter: 
-10:21:28,644  INFO Client Client:getHeaders:117 - Enter: 
-10:21:28,645  INFO Client Client:getHeaders:133 - Leave: 
-10:21:29,792  WARN Client Client:writeToClient:144 - Enter: 
-10:21:29,793  WARN Client Client:writeToClient:155 - Leave: 
-10:21:29,794 DEBUG Client Client:run:86 - Leave
-10:21:32,500 DEBUG Client Client:run:39 - Enter: 
-10:21:32,501  INFO Client Client:getHeaders:117 - Enter: 
-10:21:32,501  INFO Client Client:getHeaders:133 - Leave: 
-10:21:32,502  WARN Client Client:writeToClient:144 - Enter: 
-10:21:32,503  WARN Client Client:writeToClient:155 - Leave: 
-10:21:32,503 DEBUG Client Client:run:86 - Leave
-10:21:39,848 DEBUG Client Client:run:39 - Enter: 
-10:21:39,848  INFO Client Client:getHeaders:117 - Enter: 
-10:21:39,849  INFO Client Client:getHeaders:133 - Leave: 
-10:21:39,849  WARN Client Client:writeToClient:144 - Enter: 
-10:21:39,850  WARN Client Client:writeToClient:155 - Leave: 
-10:21:39,850 DEBUG Client Client:run:86 - Leave
-10:21:51,119 DEBUG Client Client:run:39 - Enter: 
-10:21:51,120  INFO Client Client:getHeaders:117 - Enter: 
-10:21:51,120  INFO Client Client:getHeaders:133 - Leave: 
-14:54:58,674  INFO main MainHttpd:main:34 - Start httpd
-14:58:36,518  INFO main MainHttpd:main:34 - Start httpd
-14:59:09,528 DEBUG Client Client:run:37 - Enter: 
-14:59:09,550  INFO Client Client:getHeaders:122 - Enter: 
-14:59:09,550  INFO Client Client:getHeaders:138 - Leave: 
-14:59:12,081  WARN Client Client:writeToClient:149 - Enter: 
-14:59:12,082  WARN Client Client:writeToClient:160 - Leave: 
-14:59:12,087 DEBUG Client Client:run:91 - Leave
-14:59:15,319 DEBUG Client Client:run:37 - Enter: 
-14:59:15,319  INFO Client Client:getHeaders:122 - Enter: 
-14:59:15,320  INFO Client Client:getHeaders:138 - Leave: 
-14:59:16,899  WARN Client Client:writeToClient:149 - Enter: 
-14:59:16,901  WARN Client Client:writeToClient:160 - Leave: 
-14:59:16,901 DEBUG Client Client:run:91 - Leave
-15:02:38,742  INFO main MainHttpd:main:34 - Start httpd
-15:02:45,300 DEBUG Client Client:run:37 - Enter: 
-15:02:45,301  INFO Client Client:getHeaders:122 - Enter: 
-15:02:45,302  INFO Client Client:getHeaders:138 - Leave: 
-15:02:47,969  WARN Client Client:writeToClient:149 - Enter: 
-15:02:47,970  WARN Client Client:writeToClient:160 - Leave: 
-15:02:47,970 DEBUG Client Client:run:91 - Leave
-15:03:13,756 DEBUG Client Client:run:37 - Enter: 
-15:03:13,757  INFO Client Client:getHeaders:122 - Enter: 
-15:03:13,757  INFO Client Client:getHeaders:138 - Leave: 
-15:03:13,758  WARN Client Client:writeToClient:149 - Enter: 
-15:03:13,759  WARN Client Client:writeToClient:160 - Leave: 
-15:03:13,759 DEBUG Client Client:run:91 - Leave
-15:03:14,755 DEBUG Client Client:run:37 - Enter: 
-15:03:14,755  INFO Client Client:getHeaders:122 - Enter: 
-15:03:14,755  INFO Client Client:getHeaders:138 - Leave: 
-15:03:14,756  WARN Client Client:writeToClient:149 - Enter: 
-15:03:14,758  WARN Client Client:writeToClient:160 - Leave: 
-15:03:14,758 DEBUG Client Client:run:91 - Leave
-15:03:16,730 DEBUG Client Client:run:37 - Enter: 
-15:03:16,731  INFO Client Client:getHeaders:122 - Enter: 
-15:03:16,732  INFO Client Client:getHeaders:138 - Leave: 
-15:03:16,733  WARN Client Client:writeToClient:149 - Enter: 
-15:03:16,734  WARN Client Client:writeToClient:160 - Leave: 
-15:03:16,734 DEBUG Client Client:run:91 - Leave
-15:03:17,811 DEBUG Client Client:run:37 - Enter: 
-15:03:17,811  INFO Client Client:getHeaders:122 - Enter: 
-15:03:17,812  INFO Client Client:getHeaders:138 - Leave: 
-15:03:17,813  WARN Client Client:writeToClient:149 - Enter: 
-15:03:17,814  WARN Client Client:writeToClient:160 - Leave: 
-15:03:17,814 DEBUG Client Client:run:91 - Leave
-15:03:20,891 DEBUG Client Client:run:37 - Enter: 
-15:03:20,891  INFO Client Client:getHeaders:122 - Enter: 
-15:03:20,891  INFO Client Client:getHeaders:138 - Leave: 
-15:03:20,892  WARN Client Client:writeToClient:149 - Enter: 
-15:03:20,893  WARN Client Client:writeToClient:160 - Leave: 
-15:03:20,894 DEBUG Client Client:run:91 - Leave
-15:03:23,218 DEBUG Client Client:run:37 - Enter: 
-15:03:23,218  INFO Client Client:getHeaders:122 - Enter: 
-15:03:23,219  INFO Client Client:getHeaders:138 - Leave: 
-15:03:23,220  WARN Client Client:writeToClient:149 - Enter: 
-15:03:23,221  WARN Client Client:writeToClient:160 - Leave: 
-15:03:23,221 DEBUG Client Client:run:91 - Leave
-15:03:38,268 DEBUG Client Client:run:37 - Enter: 
-15:03:38,268  INFO Client Client:getHeaders:122 - Enter: 
-15:03:38,269  INFO Client Client:getHeaders:138 - Leave: 
-15:03:38,270  WARN Client Client:writeToClient:149 - Enter: 
-15:03:38,272  WARN Client Client:writeToClient:160 - Leave: 
-15:03:38,272 DEBUG Client Client:run:91 - Leave
-15:03:45,666 DEBUG Client Client:run:37 - Enter: 
-15:03:45,667  INFO Client Client:getHeaders:122 - Enter: 
-15:03:45,667  INFO Client Client:getHeaders:138 - Leave: 
-15:03:45,668  WARN Client Client:writeToClient:149 - Enter: 
-15:03:45,670  WARN Client Client:writeToClient:160 - Leave: 
-15:03:45,670 DEBUG Client Client:run:91 - Leave
-15:03:49,042 DEBUG Client Client:run:37 - Enter: 
-15:03:49,043  INFO Client Client:getHeaders:122 - Enter: 
-15:03:49,043  INFO Client Client:getHeaders:138 - Leave: 
-15:03:49,044  WARN Client Client:writeToClient:149 - Enter: 
-15:03:49,045  WARN Client Client:writeToClient:160 - Leave: 
-15:03:49,046 DEBUG Client Client:run:91 - Leave
-15:03:51,762 DEBUG Client Client:run:37 - Enter: 
-15:03:51,763  INFO Client Client:getHeaders:122 - Enter: 
-15:03:51,763  INFO Client Client:getHeaders:138 - Leave: 
-15:03:51,764  WARN Client Client:writeToClient:149 - Enter: 
-15:03:51,765  WARN Client Client:writeToClient:160 - Leave: 
-15:03:51,765 DEBUG Client Client:run:91 - Leave
-15:03:53,548 DEBUG Client Client:run:37 - Enter: 
-15:03:53,548  INFO Client Client:getHeaders:122 - Enter: 
-15:03:53,549  INFO Client Client:getHeaders:138 - Leave: 
-15:03:53,550  WARN Client Client:writeToClient:149 - Enter: 
-15:03:53,550  WARN Client Client:writeToClient:160 - Leave: 
-15:03:53,551 DEBUG Client Client:run:91 - Leave
-15:03:54,441 DEBUG Client Client:run:37 - Enter: 
-15:03:54,441  INFO Client Client:getHeaders:122 - Enter: 
-15:03:54,442  INFO Client Client:getHeaders:138 - Leave: 
-15:03:54,443  WARN Client Client:writeToClient:149 - Enter: 
-15:03:54,444  WARN Client Client:writeToClient:160 - Leave: 
-15:03:54,444 DEBUG Client Client:run:91 - Leave
-15:04:05,138 DEBUG Client Client:run:37 - Enter: 
-15:04:05,138  INFO Client Client:getHeaders:122 - Enter: 
-15:04:05,139  INFO Client Client:getHeaders:138 - Leave: 
-15:04:05,140  WARN Client Client:writeToClient:149 - Enter: 
-15:04:05,140  WARN Client Client:writeToClient:160 - Leave: 
-15:04:05,141 DEBUG Client Client:run:91 - Leave
-15:05:17,715  INFO main MainHttpd:main:34 - Start httpd
-15:05:20,123 DEBUG Client Client:run:37 - Enter: 
-15:05:20,124  INFO Client Client:getHeaders:122 - Enter: 
-15:05:20,124  INFO Client Client:getHeaders:138 - Leave: 
-15:05:20,133  WARN Client Client:writeToClient:149 - Enter: 
-15:05:20,134  WARN Client Client:writeToClient:160 - Leave: 
-15:05:20,135 DEBUG Client Client:run:91 - Leave
-15:05:21,019 DEBUG Client Client:run:37 - Enter: 
-15:05:21,020  INFO Client Client:getHeaders:122 - Enter: 
-15:05:21,020  INFO Client Client:getHeaders:138 - Leave: 
-15:05:21,021  WARN Client Client:writeToClient:149 - Enter: 
-15:05:21,022  WARN Client Client:writeToClient:160 - Leave: 
-15:05:21,022 DEBUG Client Client:run:91 - Leave
-15:05:22,568 DEBUG Client Client:run:37 - Enter: 
-15:05:22,569  INFO Client Client:getHeaders:122 - Enter: 
-15:05:22,569  INFO Client Client:getHeaders:138 - Leave: 
-15:05:22,570  WARN Client Client:writeToClient:149 - Enter: 
-15:05:22,571  WARN Client Client:writeToClient:160 - Leave: 
-15:05:22,571 DEBUG Client Client:run:91 - Leave
-15:05:23,367 DEBUG Client Client:run:37 - Enter: 
-15:05:23,367  INFO Client Client:getHeaders:122 - Enter: 
-15:05:23,368  INFO Client Client:getHeaders:138 - Leave: 
-15:05:23,369  WARN Client Client:writeToClient:149 - Enter: 
-15:05:23,369  WARN Client Client:writeToClient:160 - Leave: 
-15:05:23,370 DEBUG Client Client:run:91 - Leave
-15:05:25,228 DEBUG Client Client:run:37 - Enter: 
-15:05:25,229  INFO Client Client:getHeaders:122 - Enter: 
-15:05:25,230  INFO Client Client:getHeaders:138 - Leave: 
-15:05:25,231  WARN Client Client:writeToClient:149 - Enter: 
-15:05:25,232  WARN Client Client:writeToClient:160 - Leave: 
-15:05:25,232 DEBUG Client Client:run:91 - Leave
-15:05:26,923 DEBUG Client Client:run:37 - Enter: 
-15:05:26,923  INFO Client Client:getHeaders:122 - Enter: 
-15:05:26,924  INFO Client Client:getHeaders:138 - Leave: 
-15:05:26,925  WARN Client Client:writeToClient:149 - Enter: 
-15:05:26,925  WARN Client Client:writeToClient:160 - Leave: 
-15:05:26,926 DEBUG Client Client:run:91 - Leave
-15:05:28,907 DEBUG Client Client:run:37 - Enter: 
-15:05:28,907  INFO Client Client:getHeaders:122 - Enter: 
-15:05:28,908  INFO Client Client:getHeaders:138 - Leave: 
-15:05:28,909  WARN Client Client:writeToClient:149 - Enter: 
-15:05:28,911  WARN Client Client:writeToClient:160 - Leave: 
-15:05:28,912 DEBUG Client Client:run:91 - Leave
-15:05:30,344 DEBUG Client Client:run:37 - Enter: 
-15:05:30,345  INFO Client Client:getHeaders:122 - Enter: 
-15:05:30,345  INFO Client Client:getHeaders:138 - Leave: 
-15:05:30,347  WARN Client Client:writeToClient:149 - Enter: 
-15:05:30,348  WARN Client Client:writeToClient:160 - Leave: 
-15:05:30,349 DEBUG Client Client:run:91 - Leave
-15:05:34,175 DEBUG Client Client:run:37 - Enter: 
-15:05:34,175  INFO Client Client:getHeaders:122 - Enter: 
-15:05:34,175  INFO Client Client:getHeaders:138 - Leave: 
-15:05:34,176  WARN Client Client:writeToClient:149 - Enter: 
-15:05:34,177  WARN Client Client:writeToClient:160 - Leave: 
-15:05:34,177 DEBUG Client Client:run:91 - Leave
-15:08:55,096  INFO main MainHttpd:main:34 - Start httpd
-15:08:55,106 FATAL main MainHttpd:main:50 - 
-java.net.BindException: Address already in use: JVM_Bind
-	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+20:41:05,882  INFO main MainHttpd:main:34 - Start httpd
+20:41:15,005 DEBUG Client Client:run:79 - Enter: 
+20:41:15,007  INFO Client Client:getHeaders:187 - Enter: 
+20:41:34,395  INFO Client Client:getHeaders:208 - Leave: 
+20:43:13,495  WARN Client Client:writeToClient:219 - Enter: 
+20:43:24,126 DEBUG Client Client:run:79 - Enter: 
+20:43:24,126  INFO Client Client:getHeaders:187 - Enter: 
+20:43:27,656  INFO Client Client:getHeaders:208 - Leave: 
+20:43:27,657  WARN Client Client:writeToClient:219 - Enter: 
+20:43:39,362 DEBUG Client Client:run:79 - Enter: 
+20:43:39,362  INFO Client Client:getHeaders:187 - Enter: 
+20:43:39,365  INFO Client Client:getHeaders:208 - Leave: 
+20:43:39,365  WARN Client Client:writeToClient:219 - Enter: 
+21:19:47,310  INFO main MainHttpd:main:34 - Start httpd
+21:20:08,629 DEBUG Client Client:run:95 - Enter: 
+21:20:27,637  INFO Client Client:getHeaders:177 - Enter: 
+21:20:27,641  INFO Client Client:getHeaders:198 - Leave: 
+21:20:42,520 DEBUG Client Client:run:122 - Leave
+21:20:45,772 DEBUG Client Client:run:95 - Enter: 
+21:20:45,772  INFO Client Client:getHeaders:177 - Enter: 
+21:20:45,773  INFO Client Client:getHeaders:198 - Leave: 
+21:20:45,774 DEBUG Client Client:run:122 - Leave
+21:21:42,157  INFO main MainHttpd:main:34 - Start httpd
+21:22:28,678 DEBUG Client Client:run:95 - Enter: 
+21:22:32,157  INFO Client Client:getHeaders:177 - Enter: 
+21:22:32,162  INFO Client Client:getHeaders:198 - Leave: 
+21:22:48,312 DEBUG Client Client:run:122 - Leave
+21:22:50,080 DEBUG Client Client:run:95 - Enter: 
+21:22:54,350  INFO Client Client:getHeaders:177 - Enter: 
+21:22:54,354  INFO Client Client:getHeaders:198 - Leave: 
+21:23:22,284  INFO main MainHttpd:main:34 - Start httpd
+21:23:24,495 DEBUG Client Client:run:95 - Enter: 
+21:23:26,223  INFO Client Client:getHeaders:177 - Enter: 
+21:23:26,226  INFO Client Client:getHeaders:198 - Leave: 
+21:30:15,376 DEBUG Client Client:run:122 - Leave
+21:30:21,301 DEBUG Client Client:run:95 - Enter: 
+21:30:21,302  INFO Client Client:getHeaders:177 - Enter: 
+21:30:21,303  INFO Client Client:getHeaders:198 - Leave: 
+21:30:21,308 DEBUG Client Client:run:122 - Leave
+21:30:29,580 DEBUG Client Client:run:95 - Enter: 
+21:30:29,581  INFO Client Client:getHeaders:177 - Enter: 
+21:30:29,582  INFO Client Client:getHeaders:198 - Leave: 
+21:30:29,584 DEBUG Client Client:run:122 - Leave
+21:30:39,824 DEBUG Client Client:run:95 - Enter: 
+21:30:39,824  INFO Client Client:getHeaders:177 - Enter: 
+21:30:39,825  INFO Client Client:getHeaders:198 - Leave: 
+21:30:39,827 DEBUG Client Client:run:122 - Leave
+21:30:40,872 DEBUG Client Client:run:95 - Enter: 
+21:30:40,874  INFO Client Client:getHeaders:177 - Enter: 
+21:30:40,875  INFO Client Client:getHeaders:198 - Leave: 
+21:30:40,879 DEBUG Client Client:run:122 - Leave
+21:33:29,616 DEBUG Client Client:run:95 - Enter: 
+21:33:29,618  INFO Client Client:getHeaders:177 - Enter: 
+21:33:29,622  INFO Client Client:getHeaders:198 - Leave: 
+21:33:29,624 DEBUG Client Client:run:122 - Leave
+21:33:33,282 DEBUG Client Client:run:95 - Enter: 
+21:33:33,282  INFO Client Client:getHeaders:177 - Enter: 
+21:33:33,303  INFO Client Client:getHeaders:198 - Leave: 
+21:33:33,305 DEBUG Client Client:run:122 - Leave
+21:35:33,590  INFO main MainHttpd:main:34 - Start httpd
+21:35:36,979 DEBUG Client Client:run:95 - Enter: 
+21:35:36,993  INFO Client Client:getHeaders:177 - Enter: 
+21:35:37,000  INFO Client Client:getHeaders:198 - Leave: 
+21:36:58,893 DEBUG Client Client:run:122 - Leave
+21:38:21,882  INFO main MainHttpd:main:34 - Start httpd
+21:38:26,711  INFO main MainHttpd:main:34 - Start httpd
+21:38:26,743 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
 	at MainHttpd.main(MainHttpd.java:38)
-15:09:04,058  INFO main MainHttpd:main:34 - Start httpd
-15:09:11,560 DEBUG Client Client:run:37 - Enter: 
-15:09:11,561  INFO Client Client:getHeaders:130 - Enter: 
-15:09:11,562  INFO Client Client:getHeaders:146 - Leave: 
-15:09:11,572  WARN Client Client:writeToClient:157 - Enter: 
-15:09:11,573  WARN Client Client:writeToClient:168 - Leave: 
-15:09:11,573 DEBUG Client Client:run:99 - Leave
-15:09:14,749 DEBUG Client Client:run:37 - Enter: 
-15:09:14,749  INFO Client Client:getHeaders:130 - Enter: 
-15:09:14,750  INFO Client Client:getHeaders:146 - Leave: 
-15:09:14,751  WARN Client Client:writeToClient:157 - Enter: 
-15:09:14,752  WARN Client Client:writeToClient:168 - Leave: 
-15:09:14,753 DEBUG Client Client:run:99 - Leave
-15:09:16,990 DEBUG Client Client:run:37 - Enter: 
-15:09:16,991  INFO Client Client:getHeaders:130 - Enter: 
-15:09:16,991  INFO Client Client:getHeaders:146 - Leave: 
-15:09:16,992  WARN Client Client:writeToClient:157 - Enter: 
-15:09:16,993  WARN Client Client:writeToClient:168 - Leave: 
-15:09:16,994 DEBUG Client Client:run:99 - Leave
-15:09:18,393 DEBUG Client Client:run:37 - Enter: 
-15:09:18,395  INFO Client Client:getHeaders:130 - Enter: 
-15:09:18,395  INFO Client Client:getHeaders:146 - Leave: 
-15:09:18,397  WARN Client Client:writeToClient:157 - Enter: 
-15:09:18,397  WARN Client Client:writeToClient:168 - Leave: 
-15:09:18,398 DEBUG Client Client:run:99 - Leave
-15:09:19,577 DEBUG Client Client:run:37 - Enter: 
-15:09:19,577  INFO Client Client:getHeaders:130 - Enter: 
-15:09:19,578  INFO Client Client:getHeaders:146 - Leave: 
-15:09:19,578  WARN Client Client:writeToClient:157 - Enter: 
-15:09:19,579  WARN Client Client:writeToClient:168 - Leave: 
-15:09:19,580 DEBUG Client Client:run:99 - Leave
-15:09:33,175 DEBUG Client Client:run:37 - Enter: 
-15:09:33,175  INFO Client Client:getHeaders:130 - Enter: 
-15:09:33,176  INFO Client Client:getHeaders:146 - Leave: 
-15:09:33,176  WARN Client Client:writeToClient:157 - Enter: 
-15:09:33,177  WARN Client Client:writeToClient:168 - Leave: 
-15:09:33,178 DEBUG Client Client:run:99 - Leave
-15:09:38,736 DEBUG Client Client:run:37 - Enter: 
-15:09:38,737  INFO Client Client:getHeaders:130 - Enter: 
-15:09:38,737  INFO Client Client:getHeaders:146 - Leave: 
-15:09:54,867  WARN Client Client:writeToClient:157 - Enter: 
-15:09:54,868  WARN Client Client:writeToClient:168 - Leave: 
-15:09:54,868 DEBUG Client Client:run:99 - Leave
-15:10:02,218 DEBUG Client Client:run:37 - Enter: 
-15:10:02,219  INFO Client Client:getHeaders:130 - Enter: 
-15:10:02,219  INFO Client Client:getHeaders:146 - Leave: 
-15:10:02,220  WARN Client Client:writeToClient:157 - Enter: 
-15:10:02,222  WARN Client Client:writeToClient:168 - Leave: 
-15:10:02,222 DEBUG Client Client:run:99 - Leave
-15:10:26,636 DEBUG Client Client:run:37 - Enter: 
-15:10:26,636  INFO Client Client:getHeaders:130 - Enter: 
-15:10:26,637  INFO Client Client:getHeaders:146 - Leave: 
-15:10:34,432  WARN Client Client:writeToClient:157 - Enter: 
-15:10:34,435 ERROR Client Client:run:89 - problem
-java.net.SocketException: Software caused connection abort: socket write error
+21:38:51,498  INFO main MainHttpd:main:34 - Start httpd
+21:39:01,363 DEBUG Client Client:run:95 - Enter: 
+21:39:01,367  INFO Client Client:getHeaders:184 - Enter: 
+21:39:01,434  INFO Client Client:getHeaders:205 - Leave: 
+21:39:19,429 DEBUG Client Client:run:129 - Leave
+21:39:30,578 DEBUG Client Client:run:95 - Enter: 
+21:39:30,579  INFO Client Client:getHeaders:184 - Enter: 
+21:39:30,582  INFO Client Client:getHeaders:205 - Leave: 
+21:39:53,466 DEBUG Client Client:run:129 - Leave
+21:45:46,190  INFO main MainHttpd:main:34 - Start httpd
+21:45:51,234 DEBUG Client Client:run:100 - Enter: 
+21:45:51,236  INFO Client Client:getHeaders:185 - Enter: 
+21:45:51,259  INFO Client Client:getHeaders:206 - Leave: 
+21:45:57,742 DEBUG Client Client:run:131 - Leave
+21:46:52,818  INFO main MainHttpd:main:34 - Start httpd
+21:46:57,708 DEBUG Client Client:run:100 - Enter: 
+21:46:57,710  INFO Client Client:getHeaders:185 - Enter: 
+21:46:57,718  INFO Client Client:getHeaders:206 - Leave: 
+21:48:07,775 FATAL Client Client:sendDataToClient:85 - Problem sent data to client
+java.net.SocketException: Broken pipe
 	at java.net.SocketOutputStream.socketWrite0(Native Method)
 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:164)
-	at Client.run(Client.java:82)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at Client.sendDataToClient(Client.java:82)
+	at Client.run(Client.java:116)
 	at java.lang.Thread.run(Thread.java:724)
-15:10:34,436 ERROR Client Client:run:91 - problem
-java.net.SocketException: Software caused connection abort: socket write error
-	at java.net.SocketOutputStream.socketWrite0(Native Method)
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:164)
-	at Client.run(Client.java:82)
-	at java.lang.Thread.run(Thread.java:724)
-15:10:34,437 DEBUG Client Client:run:99 - Leave
-15:11:01,157 DEBUG Client Client:run:37 - Enter: 
-15:11:03,199  INFO Client Client:getHeaders:130 - Enter: 
-15:11:03,199  INFO Client Client:getHeaders:146 - Leave: 
-15:11:18,305 DEBUG Client Client:run:37 - Enter: 
-15:11:19,994  INFO Client Client:getHeaders:130 - Enter: 
-15:11:20,143  INFO Client Client:getHeaders:146 - Leave: 
-15:11:20,150  WARN Client Client:writeToClient:157 - Enter: 
-15:11:20,872  WARN Client Client:writeToClient:168 - Leave: 
-15:11:20,873 DEBUG Client Client:run:99 - Leave
-15:11:25,161  WARN Client Client:writeToClient:157 - Enter: 
-15:11:25,162 ERROR Client Client:run:89 - problem
-java.net.SocketException: Software caused connection abort: socket write error
-	at java.net.SocketOutputStream.socketWrite0(Native Method)
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:164)
-	at Client.run(Client.java:82)
-	at java.lang.Thread.run(Thread.java:724)
-15:11:25,162 ERROR Client Client:run:91 - problem
-java.net.SocketException: Software caused connection abort: socket write error
-	at java.net.SocketOutputStream.socketWrite0(Native Method)
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
-	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
-	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
-	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
-	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
-	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
-	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
-	at Client.writeToClient(Client.java:164)
-	at Client.run(Client.java:82)
-	at java.lang.Thread.run(Thread.java:724)
-15:11:25,163 DEBUG Client Client:run:99 - Leave
-15:11:39,175 DEBUG Client Client:run:37 - Enter: 
-15:11:39,176  INFO Client Client:getHeaders:130 - Enter: 
-15:11:39,176  INFO Client Client:getHeaders:146 - Leave: 
-15:11:39,176  WARN Client Client:writeToClient:157 - Enter: 
-15:11:39,177  WARN Client Client:writeToClient:168 - Leave: 
-15:11:39,177 DEBUG Client Client:run:99 - Leave
-15:11:44,827 DEBUG Client Client:run:37 - Enter: 
-15:11:44,827  INFO Client Client:getHeaders:130 - Enter: 
-15:11:44,827  INFO Client Client:getHeaders:146 - Leave: 
-15:11:44,828  WARN Client Client:writeToClient:157 - Enter: 
-15:11:44,829  WARN Client Client:writeToClient:168 - Leave: 
-15:11:44,829 DEBUG Client Client:run:99 - Leave
-15:11:50,614 DEBUG Client Client:run:37 - Enter: 
-15:11:50,614  INFO Client Client:getHeaders:130 - Enter: 
-15:11:50,614  INFO Client Client:getHeaders:146 - Leave: 
-15:11:50,615  WARN Client Client:writeToClient:157 - Enter: 
-15:11:50,616  WARN Client Client:writeToClient:168 - Leave: 
-15:11:50,617 DEBUG Client Client:run:99 - Leave
-15:11:58,021 DEBUG Client Client:run:37 - Enter: 
-15:11:58,021  INFO Client Client:getHeaders:130 - Enter: 
-15:11:58,022  INFO Client Client:getHeaders:146 - Leave: 
-15:11:58,023  WARN Client Client:writeToClient:157 - Enter: 
-15:11:58,024  WARN Client Client:writeToClient:168 - Leave: 
-15:11:58,024 DEBUG Client Client:run:99 - Leave
-15:12:00,622 DEBUG Client Client:run:37 - Enter: 
-15:12:00,622  INFO Client Client:getHeaders:130 - Enter: 
-15:12:00,623  INFO Client Client:getHeaders:146 - Leave: 
-15:12:00,624  WARN Client Client:writeToClient:157 - Enter: 
-15:12:00,625  WARN Client Client:writeToClient:168 - Leave: 
-15:12:00,625 DEBUG Client Client:run:99 - Leave
-15:12:03,758 DEBUG Client Client:run:37 - Enter: 
-15:12:03,759  INFO Client Client:getHeaders:130 - Enter: 
-15:12:03,759  INFO Client Client:getHeaders:146 - Leave: 
-15:12:03,760  WARN Client Client:writeToClient:157 - Enter: 
-15:12:03,761  WARN Client Client:writeToClient:168 - Leave: 
-15:12:03,761 DEBUG Client Client:run:99 - Leave
-15:12:04,711 DEBUG Client Client:run:37 - Enter: 
-15:12:04,711  INFO Client Client:getHeaders:130 - Enter: 
-15:12:04,711  INFO Client Client:getHeaders:146 - Leave: 
-15:12:04,712  WARN Client Client:writeToClient:157 - Enter: 
-15:12:04,713  WARN Client Client:writeToClient:168 - Leave: 
-15:12:04,713 DEBUG Client Client:run:99 - Leave
-15:12:08,486 DEBUG Client Client:run:37 - Enter: 
-15:12:08,486  INFO Client Client:getHeaders:130 - Enter: 
-15:12:08,486  INFO Client Client:getHeaders:146 - Leave: 
-15:12:08,487  WARN Client Client:writeToClient:157 - Enter: 
-15:12:08,488  WARN Client Client:writeToClient:168 - Leave: 
-15:12:08,488 DEBUG Client Client:run:99 - Leave
-18:33:34,120  INFO main MainHttpd:main:34 - Start httpd
-18:33:48,250 DEBUG Client Client:run:37 - Enter: 
-18:33:48,276  INFO Client Client:getHeaders:130 - Enter: 
-18:33:48,277  INFO Client Client:getHeaders:146 - Leave: 
-18:33:48,366  WARN Client Client:writeToClient:157 - Enter: 
-18:33:48,367  WARN Client Client:writeToClient:168 - Leave: 
-18:33:48,391 DEBUG Client Client:run:99 - Leave
-18:33:48,542 DEBUG Client Client:run:37 - Enter: 
-18:33:48,547  INFO Client Client:getHeaders:130 - Enter: 
-18:33:48,549  INFO Client Client:getHeaders:146 - Leave: 
-18:33:48,550  WARN Client Client:writeToClient:157 - Enter: 
-18:33:48,552  WARN Client Client:writeToClient:168 - Leave: 
-18:33:48,552 DEBUG Client Client:run:99 - Leave
-18:33:48,555 DEBUG Client Client:run:37 - Enter: 
-18:33:48,556  INFO Client Client:getHeaders:130 - Enter: 
-18:33:48,556  INFO Client Client:getHeaders:146 - Leave: 
-18:33:48,557  WARN Client Client:writeToClient:157 - Enter: 
-18:33:48,558  WARN Client Client:writeToClient:168 - Leave: 
-18:33:48,558 DEBUG Client Client:run:99 - Leave
-18:34:57,271 DEBUG Client Client:run:37 - Enter: 
-18:34:57,272  INFO Client Client:getHeaders:130 - Enter: 
-18:34:57,273  INFO Client Client:getHeaders:146 - Leave: 
-18:34:57,275  WARN Client Client:writeToClient:157 - Enter: 
-18:34:57,276  WARN Client Client:writeToClient:168 - Leave: 
-18:34:57,277 DEBUG Client Client:run:99 - Leave
-18:35:10,898 DEBUG Client Client:run:37 - Enter: 
-18:35:10,899  INFO Client Client:getHeaders:130 - Enter: 
-18:35:10,899  INFO Client Client:getHeaders:146 - Leave: 
-18:35:10,900  WARN Client Client:writeToClient:157 - Enter: 
-18:35:10,901  WARN Client Client:writeToClient:168 - Leave: 
-18:35:10,902 DEBUG Client Client:run:99 - Leave
-18:35:38,679 DEBUG Client Client:run:37 - Enter: 
-18:35:38,680  INFO Client Client:getHeaders:130 - Enter: 
-18:35:38,681  INFO Client Client:getHeaders:146 - Leave: 
-18:35:38,683  WARN Client Client:writeToClient:157 - Enter: 
-18:35:38,685  WARN Client Client:writeToClient:168 - Leave: 
-18:35:38,685 DEBUG Client Client:run:99 - Leave
-18:35:39,642 DEBUG Client Client:run:37 - Enter: 
-18:35:39,643  INFO Client Client:getHeaders:130 - Enter: 
-18:35:39,643  INFO Client Client:getHeaders:146 - Leave: 
-18:35:39,646  WARN Client Client:writeToClient:157 - Enter: 
-18:35:39,647  WARN Client Client:writeToClient:168 - Leave: 
-18:35:39,648 DEBUG Client Client:run:99 - Leave
-18:35:40,447 DEBUG Client Client:run:37 - Enter: 
-18:35:40,447  INFO Client Client:getHeaders:130 - Enter: 
-18:35:40,448  INFO Client Client:getHeaders:146 - Leave: 
-18:35:40,451  WARN Client Client:writeToClient:157 - Enter: 
-18:35:40,460  WARN Client Client:writeToClient:168 - Leave: 
-18:35:40,461 DEBUG Client Client:run:99 - Leave
-18:35:41,284 DEBUG Client Client:run:37 - Enter: 
-18:35:41,285  INFO Client Client:getHeaders:130 - Enter: 
-18:35:41,285  INFO Client Client:getHeaders:146 - Leave: 
-18:35:41,288  WARN Client Client:writeToClient:157 - Enter: 
-18:35:41,289  WARN Client Client:writeToClient:168 - Leave: 
-18:35:41,290 DEBUG Client Client:run:99 - Leave
-18:35:42,142 DEBUG Client Client:run:37 - Enter: 
-18:35:42,143  INFO Client Client:getHeaders:130 - Enter: 
-18:35:42,143  INFO Client Client:getHeaders:146 - Leave: 
-18:35:42,146  WARN Client Client:writeToClient:157 - Enter: 
-18:35:42,147  WARN Client Client:writeToClient:168 - Leave: 
-18:35:42,148 DEBUG Client Client:run:99 - Leave
-18:35:42,897 DEBUG Client Client:run:37 - Enter: 
-18:35:42,897  INFO Client Client:getHeaders:130 - Enter: 
-18:35:42,898  INFO Client Client:getHeaders:146 - Leave: 
-18:35:42,900  WARN Client Client:writeToClient:157 - Enter: 
-18:35:42,902  WARN Client Client:writeToClient:168 - Leave: 
-18:35:42,903 DEBUG Client Client:run:99 - Leave
-18:35:43,900 DEBUG Client Client:run:37 - Enter: 
-18:35:43,901  INFO Client Client:getHeaders:130 - Enter: 
-18:35:43,901  INFO Client Client:getHeaders:146 - Leave: 
-18:35:43,904  WARN Client Client:writeToClient:157 - Enter: 
-18:35:43,905  WARN Client Client:writeToClient:168 - Leave: 
-18:35:43,906 DEBUG Client Client:run:99 - Leave
-18:35:44,630 DEBUG Client Client:run:37 - Enter: 
-18:35:44,630  INFO Client Client:getHeaders:130 - Enter: 
-18:35:44,630  INFO Client Client:getHeaders:146 - Leave: 
-18:35:44,630  WARN Client Client:writeToClient:157 - Enter: 
-18:35:44,630  WARN Client Client:writeToClient:168 - Leave: 
-18:35:44,630 DEBUG Client Client:run:99 - Leave
-18:35:46,254 DEBUG Client Client:run:37 - Enter: 
-18:35:46,255  INFO Client Client:getHeaders:130 - Enter: 
-18:35:46,256  INFO Client Client:getHeaders:146 - Leave: 
-18:35:46,258  WARN Client Client:writeToClient:157 - Enter: 
-18:35:46,259  WARN Client Client:writeToClient:168 - Leave: 
-18:35:46,260 DEBUG Client Client:run:99 - Leave
-18:35:59,554 DEBUG Client Client:run:37 - Enter: 
-18:35:59,555  INFO Client Client:getHeaders:130 - Enter: 
-18:35:59,556  INFO Client Client:getHeaders:146 - Leave: 
-18:35:59,558  WARN Client Client:writeToClient:157 - Enter: 
-18:35:59,559  WARN Client Client:writeToClient:168 - Leave: 
-18:35:59,560 DEBUG Client Client:run:99 - Leave
-18:36:00,307 DEBUG Client Client:run:37 - Enter: 
-18:36:00,307  INFO Client Client:getHeaders:130 - Enter: 
-18:36:00,308  INFO Client Client:getHeaders:146 - Leave: 
-18:36:00,310  WARN Client Client:writeToClient:157 - Enter: 
-18:36:00,311  WARN Client Client:writeToClient:168 - Leave: 
-18:36:00,312 DEBUG Client Client:run:99 - Leave
-18:36:01,070 DEBUG Client Client:run:37 - Enter: 
-18:36:01,071  INFO Client Client:getHeaders:130 - Enter: 
-18:36:01,071  INFO Client Client:getHeaders:146 - Leave: 
-18:36:01,074  WARN Client Client:writeToClient:157 - Enter: 
-18:36:01,075  WARN Client Client:writeToClient:168 - Leave: 
-18:36:01,076 DEBUG Client Client:run:99 - Leave
-18:36:01,865 DEBUG Client Client:run:37 - Enter: 
-18:36:01,868  INFO Client Client:getHeaders:130 - Enter: 
-18:36:01,868  INFO Client Client:getHeaders:146 - Leave: 
-18:36:01,870  WARN Client Client:writeToClient:157 - Enter: 
-18:36:01,872  WARN Client Client:writeToClient:168 - Leave: 
-18:36:01,872 DEBUG Client Client:run:99 - Leave
-18:36:02,818 DEBUG Client Client:run:37 - Enter: 
-18:36:02,819  INFO Client Client:getHeaders:130 - Enter: 
-18:36:02,820  INFO Client Client:getHeaders:146 - Leave: 
-18:36:02,822  WARN Client Client:writeToClient:157 - Enter: 
-18:36:02,823  WARN Client Client:writeToClient:168 - Leave: 
-18:36:02,824 DEBUG Client Client:run:99 - Leave
-18:36:04,420 DEBUG Client Client:run:37 - Enter: 
-18:36:04,420  INFO Client Client:getHeaders:130 - Enter: 
-18:36:04,421  INFO Client Client:getHeaders:146 - Leave: 
-18:36:04,423  WARN Client Client:writeToClient:157 - Enter: 
-18:36:04,424  WARN Client Client:writeToClient:168 - Leave: 
-18:36:04,425 DEBUG Client Client:run:99 - Leave
-18:36:10,163 DEBUG Client Client:run:37 - Enter: 
-18:36:10,164  INFO Client Client:getHeaders:130 - Enter: 
-18:36:10,164  INFO Client Client:getHeaders:146 - Leave: 
-18:36:10,166  WARN Client Client:writeToClient:157 - Enter: 
-18:36:10,168  WARN Client Client:writeToClient:168 - Leave: 
-18:36:10,169 DEBUG Client Client:run:99 - Leave
-18:36:10,927 DEBUG Client Client:run:37 - Enter: 
-18:36:10,927  INFO Client Client:getHeaders:130 - Enter: 
-18:36:10,928  INFO Client Client:getHeaders:146 - Leave: 
-18:36:10,930  WARN Client Client:writeToClient:157 - Enter: 
-18:36:10,931  WARN Client Client:writeToClient:168 - Leave: 
-18:36:10,932 DEBUG Client Client:run:99 - Leave
-18:36:18,555 DEBUG Client Client:run:37 - Enter: 
-18:36:18,555  INFO Client Client:getHeaders:130 - Enter: 
-18:36:18,556  INFO Client Client:getHeaders:146 - Leave: 
-18:36:18,558  WARN Client Client:writeToClient:157 - Enter: 
-18:36:18,559  WARN Client Client:writeToClient:168 - Leave: 
-18:36:18,560 DEBUG Client Client:run:99 - Leave
-18:37:42,607 DEBUG Client Client:run:37 - Enter: 
-18:37:42,607  INFO Client Client:getHeaders:130 - Enter: 
-18:37:42,608  INFO Client Client:getHeaders:146 - Leave: 
-18:37:42,609  WARN Client Client:writeToClient:157 - Enter: 
-18:37:42,609  WARN Client Client:writeToClient:168 - Leave: 
-18:37:42,610 DEBUG Client Client:run:99 - Leave
-19:59:14,163  INFO main MainHttpd:main:34 - Start httpd
-19:59:14,225 FATAL main MainHttpd:main:50 - 
-java.net.BindException: Address already in use: JVM_Bind
-	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+21:48:08,581 DEBUG Client Client:run:131 - Leave
+21:48:15,249 DEBUG Client Client:run:100 - Enter: 
+21:48:15,251  INFO Client Client:getHeaders:185 - Enter: 
+21:48:15,254  INFO Client Client:getHeaders:206 - Leave: 
+21:48:21,638 DEBUG Client Client:run:131 - Leave
+21:48:22,018 DEBUG Client Client:run:100 - Enter: 
+21:48:22,018  INFO Client Client:getHeaders:185 - Enter: 
+21:48:22,026  INFO Client Client:getHeaders:206 - Leave: 
+21:48:22,027 DEBUG Client Client:run:131 - Leave
+21:48:22,032 DEBUG Client Client:run:100 - Enter: 
+21:48:22,032  INFO Client Client:getHeaders:185 - Enter: 
+21:48:22,033  INFO Client Client:getHeaders:206 - Leave: 
+21:48:22,034 DEBUG Client Client:run:131 - Leave
+21:48:24,802 DEBUG Client Client:run:100 - Enter: 
+21:48:24,802  INFO Client Client:getHeaders:185 - Enter: 
+21:48:24,890  INFO Client Client:getHeaders:206 - Leave: 
+21:48:24,894 DEBUG Client Client:run:131 - Leave
+21:48:26,278 DEBUG Client Client:run:100 - Enter: 
+21:48:26,279  INFO Client Client:getHeaders:185 - Enter: 
+21:48:26,279  INFO Client Client:getHeaders:206 - Leave: 
+21:48:26,281 DEBUG Client Client:run:131 - Leave
+21:48:28,537 DEBUG Client Client:run:100 - Enter: 
+21:48:28,538  INFO Client Client:getHeaders:185 - Enter: 
+21:48:28,540  INFO Client Client:getHeaders:206 - Leave: 
+21:48:28,544 DEBUG Client Client:run:131 - Leave
+21:48:39,717  INFO main MainHttpd:main:34 - Start httpd
+21:48:40,748 DEBUG Client Client:run:100 - Enter: 
+21:48:40,754  INFO Client Client:getHeaders:185 - Enter: 
+21:48:40,756  INFO Client Client:getHeaders:206 - Leave: 
+21:48:40,814 DEBUG Client Client:run:131 - Leave
+21:49:58,953  INFO main MainHttpd:main:34 - Start httpd
+21:50:00,983 DEBUG Client Client:run:101 - Enter: 
+21:50:00,991  INFO Client Client:getHeaders:186 - Enter: 
+21:50:01,016  INFO Client Client:getHeaders:207 - Leave: 
+21:50:01,104 DEBUG Client Client:run:132 - Leave
+21:50:02,749 DEBUG Client Client:run:101 - Enter: 
+21:50:02,749  INFO Client Client:getHeaders:186 - Enter: 
+21:50:02,751  INFO Client Client:getHeaders:207 - Leave: 
+21:50:02,753 DEBUG Client Client:run:132 - Leave
+21:50:03,488 DEBUG Client Client:run:101 - Enter: 
+21:50:03,488  INFO Client Client:getHeaders:186 - Enter: 
+21:50:03,489  INFO Client Client:getHeaders:207 - Leave: 
+21:50:03,491 DEBUG Client Client:run:132 - Leave
+21:50:04,169 DEBUG Client Client:run:101 - Enter: 
+21:50:04,170  INFO Client Client:getHeaders:186 - Enter: 
+21:50:04,172  INFO Client Client:getHeaders:207 - Leave: 
+21:50:04,177 DEBUG Client Client:run:132 - Leave
+21:50:15,082 DEBUG Client Client:run:101 - Enter: 
+21:50:15,082  INFO Client Client:getHeaders:186 - Enter: 
+21:50:15,094  INFO Client Client:getHeaders:207 - Leave: 
+21:50:15,096 DEBUG Client Client:run:132 - Leave
+21:50:17,701 DEBUG Client Client:run:101 - Enter: 
+21:50:17,703  INFO Client Client:getHeaders:186 - Enter: 
+21:50:17,704  INFO Client Client:getHeaders:207 - Leave: 
+21:50:17,708 DEBUG Client Client:run:132 - Leave
+21:51:36,238  INFO main MainHttpd:main:34 - Start httpd
+21:51:38,381 DEBUG Client Client:run:103 - Enter: 
+21:51:38,384  INFO Client Client:getHeaders:188 - Enter: 
+21:51:38,387  INFO Client Client:getHeaders:209 - Leave: 
+21:51:38,450 DEBUG Client Client:run:134 - Leave
+21:51:39,735 DEBUG Client Client:run:103 - Enter: 
+21:51:39,736  INFO Client Client:getHeaders:188 - Enter: 
+21:51:39,739  INFO Client Client:getHeaders:209 - Leave: 
+21:51:39,741 DEBUG Client Client:run:134 - Leave
+21:51:40,608 DEBUG Client Client:run:103 - Enter: 
+21:51:40,609  INFO Client Client:getHeaders:188 - Enter: 
+21:51:40,612  INFO Client Client:getHeaders:209 - Leave: 
+21:51:40,614 DEBUG Client Client:run:134 - Leave
+21:51:41,732 DEBUG Client Client:run:103 - Enter: 
+21:51:41,733  INFO Client Client:getHeaders:188 - Enter: 
+21:51:41,734  INFO Client Client:getHeaders:209 - Leave: 
+21:51:41,735 DEBUG Client Client:run:134 - Leave
+21:51:57,237 DEBUG Client Client:run:103 - Enter: 
+21:51:57,238  INFO Client Client:getHeaders:188 - Enter: 
+21:51:57,239  INFO Client Client:getHeaders:209 - Leave: 
+21:51:57,241 DEBUG Client Client:run:134 - Leave
+21:52:23,367 DEBUG Client Client:run:103 - Enter: 
+21:52:23,367  INFO Client Client:getHeaders:188 - Enter: 
+21:52:23,412  INFO Client Client:getHeaders:209 - Leave: 
+21:52:23,414 DEBUG Client Client:run:134 - Leave
+21:53:27,468  INFO main MainHttpd:main:34 - Start httpd
+21:53:32,524 DEBUG Client Client:run:104 - Enter: 
+21:53:32,527  INFO Client Client:getHeaders:189 - Enter: 
+21:53:32,555  INFO Client Client:getHeaders:210 - Leave: 
+21:53:32,600 DEBUG Client Client:run:135 - Leave
+21:53:40,099 DEBUG Client Client:run:104 - Enter: 
+21:53:40,100  INFO Client Client:getHeaders:189 - Enter: 
+21:53:40,117  INFO Client Client:getHeaders:210 - Leave: 
+21:53:40,119 DEBUG Client Client:run:135 - Leave
+21:56:55,622  INFO main MainHttpd:main:34 - Start httpd
+21:57:15,126 DEBUG Client Client:run:111 - Enter: 
+21:57:15,129  INFO Client Client:getHeaders:196 - Enter: 
+21:57:15,163  INFO Client Client:getHeaders:217 - Leave: 
+21:57:15,194 DEBUG Client Client:run:142 - Leave
+21:58:44,754  INFO main MainHttpd:main:34 - Start httpd
+21:58:47,486 DEBUG Client Client:run:103 - Enter: 
+21:58:47,492  INFO Client Client:getHeaders:188 - Enter: 
+21:58:47,580  INFO Client Client:getHeaders:209 - Leave: 
+21:58:47,609 DEBUG Client Client:run:134 - Leave
+22:05:24,877  INFO main MainHttpd:main:34 - Start httpd
+22:05:27,607 DEBUG Client Client:run:117 - Enter: 
+22:05:27,609  INFO Client Client:getHeaders:202 - Enter: 
+22:05:27,645  INFO Client Client:getHeaders:223 - Leave: 
+22:05:27,668 DEBUG Client Client:run:148 - Leave
+22:05:39,456 DEBUG Client Client:run:117 - Enter: 
+22:05:39,457  INFO Client Client:getHeaders:202 - Enter: 
+22:05:39,478  INFO Client Client:getHeaders:223 - Leave: 
+22:05:39,480 DEBUG Client Client:run:148 - Leave
+22:05:40,902 DEBUG Client Client:run:117 - Enter: 
+22:05:40,903  INFO Client Client:getHeaders:202 - Enter: 
+22:05:40,913  INFO Client Client:getHeaders:223 - Leave: 
+22:05:40,915 DEBUG Client Client:run:148 - Leave
+22:05:41,779 DEBUG Client Client:run:117 - Enter: 
+22:05:41,779  INFO Client Client:getHeaders:202 - Enter: 
+22:05:41,781  INFO Client Client:getHeaders:223 - Leave: 
+22:05:41,783 DEBUG Client Client:run:148 - Leave
+22:05:42,537 DEBUG Client Client:run:117 - Enter: 
+22:05:42,538  INFO Client Client:getHeaders:202 - Enter: 
+22:05:42,540  INFO Client Client:getHeaders:223 - Leave: 
+22:05:42,541 DEBUG Client Client:run:148 - Leave
+22:05:43,427 DEBUG Client Client:run:117 - Enter: 
+22:05:43,427  INFO Client Client:getHeaders:202 - Enter: 
+22:05:43,438  INFO Client Client:getHeaders:223 - Leave: 
+22:05:43,440 DEBUG Client Client:run:148 - Leave
+22:20:31,451  INFO main MainHttpd:main:34 - Start httpd
+22:20:38,032 DEBUG Client Client:run:121 - Enter: 
+22:20:38,037  INFO Client Client:getHeaders:206 - Enter: 
+22:20:38,069  INFO Client Client:getHeaders:227 - Leave: 
+22:20:38,099 DEBUG Client Client:run:152 - Leave
+22:29:47,668  INFO main MainHttpd:main:34 - Start httpd
+22:29:54,835 DEBUG Client Client:run:107 - Enter: 
+22:29:54,837  INFO Client Client:getHeaders:194 - Enter: 
+22:29:54,838  INFO Client Client:getHeaders:215 - Leave: 
+22:29:54,877 DEBUG Client Client:run:140 - Leave
+22:30:08,707 DEBUG Client Client:run:107 - Enter: 
+22:30:08,708  INFO Client Client:getHeaders:194 - Enter: 
+22:30:08,733  INFO Client Client:getHeaders:215 - Leave: 
+22:30:08,735 DEBUG Client Client:run:140 - Leave
+22:31:02,556  INFO main MainHttpd:main:34 - Start httpd
+22:31:13,372 DEBUG Client Client:run:107 - Enter: 
+22:31:13,376  INFO Client Client:getHeaders:194 - Enter: 
+22:31:13,409  INFO Client Client:getHeaders:215 - Leave: 
+22:31:32,635 DEBUG Client Client:run:140 - Leave
+22:32:08,294  INFO main MainHttpd:main:34 - Start httpd
+22:32:16,576 DEBUG Client Client:run:107 - Enter: 
+22:32:16,581  INFO Client Client:getHeaders:194 - Enter: 
+22:32:16,587  INFO Client Client:getHeaders:215 - Leave: 
+22:33:01,679 DEBUG Client Client:run:140 - Leave
+22:38:37,618  INFO main MainHttpd:main:34 - Start httpd
+22:38:40,545 DEBUG Client Client:run:107 - Enter: 
+22:38:40,559  INFO Client Client:getHeaders:206 - Enter: 
+22:38:40,561  INFO Client Client:getHeaders:227 - Leave: 
+22:38:46,959  WARN Client Client:writeToClient:238 - Enter: 
+22:38:56,285  WARN Client Client:writeToClient:249 - Leave: 
+22:38:56,288 DEBUG Client Client:run:152 - Leave
+22:39:20,877 DEBUG Client Client:run:107 - Enter: 
+22:39:20,878  INFO Client Client:getHeaders:206 - Enter: 
+22:39:20,880  INFO Client Client:getHeaders:227 - Leave: 
+22:39:23,025  WARN Client Client:writeToClient:238 - Enter: 
+22:39:23,901  WARN Client Client:writeToClient:249 - Leave: 
+22:39:23,902 DEBUG Client Client:run:152 - Leave
+22:43:26,936  INFO main MainHttpd:main:34 - Start httpd
+22:43:31,239 DEBUG Client Client:run:99 - Enter: 
+22:43:31,248  INFO Client Client:getHeaders:201 - Enter: 
+22:43:31,250  INFO Client Client:getHeaders:222 - Leave: 
+22:43:40,477 DEBUG Client Client:run:147 - Leave
+22:43:59,443 DEBUG Client Client:run:99 - Enter: 
+22:43:59,443  INFO Client Client:getHeaders:201 - Enter: 
+22:43:59,445  INFO Client Client:getHeaders:222 - Leave: 
+22:44:03,326 DEBUG Client Client:run:147 - Leave
+22:44:07,388 DEBUG Client Client:run:99 - Enter: 
+22:44:07,389  INFO Client Client:getHeaders:201 - Enter: 
+22:44:07,393  INFO Client Client:getHeaders:222 - Leave: 
+22:44:07,394 DEBUG Client Client:run:147 - Leave
+22:44:08,361 DEBUG Client Client:run:99 - Enter: 
+22:44:08,362  INFO Client Client:getHeaders:201 - Enter: 
+22:44:08,363  INFO Client Client:getHeaders:222 - Leave: 
+22:44:08,365 DEBUG Client Client:run:147 - Leave
+22:44:09,206 DEBUG Client Client:run:99 - Enter: 
+22:44:09,206  INFO Client Client:getHeaders:201 - Enter: 
+22:44:09,207  INFO Client Client:getHeaders:222 - Leave: 
+22:44:09,209 DEBUG Client Client:run:147 - Leave
+22:44:17,861 DEBUG Client Client:run:99 - Enter: 
+22:44:17,862  INFO Client Client:getHeaders:201 - Enter: 
+22:44:17,866  INFO Client Client:getHeaders:222 - Leave: 
+22:44:17,867 DEBUG Client Client:run:147 - Leave
+22:44:32,091 DEBUG Client Client:run:99 - Enter: 
+22:44:32,092  INFO Client Client:getHeaders:201 - Enter: 
+22:44:32,157  INFO Client Client:getHeaders:222 - Leave: 
+22:44:32,160 DEBUG Client Client:run:147 - Leave
+22:45:00,145  INFO main MainHttpd:main:34 - Start httpd
+22:45:04,585  INFO main MainHttpd:main:34 - Start httpd
+22:45:04,608 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
 	at MainHttpd.main(MainHttpd.java:38)
-19:59:39,238  INFO main MainHttpd:main:34 - Start httpd
-19:59:39,264 FATAL main MainHttpd:main:50 - 
-java.net.BindException: Address already in use: JVM_Bind
-	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+22:45:22,743  INFO main MainHttpd:main:34 - Start httpd
+22:45:35,562 DEBUG Client Client:run:104 - Enter: 
+22:45:35,565  INFO Client Client:getHeaders:206 - Enter: 
+22:45:35,566  INFO Client Client:getHeaders:227 - Leave: 
+22:45:35,595 DEBUG Client Client:run:152 - Leave
+22:48:04,487  INFO main MainHttpd:main:34 - Start httpd
+22:48:12,327 DEBUG Client Client:run:116 - Enter: 
+22:48:12,329  INFO Client Client:getHeaders:218 - Enter: 
+22:48:12,333  INFO Client Client:getHeaders:239 - Leave: 
+22:48:12,359 DEBUG Client Client:run:164 - Leave
+22:48:47,863 DEBUG Client Client:run:116 - Enter: 
+22:48:47,863  INFO Client Client:getHeaders:218 - Enter: 
+22:48:47,864  INFO Client Client:getHeaders:239 - Leave: 
+22:48:47,865 DEBUG Client Client:run:164 - Leave
+22:49:42,784  INFO main MainHttpd:main:34 - Start httpd
+22:49:49,003 DEBUG Client Client:run:116 - Enter: 
+22:49:49,005  INFO Client Client:getHeaders:218 - Enter: 
+22:49:49,006  INFO Client Client:getHeaders:239 - Leave: 
+22:49:49,053 DEBUG Client Client:run:164 - Leave
+22:50:51,067  INFO main MainHttpd:main:34 - Start httpd
+22:51:18,456  INFO main MainHttpd:main:34 - Start httpd
+22:51:20,046 DEBUG Client Client:run:116 - Enter: 
+22:51:20,049  INFO Client Client:getHeaders:218 - Enter: 
+22:51:20,059  INFO Client Client:getHeaders:239 - Leave: 
+22:51:20,088 DEBUG Client Client:run:164 - Leave
+22:51:30,249 DEBUG Client Client:run:116 - Enter: 
+22:51:30,250  INFO Client Client:getHeaders:218 - Enter: 
+22:51:30,250  INFO Client Client:getHeaders:239 - Leave: 
+22:51:30,252 DEBUG Client Client:run:164 - Leave
+22:52:52,363  INFO main MainHttpd:main:34 - Start httpd
+22:52:56,073 DEBUG Client Client:run:116 - Enter: 
+22:52:56,075  INFO Client Client:getHeaders:218 - Enter: 
+22:52:56,104  INFO Client Client:getHeaders:239 - Leave: 
+22:52:56,144 DEBUG Client Client:run:164 - Leave
+22:54:32,115 DEBUG Client Client:run:116 - Enter: 
+22:54:32,116  INFO Client Client:getHeaders:218 - Enter: 
+22:54:32,142  INFO Client Client:getHeaders:239 - Leave: 
+22:54:32,144 DEBUG Client Client:run:164 - Leave
+22:54:51,982 DEBUG Client Client:run:116 - Enter: 
+22:54:51,982  INFO Client Client:getHeaders:218 - Enter: 
+22:54:51,993  INFO Client Client:getHeaders:239 - Leave: 
+22:54:51,994 DEBUG Client Client:run:164 - Leave
+22:56:13,506  INFO main MainHttpd:main:34 - Start httpd
+22:56:13,849 DEBUG Client Client:run:116 - Enter: 
+22:56:13,852  INFO Client Client:getHeaders:218 - Enter: 
+22:56:13,853  INFO Client Client:getHeaders:239 - Leave: 
+22:56:13,895 DEBUG Client Client:run:164 - Leave
+22:56:16,305 DEBUG Client Client:run:116 - Enter: 
+22:56:16,305  INFO Client Client:getHeaders:218 - Enter: 
+22:56:16,314  INFO Client Client:getHeaders:239 - Leave: 
+22:56:16,316 DEBUG Client Client:run:164 - Leave
+22:56:17,870 DEBUG Client Client:run:116 - Enter: 
+22:56:17,870  INFO Client Client:getHeaders:218 - Enter: 
+22:56:17,871  INFO Client Client:getHeaders:239 - Leave: 
+22:56:17,873 DEBUG Client Client:run:164 - Leave
+22:57:10,324  INFO main MainHttpd:main:34 - Start httpd
+22:57:13,648 DEBUG Client Client:run:116 - Enter: 
+22:57:13,650  INFO Client Client:getHeaders:218 - Enter: 
+22:57:13,651  INFO Client Client:getHeaders:239 - Leave: 
+22:57:15,873  WARN Client Client:writeToClient:250 - Enter: 
+22:57:17,395  WARN Client Client:writeToClient:259 - Leave: 
+22:57:17,396 DEBUG Client Client:run:164 - Leave
+22:57:34,765 DEBUG Client Client:run:116 - Enter: 
+22:57:34,766  INFO Client Client:getHeaders:218 - Enter: 
+22:57:34,781  INFO Client Client:getHeaders:239 - Leave: 
+22:57:39,067  WARN Client Client:writeToClient:250 - Enter: 
+22:57:39,068  WARN Client Client:writeToClient:259 - Leave: 
+22:57:39,069 DEBUG Client Client:run:164 - Leave
+22:57:43,361 DEBUG Client Client:run:116 - Enter: 
+22:57:43,362  INFO Client Client:getHeaders:218 - Enter: 
+22:57:43,364  INFO Client Client:getHeaders:239 - Leave: 
+22:57:43,366  WARN Client Client:writeToClient:250 - Enter: 
+22:57:43,367  WARN Client Client:writeToClient:259 - Leave: 
+22:57:43,367 DEBUG Client Client:run:164 - Leave
+22:58:25,528  INFO main MainHttpd:main:34 - Start httpd
+22:58:26,362 DEBUG Client Client:run:116 - Enter: 
+22:58:26,364  INFO Client Client:getHeaders:218 - Enter: 
+22:58:26,365  INFO Client Client:getHeaders:239 - Leave: 
+22:58:26,375  WARN Client Client:writeToClient:250 - Enter: 
+22:58:26,377  WARN Client Client:writeToClient:259 - Leave: 
+22:58:26,380 DEBUG Client Client:run:164 - Leave
+22:58:27,303 DEBUG Client Client:run:116 - Enter: 
+22:58:27,304  INFO Client Client:getHeaders:218 - Enter: 
+22:58:27,305  INFO Client Client:getHeaders:239 - Leave: 
+22:58:27,310  WARN Client Client:writeToClient:250 - Enter: 
+22:58:27,311  WARN Client Client:writeToClient:259 - Leave: 
+22:58:27,313 DEBUG Client Client:run:164 - Leave
+22:59:28,264  INFO main MainHttpd:main:34 - Start httpd
+22:59:29,239 DEBUG Client Client:run:116 - Enter: 
+22:59:29,242  INFO Client Client:getHeaders:218 - Enter: 
+22:59:29,243  INFO Client Client:getHeaders:239 - Leave: 
+22:59:29,254  WARN Client Client:writeToClient:250 - Enter: 
+22:59:29,255  WARN Client Client:writeToClient:259 - Leave: 
+22:59:29,256 DEBUG Client Client:run:164 - Leave
+22:59:30,152 DEBUG Client Client:run:116 - Enter: 
+22:59:30,154  INFO Client Client:getHeaders:218 - Enter: 
+22:59:30,160  INFO Client Client:getHeaders:239 - Leave: 
+22:59:30,161  WARN Client Client:writeToClient:250 - Enter: 
+22:59:30,162  WARN Client Client:writeToClient:259 - Leave: 
+22:59:30,163 DEBUG Client Client:run:164 - Leave
+22:59:30,980 DEBUG Client Client:run:116 - Enter: 
+22:59:30,981  INFO Client Client:getHeaders:218 - Enter: 
+22:59:30,982  INFO Client Client:getHeaders:239 - Leave: 
+22:59:30,982  WARN Client Client:writeToClient:250 - Enter: 
+22:59:30,983  WARN Client Client:writeToClient:259 - Leave: 
+22:59:30,984 DEBUG Client Client:run:164 - Leave
+23:03:08,730  INFO main MainHttpd:main:34 - Start httpd
+23:03:18,083 DEBUG Client Client:run:116 - Enter: 
+23:03:18,084  INFO Client Client:getHeaders:230 - Enter: 
+23:03:18,085  INFO Client Client:getHeaders:251 - Leave: 
+23:03:18,093  WARN Client Client:writeToClient:262 - Enter: 
+23:03:18,095  WARN Client Client:writeToClient:271 - Leave: 
+23:03:18,100 DEBUG Client Client:run:176 - Leave
+23:03:58,876  INFO main MainHttpd:main:34 - Start httpd
+23:03:59,661 DEBUG Client Client:run:116 - Enter: 
+23:03:59,663  INFO Client Client:getHeaders:220 - Enter: 
+23:03:59,664  INFO Client Client:getHeaders:241 - Leave: 
+23:03:59,679  WARN Client Client:writeToClient:252 - Enter: 
+23:03:59,684  WARN Client Client:writeToClient:261 - Leave: 
+23:03:59,687 DEBUG Client Client:run:166 - Leave
+23:04:01,484 DEBUG Client Client:run:116 - Enter: 
+23:04:01,485  INFO Client Client:getHeaders:220 - Enter: 
+23:04:01,485  INFO Client Client:getHeaders:241 - Leave: 
+23:04:01,486  WARN Client Client:writeToClient:252 - Enter: 
+23:04:01,487  WARN Client Client:writeToClient:261 - Leave: 
+23:04:01,488 DEBUG Client Client:run:166 - Leave
+23:04:10,981 DEBUG Client Client:run:116 - Enter: 
+23:04:10,982  INFO Client Client:getHeaders:220 - Enter: 
+23:04:10,982  INFO Client Client:getHeaders:241 - Leave: 
+23:04:10,983  WARN Client Client:writeToClient:252 - Enter: 
+23:04:10,984  WARN Client Client:writeToClient:261 - Leave: 
+23:04:10,985 DEBUG Client Client:run:166 - Leave
+23:05:08,910  INFO main MainHttpd:main:34 - Start httpd
+23:05:08,968 DEBUG Client Client:run:116 - Enter: 
+23:05:08,970  INFO Client Client:getHeaders:220 - Enter: 
+23:05:08,981  INFO Client Client:getHeaders:241 - Leave: 
+23:05:08,987  WARN Client Client:writeToClient:252 - Enter: 
+23:05:08,996  WARN Client Client:writeToClient:261 - Leave: 
+23:05:08,997 DEBUG Client Client:run:166 - Leave
+23:05:10,498 DEBUG Client Client:run:116 - Enter: 
+23:05:10,499  INFO Client Client:getHeaders:220 - Enter: 
+23:05:10,499  INFO Client Client:getHeaders:241 - Leave: 
+23:05:10,500  WARN Client Client:writeToClient:252 - Enter: 
+23:05:10,501  WARN Client Client:writeToClient:261 - Leave: 
+23:05:10,502 DEBUG Client Client:run:166 - Leave
+23:05:11,502 DEBUG Client Client:run:116 - Enter: 
+23:05:11,503  INFO Client Client:getHeaders:220 - Enter: 
+23:05:11,513  INFO Client Client:getHeaders:241 - Leave: 
+23:05:11,514  WARN Client Client:writeToClient:252 - Enter: 
+23:05:11,515  WARN Client Client:writeToClient:261 - Leave: 
+23:05:11,516 DEBUG Client Client:run:166 - Leave
+23:05:12,274 DEBUG Client Client:run:116 - Enter: 
+23:05:12,275  INFO Client Client:getHeaders:220 - Enter: 
+23:05:12,276  INFO Client Client:getHeaders:241 - Leave: 
+23:05:12,277  WARN Client Client:writeToClient:252 - Enter: 
+23:05:12,278  WARN Client Client:writeToClient:261 - Leave: 
+23:05:12,278 DEBUG Client Client:run:166 - Leave
+23:06:13,264  INFO main MainHttpd:main:34 - Start httpd
+23:06:16,576 DEBUG Client Client:run:116 - Enter: 
+23:06:16,577  INFO Client Client:getHeaders:220 - Enter: 
+23:06:16,585  INFO Client Client:getHeaders:241 - Leave: 
+23:06:16,591  WARN Client Client:writeToClient:252 - Enter: 
+23:06:16,592  WARN Client Client:writeToClient:261 - Leave: 
+23:06:16,593 DEBUG Client Client:run:166 - Leave
+23:06:30,725 DEBUG Client Client:run:116 - Enter: 
+23:06:30,726  INFO Client Client:getHeaders:220 - Enter: 
+23:06:30,730  INFO Client Client:getHeaders:241 - Leave: 
+23:06:30,732  WARN Client Client:writeToClient:252 - Enter: 
+23:06:30,733  WARN Client Client:writeToClient:261 - Leave: 
+23:06:30,734 DEBUG Client Client:run:166 - Leave
+23:06:48,775 DEBUG Client Client:run:116 - Enter: 
+23:06:48,776  INFO Client Client:getHeaders:220 - Enter: 
+23:06:48,777  INFO Client Client:getHeaders:241 - Leave: 
+23:06:48,778  WARN Client Client:writeToClient:252 - Enter: 
+23:06:48,779  WARN Client Client:writeToClient:261 - Leave: 
+23:06:48,780 DEBUG Client Client:run:166 - Leave
+23:07:53,731 DEBUG Client Client:run:116 - Enter: 
+23:07:53,731  INFO Client Client:getHeaders:220 - Enter: 
+23:07:53,732 DEBUG Client Client:run:116 - Enter: 
+23:07:53,733  INFO Client Client:getHeaders:220 - Enter: 
+23:07:53,823  INFO Client Client:getHeaders:241 - Leave: 
+23:07:53,825  WARN Client Client:writeToClient:252 - Enter: 
+23:07:53,829  WARN Client Client:writeToClient:261 - Leave: 
+23:07:53,830 DEBUG Client Client:run:166 - Leave
+23:07:54,223  INFO Client Client:getHeaders:241 - Leave: 
+23:07:54,225 DEBUG Client Client:run:166 - Leave
+23:08:00,707 DEBUG Client Client:run:116 - Enter: 
+23:08:00,708  INFO Client Client:getHeaders:220 - Enter: 
+23:08:00,709 DEBUG Client Client:run:116 - Enter: 
+23:08:00,709  INFO Client Client:getHeaders:220 - Enter: 
+23:08:00,894  INFO Client Client:getHeaders:241 - Leave: 
+23:08:00,896 DEBUG Client Client:run:166 - Leave
+23:08:10,891  INFO Client Client:getHeaders:241 - Leave: 
+23:08:10,892  WARN Client Client:writeToClient:252 - Enter: 
+23:08:10,895 FATAL Client Client:run:158 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at Client.writeToClient(Client.java:257)
+	at Client.run(Client.java:151)
+	at java.lang.Thread.run(Thread.java:724)
+23:08:10,900 DEBUG Client Client:run:166 - Leave
+23:08:24,463  INFO main MainHttpd:main:34 - Start httpd
+23:08:25,930 DEBUG Client Client:run:116 - Enter: 
+23:08:25,932  INFO Client Client:getHeaders:220 - Enter: 
+23:08:25,933  INFO Client Client:getHeaders:241 - Leave: 
+23:08:25,942  WARN Client Client:writeToClient:252 - Enter: 
+23:08:25,943  WARN Client Client:writeToClient:261 - Leave: 
+23:08:25,948 DEBUG Client Client:run:166 - Leave
+23:08:28,032 DEBUG Client Client:run:116 - Enter: 
+23:08:28,033  INFO Client Client:getHeaders:220 - Enter: 
+23:08:28,035  INFO Client Client:getHeaders:241 - Leave: 
+23:08:28,037  WARN Client Client:writeToClient:252 - Enter: 
+23:08:28,039  WARN Client Client:writeToClient:261 - Leave: 
+23:08:28,040 DEBUG Client Client:run:166 - Leave
+23:09:00,966  INFO main MainHttpd:main:34 - Start httpd
+23:09:01,892 DEBUG Client Client:run:116 - Enter: 
+23:09:01,894  INFO Client Client:getHeaders:220 - Enter: 
+23:09:01,895  INFO Client Client:getHeaders:241 - Leave: 
+23:09:01,900  WARN Client Client:writeToClient:252 - Enter: 
+23:09:01,902  WARN Client Client:writeToClient:261 - Leave: 
+23:09:01,903 DEBUG Client Client:run:166 - Leave
+23:09:11,979 DEBUG Client Client:run:116 - Enter: 
+23:09:11,980  INFO Client Client:getHeaders:220 - Enter: 
+23:09:11,980  INFO Client Client:getHeaders:241 - Leave: 
+23:09:11,982  WARN Client Client:writeToClient:252 - Enter: 
+23:09:11,983  WARN Client Client:writeToClient:261 - Leave: 
+23:09:11,984 DEBUG Client Client:run:166 - Leave
+23:14:53,681  INFO main MainHttpd:main:34 - Start httpd
+23:14:55,215 DEBUG Client Client:run:120 - Enter: 
+23:14:55,217  INFO Client Client:getHeaders:212 - Enter: 
+23:14:55,218  INFO Client Client:getHeaders:233 - Leave: 
+23:14:55,254 DEBUG Client Client:run:158 - Leave
+23:15:01,631 DEBUG Client Client:run:120 - Enter: 
+23:15:01,631  INFO Client Client:getHeaders:212 - Enter: 
+23:15:01,633  INFO Client Client:getHeaders:233 - Leave: 
+23:15:06,890 DEBUG Client Client:run:158 - Leave
+23:15:25,586  INFO main MainHttpd:main:34 - Start httpd
+23:16:08,873 DEBUG Client Client:run:120 - Enter: 
+23:16:08,874  INFO Client Client:getHeaders:212 - Enter: 
+23:16:08,921  INFO Client Client:getHeaders:233 - Leave: 
+23:16:12,729 DEBUG Client Client:run:158 - Leave
+23:19:54,503  INFO main MainHttpd:main:34 - Start httpd
+23:20:11,239 DEBUG Client Client:run:108 - Enter: 
+23:20:11,241  INFO Client Client:getHeaders:200 - Enter: 
+23:20:11,290  INFO Client Client:getHeaders:221 - Leave: 
+23:20:11,331 DEBUG Client Client:run:146 - Leave
+23:20:13,764 DEBUG Client Client:run:108 - Enter: 
+23:20:13,765  INFO Client Client:getHeaders:200 - Enter: 
+23:20:13,766  INFO Client Client:getHeaders:221 - Leave: 
+23:20:13,768 DEBUG Client Client:run:146 - Leave
+23:20:56,344  INFO main MainHttpd:main:34 - Start httpd
+23:20:57,880 DEBUG Client Client:run:108 - Enter: 
+23:20:57,883  INFO Client Client:getHeaders:200 - Enter: 
+23:20:57,884  INFO Client Client:getHeaders:221 - Leave: 
+23:20:57,923 DEBUG Client Client:run:146 - Leave
+23:20:59,905 DEBUG Client Client:run:108 - Enter: 
+23:20:59,905  INFO Client Client:getHeaders:200 - Enter: 
+23:20:59,906  INFO Client Client:getHeaders:221 - Leave: 
+23:20:59,908 DEBUG Client Client:run:146 - Leave
+23:21:01,554 DEBUG Client Client:run:108 - Enter: 
+23:21:01,555  INFO Client Client:getHeaders:200 - Enter: 
+23:21:01,555  INFO Client Client:getHeaders:221 - Leave: 
+23:21:01,558 DEBUG Client Client:run:146 - Leave
+23:21:02,394 DEBUG Client Client:run:108 - Enter: 
+23:21:02,395  INFO Client Client:getHeaders:200 - Enter: 
+23:21:02,396  INFO Client Client:getHeaders:221 - Leave: 
+23:21:02,399 DEBUG Client Client:run:146 - Leave
+23:21:03,325 DEBUG Client Client:run:108 - Enter: 
+23:21:03,325  INFO Client Client:getHeaders:200 - Enter: 
+23:21:03,326  INFO Client Client:getHeaders:221 - Leave: 
+23:21:03,327 DEBUG Client Client:run:146 - Leave
+23:22:17,775  INFO main MainHttpd:main:34 - Start httpd
+23:22:18,552 DEBUG Client Client:run:101 - Enter: 
+23:22:18,554  INFO Client Client:getHeaders:193 - Enter: 
+23:22:18,575  INFO Client Client:getHeaders:214 - Leave: 
+23:22:18,624 DEBUG Client Client:run:139 - Leave
+23:23:42,494  INFO main MainHttpd:main:34 - Start httpd
+23:23:42,524 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
 	at MainHttpd.main(MainHttpd.java:38)
-19:59:55,283  INFO main MainHttpd:main:34 - Start httpd
-20:00:03,100 DEBUG Client Client:run:37 - Enter: 
-20:00:03,102  INFO Client Client:getHeaders:130 - Enter: 
-20:00:03,104  INFO Client Client:getHeaders:151 - Leave: 
-20:00:03,133  WARN Client Client:writeToClient:162 - Enter: 
-20:00:03,135  WARN Client Client:writeToClient:173 - Leave: 
-20:00:03,137 DEBUG Client Client:run:99 - Leave
-20:00:04,237 DEBUG Client Client:run:37 - Enter: 
-20:00:04,237  INFO Client Client:getHeaders:130 - Enter: 
-20:00:04,238  INFO Client Client:getHeaders:151 - Leave: 
-20:00:04,240  WARN Client Client:writeToClient:162 - Enter: 
-20:00:04,241  WARN Client Client:writeToClient:173 - Leave: 
-20:00:04,242 DEBUG Client Client:run:99 - Leave
-20:00:05,179 DEBUG Client Client:run:37 - Enter: 
-20:00:05,180  INFO Client Client:getHeaders:130 - Enter: 
-20:00:05,180  INFO Client Client:getHeaders:151 - Leave: 
-20:00:05,183  WARN Client Client:writeToClient:162 - Enter: 
-20:00:05,184  WARN Client Client:writeToClient:173 - Leave: 
-20:00:05,185 DEBUG Client Client:run:99 - Leave
-20:00:05,953 DEBUG Client Client:run:37 - Enter: 
-20:00:05,953  INFO Client Client:getHeaders:130 - Enter: 
-20:00:05,954  INFO Client Client:getHeaders:151 - Leave: 
-20:00:05,956  WARN Client Client:writeToClient:162 - Enter: 
-20:00:05,957  WARN Client Client:writeToClient:173 - Leave: 
-20:00:05,958 DEBUG Client Client:run:99 - Leave
-20:00:06,978 DEBUG Client Client:run:37 - Enter: 
-20:00:06,979  INFO Client Client:getHeaders:130 - Enter: 
-20:00:06,980  INFO Client Client:getHeaders:151 - Leave: 
-20:00:06,982  WARN Client Client:writeToClient:162 - Enter: 
-20:00:06,984  WARN Client Client:writeToClient:173 - Leave: 
-20:00:06,984 DEBUG Client Client:run:99 - Leave
-20:00:07,774 DEBUG Client Client:run:37 - Enter: 
-20:00:07,775  INFO Client Client:getHeaders:130 - Enter: 
-20:00:07,775  INFO Client Client:getHeaders:151 - Leave: 
-20:00:07,778  WARN Client Client:writeToClient:162 - Enter: 
-20:00:07,779  WARN Client Client:writeToClient:173 - Leave: 
-20:00:07,781 DEBUG Client Client:run:99 - Leave
-20:00:08,547 DEBUG Client Client:run:37 - Enter: 
-20:00:08,548  INFO Client Client:getHeaders:130 - Enter: 
-20:00:08,549  INFO Client Client:getHeaders:151 - Leave: 
-20:00:08,551  WARN Client Client:writeToClient:162 - Enter: 
-20:00:08,561  WARN Client Client:writeToClient:173 - Leave: 
-20:00:08,561 DEBUG Client Client:run:99 - Leave
-20:00:09,676 DEBUG Client Client:run:37 - Enter: 
-20:00:09,677  INFO Client Client:getHeaders:130 - Enter: 
-20:00:09,677  INFO Client Client:getHeaders:151 - Leave: 
-20:00:09,679  WARN Client Client:writeToClient:162 - Enter: 
-20:00:09,680  WARN Client Client:writeToClient:173 - Leave: 
-20:00:09,681 DEBUG Client Client:run:99 - Leave
-20:00:10,483 DEBUG Client Client:run:37 - Enter: 
-20:00:10,484  INFO Client Client:getHeaders:130 - Enter: 
-20:00:10,484  INFO Client Client:getHeaders:151 - Leave: 
-20:00:10,487  WARN Client Client:writeToClient:162 - Enter: 
-20:00:10,488  WARN Client Client:writeToClient:173 - Leave: 
-20:00:10,489 DEBUG Client Client:run:99 - Leave
-20:00:11,435 DEBUG Client Client:run:37 - Enter: 
-20:00:11,436  INFO Client Client:getHeaders:130 - Enter: 
-20:00:11,436  INFO Client Client:getHeaders:151 - Leave: 
-20:00:11,437  WARN Client Client:writeToClient:162 - Enter: 
-20:00:11,438  WARN Client Client:writeToClient:173 - Leave: 
-20:00:11,439 DEBUG Client Client:run:99 - Leave
-20:00:22,629 DEBUG Client Client:run:37 - Enter: 
-20:00:22,630  INFO Client Client:getHeaders:130 - Enter: 
-20:00:22,631  INFO Client Client:getHeaders:151 - Leave: 
-20:00:22,631  WARN Client Client:writeToClient:162 - Enter: 
-20:00:22,632  WARN Client Client:writeToClient:173 - Leave: 
-20:00:22,633 DEBUG Client Client:run:99 - Leave
-20:48:49,152  INFO main MainHttpd:main:34 - Start httpd
-20:48:49,178 FATAL main MainHttpd:main:50 - 
-java.net.BindException: Address already in use: JVM_Bind
-	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
-	at java.net.ServerSocket.bind(ServerSocket.java:376)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at MainHttpd.main(MainHttpd.java:38)
-20:48:58,946 DEBUG Client Client:run:37 - Enter: 
-20:48:58,947  INFO Client Client:getHeaders:130 - Enter: 
-20:48:58,948  INFO Client Client:getHeaders:151 - Leave: 
-20:48:58,949  WARN Client Client:writeToClient:162 - Enter: 
-20:48:58,950  WARN Client Client:writeToClient:173 - Leave: 
-20:48:58,951 DEBUG Client Client:run:99 - Leave
-20:49:14,684  INFO main MainHttpd:main:34 - Start httpd
-20:49:25,261 DEBUG Client Client:run:77 - Enter: 
-20:49:25,264  INFO Client Client:getHeaders:169 - Enter: 
-20:49:25,265  INFO Client Client:getHeaders:190 - Leave: 
-20:49:53,446  INFO main MainHttpd:main:34 - Start httpd
-20:49:56,409 DEBUG Client Client:run:77 - Enter: 
-20:49:56,411  INFO Client Client:getHeaders:169 - Enter: 
-20:49:56,412  INFO Client Client:getHeaders:190 - Leave: 
-20:50:26,279  INFO main MainHttpd:main:34 - Start httpd
-20:50:30,076 DEBUG Client Client:run:77 - Enter: 
-20:50:30,078  INFO Client Client:getHeaders:169 - Enter: 
-20:50:30,079  INFO Client Client:getHeaders:190 - Leave: 
-20:52:03,987  INFO main MainHttpd:main:34 - Start httpd
-20:52:06,816 DEBUG Client Client:run:77 - Enter: 
-20:52:06,818  INFO Client Client:getHeaders:170 - Enter: 
-20:52:06,819  INFO Client Client:getHeaders:191 - Leave: 
-20:52:30,566  INFO main MainHttpd:main:34 - Start httpd
-20:52:33,642 DEBUG Client Client:run:77 - Enter: 
-20:52:33,644  INFO Client Client:getHeaders:170 - Enter: 
-20:52:33,646  INFO Client Client:getHeaders:191 - Leave: 
-20:54:12,960  INFO main MainHttpd:main:34 - Start httpd
-20:54:18,950 DEBUG Client Client:run:77 - Enter: 
-20:54:18,952  INFO Client Client:getHeaders:170 - Enter: 
-20:54:18,954  INFO Client Client:getHeaders:191 - Leave: 
-20:58:55,868  INFO main MainHttpd:main:34 - Start httpd
+23:23:54,599  INFO main MainHttpd:main:34 - Start httpd
+23:23:54,905 DEBUG Client Client:run:100 - Enter: 
+23:23:54,909  INFO Client Client:getHeaders:192 - Enter: 
+23:23:54,943  INFO Client Client:getHeaders:213 - Leave: 
+23:23:54,985 DEBUG Client Client:run:138 - Leave
+23:24:00,992 DEBUG Client Client:run:100 - Enter: 
+23:24:00,992  INFO Client Client:getHeaders:192 - Enter: 
+23:24:00,993  INFO Client Client:getHeaders:213 - Leave: 
+23:24:00,994 DEBUG Client Client:run:138 - Leave
+23:24:09,361 DEBUG Client Client:run:100 - Enter: 
+23:24:09,362  INFO Client Client:getHeaders:192 - Enter: 
+23:24:09,363  INFO Client Client:getHeaders:213 - Leave: 
+23:24:09,364 DEBUG Client Client:run:138 - Leave
+23:27:56,150  INFO main MainHttpd:main:34 - Start httpd
+23:27:57,421 DEBUG Client Client:run:96 - Enter: 
+23:27:57,423  INFO Client Client:getHeaders:188 - Enter: 
+23:27:57,424  INFO Client Client:getHeaders:209 - Leave: 
+23:27:57,469 DEBUG Client Client:run:134 - Leave
+23:27:58,742 DEBUG Client Client:run:96 - Enter: 
+23:27:58,742  INFO Client Client:getHeaders:188 - Enter: 
+23:27:58,743  INFO Client Client:getHeaders:209 - Leave: 
+23:27:58,745 DEBUG Client Client:run:134 - Leave
+23:27:59,727 DEBUG Client Client:run:96 - Enter: 
+23:27:59,728  INFO Client Client:getHeaders:188 - Enter: 
+23:27:59,755  INFO Client Client:getHeaders:209 - Leave: 
+23:27:59,757 DEBUG Client Client:run:134 - Leave
+23:28:59,705  INFO main MainHttpd:main:34 - Start httpd
+23:29:00,394 DEBUG Client Client:run:96 - Enter: 
+23:29:00,399  INFO Client Client:getHeaders:188 - Enter: 
+23:29:00,424  INFO Client Client:getHeaders:209 - Leave: 
+23:29:00,479 DEBUG Client Client:run:134 - Leave
+23:29:01,405 DEBUG Client Client:run:96 - Enter: 
+23:29:01,406  INFO Client Client:getHeaders:188 - Enter: 
+23:29:01,409  INFO Client Client:getHeaders:209 - Leave: 
+23:29:01,414 DEBUG Client Client:run:134 - Leave
+23:29:07,308 DEBUG Client Client:run:96 - Enter: 
+23:29:07,309  INFO Client Client:getHeaders:188 - Enter: 
+23:29:07,324  INFO Client Client:getHeaders:209 - Leave: 
+23:29:07,326 DEBUG Client Client:run:134 - Leave
+23:29:25,141 DEBUG Client Client:run:96 - Enter: 
+23:29:25,142  INFO Client Client:getHeaders:188 - Enter: 
+23:29:25,142  INFO Client Client:getHeaders:209 - Leave: 
+23:29:25,144 DEBUG Client Client:run:134 - Leave
+23:30:59,189 DEBUG Client Client:run:96 - Enter: 
+23:30:59,189  INFO Client Client:getHeaders:188 - Enter: 
+23:30:59,202  INFO Client Client:getHeaders:209 - Leave: 
+23:32:27,291  INFO main MainHttpd:main:34 - Start httpd
+23:32:28,021 DEBUG Client Client:run:96 - Enter: 
+23:32:28,023  INFO Client Client:getHeaders:188 - Enter: 
+23:32:28,045  INFO Client Client:getHeaders:209 - Leave: 
+23:32:31,941 DEBUG Client Client:run:134 - Leave
+23:38:49,983  INFO main MainHttpd:main:34 - Start httpd
+23:38:54,335 DEBUG Client Client:run:96 - Enter: 
+23:38:54,337  INFO Client Client:getHeaders:188 - Enter: 
+23:38:54,393  INFO Client Client:getHeaders:209 - Leave: 
+23:38:54,446 DEBUG Client Client:run:134 - Leave
+23:41:51,737  INFO main MainHttpd:main:34 - Start httpd
+23:41:52,913 DEBUG Client Client:run:106 - Enter: 
+23:41:52,915  INFO Client Client:getHeaders:198 - Enter: 
+23:41:52,916  INFO Client Client:getHeaders:219 - Leave: 
+23:41:52,949 DEBUG Client Client:run:144 - Leave
+23:42:36,647 DEBUG Client Client:run:106 - Enter: 
+23:42:36,648  INFO Client Client:getHeaders:198 - Enter: 
+23:42:36,649  INFO Client Client:getHeaders:219 - Leave: 
+23:42:36,650 DEBUG Client Client:run:144 - Leave
+23:42:43,224 DEBUG Client Client:run:106 - Enter: 
+23:42:43,225  INFO Client Client:getHeaders:198 - Enter: 
+23:42:46,043  INFO Client Client:getHeaders:219 - Leave: 
+23:42:46,046 DEBUG Client Client:run:144 - Leave
+23:42:47,445 DEBUG Client Client:run:106 - Enter: 
+23:42:47,445  INFO Client Client:getHeaders:198 - Enter: 
+23:42:47,449  INFO Client Client:getHeaders:219 - Leave: 
+23:42:47,452 DEBUG Client Client:run:144 - Leave
+23:43:13,127 DEBUG Client Client:run:106 - Enter: 
+23:43:13,128  INFO Client Client:getHeaders:198 - Enter: 
+23:43:13,128  INFO Client Client:getHeaders:219 - Leave: 
+23:43:13,131 DEBUG Client Client:run:144 - Leave
+23:43:14,698 DEBUG Client Client:run:106 - Enter: 
+23:43:14,698  INFO Client Client:getHeaders:198 - Enter: 
+23:43:14,699  INFO Client Client:getHeaders:219 - Leave: 
+23:43:14,700 DEBUG Client Client:run:144 - Leave
+23:43:17,326 DEBUG Client Client:run:106 - Enter: 
+23:43:17,327  INFO Client Client:getHeaders:198 - Enter: 
+23:43:17,327  INFO Client Client:getHeaders:219 - Leave: 
+23:43:17,328 DEBUG Client Client:run:144 - Leave
+23:43:33,112 DEBUG Client Client:run:106 - Enter: 
+23:43:35,588  INFO Client Client:getHeaders:198 - Enter: 
+23:43:35,597  INFO Client Client:getHeaders:219 - Leave: 
+23:47:45,909  INFO main MainHttpd:main:34 - Start httpd
+23:48:01,874 DEBUG Client Client:run:107 - Enter: 
+23:48:03,747  INFO Client Client:getHeaders:200 - Enter: 
+23:48:03,752  INFO Client Client:getHeaders:221 - Leave: 
+23:52:09,873 DEBUG Client Client:run:146 - Leave
+23:52:10,710 DEBUG Client Client:run:107 - Enter: 
+23:52:10,712  INFO Client Client:getHeaders:200 - Enter: 
+23:52:10,714  INFO Client Client:getHeaders:221 - Leave: 
+23:52:10,723 DEBUG Client Client:run:146 - Leave
+23:52:13,848 DEBUG Client Client:run:107 - Enter: 
+23:52:13,849  INFO Client Client:getHeaders:200 - Enter: 
+23:52:13,850  INFO Client Client:getHeaders:221 - Leave: 
+23:52:13,851 DEBUG Client Client:run:146 - Leave
+23:52:14,345 DEBUG Client Client:run:107 - Enter: 
+23:52:14,346  INFO Client Client:getHeaders:200 - Enter: 
+23:52:14,346  INFO Client Client:getHeaders:221 - Leave: 
+23:52:14,347 DEBUG Client Client:run:146 - Leave
+23:52:25,758 DEBUG Client Client:run:107 - Enter: 
+23:52:27,385  INFO Client Client:getHeaders:200 - Enter: 
+23:52:27,387  INFO Client Client:getHeaders:221 - Leave: 
+23:53:08,910  INFO main MainHttpd:main:34 - Start httpd
+23:53:13,845 DEBUG Client Client:run:104 - Enter: 
+23:53:15,837  INFO Client Client:getHeaders:197 - Enter: 
+23:53:15,840  INFO Client Client:getHeaders:218 - Leave: 
+23:53:20,747 DEBUG Client Client:run:143 - Leave
+23:53:35,777 DEBUG Client Client:run:104 - Enter: 
+23:53:35,779  INFO Client Client:getHeaders:197 - Enter: 
+23:53:35,780  INFO Client Client:getHeaders:218 - Leave: 
+23:53:35,786 DEBUG Client Client:run:143 - Leave
+23:53:38,702 DEBUG Client Client:run:104 - Enter: 
+23:53:38,702  INFO Client Client:getHeaders:197 - Enter: 
+23:53:38,703  INFO Client Client:getHeaders:218 - Leave: 
+23:53:38,706 DEBUG Client Client:run:143 - Leave
+23:53:40,116 DEBUG Client Client:run:104 - Enter: 
+23:53:40,116  INFO Client Client:getHeaders:197 - Enter: 
+23:53:40,117  INFO Client Client:getHeaders:218 - Leave: 
+23:53:40,120 DEBUG Client Client:run:143 - Leave
+23:53:41,609 DEBUG Client Client:run:104 - Enter: 
+23:53:41,609  INFO Client Client:getHeaders:197 - Enter: 
+23:53:41,610  INFO Client Client:getHeaders:218 - Leave: 
+23:53:41,611 DEBUG Client Client:run:143 - Leave
+23:53:50,863 DEBUG Client Client:run:104 - Enter: 
+23:53:52,994  INFO Client Client:getHeaders:197 - Enter: 
+23:53:52,996  INFO Client Client:getHeaders:218 - Leave: 
+23:59:48,728  INFO main MainHttpd:main:34 - Start httpd
+23:59:54,217 DEBUG Client Client:run:104 - Enter: 
+23:59:55,754  INFO Client Client:getHeaders:198 - Enter: 
+23:59:55,756  INFO Client Client:getHeaders:219 - Leave: 
+00:06:32,407  INFO main MainHttpd:main:34 - Start httpd
+00:06:45,714 DEBUG Client Client:run:104 - Enter: 
+00:06:48,164  INFO Client Client:getHeaders:198 - Enter: 
+00:06:48,174  INFO Client Client:getHeaders:219 - Leave: 
+00:07:27,265 DEBUG Client Client:run:144 - Leave
+00:07:28,114 DEBUG Client Client:run:104 - Enter: 
+00:07:30,385  INFO Client Client:getHeaders:198 - Enter: 
+00:07:30,388  INFO Client Client:getHeaders:219 - Leave: 
+00:08:36,540 DEBUG Client Client:run:144 - Leave
+00:08:37,123 DEBUG Client Client:run:104 - Enter: 
+00:08:38,466 DEBUG Client Client:run:104 - Enter: 
+00:08:38,632  INFO Client Client:getHeaders:198 - Enter: 
+00:08:38,633  INFO Client Client:getHeaders:219 - Leave: 
+00:08:38,975  INFO Client Client:getHeaders:198 - Enter: 
+00:08:38,975 DEBUG Client Client:run:144 - Leave
+00:08:38,976  INFO Client Client:getHeaders:219 - Leave: 
+00:08:39,936 DEBUG Client Client:run:104 - Enter: 
+00:08:40,236  INFO Client Client:getHeaders:198 - Enter: 
+00:08:40,237  INFO Client Client:getHeaders:219 - Leave: 
+00:08:40,475 DEBUG Client Client:run:144 - Leave
+00:08:40,481 FATAL Client Client:sendDataToClient:85 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at Client.sendDataToClient(Client.java:81)
+	at Client.run(Client.java:124)
+	at java.lang.Thread.run(Thread.java:724)
+00:08:40,488 FATAL Client Client:sendDataToClient:95 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:91)
+	at Client.run(Client.java:124)
+	at java.lang.Thread.run(Thread.java:724)
+00:08:40,492 DEBUG Client Client:run:144 - Leave
+00:08:54,855 DEBUG Client Client:run:104 - Enter: 
+00:08:55,322 DEBUG Client Client:run:104 - Enter: 
+00:08:55,323  INFO Client Client:getHeaders:198 - Enter: 
+00:08:55,324  INFO Client Client:getHeaders:219 - Leave: 
+00:08:55,926  INFO Client Client:getHeaders:198 - Enter: 
+00:08:55,928 DEBUG Client Client:run:144 - Leave
+00:08:55,927  INFO Client Client:getHeaders:219 - Leave: 
+00:08:56,438 DEBUG Client Client:run:144 - Leave
+00:08:57,525 DEBUG Client Client:run:104 - Enter: 
+00:08:57,990  INFO Client Client:getHeaders:198 - Enter: 
+00:08:57,991  INFO Client Client:getHeaders:219 - Leave: 
+00:08:58,424 DEBUG Client Client:run:144 - Leave
+00:09:56,781 DEBUG Client Client:run:104 - Enter: 
+00:09:59,529  INFO Client Client:getHeaders:198 - Enter: 
+00:09:59,531  INFO Client Client:getHeaders:219 - Leave: 
+00:11:31,136 DEBUG Client Client:run:144 - Leave
+00:11:31,716 DEBUG Client Client:run:104 - Enter: 
+00:11:32,128  INFO Client Client:getHeaders:198 - Enter: 
+00:11:32,129  INFO Client Client:getHeaders:219 - Leave: 
+00:11:32,543 DEBUG Client Client:run:144 - Leave
+00:11:36,389 DEBUG Client Client:run:104 - Enter: 
+00:11:39,413  INFO Client Client:getHeaders:198 - Enter: 
+00:11:39,417  INFO Client Client:getHeaders:219 - Leave: 
+00:12:03,767 DEBUG Client Client:run:104 - Enter: 
+00:12:06,405  INFO Client Client:getHeaders:198 - Enter: 
+00:12:06,405 DEBUG Client Client:run:144 - Leave
+00:12:06,408  INFO Client Client:getHeaders:219 - Leave: 
+00:12:07,014 DEBUG Client Client:run:144 - Leave
+00:12:19,365 DEBUG Client Client:run:104 - Enter: 
+00:12:24,449  INFO Client Client:getHeaders:198 - Enter: 
+00:12:24,451  INFO Client Client:getHeaders:219 - Leave: 
+00:12:42,388 DEBUG Client Client:run:144 - Leave
+00:12:48,302 DEBUG Client Client:run:104 - Enter: 
+00:12:51,291  INFO Client Client:getHeaders:198 - Enter: 
+00:12:51,296  INFO Client Client:getHeaders:219 - Leave: 
+00:13:17,834 DEBUG Client Client:run:144 - Leave
+00:14:39,203  INFO main MainHttpd:main:34 - Start httpd
+00:14:47,262 DEBUG Client Client:run:104 - Enter: 
+00:14:48,213  INFO Client Client:getHeaders:198 - Enter: 
+00:14:48,215  INFO Client Client:getHeaders:219 - Leave: 
+00:17:02,477 DEBUG Client Client:run:144 - Leave
+00:17:07,165 DEBUG Client Client:run:104 - Enter: 
+00:17:07,615  INFO Client Client:getHeaders:198 - Enter: 
+00:17:10,651  INFO Client Client:getHeaders:219 - Leave: 
+00:17:36,927 DEBUG Client Client:run:144 - Leave
+00:17:56,288 DEBUG Client Client:run:104 - Enter: 
+00:17:56,773  INFO Client Client:getHeaders:198 - Enter: 
+00:17:56,774  INFO Client Client:getHeaders:219 - Leave: 
+00:17:57,673 DEBUG Client Client:run:144 - Leave
+00:18:02,072 DEBUG Client Client:run:104 - Enter: 
+00:18:04,147  INFO Client Client:getHeaders:198 - Enter: 
+00:18:04,148  INFO Client Client:getHeaders:219 - Leave: 
+00:18:04,678 DEBUG Client Client:run:144 - Leave
+00:18:18,051 DEBUG Client Client:run:104 - Enter: 
+00:18:20,432  INFO Client Client:getHeaders:198 - Enter: 
+00:18:20,434  INFO Client Client:getHeaders:219 - Leave: 
+00:19:17,001  INFO main MainHttpd:main:34 - Start httpd
+00:19:29,567 DEBUG Client Client:run:104 - Enter: 
+00:19:30,242  INFO Client Client:getHeaders:200 - Enter: 
+00:19:30,244  INFO Client Client:getHeaders:221 - Leave: 
+00:19:36,331 DEBUG Client Client:run:144 - Leave
+00:19:52,359 DEBUG Client Client:run:104 - Enter: 
+00:19:53,214  INFO Client Client:getHeaders:200 - Enter: 
+00:19:53,214  INFO Client Client:getHeaders:221 - Leave: 
+00:20:25,323  INFO main MainHttpd:main:34 - Start httpd
+00:20:33,946 DEBUG Client Client:run:104 - Enter: 
+00:20:36,773  INFO Client Client:getHeaders:200 - Enter: 
+00:20:36,775  INFO Client Client:getHeaders:221 - Leave: 
+00:21:47,607  INFO main MainHttpd:main:34 - Start httpd
+00:21:51,572 DEBUG Client Client:run:104 - Enter: 
+00:21:53,255  INFO Client Client:getHeaders:200 - Enter: 
+00:21:53,257  INFO Client Client:getHeaders:221 - Leave: 
+00:25:31,609  INFO main MainHttpd:main:34 - Start httpd
+00:25:35,867 DEBUG Client Client:run:104 - Enter: 
+00:25:36,460  INFO Client Client:getHeaders:203 - Enter: 
+00:25:36,462  INFO Client Client:getHeaders:224 - Leave: 
+00:26:28,431 DEBUG Client Client:run:144 - Leave
+00:26:54,730 DEBUG Client Client:run:104 - Enter: 
+00:26:54,731  INFO Client Client:getHeaders:203 - Enter: 
+00:26:54,734  INFO Client Client:getHeaders:224 - Leave: 
+00:26:54,740 DEBUG Client Client:run:144 - Leave
+00:27:47,483 DEBUG Client Client:run:104 - Enter: 
+00:27:47,484 DEBUG Client Client:run:104 - Enter: 
+00:27:47,484  INFO Client Client:getHeaders:203 - Enter: 
+00:27:47,485  INFO Client Client:getHeaders:203 - Enter: 
+00:27:47,549  INFO Client Client:getHeaders:224 - Leave: 
+00:27:47,550 DEBUG Client Client:run:144 - Leave
+00:27:52,175 DEBUG Client Client:run:104 - Enter: 
+00:27:52,176  INFO Client Client:getHeaders:203 - Enter: 
+00:27:52,178  INFO Client Client:getHeaders:224 - Leave: 
+00:27:54,379 DEBUG Client Client:run:144 - Leave
+00:27:54,611  INFO Client Client:getHeaders:224 - Leave: 
+00:27:54,613 DEBUG Client Client:run:144 - Leave
+00:27:57,737 DEBUG Client Client:run:104 - Enter: 
+00:27:57,737  INFO Client Client:getHeaders:203 - Enter: 
+00:27:57,738  INFO Client Client:getHeaders:224 - Leave: 
+00:27:57,742 DEBUG Client Client:run:144 - Leave
+00:27:57,859 DEBUG Client Client:run:104 - Enter: 
+00:27:57,859  INFO Client Client:getHeaders:203 - Enter: 
+00:27:57,860  INFO Client Client:getHeaders:224 - Leave: 
+00:27:57,861 DEBUG Client Client:run:144 - Leave
+00:28:14,711 DEBUG Client Client:run:104 - Enter: 
+00:28:14,711 DEBUG Client Client:run:104 - Enter: 
+00:28:14,722  INFO Client Client:getHeaders:203 - Enter: 
+00:28:14,722  INFO Client Client:getHeaders:203 - Enter: 
+00:28:14,752  INFO Client Client:getHeaders:224 - Leave: 
+00:28:14,753 DEBUG Client Client:run:144 - Leave
+00:28:14,787  INFO Client Client:getHeaders:224 - Leave: 
+00:28:14,788 DEBUG Client Client:run:144 - Leave
+00:28:18,426 DEBUG Client Client:run:104 - Enter: 
+00:28:18,427  INFO Client Client:getHeaders:203 - Enter: 
+00:28:18,442 DEBUG Client Client:run:104 - Enter: 
+00:28:18,442  INFO Client Client:getHeaders:203 - Enter: 
+00:28:18,633  INFO Client Client:getHeaders:224 - Leave: 
+00:28:18,634 DEBUG Client Client:run:144 - Leave
+00:28:20,265  INFO Client Client:getHeaders:224 - Leave: 
+00:28:25,646 DEBUG Client Client:run:144 - Leave
+00:28:26,103 DEBUG Client Client:run:104 - Enter: 
+00:28:26,104  INFO Client Client:getHeaders:203 - Enter: 
+00:28:26,105  INFO Client Client:getHeaders:224 - Leave: 
+00:28:26,107 DEBUG Client Client:run:144 - Leave
+00:28:28,230 DEBUG Client Client:run:104 - Enter: 
+00:28:28,231  INFO Client Client:getHeaders:203 - Enter: 
+00:28:28,231 DEBUG Client Client:run:104 - Enter: 
+00:28:28,232  INFO Client Client:getHeaders:203 - Enter: 
+00:28:28,463  INFO Client Client:getHeaders:224 - Leave: 
+00:28:28,475 DEBUG Client Client:run:144 - Leave
+00:28:30,769  INFO Client Client:getHeaders:224 - Leave: 
+00:28:30,771 DEBUG Client Client:run:144 - Leave
+00:28:30,829 DEBUG Client Client:run:104 - Enter: 
+00:28:30,829  INFO Client Client:getHeaders:203 - Enter: 
+00:28:30,830  INFO Client Client:getHeaders:224 - Leave: 
+00:28:30,831 DEBUG Client Client:run:144 - Leave
+00:41:22,429  INFO main MainHttpd:main:34 - Start httpd
+00:41:25,113 DEBUG Client Client:run:104 - Enter: 
+00:41:25,115  INFO Client Client:getHeaders:203 - Enter: 
+00:41:25,124  INFO Client Client:getHeaders:224 - Leave: 
+00:41:25,161 DEBUG Client Client:run:144 - Leave
+00:41:48,610 DEBUG Client Client:run:104 - Enter: 
+00:41:48,611  INFO Client Client:getHeaders:203 - Enter: 
+00:41:51,081  INFO Client Client:getHeaders:224 - Leave: 
+00:41:51,083 DEBUG Client Client:run:144 - Leave
+00:41:57,607 DEBUG Client Client:run:104 - Enter: 
+00:41:57,607  INFO Client Client:getHeaders:203 - Enter: 
+00:42:00,508  INFO Client Client:getHeaders:224 - Leave: 
+00:42:00,509 DEBUG Client Client:run:144 - Leave
+00:42:53,100 DEBUG Client Client:run:104 - Enter: 
+00:42:53,100  INFO Client Client:getHeaders:203 - Enter: 
+00:42:53,107  INFO Client Client:getHeaders:224 - Leave: 
+00:42:53,109 DEBUG Client Client:run:144 - Leave
+00:43:05,289 DEBUG Client Client:run:104 - Enter: 
+00:43:05,290  INFO Client Client:getHeaders:203 - Enter: 
+00:43:07,401  INFO Client Client:getHeaders:224 - Leave: 
+00:43:07,403 DEBUG Client Client:run:144 - Leave
+00:44:49,924  INFO main MainHttpd:main:34 - Start httpd
+00:44:51,230 DEBUG Client Client:run:105 - Enter: 
+00:44:51,231  INFO Client Client:getHeaders:204 - Enter: 
+00:44:51,237  INFO Client Client:getHeaders:225 - Leave: 
+00:44:51,258 DEBUG Client Client:run:145 - Leave
+00:44:53,153 DEBUG Client Client:run:105 - Enter: 
+00:44:53,153  INFO Client Client:getHeaders:204 - Enter: 
+00:44:53,162  INFO Client Client:getHeaders:225 - Leave: 
+00:44:53,163 DEBUG Client Client:run:145 - Leave
+00:44:54,234 DEBUG Client Client:run:105 - Enter: 
+00:44:54,240  INFO Client Client:getHeaders:204 - Enter: 
+00:44:54,246  INFO Client Client:getHeaders:225 - Leave: 
+00:44:54,248 DEBUG Client Client:run:145 - Leave
+00:44:58,826 DEBUG Client Client:run:105 - Enter: 
+00:44:58,827  INFO Client Client:getHeaders:204 - Enter: 
+00:44:58,836  INFO Client Client:getHeaders:225 - Leave: 
+00:44:58,837 DEBUG Client Client:run:145 - Leave
+00:45:13,421  INFO main MainHttpd:main:34 - Start httpd
+00:45:14,990 DEBUG Client Client:run:105 - Enter: 
+00:45:14,991  INFO Client Client:getHeaders:204 - Enter: 
+00:45:14,996  INFO Client Client:getHeaders:225 - Leave: 
+00:45:15,031 DEBUG Client Client:run:145 - Leave
+00:45:21,078 DEBUG Client Client:run:105 - Enter: 
+00:45:21,079  INFO Client Client:getHeaders:204 - Enter: 
+00:45:21,087  INFO Client Client:getHeaders:225 - Leave: 
+00:45:21,089 DEBUG Client Client:run:145 - Leave
+00:45:24,164 DEBUG Client Client:run:105 - Enter: 
+00:45:24,164  INFO Client Client:getHeaders:204 - Enter: 
+00:45:24,165  INFO Client Client:getHeaders:225 - Leave: 
+00:45:24,166 DEBUG Client Client:run:145 - Leave
+00:46:17,981 DEBUG Client Client:run:105 - Enter: 
+00:46:17,982  INFO Client Client:getHeaders:204 - Enter: 
+00:46:21,677  INFO Client Client:getHeaders:225 - Leave: 
+00:46:21,680 DEBUG Client Client:run:145 - Leave
+00:46:31,706 DEBUG Client Client:run:105 - Enter: 
+00:46:31,707  INFO Client Client:getHeaders:204 - Enter: 
+00:46:31,725  INFO Client Client:getHeaders:225 - Leave: 
+00:46:31,726 DEBUG Client Client:run:145 - Leave
+00:46:36,483 DEBUG Client Client:run:105 - Enter: 
+00:46:36,484  INFO Client Client:getHeaders:204 - Enter: 
+00:46:38,860  INFO Client Client:getHeaders:225 - Leave: 
+00:46:38,861 DEBUG Client Client:run:145 - Leave
+00:47:02,892 DEBUG Client Client:run:105 - Enter: 
+00:47:02,892  INFO Client Client:getHeaders:204 - Enter: 
+00:47:02,894 DEBUG Client Client:run:105 - Enter: 
+00:47:02,894  INFO Client Client:getHeaders:204 - Enter: 
+00:47:03,451  INFO Client Client:getHeaders:225 - Leave: 
+00:47:03,456 DEBUG Client Client:run:145 - Leave
+00:47:04,653  INFO Client Client:getHeaders:225 - Leave: 
+00:47:04,654 DEBUG Client Client:run:145 - Leave
+00:47:17,488 DEBUG Client Client:run:105 - Enter: 
+00:47:17,488  INFO Client Client:getHeaders:204 - Enter: 
+00:47:17,489 DEBUG Client Client:run:105 - Enter: 
+00:47:17,490  INFO Client Client:getHeaders:204 - Enter: 
+00:47:17,542  INFO Client Client:getHeaders:225 - Leave: 
+00:47:17,546 DEBUG Client Client:run:145 - Leave
+00:47:17,597  INFO Client Client:getHeaders:225 - Leave: 
+00:47:17,598 DEBUG Client Client:run:145 - Leave
+00:47:19,984 DEBUG Client Client:run:105 - Enter: 
+00:47:19,985  INFO Client Client:getHeaders:204 - Enter: 
+00:47:19,989 DEBUG Client Client:run:105 - Enter: 
+00:47:19,989  INFO Client Client:getHeaders:204 - Enter: 
+00:47:20,009  INFO Client Client:getHeaders:225 - Leave: 
+00:47:20,011 DEBUG Client Client:run:145 - Leave
+00:47:20,053  INFO Client Client:getHeaders:225 - Leave: 
+00:47:20,054 DEBUG Client Client:run:145 - Leave
+00:47:21,503 DEBUG Client Client:run:105 - Enter: 
+00:47:21,505  INFO Client Client:getHeaders:204 - Enter: 
+00:47:21,510 DEBUG Client Client:run:105 - Enter: 
+00:47:21,511  INFO Client Client:getHeaders:204 - Enter: 
+00:47:21,535  INFO Client Client:getHeaders:225 - Leave: 
+00:47:21,547 DEBUG Client Client:run:145 - Leave
+00:47:21,664  INFO Client Client:getHeaders:225 - Leave: 
+00:47:21,664 DEBUG Client Client:run:145 - Leave
+00:47:23,430 DEBUG Client Client:run:105 - Enter: 
+00:47:23,431  INFO Client Client:getHeaders:204 - Enter: 
+00:47:23,433  INFO Client Client:getHeaders:225 - Leave: 
+00:47:23,434 DEBUG Client Client:run:145 - Leave
+00:47:23,656 DEBUG Client Client:run:105 - Enter: 
+00:47:23,656  INFO Client Client:getHeaders:204 - Enter: 
+00:47:23,657  INFO Client Client:getHeaders:225 - Leave: 
+00:47:23,658 DEBUG Client Client:run:145 - Leave
+00:47:24,879 DEBUG Client Client:run:105 - Enter: 
+00:47:24,879 DEBUG Client Client:run:105 - Enter: 
+00:47:24,880  INFO Client Client:getHeaders:204 - Enter: 
+00:47:24,880  INFO Client Client:getHeaders:204 - Enter: 
+00:47:25,063  INFO Client Client:getHeaders:225 - Leave: 
+00:47:25,064 DEBUG Client Client:run:145 - Leave
+00:47:27,616  INFO Client Client:getHeaders:225 - Leave: 
+00:47:27,618 DEBUG Client Client:run:145 - Leave
+00:47:27,680 DEBUG Client Client:run:105 - Enter: 
+00:47:27,681  INFO Client Client:getHeaders:204 - Enter: 
+00:47:27,681  INFO Client Client:getHeaders:225 - Leave: 
+00:47:27,681 DEBUG Client Client:run:145 - Leave
+00:50:01,092  INFO main MainHttpd:main:34 - Start httpd
+00:50:59,040  INFO main MainHttpd:main:34 - Start httpd
+00:50:59,084 DEBUG Client Client:run:103 - Enter: 
+00:50:59,087  INFO Client Client:getHeaders:202 - Enter: 
+00:50:59,091  INFO Client Client:getHeaders:223 - Leave: 
+00:50:59,138 DEBUG Client Client:run:143 - Leave
+00:51:00,862 DEBUG Client Client:run:103 - Enter: 
+00:51:00,863  INFO Client Client:getHeaders:202 - Enter: 
+00:51:00,881  INFO Client Client:getHeaders:223 - Leave: 
+00:51:00,883 DEBUG Client Client:run:143 - Leave
+00:51:03,018 DEBUG Client Client:run:103 - Enter: 
+00:51:03,019  INFO Client Client:getHeaders:202 - Enter: 
+00:51:06,393  INFO Client Client:getHeaders:223 - Leave: 
+00:51:06,394 DEBUG Client Client:run:143 - Leave
+00:55:34,535 DEBUG Client Client:run:103 - Enter: 
+00:55:34,535  INFO Client Client:getHeaders:202 - Enter: 
+00:55:34,536 DEBUG Client Client:run:103 - Enter: 
+00:55:34,536  INFO Client Client:getHeaders:202 - Enter: 
+00:55:34,920  INFO Client Client:getHeaders:223 - Leave: 
+00:55:34,922 DEBUG Client Client:run:143 - Leave
+00:55:35,364  INFO Client Client:getHeaders:223 - Leave: 
+00:55:35,366 DEBUG Client Client:run:143 - Leave
+01:03:36,495  INFO main MainHttpd:main:34 - Start httpd
+01:03:44,267 DEBUG Client Client:run:103 - Enter: 
+01:03:44,269  INFO Client Client:getHeaders:202 - Enter: 
+01:03:47,779  INFO Client Client:getHeaders:223 - Leave: 
+01:03:47,799 DEBUG Client Client:run:143 - Leave
+01:03:50,733 DEBUG Client Client:run:103 - Enter: 
+01:03:50,734  INFO Client Client:getHeaders:202 - Enter: 
+01:03:52,248  INFO Client Client:getHeaders:223 - Leave: 
+01:03:52,250 DEBUG Client Client:run:143 - Leave
+01:04:04,569 DEBUG Client Client:run:103 - Enter: 
+01:04:04,570  INFO Client Client:getHeaders:202 - Enter: 
+01:04:09,570  INFO Client Client:getHeaders:223 - Leave: 
+01:04:09,574 FATAL Client Client:sendDataToClient:84 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at Client.sendDataToClient(Client.java:80)
+	at Client.run(Client.java:123)
+	at java.lang.Thread.run(Thread.java:724)
+01:04:09,576 FATAL Client Client:sendDataToClient:94 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:90)
+	at Client.run(Client.java:123)
+	at java.lang.Thread.run(Thread.java:724)
+01:04:09,577 DEBUG Client Client:run:143 - Leave
+01:04:29,596 DEBUG Client Client:run:103 - Enter: 
+01:04:29,597  INFO Client Client:getHeaders:202 - Enter: 
+01:04:29,614  INFO Client Client:getHeaders:223 - Leave: 
+01:04:29,616 DEBUG Client Client:run:143 - Leave
+01:04:32,151 DEBUG Client Client:run:103 - Enter: 
+01:04:32,152  INFO Client Client:getHeaders:202 - Enter: 
+01:04:36,806  INFO Client Client:getHeaders:223 - Leave: 
+01:04:36,808 DEBUG Client Client:run:143 - Leave
+01:08:19,217 DEBUG Client Client:run:103 - Enter: 
+01:08:19,218  INFO Client Client:getHeaders:202 - Enter: 
+01:08:19,227  INFO Client Client:getHeaders:223 - Leave: 
+01:08:19,228 DEBUG Client Client:run:143 - Leave
+01:08:22,717 DEBUG Client Client:run:103 - Enter: 
+01:08:22,718  INFO Client Client:getHeaders:202 - Enter: 
+01:08:26,400  INFO Client Client:getHeaders:223 - Leave: 
+01:08:26,403 DEBUG Client Client:run:143 - Leave
+01:08:28,086 DEBUG Client Client:run:103 - Enter: 
+01:08:28,086  INFO Client Client:getHeaders:202 - Enter: 
+01:08:28,100  INFO Client Client:getHeaders:223 - Leave: 
+01:08:28,101 DEBUG Client Client:run:143 - Leave
+01:09:11,441  INFO main MainHttpd:main:34 - Start httpd
+01:09:41,145 DEBUG Client Client:run:105 - Enter: 
+01:09:41,147  INFO Client Client:getHeaders:204 - Enter: 
+01:09:41,171  INFO Client Client:getHeaders:225 - Leave: 
+01:09:41,204 DEBUG Client Client:run:145 - Leave
+01:09:43,253 DEBUG Client Client:run:105 - Enter: 
+01:09:43,254  INFO Client Client:getHeaders:204 - Enter: 
+01:09:43,268  INFO Client Client:getHeaders:225 - Leave: 
+01:09:43,270 DEBUG Client Client:run:145 - Leave
+01:10:01,511 DEBUG Client Client:run:105 - Enter: 
+01:10:01,512  INFO Client Client:getHeaders:204 - Enter: 
+01:10:01,521  INFO Client Client:getHeaders:225 - Leave: 
+01:10:39,032 DEBUG Client Client:run:145 - Leave
+01:10:48,426 DEBUG Client Client:run:105 - Enter: 
+01:10:48,428  INFO Client Client:getHeaders:204 - Enter: 
+01:10:48,524  INFO Client Client:getHeaders:225 - Leave: 
+01:12:09,865  INFO main MainHttpd:main:34 - Start httpd
+01:12:14,082 DEBUG Client Client:run:106 - Enter: 
+01:12:14,085  INFO Client Client:getHeaders:205 - Enter: 
+01:12:14,087  INFO Client Client:getHeaders:226 - Leave: 
+01:12:21,375 DEBUG Client Client:run:146 - Leave
+01:12:43,823  INFO main MainHttpd:main:34 - Start httpd
+01:12:46,939 DEBUG Client Client:run:106 - Enter: 
+01:12:46,945  INFO Client Client:getHeaders:205 - Enter: 
+01:12:46,953  INFO Client Client:getHeaders:226 - Leave: 
+01:12:49,175 DEBUG Client Client:run:146 - Leave
+01:13:30,653 DEBUG Client Client:run:106 - Enter: 
+01:13:30,653  INFO Client Client:getHeaders:205 - Enter: 
+01:13:30,669  INFO Client Client:getHeaders:226 - Leave: 
+01:13:41,728 DEBUG Client Client:run:146 - Leave
+01:15:02,709  INFO main MainHttpd:main:34 - Start httpd
+01:15:03,370 DEBUG Client Client:run:106 - Enter: 
+01:15:03,375  INFO Client Client:getHeaders:205 - Enter: 
+01:15:03,383  INFO Client Client:getHeaders:226 - Leave: 
+01:15:06,478 DEBUG Client Client:run:146 - Leave
+01:18:18,243  INFO main MainHttpd:main:34 - Start httpd
+01:18:24,419 DEBUG Client Client:run:106 - Enter: 
+01:18:24,420  INFO Client Client:getHeaders:205 - Enter: 
+01:18:29,412  INFO Client Client:getHeaders:226 - Leave: 
+01:20:24,612 DEBUG Client Client:run:106 - Enter: 
+01:20:24,613  INFO Client Client:getHeaders:205 - Enter: 
+01:20:24,614  INFO Client Client:getHeaders:226 - Leave: 
+01:20:24,614 FATAL Client Client:sendDataToClient:85 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at Client.sendDataToClient(Client.java:81)
+	at Client.run(Client.java:126)
+	at java.lang.Thread.run(Thread.java:724)
+01:20:24,617 FATAL Client Client:sendDataToClient:97 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:91)
+	at Client.run(Client.java:126)
+	at java.lang.Thread.run(Thread.java:724)
+01:20:24,619 DEBUG Client Client:run:146 - Leave
+01:20:31,254 DEBUG Client Client:run:146 - Leave
+01:20:40,002 DEBUG Client Client:run:106 - Enter: 
+01:20:40,003  INFO Client Client:getHeaders:205 - Enter: 
+01:20:40,027  INFO Client Client:getHeaders:226 - Leave: 
+01:20:40,029 DEBUG Client Client:run:146 - Leave
+01:21:52,450 DEBUG Client Client:run:106 - Enter: 
+01:21:52,450  INFO Client Client:getHeaders:205 - Enter: 
+01:21:55,999  INFO Client Client:getHeaders:226 - Leave: 
+01:21:56,002 DEBUG Client Client:run:146 - Leave
+01:21:59,123 DEBUG Client Client:run:106 - Enter: 
+01:21:59,124  INFO Client Client:getHeaders:205 - Enter: 
+01:21:59,135  INFO Client Client:getHeaders:226 - Leave: 
+01:21:59,137 DEBUG Client Client:run:146 - Leave
+01:22:11,534 DEBUG Client Client:run:106 - Enter: 
+01:22:11,535  INFO Client Client:getHeaders:205 - Enter: 
+01:22:11,552  INFO Client Client:getHeaders:226 - Leave: 
+01:22:11,554 DEBUG Client Client:run:146 - Leave
+01:25:36,971  INFO main MainHttpd:main:34 - Start httpd
+01:26:04,497 DEBUG Client Client:run:105 - Enter: 
+01:26:04,498  INFO Client Client:getHeaders:204 - Enter: 
+01:26:04,520  INFO Client Client:getHeaders:225 - Leave: 
+01:26:04,539 DEBUG Client Client:run:145 - Leave
+01:26:07,239 DEBUG Client Client:run:105 - Enter: 
+01:26:07,240  INFO Client Client:getHeaders:204 - Enter: 
+01:26:07,249  INFO Client Client:getHeaders:225 - Leave: 
+01:26:07,251 DEBUG Client Client:run:145 - Leave
+01:26:39,010  INFO main MainHttpd:main:34 - Start httpd
+01:26:39,379 DEBUG Client Client:run:106 - Enter: 
+01:26:39,381  INFO Client Client:getHeaders:205 - Enter: 
+01:26:39,390  INFO Client Client:getHeaders:226 - Leave: 
+01:26:39,404 DEBUG Client Client:run:146 - Leave
+01:26:40,723 DEBUG Client Client:run:106 - Enter: 
+01:26:40,724  INFO Client Client:getHeaders:205 - Enter: 
+01:26:40,742  INFO Client Client:getHeaders:226 - Leave: 
+01:26:40,743 DEBUG Client Client:run:146 - Leave
+07:32:45,820  INFO main MainHttpd:main:34 - Start httpd
+07:33:03,131 DEBUG Client Client:run:106 - Enter: 
+07:33:03,155  INFO Client Client:getHeaders:205 - Enter: 
+07:33:03,156  INFO Client Client:getHeaders:226 - Leave: 
+07:33:03,200 DEBUG Client Client:run:146 - Leave
+07:33:03,415 DEBUG Client Client:run:106 - Enter: 
+07:33:03,416  INFO Client Client:getHeaders:205 - Enter: 
+07:33:03,417  INFO Client Client:getHeaders:226 - Leave: 
+07:33:03,419 DEBUG Client Client:run:146 - Leave
+07:33:03,440 DEBUG Client Client:run:106 - Enter: 
+07:33:03,440  INFO Client Client:getHeaders:205 - Enter: 
+07:33:03,442  INFO Client Client:getHeaders:226 - Leave: 
+07:33:03,443 DEBUG Client Client:run:146 - Leave
+07:33:06,371 DEBUG Client Client:run:106 - Enter: 
+07:33:06,372  INFO Client Client:getHeaders:205 - Enter: 
+07:33:06,375  INFO Client Client:getHeaders:226 - Leave: 
+07:33:06,394 DEBUG Client Client:run:146 - Leave
+07:33:09,894 DEBUG Client Client:run:106 - Enter: 
+07:33:09,895  INFO Client Client:getHeaders:205 - Enter: 
+07:33:11,546  INFO Client Client:getHeaders:226 - Leave: 
+07:33:11,557 DEBUG Client Client:run:146 - Leave
+07:33:13,024 DEBUG Client Client:run:106 - Enter: 
+07:33:13,025  INFO Client Client:getHeaders:205 - Enter: 
+07:33:14,287  INFO Client Client:getHeaders:226 - Leave: 
+07:33:14,296 DEBUG Client Client:run:146 - Leave
+07:33:19,346 DEBUG Client Client:run:106 - Enter: 
+07:33:19,346  INFO Client Client:getHeaders:205 - Enter: 
+07:33:21,129  INFO Client Client:getHeaders:226 - Leave: 
+07:33:21,217 DEBUG Client Client:run:146 - Leave
+07:33:23,927 DEBUG Client Client:run:106 - Enter: 
+07:33:23,931  INFO Client Client:getHeaders:205 - Enter: 
+07:33:29,348  INFO Client Client:getHeaders:226 - Leave: 
+07:33:29,353 FATAL Client Client:sendDataToClient:85 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at Client.sendDataToClient(Client.java:81)
+	at Client.run(Client.java:126)
+	at java.lang.Thread.run(Thread.java:724)
+07:33:29,355 FATAL Client Client:sendDataToClient:97 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:91)
+	at Client.run(Client.java:126)
+	at java.lang.Thread.run(Thread.java:724)
+07:33:29,355 DEBUG Client Client:run:146 - Leave
+07:33:30,096 DEBUG Client Client:run:106 - Enter: 
+07:33:30,099  INFO Client Client:getHeaders:205 - Enter: 
+07:33:30,100  INFO Client Client:getHeaders:226 - Leave: 
+07:33:30,118 DEBUG Client Client:run:146 - Leave
+07:33:41,484 DEBUG Client Client:run:106 - Enter: 
+07:33:41,485  INFO Client Client:getHeaders:205 - Enter: 
+07:33:41,486  INFO Client Client:getHeaders:226 - Leave: 
+07:33:41,487 DEBUG Client Client:run:146 - Leave
+07:34:08,461  INFO main MainHttpd:main:34 - Start httpd
+07:34:10,253 DEBUG Client Client:run:106 - Enter: 
+07:34:10,254  INFO Client Client:getHeaders:205 - Enter: 
+07:34:10,255  INFO Client Client:getHeaders:226 - Leave: 
+07:34:10,290 DEBUG Client Client:run:146 - Leave
+07:34:11,513 DEBUG Client Client:run:106 - Enter: 
+07:34:11,514  INFO Client Client:getHeaders:205 - Enter: 
+07:34:11,515  INFO Client Client:getHeaders:226 - Leave: 
+07:34:11,517 DEBUG Client Client:run:146 - Leave
+07:34:13,836 DEBUG Client Client:run:106 - Enter: 
+07:34:13,837  INFO Client Client:getHeaders:205 - Enter: 
+07:34:16,699  INFO Client Client:getHeaders:226 - Leave: 
+07:34:16,702 DEBUG Client Client:run:146 - Leave
+07:34:19,420 DEBUG Client Client:run:106 - Enter: 
+07:34:19,421  INFO Client Client:getHeaders:205 - Enter: 
+07:34:22,293  INFO Client Client:getHeaders:226 - Leave: 
+07:34:22,329 DEBUG Client Client:run:146 - Leave

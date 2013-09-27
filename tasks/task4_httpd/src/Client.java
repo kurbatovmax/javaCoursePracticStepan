@@ -1,10 +1,34 @@
+import com.sun.xml.internal.messaging.saaj.util.Base64;
 import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.net.MalformedURLException;
-import java.net.Socket;
-import java.net.URL;
+import java.net.*;
 import java.util.*;
+
+/**
+ *
+ */
+enum HTML_STATUS {
+    OK("HTTP/1.1 200 OK");
+    private String status;
+    HTML_STATUS(String status) {this.status = status;}
+    String getStatus() {return status;}
+}
+
+/**
+ *
+ */
+enum TYPE_DATA{
+    HTML("text/html") ,
+    PNG ("image/png"),
+    JPG ("image/jpeg"),
+    TEXT("text/plain"),
+    UNKNOWN("text/html");
+
+    private String str_type;
+    TYPE_DATA(String s) {str_type = s;}
+    String getType() {return str_type;}
+}
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,7 +40,6 @@ class Client implements Runnable
 {
     private final Logger Log = Logger.getLogger(Client.class);
     private final Socket m_client;
-    private String byteData;
 
     /**
      *
@@ -30,45 +53,49 @@ class Client implements Runnable
         }
     }
 
-    enum TYPE_DATA{
-        HTML("text/html") ,
-        PNG ("text/png"),
-        JPG ("text/jpg"),
-        TEXT("text/plain"),
-        UNKNOWN("text/html");
+    /**
+     *
+     * @param sizeBody
+     * @param type
+     * @return
+     */
+    public void sendDataToClient(InputStream in,
+                                 OutputStream out,
+                                 long sizeBody,
+                                 TYPE_DATA type,
+                                 HTML_STATUS htmlStatus)
+    {
+        List<String> headers_send = new ArrayList<>();
+        headers_send.add( htmlStatus.getStatus() + "\r\n");
+        headers_send.add("Date: " + new Date().toString() + "\r\n");
+        headers_send.add("Last-Modified: " + new Date().toString() + "\r\n");
+        headers_send.add("Server: Super http server ver: 0.1\r\n");
+        headers_send.add("Content-Language: ru\r\n");
+        headers_send.add("Content-Type: " + type.getType() + "; charset=utf-8\r\n");
+        //headers_send.add("Content-Type: " + type.getType() + "\r\n");
+        headers_send.add("Content-Length: " + sizeBody + "\r\n");
+        headers_send.add("Connection: close\r\n");
+        headers_send.add("\r\n\r\n");
+        try {
+            for (String sss : headers_send) {
+                out.write( sss.getBytes() );
+                out.flush();
+            }
+        } catch (IOException e) {
+            this.Log.fatal("", e);
+        }
 
-        private String str_type;
-        TYPE_DATA(String s) {str_type = s;}
-        String getStr_type() {return str_type;}
-    }
-
-    public List<String> getBodyData(String body, TYPE_DATA type) {
-        List<String> headers_send;
-        headers_send = new ArrayList<>();
-        headers_send.add("HTTP/1.1 200 OK");
-        headers_send.add(new Date().toString());
-        headers_send.add("Server: Super http server ver: 0.1");
-        headers_send.add("Content-Language: ru");
-        headers_send.add("Content-Type: text/html; charset=utf-8");
-        headers_send.add("Content-Length: " + body.length());
-        headers_send.add("Connection: close");
-        headers_send.add("");
-        headers_send.add(body);
-        return headers_send;
-    }
-
-    public List<String> getTemplateHeader(long sizeBody, TYPE_DATA type) {
-        List<String> headers_send;
-        headers_send = new ArrayList<>();
-        headers_send.add("HTTP/1.1 200 OK");
-        headers_send.add(new Date().toString());
-        headers_send.add("Server: Super http server ver: 0.1");
-        headers_send.add("Content-Language: ru");
-        headers_send.add("Content-Type: " + type.getStr_type() + "; charset=utf-8");
-        headers_send.add("Content-Length: " + sizeBody);
-        headers_send.add("Connection: close");
-        headers_send.add("");
-        return headers_send;
+        int data = 0;
+        try {
+            while ( (data = in.read()) > 0 ) {
+                out.write(data);
+                out.flush();
+            }
+            out.write("\n".getBytes());
+            out.flush();
+        }catch (IOException e) {
+            this.Log.fatal("", e);
+        }
     }
 
     /**
@@ -76,62 +103,47 @@ class Client implements Runnable
      */
     @Override
     public void run() {
-        Log.debug("Enter: ");
-
-
-        List<String> headers;
+        this.Log.debug("Enter: ");
+        List<String> headers = null;
+        List<String> headers_send = null;
+        Socket cSocket = m_client;
+        OutputStream clientOutStream = null;
+        InputStream clientInStream = null;
         try {
-            headers = this.getHeaders(m_client.getInputStream());
+
+            clientInStream = cSocket.getInputStream();
+            clientOutStream = cSocket.getOutputStream();
+
+            headers = this.getHeaders(clientInStream);
+
             String pathToFile = getPathToFile(headers);
-            List<String> headers_send = null;
-
+            pathToFile = URLDecoder.decode(pathToFile);
             File f = new File(pathToFile);
-            if (!f.exists()) {
-                String html = getHtmlWithError();
-            } else if (f.isDirectory()) {
-                String html = getHtmlDirsAndFile(f);
-                headers_send = getBodyData(html, TYPE_DATA.HTML);
+            if ( f.exists() )  {
+                if ( f.isDirectory() ) {
+                    String html = getHtmlDirsAndFile(f);
+                    ByteArrayInputStream bodyInStream = new ByteArrayInputStream(html.getBytes());
+                    sendDataToClient(bodyInStream, clientOutStream, html.length(), TYPE_DATA.HTML, HTML_STATUS.OK);
+                } else {
+                    TYPE_DATA type = getFileType(f);
+                    long size = f.length();
+                    InputStream bodyInStream = new FileInputStream(f);
+                    sendDataToClient(bodyInStream, clientOutStream, size, type, HTML_STATUS.OK);
+                }
+
             } else {
-                CopyFileToOutStream(f, m_client.getOutputStream());
+                String html = getHtmlWithError();
             }
-
-            writeToClient(headers_send, m_client.getOutputStream());
-            m_client.getOutputStream().close();
-
         } catch (IOException e) {
-            try {
-                m_client.getOutputStream().write(e.toString().getBytes());
-            } catch (IOException e1) {
-                Log.error("problem", e);
-            }
-            Log.error("problem", e);
+            this.Log.fatal("", e);
         } finally {
             try {
-                m_client.close();
+                cSocket.close();
             } catch (IOException e) {
-                Log.error("problem", e);
+                this.Log.fatal("", e);
             }
         }
-        Log.debug("Leave");
-    }
-
-    /**
-     *
-     * @param f
-     * @param outputStream
-     */
-    private void CopyFileToOutStream(File f, OutputStream outputStream) throws FileNotFoundException {
-        List<String> headers_body = getTemplateHeader(f.length(), getFileType(f));
-
-        FileInputStream in = new FileInputStream(f);
-
-        int oneData;
-        try {
-            if ( in.available() > 0) {
-                oneData = in.read();
-                outputStream.write(oneData);
-            }
-        } catch (IOException e) { }
+        this.Log.debug("Leave");
     }
 
     /**
@@ -144,14 +156,19 @@ class Client implements Runnable
         String []exes = s.split("\\.");
         TYPE_DATA type_retv = TYPE_DATA.UNKNOWN;
 
-        if ( exes.length == 2 ) {
-            String exe = exes[1];
-            if ( exe.equals("html") ) {
-                type_retv = TYPE_DATA.HTML;
-            } else if (exe.equals("png")) {
-                type_retv = TYPE_DATA.PNG;
-            } else if (exe.equals("txt")) {
-                type_retv = TYPE_DATA.TEXT;
+        if ( exes.length > 0 ) {
+            String exe = exes[exes.length-1];
+
+            if ( !exe.isEmpty() ) {
+                if ( exe.equals("html") ) {
+                    type_retv = TYPE_DATA.HTML;
+                } else if (exe.equals("png")) {
+                    type_retv = TYPE_DATA.PNG;
+                } else if (exe.equals("txt")) {
+                    type_retv = TYPE_DATA.TEXT;
+                } else if (exe.equals("jpg")) {
+                    type_retv = TYPE_DATA.JPG;
+                }
             }
         }
         return type_retv;
@@ -220,8 +237,6 @@ class Client implements Runnable
         Log.warn("Enter: ");
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
         if (!list.isEmpty()) {
-
-
             for (String item : list) {
                 writer.write(item + "\n");
                 writer.flush();
@@ -236,13 +251,15 @@ class Client implements Runnable
      * @param file
      * @return
      */
-    String getHtmlDirsAndFile(File file) {
+     String getHtmlDirsAndFile(File file) {
         StringBuilder  html = new StringBuilder();
         html.append("<html><body>");
         File []listFile = file.listFiles();
         if ( listFile != null ) {
 
             for (File f : listFile) {
+                String str  = f.getAbsolutePath();
+
                 if (f.isDirectory()) {
                     html.append("<a href=\"").append(f.getName()).append("\" >").append(f.getName()).append(File.separator).append("</a></br>");
                 } else {
