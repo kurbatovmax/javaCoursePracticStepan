@@ -1,34 +1,8 @@
-import com.sun.xml.internal.messaging.saaj.util.Base64;
 import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
-/**
- *
- */
-enum HTML_STATUS {
-    OK("HTTP/1.1 200 OK");
-    private String status;
-    HTML_STATUS(String status) {this.status = status;}
-    String getStatus() {return status;}
-}
-
-/**
- *
- */
-enum TYPE_DATA{
-    HTML("text/html") ,
-    PNG ("image/png"),
-    JPG ("image/jpeg"),
-    TEXT("text/plain"),
-    UNKNOWN("text/html");
-
-    private String str_type;
-    TYPE_DATA(String s) {str_type = s;}
-    String getType() {return str_type;}
-}
 
 /**
  * Created with IntelliJ IDEA.
@@ -40,6 +14,7 @@ class Client implements Runnable
 {
     private final Logger Log = Logger.getLogger(Client.class);
     private final Socket m_client;
+    private  Headers m_headers;
 
     /**
      *
@@ -62,39 +37,16 @@ class Client implements Runnable
     public void sendDataToClient(InputStream in,
                                  OutputStream out,
                                  long sizeBody,
-                                 TYPE_DATA type,
-                                 HTML_STATUS htmlStatus)
+                                 DATA_TYPE type,
+                                 STATUS_HTTP htmlStatus)
+            throws IOException
     {
-        List<String> headers_send = new ArrayList<>();
-        headers_send.add( htmlStatus.getStatus() + "\r\n");
-        headers_send.add("Date: " + new Date().toString() + "\r\n");
-        headers_send.add("Last-Modified: " + new Date().toString() + "\r\n");
-        headers_send.add("Server: Super http server ver: 0.1\r\n");
-        headers_send.add("Content-Language: ru\r\n");
-        headers_send.add("Content-Type: " + type.getType() + "; charset=utf-8\r\n");
-        //headers_send.add("Content-Type: " + type.getType() + "\r\n");
-        headers_send.add("Content-Length: " + sizeBody + "\r\n");
-        headers_send.add("Connection: close\r\n");
-        headers_send.add("\r\n\r\n");
-        try {
-            for (String sss : headers_send) {
-                out.write( sss.getBytes() );
-                out.flush();
-            }
-        } catch (IOException e) {
-            this.Log.fatal("", e);
-        }
-
+        String headers = Headers.getResponseheader(sizeBody, type, htmlStatus);
+        out.write(headers.getBytes());
         int data = 0;
-        try {
-            while ( (data = in.read()) > 0 ) {
-                out.write(data);
-                out.flush();
-            }
-            out.write("\n".getBytes());
+        while ( (data = in.read()) > 0 ) {
+            out.write(data);
             out.flush();
-        }catch (IOException e) {
-            this.Log.fatal("", e);
         }
     }
 
@@ -113,22 +65,31 @@ class Client implements Runnable
 
             clientInStream = cSocket.getInputStream();
             clientOutStream = cSocket.getOutputStream();
+            this.m_headers = new Headers(clientInStream);
+            String pathToFile = this.m_headers.getPathResourceDecode();
+            if (pathToFile == null) {
+                return;
+            }
+            String fileName = MainHttpd.getHttpRootFolder() + File.separator + pathToFile;
+            File f = new File(fileName);
 
-            headers = this.getHeaders(clientInStream);
-
-            String pathToFile = getPathToFile(headers);
-            pathToFile = URLDecoder.decode(pathToFile);
-            File f = new File(pathToFile);
             if ( f.exists() )  {
                 if ( f.isDirectory() ) {
-                    String html = getHtmlDirsAndFile(f);
-                    ByteArrayInputStream bodyInStream = new ByteArrayInputStream(html.getBytes());
-                    sendDataToClient(bodyInStream, clientOutStream, html.length(), TYPE_DATA.HTML, HTML_STATUS.OK);
+
+                    // create body stream
+                    String htmlBody = new CreateHTMLForFolders().getHtmlDirsAndFile(f);
+                    ByteArrayInputStream bodyInStream = new ByteArrayInputStream(htmlBody.getBytes());
+
+                    //create header as stream
+                    String header = Headers.getResponseheader(htmlBody.length(), DATA_TYPE.HTML, STATUS_HTTP.OK);
+                    ByteArrayInputStream headerInStream = new ByteArrayInputStream(header.getBytes());
+                    SequenceInputStream sequenceInputStream = new SequenceInputStream(headerInStream, bodyInStream);
+                    sendDataToClient(sequenceInputStream, clientOutStream);
                 } else {
-                    TYPE_DATA type = getFileType(f);
+                    DATA_TYPE type = ResourceType.getFileType(f);
                     long size = f.length();
                     InputStream bodyInStream = new FileInputStream(f);
-                    sendDataToClient(bodyInStream, clientOutStream, size, type, HTML_STATUS.OK);
+                    sendDataToClient(bodyInStream, clientOutStream, size, type, STATUS_HTTP.OK);
                 }
 
             } else {
@@ -143,133 +104,19 @@ class Client implements Runnable
                 this.Log.fatal("", e);
             }
         }
-        this.Log.debug("Leave");
     }
 
     /**
      *
-     * @param f
-     * @return
+     * @param sequenceInputStream
+     * @param clientOutStream
      */
-    private TYPE_DATA getFileType(File f) {
-        String s = f.getName();
-        String []exes = s.split("\\.");
-        TYPE_DATA type_retv = TYPE_DATA.UNKNOWN;
-
-        if ( exes.length > 0 ) {
-            String exe = exes[exes.length-1];
-
-            if ( !exe.isEmpty() ) {
-                if ( exe.equals("html") ) {
-                    type_retv = TYPE_DATA.HTML;
-                } else if (exe.equals("png")) {
-                    type_retv = TYPE_DATA.PNG;
-                } else if (exe.equals("txt")) {
-                    type_retv = TYPE_DATA.TEXT;
-                } else if (exe.equals("jpg")) {
-                    type_retv = TYPE_DATA.JPG;
-                }
-            }
+    private void sendDataToClient(SequenceInputStream sequenceInputStream, OutputStream clientOutStream) throws IOException {
+        int data = 0;
+        while ( (data = sequenceInputStream.read()) > 0 ) {
+            clientOutStream.write(data);
         }
-        return type_retv;
-    }
-
-    /**
-     *
-     * @param headers
-     * @return
-     */
-    private String getPathToFile(List<String> headers) {
-        String rf = MainHttpd.getHttpRootFolder(); // root dir
-        String [] list;
-        String retv = "/";
-        for(String s : headers) {
-            if (s.matches("^GET\\s.*")) {
-                list = s.split("\\s");
-                if (list.length == 3) {
-                    retv = list[1];
-                }
-                break;
-            }
-        }
-        retv  = rf + retv;
-        return retv;
-    }
-
-    /**
-     *
-     * @param in stream for reading
-     * @return   list of header
-     */
-    List<String> getHeaders(InputStream in) {
-        Log.info("Enter: ");
-        List<String> retv = new ArrayList<>();
-        Reader reader = new InputStreamReader(in);
-        BufferedReader bufferedReader = new BufferedReader(reader);
-
-        try {
-            //while (bufferedReader.ready()) {
-            while (true) {
-                String tmp =  bufferedReader.readLine();
-                if (tmp == null) {
-                    break;
-                }
-
-                if (tmp.equals("\n") || tmp.isEmpty() ) {
-                    break;
-                }
-                retv.add(tmp);
-            }
-        } catch (IOException e) {
-            Log.fatal("Leave: ", e);
-        }
-        Log.info("Leave: ");
-        return retv;
-    }
-
-    /**
-     *
-     * @param list
-     * @param out
-     * @throws IOException
-     */
-    void writeToClient(List<String> list, OutputStream out) throws IOException {
-        Log.warn("Enter: ");
-        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));
-        if (!list.isEmpty()) {
-            for (String item : list) {
-                writer.write(item + "\n");
-                writer.flush();
-            }
-        }
-        writer.flush();
-        Log.warn("Leave: ");
-    }
-
-    /**
-     *
-     * @param file
-     * @return
-     */
-     String getHtmlDirsAndFile(File file) {
-        StringBuilder  html = new StringBuilder();
-        html.append("<html><body>");
-        File []listFile = file.listFiles();
-        if ( listFile != null ) {
-
-            for (File f : listFile) {
-                String str  = f.getAbsolutePath();
-
-                if (f.isDirectory()) {
-                    html.append("<a href=\"").append(f.getName()).append("\" >").append(f.getName()).append(File.separator).append("</a></br>");
-                } else {
-                    html.append("<a href=\"").append(f.getName()).append("\" >").append(f.getName()).append("</a></br>");
-                }
-            }
-            html.append(getFooter());
-        }
-        html.append("</body><html>");
-        return html.toString();
+        clientOutStream.flush();
     }
 
     /**
@@ -281,16 +128,5 @@ class Client implements Runnable
         return html;
     }
 
-    /**
-     *
-     * @return  String footer
-     */
-    String getFooter() {
-        StringBuilder str = new StringBuilder();
 
-        str.append("<br><br><hr><p>ATM-Turbo 512k, OS: CP/M, ")
-                .append(new Date().toString())
-                .append(" </br><hr></p>");
-        return str.toString();
-    }
 }
