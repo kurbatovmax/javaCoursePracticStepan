@@ -1811,3 +1811,1164 @@ java.net.SocketException: Broken pipe
 09:01:24,302 DEBUG Client Client:run:58 - Enter: 
 09:01:27,435 DEBUG Client Client:run:58 - Enter: 
 09:01:31,653 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="/Новая папка/Index.html" >Index.html</a></br><a href="/Новая папка/test.jpg" >test.jpg</a></br><a href="/Новая папка/Index.html~" >Index.html~</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:01:31 NOVT 2013 ***</p><hr></body><html>                    
+09:40:30,852  INFO main MainHttpd:main:34 - Start httpd
+09:40:41,344  INFO main MainHttpd:main:34 - Start httpd
+09:40:52,892 DEBUG Client Client:run:58 - Enter: 
+09:41:50,647  INFO main MainHttpd:main:34 - Start httpd
+09:42:04,994 DEBUG Client Client:run:58 - Enter: 
+09:42:17,957 DEBUG Client Client:run:58 - Enter: 
+09:42:36,796 DEBUG Client Client:run:58 - Enter: 
+09:42:56,010 DEBUG Client Client:run:58 - Enter: 
+09:43:12,465 DEBUG Client Client:run:58 - Enter: 
+09:43:24,413 DEBUG Client Client:run:58 - Enter: 
+09:43:29,557 DEBUG Client Client:run:58 - Enter: 
+09:43:30,415 DEBUG Client Client:run:58 - Enter: 
+09:43:31,138 DEBUG Client Client:run:58 - Enter: 
+09:43:59,901  INFO main MainHttpd:main:34 - Start httpd
+09:44:08,106 DEBUG Client Client:run:58 - Enter: 
+09:44:08,159 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="C:\httpd\root\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="C:\httpd\root\Desert.jpg" >Desert.jpg</a></br><a href="C:\httpd\root\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="C:\httpd\root\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="C:\httpd\root\Koala.jpg" >Koala.jpg</a></br><a href="C:\httpd\root\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="C:\httpd\root\Penguins.jpg" >Penguins.jpg</a></br><a href="C:\httpd\root\README" >README</a></br><a href="C:\httpd\root\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:44:08 NOVT 2013 ***</p><hr></body><html>                    
+09:44:08,377 DEBUG Client Client:run:58 - Enter: 
+09:44:08,387 DEBUG Client Client:run:58 - Enter: 
+09:44:08,443 DEBUG Client Client:run:58 - Enter: 
+09:45:35,109  INFO main MainHttpd:main:34 - Start httpd
+09:45:37,730 DEBUG Client Client:run:58 - Enter: 
+09:45:48,041  INFO main MainHttpd:main:34 - Start httpd
+09:45:51,898 DEBUG Client Client:run:58 - Enter: 
+09:45:51,934 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:45:51 NOVT 2013 ***</p><hr></body><html>                    
+09:45:51,985 FATAL Client Client:run:99 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:117)
+	at Client.run(Client.java:87)
+	at java.lang.Thread.run(Thread.java:724)
+09:46:02,727 DEBUG Client Client:run:58 - Enter: 
+09:46:16,455 DEBUG Client Client:run:58 - Enter: 
+09:46:21,457 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:46:21 NOVT 2013 ***</p><hr></body><html>                    
+09:46:21,458 FATAL Client Client:run:99 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:117)
+	at Client.run(Client.java:87)
+	at java.lang.Thread.run(Thread.java:724)
+09:49:47,314  INFO main MainHttpd:main:34 - Start httpd
+09:49:47,344 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+09:49:48,810 DEBUG Client Client:run:58 - Enter: 
+09:49:49,669 DEBUG Client Client:run:58 - Enter: 
+09:49:56,877 DEBUG Client Client:run:60 - Enter: 
+09:49:57,746 DEBUG Client Client:run:60 - Enter: 
+09:50:00,907 DEBUG Client Client:run:60 - Enter: 
+09:50:00,910 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:50:00 NOVT 2013 ***</p><hr></body><html>                    
+09:50:05,197 DEBUG Client Client:run:60 - Enter: 
+09:50:45,652 DEBUG Client Client:run:60 - Enter: 
+09:50:50,654 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:50:50 NOVT 2013 ***</p><hr></body><html>                    
+09:50:50,655 FATAL Client Client:run:101 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:89)
+	at java.lang.Thread.run(Thread.java:724)
+09:50:51,364 DEBUG Client Client:run:60 - Enter: 
+09:51:34,431  INFO main MainHttpd:main:34 - Start httpd
+09:51:34,457 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+09:51:44,174  INFO main MainHttpd:main:34 - Start httpd
+09:51:44,853 DEBUG Client Client:run:60 - Enter: 
+09:51:44,890 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:51:44 NOVT 2013 ***</p><hr></body><html>                    
+09:51:45,855 DEBUG Client Client:run:60 - Enter: 
+09:51:45,862 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README" >README</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:51:45 NOVT 2013 ***</p><hr></body><html>                    
+09:51:47,625 DEBUG Client Client:run:60 - Enter: 
+09:51:47,989 DEBUG Client Client:run:60 - Enter: 
+09:52:20,346 DEBUG Client Client:run:60 - Enter: 
+09:52:23,166 DEBUG Client Client:run:60 - Enter: 
+09:52:23,583 DEBUG Client Client:run:60 - Enter: 
+09:52:25,935 DEBUG Client Client:run:60 - Enter: 
+09:52:26,374 DEBUG Client Client:run:60 - Enter: 
+09:52:31,146 DEBUG Client Client:run:60 - Enter: 
+09:52:31,540 DEBUG Client Client:run:60 - Enter: 
+09:59:07,732  INFO main MainHttpd:main:34 - Start httpd
+09:59:14,099 DEBUG Client Client:run:60 - Enter: 
+09:59:14,136 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="FOLDER" >FOLDER\</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README.txt" >README.txt</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:59:14 NOVT 2013 ***</p><hr></body><html>                    
+09:59:15,446 DEBUG Client Client:run:60 - Enter: 
+09:59:15,474 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:59:15 NOVT 2013 ***</p><hr></body><html>                    
+09:59:17,016 DEBUG Client Client:run:60 - Enter: 
+09:59:35,228 DEBUG Client Client:run:60 - Enter: 
+09:59:35,231 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="FOLDER" >FOLDER\</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README.txt" >README.txt</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:59:35 NOVT 2013 ***</p><hr></body><html>                    
+09:59:37,855 DEBUG Client Client:run:60 - Enter: 
+09:59:37,868 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 09:59:37 NOVT 2013 ***</p><hr></body><html>                    
+09:59:43,098 DEBUG Client Client:run:60 - Enter: 
+10:01:57,143  INFO main MainHttpd:main:34 - Start httpd
+10:02:06,048 DEBUG Client Client:run:60 - Enter: 
+10:02:09,659 DEBUG Client Client:run:60 - Enter: 
+10:02:09,699 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="FOLDER" >FOLDER\</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README.txt" >README.txt</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 10:02:09 NOVT 2013 ***</p><hr></body><html>                    
+10:02:24,810 DEBUG Client Client:run:60 - Enter: 
+10:02:35,667 DEBUG Client Class:getHtmlDirsAndFile:51 - <html><body><a href="Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="Desert.jpg" >Desert.jpg</a></br><a href="FOLDER" >FOLDER\</a></br><a href="Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="Koala.jpg" >Koala.jpg</a></br><a href="Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="Penguins.jpg" >Penguins.jpg</a></br><a href="README.txt" >README.txt</a></br><a href="Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 10:02:35 NOVT 2013 ***</p><hr></body><html>                    
+10:02:39,092 DEBUG Client Client:run:60 - Enter: 
+10:04:06,852  INFO main MainHttpd:main:34 - Start httpd
+10:04:13,312 DEBUG Client Client:run:60 - Enter: 
+10:04:52,023  INFO main MainHttpd:main:34 - Start httpd
+10:04:55,016 DEBUG Client Client:run:60 - Enter: 
+10:05:30,800  INFO main MainHttpd:main:34 - Start httpd
+10:05:35,341 DEBUG Client Client:run:60 - Enter: 
+10:05:48,395 DEBUG Client Client:run:60 - Enter: 
+10:06:11,267 DEBUG Client Client:run:60 - Enter: 
+10:14:48,118  INFO main MainHttpd:main:34 - Start httpd
+10:14:56,517 DEBUG Client Client:run:60 - Enter: 
+10:24:17,859  INFO main MainHttpd:main:34 - Start httpd
+10:24:21,773 DEBUG Client Client:run:60 - Enter: 
+10:25:03,845  INFO main MainHttpd:main:34 - Start httpd
+10:25:10,229 DEBUG Client Client:run:60 - Enter: 
+10:25:22,021 DEBUG Client Client:run:60 - Enter: 
+10:43:32,993  INFO main MainHttpd:main:34 - Start httpd
+10:43:33,084 DEBUG Client Client:run:60 - Enter: 
+10:45:34,352  INFO main MainHttpd:main:34 - Start httpd
+10:55:25,142 DEBUG Client Client:run:60 - Enter: 
+12:13:16,777  INFO main MainHttpd:main:34 - Start httpd
+12:13:22,634 DEBUG Client Client:run:60 - Enter: 
+12:14:05,413  INFO main MainHttpd:main:34 - Start httpd
+12:14:15,062 DEBUG Client Client:run:60 - Enter: 
+12:14:44,579 DEBUG Client Client:run:60 - Enter: 
+12:15:21,876  INFO main MainHttpd:main:34 - Start httpd
+12:15:27,082 DEBUG Client Client:run:60 - Enter: 
+12:20:58,886  INFO main MainHttpd:main:34 - Start httpd
+12:21:02,226 DEBUG Client Client:run:60 - Enter: 
+12:21:45,267  INFO main MainHttpd:main:34 - Start httpd
+12:21:48,663 DEBUG Client Client:run:60 - Enter: 
+12:22:58,708  INFO main MainHttpd:main:34 - Start httpd
+12:23:03,079 DEBUG Client Client:run:60 - Enter: 
+12:23:54,755  INFO main MainHttpd:main:34 - Start httpd
+12:23:54,831 DEBUG Client Client:run:60 - Enter: 
+12:24:05,765 DEBUG Client Class:getHtmlDirsAndFile:57 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:24:05 NOVT 2013 ***</p><hr></body><html>                    
+12:24:09,109 DEBUG Client Client:run:60 - Enter: 
+12:25:01,758 DEBUG Client Client:run:60 - Enter: 
+12:25:09,435 DEBUG Client Client:run:60 - Enter: 
+12:25:14,005 DEBUG Client Client:run:60 - Enter: 
+12:26:03,899 DEBUG Client Class:getHtmlDirsAndFile:57 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:26:03 NOVT 2013 ***</p><hr></body><html>                    
+12:26:10,273 DEBUG Client Client:run:60 - Enter: 
+12:26:39,979 DEBUG Client Client:run:60 - Enter: 
+12:27:23,035 DEBUG Client Client:run:60 - Enter: 
+12:27:45,180 DEBUG Client Client:run:60 - Enter: 
+12:38:45,045  INFO main MainHttpd:main:34 - Start httpd
+12:38:53,329 DEBUG Client Client:run:60 - Enter: 
+12:39:08,366  INFO main MainHttpd:main:34 - Start httpd
+12:39:36,389 DEBUG Client Client:run:60 - Enter: 
+12:39:57,102 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:39:57 NOVT 2013 ***</p><hr></body><html>                    
+12:40:01,837 DEBUG Client Client:run:60 - Enter: 
+12:41:30,080  INFO main MainHttpd:main:34 - Start httpd
+12:41:35,989 DEBUG Client Client:run:60 - Enter: 
+12:43:23,364 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:43:06 NOVT 2013 ***</p><hr></body></html>
+12:43:49,816 DEBUG Client Client:run:60 - Enter: 
+12:46:16,375 DEBUG Client Client:run:60 - Enter: 
+12:46:38,288 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:46:38 NOVT 2013 ***</p><hr></body></html>
+12:48:00,603  INFO main MainHttpd:main:34 - Start httpd
+12:48:05,304 DEBUG Client Client:run:60 - Enter: 
+12:48:05,356 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:48:05 NOVT 2013 ***</p><hr></body></html>
+12:48:08,710 DEBUG Client Client:run:60 - Enter: 
+12:48:09,101 DEBUG Client Client:run:60 - Enter: 
+12:48:14,276 DEBUG Client Client:run:60 - Enter: 
+12:48:14,675 DEBUG Client Client:run:60 - Enter: 
+12:48:16,784 DEBUG Client Client:run:60 - Enter: 
+12:48:19,356 DEBUG Client Client:run:60 - Enter: 
+12:48:19,816 DEBUG Client Client:run:60 - Enter: 
+12:48:21,438 DEBUG Client Client:run:60 - Enter: 
+12:48:21,441 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:48:21 NOVT 2013 ***</p><hr></body></html>
+12:48:22,609 DEBUG Client Client:run:60 - Enter: 
+12:48:32,661 DEBUG Client Client:run:60 - Enter: 
+12:48:33,087 DEBUG Client Client:run:60 - Enter: 
+12:48:34,773 DEBUG Client Client:run:60 - Enter: 
+12:48:35,225 DEBUG Client Client:run:60 - Enter: 
+12:48:38,553 DEBUG Client Client:run:60 - Enter: 
+12:48:38,948 DEBUG Client Client:run:60 - Enter: 
+12:51:15,208  INFO main MainHttpd:main:34 - Start httpd
+12:51:15,347 DEBUG Client Client:run:60 - Enter: 
+12:51:15,387 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:51:15 NOVT 2013 ***</p><hr></body></html>
+12:51:15,575 DEBUG Client Client:run:60 - Enter: 
+12:51:16,477 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:51:16 NOVT 2013 ***</p><hr></body></html>
+12:51:17,436 DEBUG Client Client:run:60 - Enter: 
+12:51:35,706 DEBUG Client Client:run:60 - Enter: 
+12:52:54,764 DEBUG Client Client:run:60 - Enter: 
+12:52:59,767 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:52:59 NOVT 2013 ***</p><hr></body></html>
+12:53:09,923 FATAL Client Client:run:102 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:123)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+12:53:22,644 DEBUG Client Client:run:60 - Enter: 
+12:54:42,337 DEBUG Client Client:run:60 - Enter: 
+12:55:41,576  INFO main MainHttpd:main:34 - Start httpd
+12:55:44,838 DEBUG Client Client:run:60 - Enter: 
+12:56:04,528 DEBUG Client Client:run:60 - Enter: 
+12:56:16,066 DEBUG Client Client:run:60 - Enter: 
+12:56:20,010 DEBUG Client Client:run:60 - Enter: 
+12:56:20,020 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:56:20 NOVT 2013 ***</p><hr></body></html>
+12:56:23,462 DEBUG Client Client:run:60 - Enter: 
+12:56:23,469 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:56:23 NOVT 2013 ***</p><hr></body></html>
+12:56:24,311 DEBUG Client Client:run:60 - Enter: 
+12:56:24,317 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:56:24 NOVT 2013 ***</p><hr></body></html>
+12:56:40,244 DEBUG Client Client:run:60 - Enter: 
+12:56:44,666 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:56:44 NOVT 2013 ***</p><hr></body></html>
+12:57:15,543 DEBUG Client Client:run:60 - Enter: 
+12:57:19,790 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:57:19 NOVT 2013 ***</p><hr></body></html>
+12:58:27,315 DEBUG Client Client:run:60 - Enter: 
+12:58:34,091 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:58:34 NOVT 2013 ***</p><hr></body></html>
+12:59:07,285  INFO main MainHttpd:main:34 - Start httpd
+12:59:22,896 DEBUG Client Client:run:60 - Enter: 
+12:59:33,568 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 12:59:33 NOVT 2013 ***</p><hr></body></html>
+13:01:12,432  INFO main MainHttpd:main:34 - Start httpd
+13:01:17,778 DEBUG Client Client:run:60 - Enter: 
+13:01:22,427 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:01:22 NOVT 2013 ***</p><hr></body></html>
+13:01:36,100 DEBUG Client Client:run:60 - Enter: 
+13:01:41,787 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:01:41 NOVT 2013 ***</p><hr></body></html>
+13:10:39,191  INFO main MainHttpd:main:34 - Start httpd
+13:10:47,292 DEBUG Client Client:run:60 - Enter: 
+13:10:51,573 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:10:51 NOVT 2013 ***</p><hr></body></html>
+13:11:00,851 DEBUG Client Client:run:60 - Enter: 
+13:11:04,858 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:11:04 NOVT 2013 ***</p><hr></body></html>
+13:11:10,677 DEBUG Client Client:run:60 - Enter: 
+13:11:15,768 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:11:15 NOVT 2013 ***</p><hr></body></html>
+13:11:18,337 DEBUG Client Client:run:60 - Enter: 
+13:11:18,355 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:11:18 NOVT 2013 ***</p><hr></body></html>
+13:11:20,747 DEBUG Client Client:run:60 - Enter: 
+13:11:20,773 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:11:20 NOVT 2013 ***</p><hr></body></html>
+13:11:42,916 DEBUG Client Client:run:60 - Enter: 
+13:11:42,963 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:11:42 NOVT 2013 ***</p><hr></body></html>
+13:12:25,279 DEBUG Client Client:run:60 - Enter: 
+13:12:25,324 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:12:25 NOVT 2013 ***</p><hr></body></html>
+13:13:11,083  INFO main MainHttpd:main:34 - Start httpd
+13:13:12,975 DEBUG Client Client:run:60 - Enter: 
+13:13:13,024 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:13:13 NOVT 2013 ***</p><hr></body></html>
+13:13:29,072 DEBUG Client Client:run:60 - Enter: 
+13:13:29,083 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:13:29 NOVT 2013 ***</p><hr></body></html>
+13:13:36,621 DEBUG Client Client:run:60 - Enter: 
+13:13:36,651 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:13:36 NOVT 2013 ***</p><hr></body></html>
+13:14:07,008  INFO main MainHttpd:main:34 - Start httpd
+13:14:07,033 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+13:14:18,378  INFO main MainHttpd:main:34 - Start httpd
+13:14:27,883 DEBUG Client Client:run:60 - Enter: 
+13:14:27,928 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:14:27 NOVT 2013 ***</p><hr></body></html>
+13:14:31,784 DEBUG Client Client:run:60 - Enter: 
+13:14:53,918  INFO main MainHttpd:main:34 - Start httpd
+13:14:53,943 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+13:14:59,762 DEBUG Client Client:run:60 - Enter: 
+13:16:04,781 DEBUG Client Client:run:60 - Enter: 
+13:16:42,953  INFO main MainHttpd:main:34 - Start httpd
+13:16:42,977 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+13:25:56,353  INFO main MainHttpd:main:34 - Start httpd
+13:26:00,973 DEBUG Client Client:run:60 - Enter: 
+13:26:01,200 DEBUG Client Client:run:60 - Enter: 
+13:26:03,661 DEBUG Client Client:run:60 - Enter: 
+13:26:18,917  INFO main MainHttpd:main:34 - Start httpd
+13:26:30,615 DEBUG Client Client:run:60 - Enter: 
+13:26:30,861 DEBUG Client Client:run:60 - Enter: 
+13:26:33,597 DEBUG Client Client:run:60 - Enter: 
+13:26:33,921 DEBUG Client Client:run:60 - Enter: 
+13:26:35,793 DEBUG Client Client:run:60 - Enter: 
+13:26:36,031 DEBUG Client Client:run:60 - Enter: 
+13:26:37,439 DEBUG Client Client:run:60 - Enter: 
+13:26:37,444 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:26:37 NOVT 2013 ***</p><hr></body></html>
+13:26:39,166 DEBUG Client Client:run:60 - Enter: 
+13:26:41,756 DEBUG Client Client:run:60 - Enter: 
+13:26:45,323 DEBUG Client Client:run:60 - Enter: 
+13:27:14,996 DEBUG Client Client:run:60 - Enter: 
+13:27:18,355 DEBUG Client Client:run:60 - Enter: 
+13:27:18,644 DEBUG Client Client:run:60 - Enter: 
+13:27:22,142 DEBUG Client Client:run:60 - Enter: 
+13:27:22,144 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:27:22 NOVT 2013 ***</p><hr></body></html>
+13:28:52,726 DEBUG Client Client:run:60 - Enter: 
+13:28:52,957 DEBUG Client Client:run:60 - Enter: 
+13:28:57,603 DEBUG Client Client:run:60 - Enter: 
+13:28:57,619 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:28:57 NOVT 2013 ***</p><hr></body></html>
+13:28:59,481 DEBUG Client Client:run:60 - Enter: 
+13:28:59,487 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:28:59 NOVT 2013 ***</p><hr></body></html>
+13:29:00,008 DEBUG Client Client:run:60 - Enter: 
+13:29:00,014 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,077 DEBUG Client Client:run:60 - Enter: 
+13:29:00,084 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,094 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,096 DEBUG Client Client:run:60 - Enter: 
+13:29:00,102 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,124 DEBUG Client Client:run:60 - Enter: 
+13:29:00,128 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,172 DEBUG Client Client:run:60 - Enter: 
+13:29:00,176 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,194 DEBUG Client Client:run:60 - Enter: 
+13:29:00,197 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,220 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,239 DEBUG Client Client:run:60 - Enter: 
+13:29:00,245 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,260 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,265 DEBUG Client Client:run:60 - Enter: 
+13:29:00,268 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,300 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,314 DEBUG Client Client:run:60 - Enter: 
+13:29:00,317 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,334 FATAL Client Client:run:98 - 
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,343 DEBUG Client Client:run:60 - Enter: 
+13:29:00,348 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,363 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,375 DEBUG Client Client:run:60 - Enter: 
+13:29:00,378 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,410 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,430 DEBUG Client Client:run:60 - Enter: 
+13:29:00,443 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,476 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,489 DEBUG Client Client:run:60 - Enter: 
+13:29:00,495 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,528 DEBUG Client Client:run:60 - Enter: 
+13:29:00,531 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,545 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,561 DEBUG Client Client:run:60 - Enter: 
+13:29:00,567 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,577 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,584 DEBUG Client Client:run:60 - Enter: 
+13:29:00,587 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,624 DEBUG Client Client:run:60 - Enter: 
+13:29:00,627 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,699 DEBUG Client Client:run:60 - Enter: 
+13:29:00,702 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,726 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,737 DEBUG Client Client:run:60 - Enter: 
+13:29:00,742 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,784 DEBUG Client Client:run:60 - Enter: 
+13:29:00,789 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,791 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,795 DEBUG Client Client:run:60 - Enter: 
+13:29:00,798 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,831 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,837 DEBUG Client Client:run:60 - Enter: 
+13:29:00,840 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,868 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,907 DEBUG Client Client:run:60 - Enter: 
+13:29:00,911 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:00,943 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:00,964 DEBUG Client Client:run:60 - Enter: 
+13:29:00,967 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:00 NOVT 2013 ***</p><hr></body></html>
+13:29:01,025 DEBUG Client Client:run:60 - Enter: 
+13:29:01,029 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,043 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,049 DEBUG Client Client:run:60 - Enter: 
+13:29:01,060 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,077 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,081 DEBUG Client Client:run:60 - Enter: 
+13:29:01,086 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,115 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,126 DEBUG Client Client:run:60 - Enter: 
+13:29:01,129 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,148 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,161 DEBUG Client Client:run:60 - Enter: 
+13:29:01,166 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,186 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,202 DEBUG Client Client:run:60 - Enter: 
+13:29:01,205 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,220 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,261 DEBUG Client Client:run:60 - Enter: 
+13:29:01,264 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,294 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,306 DEBUG Client Client:run:60 - Enter: 
+13:29:01,309 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,336 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,345 DEBUG Client Client:run:60 - Enter: 
+13:29:01,347 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,363 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,375 DEBUG Client Client:run:60 - Enter: 
+13:29:01,380 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,421 DEBUG Client Client:run:60 - Enter: 
+13:29:01,424 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,444 FATAL Client Client:run:98 - 
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,451 DEBUG Client Client:run:60 - Enter: 
+13:29:01,452 DEBUG Client Client:run:60 - Enter: 
+13:29:01,460 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,472 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,485 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,509 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,522 DEBUG Client Client:run:60 - Enter: 
+13:29:01,549 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,580 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,589 DEBUG Client Client:run:60 - Enter: 
+13:29:01,592 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,618 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,648 DEBUG Client Client:run:60 - Enter: 
+13:29:01,653 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,688 DEBUG Client Client:run:60 - Enter: 
+13:29:01,692 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,726 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,771 DEBUG Client Client:run:60 - Enter: 
+13:29:01,774 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:01,793 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:01,809 DEBUG Client Client:run:60 - Enter: 
+13:29:01,847 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:01 NOVT 2013 ***</p><hr></body></html>
+13:29:02,560 DEBUG Client Client:run:60 - Enter: 
+13:29:02,564 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:02 NOVT 2013 ***</p><hr></body></html>
+13:29:02,803 DEBUG Client Client:run:60 - Enter: 
+13:29:02,806 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:02 NOVT 2013 ***</p><hr></body></html>
+13:29:02,987 DEBUG Client Client:run:60 - Enter: 
+13:29:02,991 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:02 NOVT 2013 ***</p><hr></body></html>
+13:29:03,522 DEBUG Client Client:run:60 - Enter: 
+13:29:03,534 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,565 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,580 DEBUG Client Client:run:60 - Enter: 
+13:29:03,583 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,594 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,619 DEBUG Client Client:run:60 - Enter: 
+13:29:03,621 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,628 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,633 DEBUG Client Client:run:60 - Enter: 
+13:29:03,640 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,682 DEBUG Client Client:run:60 - Enter: 
+13:29:03,684 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,760 DEBUG Client Client:run:60 - Enter: 
+13:29:03,763 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,773 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,780 DEBUG Client Client:run:60 - Enter: 
+13:29:03,783 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,810 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,823 DEBUG Client Client:run:60 - Enter: 
+13:29:03,826 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,851 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,862 DEBUG Client Client:run:60 - Enter: 
+13:29:03,865 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,882 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:03,889 DEBUG Client Client:run:60 - Enter: 
+13:29:03,892 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:03,928 DEBUG Client Client:run:60 - Enter: 
+13:29:03,930 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:03 NOVT 2013 ***</p><hr></body></html>
+13:29:04,035 DEBUG Client Client:run:60 - Enter: 
+13:29:04,039 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,058 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,062 DEBUG Client Client:run:60 - Enter: 
+13:29:04,068 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,104 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,119 DEBUG Client Client:run:60 - Enter: 
+13:29:04,122 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,127 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,135 DEBUG Client Client:run:60 - Enter: 
+13:29:04,137 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,164 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,184 DEBUG Client Client:run:60 - Enter: 
+13:29:04,191 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,199 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,209 DEBUG Client Client:run:60 - Enter: 
+13:29:04,212 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,249 DEBUG Client Client:run:60 - Enter: 
+13:29:04,268 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,277 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,284 DEBUG Client Client:run:60 - Enter: 
+13:29:04,287 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,320 DEBUG Client Client:run:60 - Enter: 
+13:29:04,324 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,365 DEBUG Client Client:run:60 - Enter: 
+13:29:04,367 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,391 DEBUG Client Client:run:60 - Enter: 
+13:29:04,397 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,423 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,424 DEBUG Client Client:run:60 - Enter: 
+13:29:04,440 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,448 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,457 DEBUG Client Client:run:60 - Enter: 
+13:29:04,461 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,489 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,500 DEBUG Client Client:run:60 - Enter: 
+13:29:04,507 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,524 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,543 DEBUG Client Client:run:60 - Enter: 
+13:29:04,547 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,578 DEBUG Client Client:run:60 - Enter: 
+13:29:04,581 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,602 DEBUG Client Client:run:60 - Enter: 
+13:29:04,605 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,627 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,644 DEBUG Client Client:run:60 - Enter: 
+13:29:04,648 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,667 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,682 DEBUG Client Client:run:60 - Enter: 
+13:29:04,684 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,700 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,741 DEBUG Client Client:run:60 - Enter: 
+13:29:04,743 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,767 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,780 DEBUG Client Client:run:60 - Enter: 
+13:29:04,790 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,808 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,837 DEBUG Client Client:run:60 - Enter: 
+13:29:04,850 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,879 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:04,894 DEBUG Client Client:run:60 - Enter: 
+13:29:04,896 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,936 DEBUG Client Client:run:60 - Enter: 
+13:29:04,938 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,970 DEBUG Client Client:run:60 - Enter: 
+13:29:04,972 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:04 NOVT 2013 ***</p><hr></body></html>
+13:29:04,996 DEBUG Client Client:run:60 - Enter: 
+13:29:05,000 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,024 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,036 DEBUG Client Client:run:60 - Enter: 
+13:29:05,041 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,057 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,060 DEBUG Client Client:run:60 - Enter: 
+13:29:05,062 DEBUG Client Client:run:60 - Enter: 
+13:29:05,064 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,092 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,103 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,143 DEBUG Client Client:run:60 - Enter: 
+13:29:05,145 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,178 DEBUG Client Client:run:60 - Enter: 
+13:29:05,182 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,213 DEBUG Client Client:run:60 - Enter: 
+13:29:05,216 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,240 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,247 DEBUG Client Client:run:60 - Enter: 
+13:29:05,250 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,267 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,287 DEBUG Client Client:run:60 - Enter: 
+13:29:05,290 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,307 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,336 DEBUG Client Client:run:60 - Enter: 
+13:29:05,350 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,393 DEBUG Client Client:run:60 - Enter: 
+13:29:05,395 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,424 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,457 DEBUG Client Client:run:60 - Enter: 
+13:29:05,459 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,509 DEBUG Client Client:run:60 - Enter: 
+13:29:05,513 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:05,527 FATAL Client Client:run:98 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:119)
+	at Client.run(Client.java:86)
+	at java.lang.Thread.run(Thread.java:724)
+13:29:05,541 DEBUG Client Client:run:60 - Enter: 
+13:29:05,544 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:05 NOVT 2013 ***</p><hr></body></html>
+13:29:07,334 DEBUG Client Client:run:60 - Enter: 
+13:29:07,337 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:07 NOVT 2013 ***</p><hr></body></html>
+13:29:07,833 DEBUG Client Client:run:60 - Enter: 
+13:29:07,836 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:07 NOVT 2013 ***</p><hr></body></html>
+13:29:08,093 DEBUG Client Client:run:60 - Enter: 
+13:29:08,096 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:08 NOVT 2013 ***</p><hr></body></html>
+13:29:08,411 DEBUG Client Client:run:60 - Enter: 
+13:29:08,414 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:08 NOVT 2013 ***</p><hr></body></html>
+13:29:08,657 DEBUG Client Client:run:60 - Enter: 
+13:29:08,661 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:08 NOVT 2013 ***</p><hr></body></html>
+13:29:08,876 DEBUG Client Client:run:60 - Enter: 
+13:29:08,879 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:08 NOVT 2013 ***</p><hr></body></html>
+13:29:09,106 DEBUG Client Client:run:60 - Enter: 
+13:29:09,109 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:09 NOVT 2013 ***</p><hr></body></html>
+13:29:09,326 DEBUG Client Client:run:60 - Enter: 
+13:29:09,329 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:09 NOVT 2013 ***</p><hr></body></html>
+13:29:09,545 DEBUG Client Client:run:60 - Enter: 
+13:29:09,548 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:09 NOVT 2013 ***</p><hr></body></html>
+13:29:09,743 DEBUG Client Client:run:60 - Enter: 
+13:29:09,746 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:09 NOVT 2013 ***</p><hr></body></html>
+13:29:09,935 DEBUG Client Client:run:60 - Enter: 
+13:29:09,938 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:09 NOVT 2013 ***</p><hr></body></html>
+13:29:10,112 DEBUG Client Client:run:60 - Enter: 
+13:29:10,116 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:10 NOVT 2013 ***</p><hr></body></html>
+13:29:12,097 DEBUG Client Client:run:60 - Enter: 
+13:29:12,273 DEBUG Client Client:run:60 - Enter: 
+13:29:21,921 DEBUG Client Client:run:60 - Enter: 
+13:29:21,923 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="\FOLDER\index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:29:21 NOVT 2013 ***</p><hr></body></html>
+13:29:34,101 DEBUG Client Client:run:60 - Enter: 
+13:30:37,572 DEBUG Client Client:run:60 - Enter: 
+13:30:37,828 DEBUG Client Client:run:60 - Enter: 
+13:31:11,145  INFO main MainHttpd:main:34 - Start httpd
+13:31:11,169 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+13:32:25,745 DEBUG Client Client:run:59 - Enter: 
+13:34:29,662  INFO main MainHttpd:main:34 - Start httpd
+13:34:29,766 DEBUG Client Client:run:59 - Enter: 
+13:34:30,088 DEBUG Client Client:run:59 - Enter: 
+13:34:33,365  INFO main MainHttpd:main:34 - Start httpd
+13:34:33,397 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+13:34:42,934  INFO main MainHttpd:main:34 - Start httpd
+13:34:46,279 DEBUG Client Client:run:59 - Enter: 
+13:41:37,744  INFO main MainHttpd:main:34 - Start httpd
+13:41:50,321 DEBUG Client Client:run:59 - Enter: 
+13:43:26,812  INFO main MainHttpd:main:34 - Start httpd
+13:43:26,929 DEBUG Client Client:run:59 - Enter: 
+13:43:27,234 DEBUG Client Client:run:59 - Enter: 
+13:43:38,194 DEBUG Client Class:getHtmlDirsAndFile:57 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:43:37 NOVT 2013 ***</p><hr></body></html>
+13:43:38,658 FATAL Client Client:run:96 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:117)
+	at Client.run(Client.java:84)
+	at java.lang.Thread.run(Thread.java:724)
+13:43:38,727 DEBUG Client Class:getHtmlDirsAndFile:57 - <html><body><a href="\Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="\Desert.jpg" >Desert.jpg</a></br><a href="\FOLDER" >FOLDER</a></br><a href="\Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="\Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="\Koala.jpg" >Koala.jpg</a></br><a href="\Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="\Penguins.jpg" >Penguins.jpg</a></br><a href="\README.txt" >README.txt</a></br><a href="\Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 13:43:38 NOVT 2013 ***</p><hr></body></html>
+13:43:38,728 FATAL Client Client:run:96 - 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at Client.sendDataToClient(Client.java:117)
+	at Client.run(Client.java:84)
+	at java.lang.Thread.run(Thread.java:724)
+13:43:41,871 DEBUG Client Client:run:59 - Enter: 
+13:49:00,483  INFO main MainHttpd:main:34 - Start httpd
+13:49:15,506  INFO main MainHttpd:main:34 - Start httpd
+13:49:15,776 DEBUG Client Client:run:59 - Enter: 
+13:49:16,080 DEBUG Client Client:run:59 - Enter: 
+13:51:03,031  INFO main MainHttpd:main:34 - Start httpd
+13:51:03,793 DEBUG Client Client:run:59 - Enter: 
+13:52:11,203  INFO main MainHttpd:main:34 - Start httpd
+13:52:17,517 DEBUG Client Client:run:59 - Enter: 
+13:54:39,845  INFO main MainHttpd:main:34 - Start httpd
+13:54:46,500 DEBUG Client Client:run:59 - Enter: 
+13:55:24,603  INFO main MainHttpd:main:34 - Start httpd
+13:59:08,726 DEBUG Client Client:run:59 - Enter: 
+14:04:05,755  INFO main MainHttpd:main:34 - Start httpd
+14:04:31,700 DEBUG Client Client:run:59 - Enter: 
+14:05:08,735  INFO main MainHttpd:main:34 - Start httpd
+14:05:16,521 DEBUG Client Client:run:59 - Enter: 
+14:05:38,168  INFO main MainHttpd:main:34 - Start httpd
+14:05:49,035 DEBUG Client Client:run:59 - Enter: 
+14:06:38,381  INFO main MainHttpd:main:34 - Start httpd
+14:06:41,814 DEBUG Client Client:run:59 - Enter: 
+14:07:11,057  INFO main MainHttpd:main:34 - Start httpd
+14:07:19,328 DEBUG Client Client:run:59 - Enter: 
+14:07:51,470  INFO main MainHttpd:main:34 - Start httpd
+14:07:54,630 DEBUG Client Client:run:59 - Enter: 
+14:08:28,239  INFO main MainHttpd:main:34 - Start httpd
+14:08:33,246 DEBUG Client Client:run:59 - Enter: 
+14:08:58,510  INFO main MainHttpd:main:34 - Start httpd
+14:08:59,376 DEBUG Client Client:run:59 - Enter: 
+14:09:35,892  INFO main MainHttpd:main:34 - Start httpd
+14:09:38,608  INFO main MainHttpd:main:34 - Start httpd
+14:09:42,036  INFO main MainHttpd:main:34 - Start httpd
+14:09:42,063 FATAL main MainHttpd:main:50 - 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at MainHttpd.main(MainHttpd.java:38)
+14:09:42,869 DEBUG Client Client:run:59 - Enter: 
+14:10:02,626  INFO main MainHttpd:main:34 - Start httpd
+14:10:05,941 DEBUG Client Client:run:59 - Enter: 
+14:10:25,421  INFO main MainHttpd:main:34 - Start httpd
+14:10:27,655 DEBUG Client Client:run:59 - Enter: 
+14:10:59,181 DEBUG Client Class:getHtmlDirsAndFile:60 - <html><body><a href="C://httpd//root//Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="C://httpd//root//Desert.jpg" >Desert.jpg</a></br><a href="C://httpd//root//FOLDER" >FOLDER</a></br><a href="C://httpd//root//Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="C://httpd//root//Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="C://httpd//root//Koala.jpg" >Koala.jpg</a></br><a href="C://httpd//root//Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="C://httpd//root//Penguins.jpg" >Penguins.jpg</a></br><a href="C://httpd//root//README.txt" >README.txt</a></br><a href="C://httpd//root//Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 14:10:59 NOVT 2013 ***</p><hr></body></html>
+14:12:25,966  INFO main MainHttpd:main:34 - Start httpd
+14:12:33,932 DEBUG Client Client:run:59 - Enter: 
+14:12:33,975 DEBUG Client Class:getHtmlDirsAndFile:60 - <html><body><a href="//Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="//Desert.jpg" >Desert.jpg</a></br><a href="//FOLDER" >FOLDER</a></br><a href="//Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="//Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="//Koala.jpg" >Koala.jpg</a></br><a href="//Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="//Penguins.jpg" >Penguins.jpg</a></br><a href="//README.txt" >README.txt</a></br><a href="//Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 14:12:33 NOVT 2013 ***</p><hr></body></html>
+14:13:10,013 DEBUG Client Client:run:59 - Enter: 
+14:14:13,998  INFO main MainHttpd:main:34 - Start httpd
+14:14:18,016 DEBUG Client Client:run:59 - Enter: 
+14:14:43,958 DEBUG Client Class:getHtmlDirsAndFile:60 - <html><body><a href="/Chrysanthemum.jpg" >Chrysanthemum.jpg</a></br><a href="/Desert.jpg" >Desert.jpg</a></br><a href="/FOLDER" >FOLDER</a></br><a href="/Hydrangeas.jpg" >Hydrangeas.jpg</a></br><a href="/Jellyfish.jpg" >Jellyfish.jpg</a></br><a href="/Koala.jpg" >Koala.jpg</a></br><a href="/Lighthouse.jpg" >Lighthouse.jpg</a></br><a href="/Penguins.jpg" >Penguins.jpg</a></br><a href="/README.txt" >README.txt</a></br><a href="/Tulips.jpg" >Tulips.jpg</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 14:14:43 NOVT 2013 ***</p><hr></body></html>
+14:14:47,193 DEBUG Client Client:run:59 - Enter: 
+14:14:47,440 DEBUG Client Client:run:59 - Enter: 
+14:14:49,784 DEBUG Client Client:run:59 - Enter: 
+14:14:50,028 DEBUG Client Client:run:59 - Enter: 
+14:14:51,935 DEBUG Client Client:run:59 - Enter: 
+14:14:55,864 DEBUG Client Class:getHtmlDirsAndFile:60 - <html><body><a href="/FOLDER/index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 14:14:55 NOVT 2013 ***</p><hr></body></html>
+14:15:04,866 DEBUG Client Client:run:59 - Enter: 
+14:16:36,537  INFO main MainHttpd:main:34 - Start httpd
+14:16:41,824  INFO main MainHttpd:main:34 - Start httpd
+14:16:42,667 DEBUG Client Client:run:59 - Enter: 
+14:16:42,699 DEBUG Client Class:getHtmlDirsAndFile:56 - <html><body><a href="/FOLDER/index.html" >index.html</a></br><br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, Sat Sep 28 14:16:42 NOVT 2013 ***</p><hr></body></html>
+14:16:43,864 DEBUG Client Client:run:59 - Enter: 
+14:16:49,718 DEBUG Client Client:run:59 - Enter: 
+14:16:49,984 DEBUG Client Client:run:59 - Enter: 
+14:16:57,947 DEBUG Client Client:run:59 - Enter: 

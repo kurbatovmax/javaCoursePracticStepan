@@ -82,7 +82,7 @@ public class Headers
         headers_send.add("Content-Type: " + type.getType() + "; charset=utf-8\r\n");
         headers_send.add("Content-Length: " + sizeBody + "\r\n");
         headers_send.add("Connection: close\r\n");
-        headers_send.add("\r\n\r\n");
+        headers_send.add("\r\n");
         StringBuilder sB = new StringBuilder();
         for (String s: headers_send) {
             sB.append(s);

@@ -44,10 +44,11 @@ class Client implements Runnable
         String headers = Headers.getResponseheader(sizeBody, type, htmlStatus);
         out.write(headers.getBytes());
         int data = 0;
-        while ( (data = in.read()) > 0 ) {
-            out.write(data);
-            out.flush();
+        byte [] buffer = new byte[4096];
+        while ( (data = in.read(buffer)) > 0 ) {
+            out.write(buffer);
         }
+        out.flush();
     }
 
     /**
@@ -56,15 +57,12 @@ class Client implements Runnable
     @Override
     public void run() {
         this.Log.debug("Enter: ");
-        List<String> headers = null;
-        List<String> headers_send = null;
-        Socket cSocket = m_client;
         OutputStream clientOutStream = null;
         InputStream clientInStream = null;
         try {
 
-            clientInStream = cSocket.getInputStream();
-            clientOutStream = cSocket.getOutputStream();
+            clientInStream = m_client.getInputStream();
+            clientOutStream = m_client.getOutputStream();
             this.m_headers = new Headers(clientInStream);
             String pathToFile = this.m_headers.getPathResourceDecode();
             if (pathToFile == null) {
@@ -75,9 +73,8 @@ class Client implements Runnable
 
             if ( f.exists() )  {
                 if ( f.isDirectory() ) {
-
                     // create body stream
-                    String htmlBody = new CreateHTMLForFolders().getHtmlDirsAndFile(f);
+                    String htmlBody = new CreateHTML().getHtmlDirsAndFile(f);
                     ByteArrayInputStream bodyInStream = new ByteArrayInputStream(htmlBody.getBytes());
 
                     //create header as stream
@@ -91,15 +88,14 @@ class Client implements Runnable
                     InputStream bodyInStream = new FileInputStream(f);
                     sendDataToClient(bodyInStream, clientOutStream, size, type, STATUS_HTTP.OK);
                 }
-
             } else {
-                String html = getHtmlWithError();
+                String html = new CreateHTML().getHtmlWithError();
             }
         } catch (IOException e) {
             this.Log.fatal("", e);
         } finally {
             try {
-                cSocket.close();
+                m_client.close();
             } catch (IOException e) {
                 this.Log.fatal("", e);
             }
@@ -111,22 +107,14 @@ class Client implements Runnable
      * @param sequenceInputStream
      * @param clientOutStream
      */
-    private void sendDataToClient(SequenceInputStream sequenceInputStream, OutputStream clientOutStream) throws IOException {
+    private void sendDataToClient(SequenceInputStream sequenceInputStream,
+                                  OutputStream clientOutStream)
+            throws IOException
+    {
         int data = 0;
         while ( (data = sequenceInputStream.read()) > 0 ) {
             clientOutStream.write(data);
         }
         clientOutStream.flush();
     }
-
-    /**
-     *
-     * @return
-     */
-    String getHtmlWithError() {
-        String html="<html><body><h1>Error: Page not found</body></html>";
-        return html;
-    }
-
-
 }

@@ -66,6 +66,7 @@ public class MainHttpd
         } else {
             rootFolder = rootFolder.replaceAll("\"", "");
         }
+        rootFolder = rootFolder.replaceAll("\\\\", "/");
         return rootFolder;
     }
 }
