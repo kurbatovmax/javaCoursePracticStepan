@@ -1,0 +1,57 @@
+12:39:28,423  INFO main MainHttpd:main:34 - Start httpd
+12:40:02,616 DEBUG Client Client:run:36 - Enter: 
+12:40:20,904 DEBUG Client Client:run:36 - Enter: 
+12:40:25,436 DEBUG Client Client:run:36 - Enter: 
+12:40:29,891 DEBUG Client Client:run:36 - Enter: 
+12:40:38,834 DEBUG Client Client:run:36 - Enter: 
+12:40:43,563 DEBUG Client Client:run:36 - Enter: 
+12:40:51,836 DEBUG Client Client:run:36 - Enter: 
+12:40:56,846 FATAL Client Client:run:93 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at Client.sendDataToClient(Client.java:116)
+	at Client.run(Client.java:90)
+	at java.lang.Thread.run(Thread.java:724)
+12:41:03,637 DEBUG Client Client:run:36 - Enter: 
+12:41:06,663 DEBUG Client Client:run:36 - Enter: 
+12:41:12,901 DEBUG Client Client:run:36 - Enter: 
+12:41:17,907 FATAL Client Client:run:93 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at Client.sendDataToClient(Client.java:116)
+	at Client.run(Client.java:90)
+	at java.lang.Thread.run(Thread.java:724)
+12:42:09,284  INFO main MainHttpd:main:34 - Start httpd
+12:42:10,772 DEBUG Client Client:run:36 - Enter: 
+12:42:13,468 DEBUG Client Client:run:36 - Enter: 
+12:42:17,676 DEBUG Client Client:run:36 - Enter: 
+12:42:23,812 DEBUG Client Client:run:36 - Enter: 
+12:42:33,383 DEBUG Client Client:run:36 - Enter: 
+12:42:40,158 DEBUG Client Client:run:36 - Enter: 
+12:42:44,949 DEBUG Client Client:run:36 - Enter: 
+12:42:50,169 FATAL Client Client:run:93 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at Client.sendDataToClient(Client.java:116)
+	at Client.run(Client.java:90)
+	at java.lang.Thread.run(Thread.java:724)
+12:45:04,433 DEBUG Client Client:run:36 - Enter: 
+12:45:04,798 DEBUG Client Client:run:36 - Enter: 
+12:45:05,111 DEBUG Client Client:run:36 - Enter: 
+12:45:06,399 DEBUG Client Client:run:36 - Enter: 
+12:45:09,451 DEBUG Client Client:run:36 - Enter: 
+12:45:17,609 DEBUG Client Client:run:36 - Enter: 
+12:45:22,620 FATAL Client Client:run:93 - 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at Client.sendDataToClient(Client.java:116)
+	at Client.run(Client.java:90)
+	at java.lang.Thread.run(Thread.java:724)
