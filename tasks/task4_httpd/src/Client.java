@@ -30,29 +30,6 @@ class Client implements Runnable
 
     /**
      *
-     * @param sizeBody
-     * @param type
-     * @return
-     */
-    public void sendDataToClient(InputStream in,
-                                 OutputStream out,
-                                 long sizeBody,
-                                 DATA_TYPE type,
-                                 STATUS_HTTP htmlStatus)
-            throws IOException
-    {
-        String headers = Headers.getResponseheader(sizeBody, type, htmlStatus);
-        out.write(headers.getBytes());
-        int data = 0;
-        byte [] buffer = new byte[4096];
-        while ( (data = in.read(buffer)) > 0 ) {
-            out.write(buffer);
-        }
-        out.flush();
-    }
-
-    /**
-     *
      */
     @Override
     public void run() {
@@ -71,26 +48,47 @@ class Client implements Runnable
             String fileName = MainHttpd.getHttpRootFolder() + File.separator + pathToFile;
             File f = new File(fileName);
 
-            if ( f.exists() )  {
-                if ( f.isDirectory() ) {
-                    // create body stream
-                    String htmlBody = new CreateHTML().getHtmlDirsAndFile(f);
-                    ByteArrayInputStream bodyInStream = new ByteArrayInputStream(htmlBody.getBytes());
 
-                    //create header as stream
-                    String header = Headers.getResponseheader(htmlBody.length(), DATA_TYPE.HTML, STATUS_HTTP.OK);
-                    ByteArrayInputStream headerInStream = new ByteArrayInputStream(header.getBytes());
-                    SequenceInputStream sequenceInputStream = new SequenceInputStream(headerInStream, bodyInStream);
-                    sendDataToClient(sequenceInputStream, clientOutStream);
-                } else {
-                    DATA_TYPE type = ResourceType.getFileType(f);
-                    long size = f.length();
-                    InputStream bodyInStream = new FileInputStream(f);
-                    sendDataToClient(bodyInStream, clientOutStream, size, type, STATUS_HTTP.OK);
-                }
+            // common data
+            DATA_TYPE type                  = DATA_TYPE.HTML;
+            STATUS_HTTP http_status         = STATUS_HTTP.OK;
+            InputStream headerInStream      = null;
+            InputStream bodyInStream        = null;
+            String htmlBody                 = "";
+            String header                   = "";
+            SequenceInputStream sequenceInputStream = null;
+
+            long sizeBody = 0;
+
+            if ( f.exists() == false )  {
+                // body
+                type = DATA_TYPE.HTML;
+                htmlBody = new CreateHTML().getHtmlWithError();
+                sizeBody = htmlBody.getBytes().length;
+                bodyInStream = new ByteArrayInputStream(htmlBody.getBytes());
+                // header
+                header = Headers.getResponseheader(sizeBody, type, http_status);
+            } else if ( f.isDirectory() ) {
+                // body
+                htmlBody = new CreateHTML().getHtmlDirsAndFile(f);
+                sizeBody = htmlBody.getBytes().length;
+                bodyInStream = new ByteArrayInputStream(htmlBody.getBytes());
+                // header
+                header = Headers.getResponseheader(sizeBody, type, http_status);
             } else {
-                String html = new CreateHTML().getHtmlWithError();
+                type = ResourceType.getFileType(f);
+
+                // body
+                sizeBody = f.length();
+                bodyInStream = new FileInputStream(f);
+                // header
+                header = Headers.getResponseheader(sizeBody, type, http_status);
             }
+
+            headerInStream = new ByteArrayInputStream(header.getBytes());
+            sequenceInputStream = new SequenceInputStream(headerInStream, bodyInStream);
+            sendDataToClient(sequenceInputStream, clientOutStream);
+
         } catch (IOException e) {
             this.Log.fatal("", e);
         } finally {
@@ -107,13 +105,15 @@ class Client implements Runnable
      * @param sequenceInputStream
      * @param clientOutStream
      */
-    private void sendDataToClient(SequenceInputStream sequenceInputStream,
-                                  OutputStream clientOutStream)
+    private void sendDataToClient(
+            SequenceInputStream sequenceInputStream,
+            OutputStream clientOutStream)
             throws IOException
     {
         int data = 0;
-        while ( (data = sequenceInputStream.read()) > 0 ) {
-            clientOutStream.write(data);
+        byte [] buffer = new byte[4096];
+         while ( (data = sequenceInputStream.read(buffer)) != -1 ) {
+             clientOutStream.write(buffer, 0, data);
         }
         clientOutStream.flush();
     }

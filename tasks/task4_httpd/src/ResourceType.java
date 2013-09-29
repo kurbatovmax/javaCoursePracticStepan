@@ -21,7 +21,7 @@ public class ResourceType
 
         if ( exes.length > 0 ) {
             String exe = exes[exes.length-1];
-
+            exe = exe.toLowerCase();
             if ( !exe.isEmpty() ) {
                 if ( exe.equals("html") ) {
                     type_retv = DATA_TYPE.HTML;

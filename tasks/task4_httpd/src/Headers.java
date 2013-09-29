@@ -73,20 +73,16 @@ public class Headers
     }
 
     public static String getResponseheader(long sizeBody, DATA_TYPE type, STATUS_HTTP statusHttp) {
-        List<String> headers_send = new ArrayList<>();
-        headers_send.add(statusHttp.getStatus() + "\r\n");
-        headers_send.add("Date: " + new Date().toString() + "\r\n");
-        headers_send.add("Last-Modified: " + new Date().toString() + "\r\n");
-        headers_send.add("Server: Super http server ver: 0.1\r\n");
-        headers_send.add("Content-Language: ru\r\n");
-        headers_send.add("Content-Type: " + type.getType() + "; charset=utf-8\r\n");
-        headers_send.add("Content-Length: " + sizeBody + "\r\n");
-        headers_send.add("Connection: close\r\n");
-        headers_send.add("\r\n");
-        StringBuilder sB = new StringBuilder();
-        for (String s: headers_send) {
-            sB.append(s);
-        }
-        return  sB.toString();
+        StringBuilder header = new StringBuilder();
+        header.append(statusHttp.getStatus() + "\r\n");
+        header.append("Date: " + new Date().toString() + "\r\n");
+        header.append("Last-Modified: " + new Date().toString() + "\r\n");
+        header.append("Server: Super http server ver: 0.1\r\n");
+        header.append("Content-Language: ru\r\n");
+        header.append("Content-Type: " + type.getType() + "; charset=UTF-8\r\n");
+        header.append("Content-Length: " + sizeBody + "\r\n");
+        header.append("Connection: close\r\n");
+        header.append("\r\n");
+        return  header.toString();
     }
 }

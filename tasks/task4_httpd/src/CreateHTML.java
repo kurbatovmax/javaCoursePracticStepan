@@ -26,8 +26,6 @@ public class CreateHTML
      * @return
      */
     String getHtmlDirsAndFile(File file) throws UnsupportedEncodingException {
-        String rootFolder = MainHttpd.getHttpRootFolder();
-
         StringBuilder  html = new StringBuilder();
         html.append("<html><body>");
         File []listFile = file.listFiles();
@@ -52,8 +50,7 @@ public class CreateHTML
             }
             html.append(getFooter());
         }
-        html.append("</body></html>");
-        this.Log.debug(html.toString());
+        html.append("</body></html><!--end file-->");
         return html.toString();
     }
 
@@ -78,8 +75,7 @@ public class CreateHTML
      */
     private String getFooter() {
         String data = new Date().toString();
-        String retv = "<br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, " +
-                data + " ***</p><hr>";
+        String retv = "<br><br><hr><p>*** ATM-Turbo 512k, OS: CP/M, " + data + " ***</p><hr><!--123456789-->";
         return retv;
     }
 
@@ -88,7 +84,7 @@ public class CreateHTML
      * @return
      */
     public String getHtmlWithError() {
-        String html="<html><body><h1>Error: Page not found</body></html>";
+        String html="<html><body><h1>Error: 404. Page not found</body></html>";
         return html;
     }
 }
