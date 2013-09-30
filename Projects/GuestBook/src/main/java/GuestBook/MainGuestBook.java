@@ -30,8 +30,10 @@ public class MainGuestBook
         try {
             connection = DriverManager.getConnection("jdbc:h2:file:guestbook", "admin", "admin");
             createTatle(connection);
-            addPostMsg("post1", connection);
-            addPostMsg("post2", connection);
+            String s = Double.valueOf( Math.random() * Math.random() ).toString();
+            addPostMsg(s , connection);
+            s = Double.valueOf( Math.random() * Math.random() ).toString();
+            addPostMsg(s, connection);
         } finally {
             if (connection != null) {
                 connection.close();
