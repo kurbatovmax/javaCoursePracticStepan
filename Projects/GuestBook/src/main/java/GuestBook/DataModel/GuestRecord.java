@@ -14,6 +14,22 @@ public class GuestRecord
     private Date postDate;
     private String postMsg;
 
+    public void setIdKey(Integer id_key) {
+        this.id_key = id_key;
+    }
+
+    public Integer getIdKey() {
+        return  this.id_key;
+    }
+
+    /**
+     *
+     * @return data add message
+     */
+    public void setPostDate(Date postDate) {
+        this.postDate = postDate;
+    }
+
     /**
      *
      * @return data add message

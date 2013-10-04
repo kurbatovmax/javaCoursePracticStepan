@@ -1,10 +1,15 @@
 package GuestBook;
+import GuestBook.DataModel.DataModelGuestBooks;
+import GuestBook.DataModel.GuestRecord;
 
-import GuestBook.DataModel.DataModelGuestBook;
-import GuestBook.DataModel.GuestBookView;
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.sql.*;
 import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
 
 
 /**
@@ -13,32 +18,33 @@ import java.util.Date;
  */
 public class MainGuestBook
 {
-    public static void main( String[] args ) throws SQLException {
-        //DataModelGuestBook modelGuestBook = new DataModelGuestBook();
-        //GuestBookView guestBookView = new GuestBookView();
-        //modelGuestBook.addObserver(guestBookView);
+    public static void main( String[] args ) throws SQLException, ClassNotFoundException, IOException {
+        DataModelGuestBooks dataModelGuestBooks = new DataModelGuestBooks();
+        IGuestBookController guestBookController = new GuestBookController(dataModelGuestBooks);
+        GuestBookView guestBookView = new GuestBookView();
+        dataModelGuestBooks.addObserver(guestBookView);
 
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-        try {
-            Class.forName("org.h2.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-
-
-        Connection connection = null;
-        try {
-            connection = DriverManager.getConnection("jdbc:h2:file:guestbook", "admin", "admin");
-            createTatle(connection);
-            String s = Double.valueOf( Math.random() * Math.random() ).toString();
-            addPostMsg(s , connection);
-            s = Double.valueOf( Math.random() * Math.random() ).toString();
-            addPostMsg(s, connection);
-        } finally {
-            if (connection != null) {
-                connection.close();
+        while(true) {
+            System.out.println("You can add post message: ");
+            System.out.print(">> ");
+            String str  = in.readLine();
+            if ( str.equals("exit")) {
+                break;
             }
+
+            guestBookController.addRecord(str);
         }
+
+
+        /*
+        List<GuestRecord> lists = guestBookController.getRecords();
+
+        for (GuestRecord s : lists) {
+            System.out.println(s);
+        }
+        */
     }
 
     /**

@@ -1,7 +1,8 @@
 package GuestBook;
 
+import GuestBook.DataModel.DataModelGuestBooks;
 import GuestBook.DataModel.GuestRecord;
-
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -12,13 +13,19 @@ import java.util.List;
  */
 public class GuestBookController implements IGuestBookController
 {
-    @Override
-    public void addRecord(String message) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    private DataModelGuestBooks dataModelGuestBook;
+
+    GuestBookController(DataModelGuestBooks o) {
+        this.dataModelGuestBook = o;
     }
 
     @Override
-    public List<GuestRecord> getRecords() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    public void addRecord(String message)throws SQLException {
+        this.dataModelGuestBook.addRecord(message);
+    }
+
+    @Override
+    public List<GuestRecord> getRecords() throws SQLException {
+        return this.dataModelGuestBook.getRecords();
     }
 }

@@ -55,3 +55,33 @@ java.net.SocketException: Broken pipe
 	at Client.sendDataToClient(Client.java:116)
 	at Client.run(Client.java:90)
 	at java.lang.Thread.run(Thread.java:724)
+18:54:27,783  INFO main MainHttpd:main:34 - Start httpd
+18:54:43,407 DEBUG Client Client:run:36 - Enter: 
+18:54:43,643 DEBUG Client Client:run:36 - Enter: 
+18:54:50,930 DEBUG Client Client:run:36 - Enter: 
+18:54:51,594 DEBUG Client Client:run:36 - Enter: 
+18:54:53,851 DEBUG Client Client:run:36 - Enter: 
+18:54:54,041 DEBUG Client Client:run:36 - Enter: 
+18:54:56,246 DEBUG Client Client:run:36 - Enter: 
+18:54:56,426 DEBUG Client Client:run:36 - Enter: 
+18:54:58,525 DEBUG Client Client:run:36 - Enter: 
+18:55:02,610 DEBUG Client Client:run:36 - Enter: 
+18:55:02,814 DEBUG Client Client:run:36 - Enter: 
+18:55:05,446 DEBUG Client Client:run:36 - Enter: 
+18:55:06,972 DEBUG Client Client:run:36 - Enter: 
+18:55:44,863 DEBUG Client Client:run:36 - Enter: 
+18:55:45,045 DEBUG Client Client:run:36 - Enter: 
+18:55:47,056 DEBUG Client Client:run:36 - Enter: 
+18:55:47,169 DEBUG Client Client:run:36 - Enter: 
+18:55:48,985 DEBUG Client Client:run:36 - Enter: 
+18:55:49,180 DEBUG Client Client:run:36 - Enter: 
+18:55:50,933 DEBUG Client Client:run:36 - Enter: 
+18:55:51,118 DEBUG Client Client:run:36 - Enter: 
+18:55:53,275 DEBUG Client Client:run:36 - Enter: 
+18:55:53,457 DEBUG Client Client:run:36 - Enter: 
+18:55:55,376 DEBUG Client Client:run:36 - Enter: 
+18:55:56,658 DEBUG Client Client:run:36 - Enter: 
+18:55:59,325 DEBUG Client Client:run:36 - Enter: 
+18:55:59,513 DEBUG Client Client:run:36 - Enter: 
+18:56:02,402 DEBUG Client Client:run:36 - Enter: 
+18:56:02,533 DEBUG Client Client:run:36 - Enter: 

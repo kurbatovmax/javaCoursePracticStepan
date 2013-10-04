@@ -1,6 +1,8 @@
 package GuestBook;
 
 import GuestBook.DataModel.GuestRecord;
+
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -11,12 +13,12 @@ import java.util.List;
  */
 public interface IGuestBookController
 {
-    void addRecord(String message);
+    void addRecord(String message) throws SQLException;
 
     /**
      *
      * @return GuestRecords list
      * {id, data, message}
      */
-    List<GuestRecord> getRecords();
+    List<GuestRecord> getRecords() throws  SQLException;
 }
