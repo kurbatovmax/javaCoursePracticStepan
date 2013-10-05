@@ -1,15 +1,10 @@
 package GuestBook;
 import GuestBook.DataModel.DataModelGuestBooks;
-import GuestBook.DataModel.GuestRecord;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.Reader;
 import java.sql.*;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
 
 
 /**
