@@ -1,0 +1,22 @@
+Oct 05, 2013 12:18:11 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Oct 05, 2013 12:24:51 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Oct 05, 2013 12:26:47 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Oct 05, 2013 12:27:38 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 05, 2013 12:27:38 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Oct 05, 2013 12:27:38 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

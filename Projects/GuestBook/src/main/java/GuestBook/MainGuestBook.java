@@ -36,38 +36,5 @@ public class MainGuestBook
 
             guestBookController.addRecord(str);
         }
-
-
-        /*
-        List<GuestRecord> lists = guestBookController.getRecords();
-
-        for (GuestRecord s : lists) {
-            System.out.println(s);
-        }
-        */
-    }
-
-    /**
-     *
-     * @param connection
-     */
-    public static void createTatle(Connection connection) throws SQLException {
-        connection.createStatement().execute(
-                "CREATE TABLE IF NOT EXISTS GUESTBOOK(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, DATE TIMESTAMP , MSG VARCHAR(1024))"
-        );
-    }
-
-    /**
-     *
-     * @param msg
-     * @param connection
-     */
-    public static  void addPostMsg(String msg, Connection connection) throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("INSERT INTO GUESTBOOK(DATE, MSG) VALUES (?,?)");
-        ps.setTimestamp(1, new Timestamp(new Date().getTime()));
-        ps.setString(2, msg);
-        if ( ps.execute() == false) {
-            System.out.println("error");
-        }
     }
 }

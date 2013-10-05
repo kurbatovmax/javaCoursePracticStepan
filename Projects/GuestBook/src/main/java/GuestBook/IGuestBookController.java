@@ -13,12 +13,12 @@ import java.util.List;
  */
 public interface IGuestBookController
 {
-    void addRecord(String message) throws SQLException;
+    void addRecord(String message);
 
     /**
      *
      * @return GuestRecords list
      * {id, data, message}
      */
-    List<GuestRecord> getRecords() throws  SQLException;
+    List<GuestRecord> getRecords();
 }

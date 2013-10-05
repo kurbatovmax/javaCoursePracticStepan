@@ -20,12 +20,12 @@ public class GuestBookController implements IGuestBookController
     }
 
     @Override
-    public void addRecord(String message)throws SQLException {
+    public void addRecord(String message) {
         this.dataModelGuestBook.addRecord(message);
     }
 
     @Override
-    public List<GuestRecord> getRecords() throws SQLException {
+    public List<GuestRecord> getRecords() {
         return this.dataModelGuestBook.getRecords();
     }
 }

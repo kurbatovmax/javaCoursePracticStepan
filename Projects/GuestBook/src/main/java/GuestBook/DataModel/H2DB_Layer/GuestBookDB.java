@@ -53,32 +53,41 @@ public class GuestBookDB
      *
      * @param msg
      */
-    public void addPostMessage(String msg) throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("INSERT INTO GUESTBOOK(DATE, MSG) VALUES (?,?)");
-        ps.setTimestamp(1, new Timestamp(new Date().getTime()));
-        ps.setString(2, msg);
-        ps.execute();
+    public void addPostMessage(String msg)  {
+        try {
+            PreparedStatement ps = connection.prepareStatement("INSERT INTO GUESTBOOK(DATE, MSG) VALUES (?,?)");
+            ps.setTimestamp(1, new Timestamp(new Date().getTime()));
+            ps.setString(2, msg);
+            ps.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
      *
      * @return
      */
-    public List<GuestRecord> getRecords() throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("SELECT ID as ID, DATE AS DATE, MSG AS MSG FROM GUESTBOOK");
+    public List<GuestRecord> getRecords() {
         List<GuestRecord> listRetv;
-        if (ps.execute() == false) {
-            listRetv = new ArrayList<GuestRecord>();
-        } else {
-            listRetv = new ArrayList<GuestRecord>();
-            ResultSet resultSet = ps.getResultSet();
-            while (resultSet.next()) {
-                GuestRecord guestRecord = new GuestRecord();
-                guestRecord.setIdKey(resultSet.getInt("ID"));
-                guestRecord.setPostDate(resultSet.getDate("DATE"));
-                guestRecord.setPostMsg(resultSet.getString("MSG"));
-                listRetv.add(guestRecord);
+        try {
+            PreparedStatement ps = connection.prepareStatement("SELECT ID as ID, DATE AS DATE, MSG AS MSG FROM GUESTBOOK");
+            if (ps.execute() == false) {
+                listRetv = new ArrayList<GuestRecord>();
+            } else {
+                listRetv = new ArrayList<GuestRecord>();
+                ResultSet resultSet = ps.getResultSet();
+                while (resultSet.next()) {
+                    GuestRecord guestRecord = new GuestRecord();
+                    guestRecord.setIdKey(resultSet.getInt("ID"));
+                    guestRecord.setPostDate(resultSet.getDate("DATE"));
+                    guestRecord.setPostMsg(resultSet.getString("MSG"));
+                    listRetv.add(guestRecord);
+                }
             }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            listRetv = new ArrayList<GuestRecord>();
         }
         return listRetv;
     }

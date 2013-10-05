@@ -7,7 +7,6 @@ import java.util.Observer;
  * User: maxim
  * Date: 9/29/13
  * Time: 7:26 PM
- * To change this template use File | Settings | File Templates.
  */
 interface  IObservable
 {

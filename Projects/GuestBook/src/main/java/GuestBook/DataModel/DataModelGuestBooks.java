@@ -55,7 +55,7 @@ public class DataModelGuestBooks extends  Observable implements  IObservable
      * @param message
      * @throws SQLException
      */
-    public void addRecord(String message) throws SQLException {
+    public void addRecord(String message)  {
         this.guestBookDB.addPostMessage(message);
         this.listGuestRecord = this.guestBookDB.getRecords();
         this.setChanged();
